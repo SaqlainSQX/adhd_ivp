@@ -1,0 +1,11 @@
+* text=auto
+.gitignore text eol=lf
+.gitattributes text eol=lf
+*.lock text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+*.ps1 text eol=crlf
+*.pptx binary
