@@ -1,5 +1,11 @@
 # Provisional cache contract
 
+This is the existing strict v1 scaffold contract. The enriched directional-score,
+geometry and temporal cache planned for the course is specified in
+[COURSE_PROJECT_PLAN.md](COURSE_PROJECT_PLAN.md) and
+[PIPELINE_IMPLEMENTATION.md](PIPELINE_IMPLEMENTATION.md). That v2 interface still
+needs implementation; extra columns cannot be passed to the current v1 reader.
+
 The scaffold consumes a normalized CSV export. It is **not** a native VSGaze HDF5
 reader. The actual adapter must follow the [official schema](https://www2.idiap.ch/en/dataset/vsgaze)
 and pass the inventory/alignment gates in the methodology.

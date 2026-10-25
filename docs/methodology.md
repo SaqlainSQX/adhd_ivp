@@ -1,5 +1,8 @@
 # Methodology v1.1: mutual-looking prevalence audits
 
+Course execution scope is specified in [COURSE_PROJECT_PLAN.md](COURSE_PROJECT_PLAN.md).
+It narrows the required comparisons and separates optional research extensions.
+
 Date: 25 October 2026. Version 1.1, revised after the [deep research assessment](research/idea-validation.md).
 Status: proposed protocol following four revision passes and a literature/annotation review;
 not preregistered, not an empirical result. Read the [revision record](revisions/01-validity-review.md)

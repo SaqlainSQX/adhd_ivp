@@ -1,5 +1,10 @@
 # Implementation roadmap
 
+This is the broader research backlog. For the agreed **course-project** scope,
+follow [COURSE_PROJECT_PLAN.md](COURSE_PROJECT_PLAN.md) and its execution tracker.
+Advanced paper replications and untouched-corpus confirmation are optional for
+course completion; data correctness and fair evaluation remain required.
+
 These are repository work items, not assignments to named teammates. Choose one
 owner per item and use a feature branch plus review. Methodology decisions are in
 [methodology.md](methodology.md). All research-result tasks below are pending.

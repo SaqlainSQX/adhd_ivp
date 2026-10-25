@@ -3,12 +3,19 @@
 Research project for measuring benchmark-defined mutual-looking prevalence from
 frozen gaze predictions and a limited sample of reference labels.
 
-**Current priority: methodology.** The four-pass review is complete. The code is a
-provisional synthetic scaffold and does not yet implement the complete revised study.
+**Current priority: execute the course-project plan in sequence.** The methodology
+and deep review are documented. The code is a provisional synthetic scaffold and
+does not yet implement the complete frame-based study.
 No real-data performance improvement by the proposed method has been established.
 
 ## Start here
 
+- [Sequential course-project plan](docs/COURSE_PROJECT_PLAN.md): detailed processing,
+  inference and experiment stages, commands, outputs and gates.
+- [Execution tracker](docs/EXPERIMENT_TRACKER.md) and
+  [implementation checklist](docs/PIPELINE_IMPLEMENTATION.md).
+- [Design configuration](configs/course-project.json): defaults, budgets, methods,
+  dependencies and settings to resolve before running; not yet consumed by the CLI.
 - [Deep idea assessment](docs/research/idea-validation.md): conditional-go verdict,
   prior-work overlap, independently verified data and block/cost diagnostics.
 - [Research evidence matrix](docs/research/evidence-matrix.md): primary sources and
