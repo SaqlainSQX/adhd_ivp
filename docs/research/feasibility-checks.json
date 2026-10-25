@@ -1,0 +1,76 @@
+{
+  "description": "Planning arithmetic and labeled toy examples, not proposed-method results",
+  "source_inventory_sha256": "3bf42763c968b9684a3276e32b41403a43392282c67bdc8e461058ca949cb386",
+  "eligible_prevalence": 0.016758050814734728,
+  "unknown_fraction_of_real_pair_records": 0.516942513585098,
+  "hypothetical_full_population_binary_bounds": [
+    0.008095101903778958,
+    0.525037615488877
+  ],
+  "uniform_frame_sampling_reference": [
+    {
+      "fraction": 0.05,
+      "frame_labels": 1942,
+      "expected_positive_frames": 32.54413468221484,
+      "human_srs_normal_half_width_pp": 0.5564714166012168,
+      "human_srs_probability_zero_positives": 2.370480627507675e-15
+    },
+    {
+      "fraction": 0.1,
+      "frame_labels": 3885,
+      "expected_positive_frames": 65.10502741524442,
+      "human_srs_normal_half_width_pp": 0.38293714241995114,
+      "human_srs_probability_zero_positives": 8.779547426398989e-31
+    },
+    {
+      "fraction": 0.2,
+      "frame_labels": 7769,
+      "expected_positive_frames": 130.19329677967409,
+      "human_srs_normal_half_width_pp": 0.2553105962854758,
+      "human_srs_probability_zero_positives": 2.0720197174194868e-64
+    },
+    {
+      "fraction": 0.4,
+      "frame_labels": 15539,
+      "expected_positive_frames": 260.40335161016293,
+      "human_srs_normal_half_width_pp": 0.15633846402409798,
+      "human_srs_probability_zero_positives": 9.402401567631099e-147
+    }
+  ],
+  "development_label_cost": 319153,
+  "cost_scenario": {
+    "baseline_audit_labels": 3885,
+    "assumed_rmse_ratio": 0.9,
+    "approximate_saving_per_corpus_ignoring_fpc": 738.1499999999997,
+    "break_even_corpora_ignoring_fpc": 433,
+    "optimistic_lower_bound_corpora_if_all_baseline_labels_saved": 83,
+    "note": "Illustrative scaling scenario, not an observed saving; ignores compute/time"
+  },
+  "invented_exact_block_to_frame_variance_ratios": {
+    "persistent": 6.333333333333335,
+    "alternating": 0.25333333333333335
+  },
+  "exchangeable_cost_scenarios": [
+    {
+      "block_length": 5,
+      "residual_correlation": 0.8,
+      "setup_to_per_label_cost_ratio": 0,
+      "design_effect": 4.2,
+      "approx_variance_ratio_at_equal_time": 4.2
+    },
+    {
+      "block_length": 5,
+      "residual_correlation": 0.8,
+      "setup_to_per_label_cost_ratio": 10,
+      "design_effect": 4.2,
+      "approx_variance_ratio_at_equal_time": 1.1454545454545455
+    },
+    {
+      "block_length": 5,
+      "residual_correlation": 0.8,
+      "setup_to_per_label_cost_ratio": 100,
+      "design_effect": 4.2,
+      "approx_variance_ratio_at_equal_time": 0.8732673267326733
+    }
+  ]
+}

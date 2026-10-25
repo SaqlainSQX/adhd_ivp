@@ -7,7 +7,7 @@ owner per item and use a feature branch plus review. Methodology decisions are i
 | ID | Task | Depends on | Acceptance condition |
 | --- | --- | --- | --- |
 | M0 | Four-pass method review | supplied deck | Completed: four recorded passes and consolidated protocol |
-| D1 | Archive inventory and eligibility adapter | access to annotations | Reproduces or reconciles supplied counts, rejects conflicts, logs exclusions |
+| D1 | Archive inventory and eligibility adapter | access to annotations | Inventory counts and source video checks reproduced by research script; normalized export adapter and full exclusion ledger remain pending |
 | D2 | Source/subject/session manifests | D1 | Stable source-group splits and known exposure/overlap documented |
 | P1 | Pin MTGS checkpoint and output variant | checkpoint choice | Code/config/weights hashed; hidden annotation fields excluded |
 | P2 | Media/track alignment and cache exporter | D2,P1,media access | Visual sample inspection and full ID/time checks; failed alignments counted |
@@ -26,6 +26,11 @@ owner per item and use a feature branch plus review. Methodology decisions are i
 The existing code partially exercises S1 and a block-only learning pipeline with
 synthetic data. It does not complete D1–R1. In particular its train/validation/test
 directory naming is a software contract, not an approved source partition.
+
+The [deep assessment](research/idea-validation.md) adds an annotation-only diagnostic
+unfavorable to blocks at matched label cost, corrects the native MTGS score
+description, and expands the required static/contextual-calibration and video
+aggregation controls. Use those refinements before selecting implementation tasks.
 
 Recommended parallel team workstreams once the method is accepted: data/provenance,
 predictor/cache, sampling/statistics, feature/ablation experiments, baseline

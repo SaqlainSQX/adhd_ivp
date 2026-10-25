@@ -5,10 +5,14 @@ frozen gaze predictions and a limited sample of reference labels.
 
 **Current priority: methodology.** The four-pass review is complete. The code is a
 provisional synthetic scaffold and does not yet implement the complete revised study.
-No real-data results or performance improvements have been established.
+No real-data performance improvement by the proposed method has been established.
 
 ## Start here
 
+- [Deep idea assessment](docs/research/idea-validation.md): conditional-go verdict,
+  prior-work overlap, independently verified data and block/cost diagnostics.
+- [Research evidence matrix](docs/research/evidence-matrix.md): primary sources and
+  what each does and does not establish.
 - [Consolidated methodology](docs/methodology.md): target, contribution, equations,
   comparisons, access protocol, evaluation and costs.
 - Four review passes: [validity](docs/revisions/01-validity-review.md),
@@ -17,6 +21,9 @@ No real-data results or performance improvements have been established.
   [feasibility and decisions](docs/revisions/04-feasibility-review.md).
 - [Implementation roadmap](docs/roadmap.md) and [data contract](docs/data-contract.md).
 - [Team Git workflow](CONTRIBUTING.md).
+
+The public annotation inventory has now been independently checked. Raw-media
+alignment, actual MTGS predictions and empirical method gains remain unverified.
 
 The principal proposed comparison separates **temporal context in scoring** from
 **contiguous batches in annotation**. It uses a common predictor and estimator to

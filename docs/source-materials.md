@@ -19,4 +19,7 @@ protocol distinguish supplied claims from independently checked literature and
 from proposed design choices.
 
 No annotation archive, media, checkpoint, empirical result table, or timing study
-was supplied to this workspace. Their counts or results have not been verified.
+was originally supplied. During the subsequent deep review, the official VSGaze
+annotation archive was downloaded and its counts independently verified. See the
+[research assessment](research/idea-validation.md) and its checksums. Raw media,
+checkpoint outputs and measured annotation times remain unverified.

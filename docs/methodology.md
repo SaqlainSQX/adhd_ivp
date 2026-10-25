@@ -1,6 +1,7 @@
-# Methodology v1: mutual-looking prevalence audits
+# Methodology v1.1: mutual-looking prevalence audits
 
-Date: 25 October 2026. Status: proposed protocol following four revision passes;
+Date: 25 October 2026. Version 1.1, revised after the [deep research assessment](research/idea-validation.md).
+Status: proposed protocol following four revision passes and a literature/annotation review;
 not preregistered, not an empirical result. Read the [revision record](revisions/01-validity-review.md)
 for the sequence of corrections. Changes after any evaluation access must be
 versioned and marked exploratory.
@@ -62,9 +63,11 @@ eye-to-eye contact, joint attention, autism status, or ADHD status. The reposito
 name does not define the scientific endpoint. Autism-related work motivates the
 application; clinical validity requires separate data and assessment. [R1–R3]
 
-The supplied deck reports 38,847 eligible test records and 651 positives. Treat
-these as supplied inventory claims until code reproduces them from the same archive
-and schema. This workspace currently has neither the archive nor raw media.
+Direct inspection of the checksum-verified public VSGaze archive now reproduces
+38,847 eligible test records and 651 positives. It also finds 41,572 unknown real
+pair-frame records. The verified validation split has only six original source
+videos, and the test split has 21. See the [inventory and limitations](research/idea-validation.md).
+Raw media and model predictions have not been obtained or validated.
 
 ## 4. Data and predictor provenance
 
@@ -75,9 +78,11 @@ reference IDs. Verify representative frames visually and publish alignment
 failure counts; a CSV join alone cannot prove media alignment.
 
 Freeze one MTGS checkpoint and exact upstream commit, configuration, preprocessing,
-temporal window, and output interpretation. Keep decoder and gaze-point/head-box
-post-processing outputs separate. A min of directional LAH scores is an explicitly
-named post-processing variant; do not silently substitute it for decoder LAEO.
+temporal window, and output interpretation. Keep learned social-decoder and
+gaze-point/head-box post-processing outputs separate. In native MTGS, LAEO is the
+minimum of the two learned directional LAH scores (§3.3); there is no independent
+LAEO loss. This minimum is part of the native output definition. It is distinct
+from inferring mutual looking using predicted gaze points and head boxes.
 Do not pass reference gaze points or other hidden annotations into inference.
 Read the selected checkpoint's actual output code before writing the adapter. [R1,R2]
 
@@ -126,8 +131,10 @@ learner uses per-frame outputs only; it does not mean a different gaze backbone.
 | Static outputs | Static/frame | Static/block |
 | Temporal context added | Temporal/frame, primary candidate | Temporal/block |
 
-Static features: frozen score q_i, binary entropy, independently available head
-geometry and frame occupancy. Temporal features: mean/std of neighboring scores,
+Static features: frozen score q_i, both directional LAH scores and their imbalance,
+binary entropy, independently available head geometry and frame occupancy. Do not
+weaken the static baseline by retaining only the minimum of two informative scores.
+Temporal features: mean/std of neighboring scores,
 adjacent variation, lagged score differences and geometry changes. Use symmetric
 windows for this offline study; a streaming claim would require a causal window.
 Missing/unknown pair-frames break query blocks. Unlabeled context is allowed only
@@ -143,6 +150,12 @@ Use the same learner/grid across the feature comparison: ridge regression and a
 64-tree random forest with max_depth=4 are initial candidates. Model training uses
 development labels only. Compare an explicit moving-average score and a temporal
 order-shuffle diagnostic to distinguish context utility from simple smoothing.
+
+For SRS, model residual mean and centered variance rather than assuming squared
+residual scoring alone defines optimal strata. Include a contextual-calibration
+baseline using the same temporal inputs with uniform residual correction. This
+separates improved imputation from improved acquisition; the [deep assessment](research/idea-validation.md)
+explains the binary squared-error identity and the resulting control.
 
 ## 7. Sampling design and estimator
 
@@ -229,6 +242,13 @@ or simultaneous guarantees.
 | ASI and Robust ASI | Use verified author code/settings where compatible; name finite-corpus/block adaptations explicitly |
 | Fixed-Size ASI/CPS | Check gains beyond eliminating random sample size; use correct design inclusion probabilities |
 | Active testing | Additional acquisition/estimation comparator where its risk objective is adapted and justified |
+| Video aggregation controls | BlazeIt-style control variates and relevant ABae/InQuest allocation adaptations, with their differing targets stated |
+
+The [evidence matrix](research/evidence-matrix.md) adds video-database prior work
+and automatic clinical social-gaze measurement missing from the first review.
+Generic selective video aggregation and temporal oracle querying are established.
+Novelty must rest on a distinct mechanism or useful comparative evidence under
+this study's conditions.
 
 For all comparisons record prediction access, geometry/context access, development
 labels, calibration labels, expected and realized test labels, inference cost and
@@ -293,6 +313,10 @@ Sequence: (A) regenerate inventory; (B) audit media and backbone exposure;
 (C) cache pinned predictions; (D) verify sampler/estimator; (E) freeze development
 policy; (F) run factorial and baseline audits; (G) add confirmatory sources/time study.
 The concrete tasks and acceptance conditions are in [roadmap.md](roadmap.md).
+
+Annotation inventory and parsed source-video split checks have now been reproduced
+in the [research validation](research/idea-validation.md). They do not complete
+media alignment, predictor exposure or frame-context sampling implementation.
 
 Current repository code is a provisional block-only synthetic scaffold. It is not
 the completed methodology. In particular frame-context features, the full factorial

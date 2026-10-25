@@ -1,0 +1,135 @@
+{
+  "release_url": "https://zenodo.org/records/17357752",
+  "release_md5": "c83980c07b349df3af84981721045d3b",
+  "archive_sha256": "3bf42763c968b9684a3276e32b41403a43392282c67bdc8e461058ca949cb386",
+  "annotation_only": true,
+  "predictions_or_media_inspected": false,
+  "splits": {
+    "train": {
+      "frames": 100209,
+      "clip_paths": 330,
+      "placeholder_or_negative_id": 570278,
+      "reverse_or_duplicate_rows": 415026,
+      "positive": 6396,
+      "unknown": 129441,
+      "negative": 279189,
+      "source_videos": 68,
+      "sources_with_positive_labels": 53,
+      "largest_source_share_of_positive_labels": 0.0733270794246404,
+      "eligible_binary_pairs": 285585,
+      "prevalence": 0.022396134250748465,
+      "label_only_block_diagnostic": {
+        "1": {
+          "units": 285585,
+          "mean_cost": 1.0,
+          "positive_containing_units": 6396,
+          "constant_score_block_variance_ratio": 0.9999999999999999
+        },
+        "2": {
+          "units": 144628,
+          "mean_cost": 1.9746176397378101,
+          "positive_containing_units": 3310,
+          "constant_score_block_variance_ratio": 1.964367970618556
+        },
+        "5": {
+          "units": 60166,
+          "mean_cost": 4.746617691054748,
+          "positive_containing_units": 1453,
+          "constant_score_block_variance_ratio": 4.738772883837385
+        },
+        "10": {
+          "units": 32173,
+          "mean_cost": 8.876542442420662,
+          "positive_containing_units": 827,
+          "constant_score_block_variance_ratio": 9.019533200193244
+        }
+      }
+    },
+    "val": {
+      "frames": 10283,
+      "clip_paths": 26,
+      "placeholder_or_negative_id": 63406,
+      "reverse_or_duplicate_rows": 45309,
+      "positive": 259,
+      "negative": 33309,
+      "unknown": 11741,
+      "source_videos": 6,
+      "sources_with_positive_labels": 6,
+      "largest_source_share_of_positive_labels": 0.37065637065637064,
+      "eligible_binary_pairs": 33568,
+      "prevalence": 0.007715681601525262,
+      "label_only_block_diagnostic": {
+        "1": {
+          "units": 33568,
+          "mean_cost": 1.0,
+          "positive_containing_units": 259,
+          "constant_score_block_variance_ratio": 1.0
+        },
+        "2": {
+          "units": 17002,
+          "mean_cost": 1.9743559581225738,
+          "positive_containing_units": 135,
+          "constant_score_block_variance_ratio": 1.9572746234735867
+        },
+        "5": {
+          "units": 7055,
+          "mean_cost": 4.758043940467753,
+          "positive_containing_units": 61,
+          "constant_score_block_variance_ratio": 4.728147659797073
+        },
+        "10": {
+          "units": 3773,
+          "mean_cost": 8.896899019347998,
+          "positive_containing_units": 36,
+          "constant_score_block_variance_ratio": 8.404211923067448
+        }
+      }
+    },
+    "test": {
+      "frames": 9986,
+      "clip_paths": 45,
+      "placeholder_or_negative_id": 67384,
+      "reverse_or_duplicate_rows": 80419,
+      "negative": 38196,
+      "unknown": 41572,
+      "positive": 651,
+      "source_videos": 21,
+      "sources_with_positive_labels": 14,
+      "largest_source_share_of_positive_labels": 0.17050691244239632,
+      "eligible_binary_pairs": 38847,
+      "prevalence": 0.016758050814734728,
+      "label_only_block_diagnostic": {
+        "1": {
+          "units": 38847,
+          "mean_cost": 1.0,
+          "positive_containing_units": 651,
+          "constant_score_block_variance_ratio": 1.0000000000000002
+        },
+        "2": {
+          "units": 19721,
+          "mean_cost": 1.9698291161705797,
+          "positive_containing_units": 337,
+          "constant_score_block_variance_ratio": 1.9643268271505556
+        },
+        "5": {
+          "units": 8273,
+          "mean_cost": 4.695636407590959,
+          "positive_containing_units": 152,
+          "constant_score_block_variance_ratio": 4.677472408821647
+        },
+        "10": {
+          "units": 4493,
+          "mean_cost": 8.646116180725572,
+          "positive_containing_units": 86,
+          "constant_score_block_variance_ratio": 8.718918035087677
+        }
+      }
+    }
+  },
+  "source_overlap_counts": {
+    "train/val": 0,
+    "train/test": 0,
+    "val/test": 0
+  },
+  "diagnostic_scope": "Annotation-only exploratory constant-score checks; no MTGS prediction results"
+}
