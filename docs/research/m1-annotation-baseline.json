@@ -1,0 +1,153 @@
+{
+  "method": "M1-human-uniform",
+  "designation": "exploratory",
+  "population_status": "pre-media-availability; rerun on final common population",
+  "model_predictions_used": false,
+  "population_size": 38847,
+  "split": "test",
+  "draws_per_budget": 1000,
+  "seed_start": 200000,
+  "method_stream_id": 1,
+  "budgets": [
+    {
+      "fraction": 0.05,
+      "integer_labels": 1942,
+      "query_plan_file": "query-indices-b1942.npz",
+      "query_plan_sha256": "3b8c7911c3f67e7eb5273a26483e16996c166e1d9e6b06c5311117514640355e",
+      "bias_pp": 0.00962231296525033,
+      "mae_pp": 0.2250121108087905,
+      "rmse_pp": 0.2824235675765038,
+      "empirical_variance": 7.975023284868746e-06,
+      "mean_estimated_variance": 8.106273853442488e-06,
+      "known_design_variance": 8.060715261718164e-06,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "mean_source_count": 21.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.941,
+          "mean_width_pp": 1.1122292238478664,
+          "median_width_pp": 1.1208303687566936
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 4.76724989134799,
+          "median_width_pp": 4.781101590627084
+        },
+        "hypergeometric": {
+          "coverage": 0.959,
+          "mean_width_pp": 1.1657348057765078,
+          "median_width_pp": 1.1738358174376398
+        }
+      }
+    },
+    {
+      "fraction": 0.1,
+      "integer_labels": 3885,
+      "query_plan_file": "query-indices-b3885.npz",
+      "query_plan_sha256": "8936144d69c277676924681d030520fe5ec7ba508fca49a7a26b5e7eae1b1c17",
+      "bias_pp": 0.0011318554634642743,
+      "mae_pp": 0.1528345226839319,
+      "rmse_pp": 0.19257037340468736,
+      "empirical_variance": 3.711918680323378e-06,
+      "mean_estimated_variance": 3.8197418046676725e-06,
+      "known_design_variance": 3.8171817743845765e-06,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "mean_source_count": 21.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.954,
+          "mean_width_pp": 0.7648808288898674,
+          "median_width_pp": 0.7653413958989044
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 3.8555921039014307,
+          "median_width_pp": 3.8519987805937275
+        },
+        "hypergeometric": {
+          "coverage": 0.952,
+          "mean_width_pp": 0.7895744845161787,
+          "median_width_pp": 0.7902798156871831
+        }
+      }
+    },
+    {
+      "fraction": 0.2,
+      "integer_labels": 7769,
+      "query_plan_file": "query-indices-b7769.npz",
+      "query_plan_sha256": "0d3e41549d2ce37c56083522f18f71eec68d67fa07d4d90a9c4c090d19afd7f4",
+      "bias_pp": 0.0022358504353958753,
+      "mae_pp": 0.10640272762892371,
+      "rmse_pp": 0.13224190817678555,
+      "empirical_variance": 1.7500423674742663e-06,
+      "mean_estimated_variance": 1.699000126041349e-06,
+      "known_design_variance": 1.6967800024897238e-06,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "mean_source_count": 21.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.948,
+          "mean_width_pp": 0.5105593681319907,
+          "median_width_pp": 0.5121906191254149
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 3.070471634855834,
+          "median_width_pp": 3.081624149523902
+        },
+        "hypergeometric": {
+          "coverage": 0.952,
+          "mean_width_pp": 0.5213118130100136,
+          "median_width_pp": 0.5225628748680721
+        }
+      }
+    },
+    {
+      "fraction": 0.4,
+      "integer_labels": 15539,
+      "query_plan_file": "query-indices-b15539.npz",
+      "query_plan_sha256": "aee0ce2d58ca9efd3e6840ee0898a7cf8fb016d4f5f4b09bda4d4c57a2a7eceb",
+      "bias_pp": 0.004393129479612925,
+      "mae_pp": 0.06499461264003968,
+      "rmse_pp": 0.07976978630061692,
+      "empirical_variance": 6.350269489310755e-07,
+      "mean_estimated_variance": 6.378774373924519e-07,
+      "known_design_variance": 6.362379043475161e-07,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "mean_source_count": 21.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.952,
+          "mean_width_pp": 0.31298881985084787,
+          "median_width_pp": 0.3130291124703269
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 2.178967216960274,
+          "median_width_pp": 2.178967216960274
+        },
+        "hypergeometric": {
+          "coverage": 0.96,
+          "mean_width_pp": 0.316948541714933,
+          "median_width_pp": 0.31662676654567923
+        }
+      }
+    }
+  ],
+  "complete": true,
+  "all_plans_saved_before_oracle": true,
+  "reference_prevalence": 0.016758050814734728,
+  "sampled_method_runs": 4000,
+  "runtime_seconds": 122.6578995000018,
+  "oracle_labels_returned_over_all_draws": 29135000,
+  "query_replay": "Use population_index.csv and saved npz selected row indices",
+  "normalized_manifest_sha256": "2804db6fc9e2e3199f18e010f55cf8b8520965e3bee2d01f9064a753211c8a49"
+}

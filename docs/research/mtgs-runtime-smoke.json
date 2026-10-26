@@ -1,0 +1,73 @@
+{
+  "stage": "P04-smoke",
+  "complete": true,
+  "oracle_values_used": false,
+  "input_convention": "one zero placeholder; all real tracks",
+  "missing_context": "zero tensors; no interpolation or cross-clip context",
+  "geometry_policy": "P02 clipped geometry, then upstream square_bbox",
+  "model_variant": "MTGS-DINO temporal, released Idiap/mtgs-vsgaze",
+  "mtgs_commit": "a2ce45f44ed73d86e89e16bffb6be7a9567e3052",
+  "dinov2_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "model_settings": {
+    "image_size": 448,
+    "patch_size": 14,
+    "decoder_feature_dim": 128,
+    "decoder_use_bn": true,
+    "temporal_context": 2
+  },
+  "checkpoint_sha256": "5599382ab78f3993d31300f4e16ed13bc20bed26d7ec9735a37473eb374d994f",
+  "runtime": {
+    "python": "3.13.1",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "numpy": "2.3.2",
+    "pandas": "2.2.3"
+  },
+  "precision": "float16-autocast",
+  "memory_fraction": 0.5,
+  "public_preprocess_cache_frames": 64,
+  "batch_benchmarks": [],
+  "clips": [
+    {
+      "clip_id": "1Aea8BH-PCs_1256-1506",
+      "source_id": "1Aea8BH-PCs",
+      "prediction_rows": 236,
+      "file": "predictions-1Aea8BH-PCs_1256-1506.csv",
+      "sha256": "1e911179a0693a6217a29605b1e2627c95937718749450b1631e1b6b72f721e1",
+      "archive_sha256": "12f8039ffb45eac77171f16fea8e262852d9fcd1ae3bd8a5ef044ac847b6b1c3",
+      "seconds": 12.389266099999077
+    }
+  ],
+  "public_inputs_sha256": {
+    "frames.csv": "a00748b2da3d62de12ad37536e0ec9dba5793502318373f6285ee90e9f92a281",
+    "public_people.csv": "55c2502bd175f506de6756bf9f0a9c3de0f815819cc338e60931ae58cc0f0afd",
+    "public_pairs.csv": "3d203e5bc7bd56b60812712d63290379d816af6d47c3d59bf18237d6d0a905c2"
+  },
+  "auxiliary_pruning_verified": {
+    "full_vs_pruned_single_time_max_abs_difference": [
+      0.0,
+      0.0
+    ],
+    "auxiliary_heatmap_values_available": false,
+    "native_weights_or_computation_changed": false
+  },
+  "amp_development_check": {
+    "max_abs_probability_difference_LAH_LAEO": [
+      0.0015067458152770996,
+      0.0015067458152770996
+    ],
+    "tolerance": 0.002,
+    "scope": "first public development window"
+  },
+  "processed_frames": 100,
+  "elapsed_seconds": 12.45726900000227,
+  "frames_per_second": 8.027441068767818,
+  "peak_gpu_allocated_bytes": 1472728576,
+  "scope": "smoke only",
+  "additional_precision_check": {
+    "matching_training_frames": 12,
+    "max_abs_q_fp32_vs_amp": 0.0019399970769881925,
+    "max_abs_q_cached_vs_uncached_100_frames": 0.0
+  }
+}

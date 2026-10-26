@@ -4,8 +4,8 @@ Research project for measuring benchmark-defined mutual-looking prevalence from
 frozen gaze predictions and a limited sample of reference labels.
 
 **Current priority: execute the course-project plan in sequence.** The methodology
-and deep review are documented. The code is a provisional synthetic scaffold and
-does not yet implement the complete frame-based study.
+and deep review are documented. The annotation adapter, frame estimator and
+preliminary human-only baseline now run; the complete frame-based study is in progress.
 No real-data performance improvement by the proposed method has been established.
 
 ## Start here
@@ -14,6 +14,8 @@ No real-data performance improvement by the proposed method has been established
   inference and experiment stages, commands, outputs and gates.
 - [Execution tracker](docs/EXPERIMENT_TRACKER.md) and
   [implementation checklist](docs/PIPELINE_IMPLEMENTATION.md).
+- [Actual execution evidence](docs/research/execution-progress.md): normalized data,
+  media acquisition, frame-index checks and the 4,000-draw human-only reference.
 - [Design configuration](configs/course-project.json): defaults, budgets, methods,
   dependencies and settings to resolve before running; not yet consumed by the CLI.
 - [Deep idea assessment](docs/research/idea-validation.md): conditional-go verdict,
@@ -60,10 +62,11 @@ uv run gaze-audit run --data data/processed/childplay --output outputs/childplay
 ```
 
 That command requires the [documented input contract](docs/data-contract.md).
-Actual ChildPlay/VSGaze import, MTGS inference, frame-context scoring, conservative
-intervals and the full baseline suite remain roadmap work. The current demo covers
-initial block sampling and approximate intervals only. It uses fully labeled
-synthetic development sets and charges those labels separately.
+That original CLI covers provisional block sampling with synthetic development
+data. The separate scripts now support checksum-pinned ChildPlay annotation import,
+public-media acquisition, source-frame mapping, exact-budget frame estimation,
+conservative intervals and a replayable human-only baseline. MTGS inference and
+the full method comparison remain in progress; consult the execution tracker.
 
 ## Repository layout
 

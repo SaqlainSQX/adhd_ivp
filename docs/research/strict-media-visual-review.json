@@ -1,0 +1,79 @@
+{
+  "clip_checks": [
+    {
+      "clip_id": "1Aea8BH-PCs_1256-1506",
+      "expected_vsgaze_frames": 251,
+      "missing_frames": 0,
+      "downloaded_frames": 251
+    },
+    {
+      "clip_id": "2b1zXYv7Fn8_230-1773",
+      "expected_vsgaze_frames": 1544,
+      "missing_frames": 0,
+      "downloaded_frames": 1544
+    },
+    {
+      "clip_id": "3rxHweb2fXw_823-2797",
+      "expected_vsgaze_frames": 1975,
+      "missing_frames": 0,
+      "downloaded_frames": 1975
+    },
+    {
+      "clip_id": "4Y7MMmedX7E_1882-1991",
+      "expected_vsgaze_frames": 110,
+      "missing_frames": 0,
+      "downloaded_frames": 110
+    },
+    {
+      "clip_id": "Kaf6jiHMmYc_11126-11268",
+      "expected_vsgaze_frames": 143,
+      "missing_frames": 0,
+      "downloaded_frames": 143
+    },
+    {
+      "clip_id": "Z9tJBluH1Zw_11118-11642",
+      "expected_vsgaze_frames": 525,
+      "missing_frames": 0,
+      "downloaded_frames": 525
+    },
+    {
+      "clip_id": "bI1GohGXSt0_2073-2675",
+      "expected_vsgaze_frames": 603,
+      "missing_frames": 0,
+      "downloaded_frames": 603
+    },
+    {
+      "clip_id": "Kaf6jiHMmYc_15026-15271",
+      "expected_vsgaze_frames": 246,
+      "missing_frames": 0,
+      "downloaded_frames": 246
+    },
+    {
+      "clip_id": "1Ab4vLMMAbY_2354-2439",
+      "expected_vsgaze_frames": 86,
+      "missing_frames": 0,
+      "downloaded_frames": 86
+    },
+    {
+      "clip_id": "31lG75MDwSA_2857-2928",
+      "expected_vsgaze_frames": 72,
+      "missing_frames": 0,
+      "downloaded_frames": 72
+    },
+    {
+      "clip_id": "WpbXt04qWEk_1166-1611",
+      "expected_vsgaze_frames": 446,
+      "missing_frames": 0,
+      "downloaded_frames": 446
+    },
+    {
+      "clip_id": "aWV7UUMddCU_5934-6205",
+      "expected_vsgaze_frames": 272,
+      "missing_frames": 0,
+      "downloaded_frames": 272
+    }
+  ],
+  "geometry_visual_review": "passed agent inspection of all 36 displayed first/middle/last frames across 12 clips, four clips per split",
+  "oracle_values_used": false,
+  "limitations": "Geometry overlays and official decoder mapping support alignment; original released JPEG hashes unavailable. Public boxes include annotated background/poster/toy faces; retained as released."
+}

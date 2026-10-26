@@ -1,0 +1,66 @@
+{
+  "stage": "P02",
+  "independent_validation": "passed",
+  "checks": [
+    "all CSV byte sizes and SHA256",
+    "unique stable IDs",
+    "person/frame joins",
+    "exact binary oracle/eligible ID equality",
+    "canonical unordered pairs",
+    "source-disjoint splits",
+    "five source-group training folds",
+    "no reference values in public inference columns"
+  ],
+  "splits": {
+    "train": {
+      "frames": 100209,
+      "source_videos": 68,
+      "positive": 6396,
+      "eligible_anchors": 285585,
+      "unknown": 129441,
+      "negative": 279189,
+      "issues": {
+        "placeholder_pair_rows": 570278,
+        "reverse_or_duplicate_pair_rows": 415026,
+        "clipped_geometry_person": 47762
+      }
+    },
+    "validation": {
+      "frames": 10283,
+      "source_videos": 6,
+      "positive": 259,
+      "eligible_anchors": 33568,
+      "negative": 33309,
+      "unknown": 11741,
+      "issues": {
+        "placeholder_pair_rows": 63406,
+        "reverse_or_duplicate_pair_rows": 45309,
+        "clipped_geometry_person": 5652
+      }
+    },
+    "test": {
+      "frames": 9986,
+      "source_videos": 21,
+      "negative": 38196,
+      "eligible_anchors": 38847,
+      "unknown": 41572,
+      "positive": 651,
+      "issues": {
+        "clipped_geometry_person": 2225,
+        "placeholder_pair_rows": 67384,
+        "reverse_or_duplicate_pair_rows": 80419
+      }
+    }
+  },
+  "population_status": "pre-media-normalization",
+  "training_fold_source_counts": {
+    "4": 15,
+    "2": 15,
+    "3": 14,
+    "1": 13,
+    "0": 11
+  },
+  "normalized_manifest_sha256": "2804db6fc9e2e3199f18e010f55cf8b8520965e3bee2d01f9064a753211c8a49",
+  "geometry_policy": "clip boxes to image bounds, exclude nonfinite/zero-area boxes",
+  "public_index_caution": "original_frame_index is the annotation filename index; use P03 mapping"
+}

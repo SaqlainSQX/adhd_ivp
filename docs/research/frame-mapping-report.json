@@ -1,0 +1,23 @@
+{
+  "stage": "P03-mapping",
+  "mapping_complete": true,
+  "media_alignment_complete": false,
+  "frames": 120478,
+  "split_counts": {
+    "train": 100209,
+    "validation": 10283,
+    "test": 9986
+  },
+  "downsampled_frames": 3809,
+  "lagged_release_frames": 2701,
+  "mapping_sha256": "08ba50cdbdc556c90dc335efba21c5d339f5e1e4cbd0baad77bcf08123ffdc55",
+  "inputs_sha256": {
+    "data\\processed\\vsgaze-17357752-v1\\manifest.json": "2804db6fc9e2e3199f18e010f55cf8b8520965e3bee2d01f9064a753211c8a49",
+    "data\\research\\childplay-metadata\\clips.csv": "8497cf2ae95ed7cc9d8fae9be13efddf39a4b4fc481ab93d79ffbd6c3463fcbb",
+    "data\\research\\childplay-metadata\\videos.csv": "53191b217b32725fcaa16c3d50b94d93a88c7a748808f8cc5fc632e9f3b7ace9",
+    "data\\research\\childplay-metadata\\extract-clips-from-videos.py": "0dde68d375334545fd4c232dcd570dd465c79b7852a71b9bcf36d2eb8b1e7c4e"
+  },
+  "index_semantics": "P02 original_frame_index denotes annotation filename index only",
+  "formula_0based": "start-1+stride*(clip_frame_1based-1)+downsampled-special_lag",
+  "release_frame_difference": 71
+}

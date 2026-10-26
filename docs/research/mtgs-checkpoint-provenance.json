@@ -1,0 +1,20 @@
+{
+  "source_sha256": "1b5db64e2fc13945e07c570a6686efda38c1d99400b263e1b7c80677862c267a",
+  "torch_version": "2.11.0+cpu",
+  "source_kernel": "watasimycola/social-gaze-checkpoint-audit/1",
+  "load_mode": "weights_only with explicit training-scheduler globals",
+  "top_level_keys": [
+    "epoch",
+    "global_step",
+    "pytorch-lightning_version",
+    "state_dict",
+    "optimizer_states",
+    "lr_schedulers",
+    "callbacks",
+    "loops"
+  ],
+  "hyper_parameters": "{}",
+  "tensor_checkpoint_sha256": "5599382ab78f3993d31300f4e16ed13bc20bed26d7ec9735a37473eb374d994f",
+  "tensor_checkpoint_bytes": 621972999,
+  "complete": true
+}
