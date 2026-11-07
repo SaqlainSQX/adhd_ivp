@@ -1,0 +1,33 @@
+{
+  "designation": "exploratory after repeatedly inspected test outcomes",
+  "main_run": "outputs/experiments/course-20261107-v1",
+  "simple_run": "outputs/experiments/strengthening-20261107-v1/B1-simple-controls",
+  "processed": "data/processed/vsgaze-17357752-v1",
+  "output": "outputs/experiments/extra-c-20261107-v1",
+  "protocol": "docs/EXTRA_EXPERIMENTS_C.md",
+  "frozen_hashes": {
+    "main_result": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9",
+    "main_policy_lock": "15dacc805bd3f1e525ac32ace89578d51c44016ead2e4b986ceafe06cc074c4e",
+    "simple_result": "6bf4dae9a0a984203461ef0b4557537bf52a399ad329f7703d5aaf4419b5ebe8",
+    "simple_policy_lock": "38466f2d287d37d96bd3bcf4fe2c7ee9122622593e7f160c342e6d599830c8bd",
+    "source_folds": "68b0f7db3b0ec3fa0069d11a4ca4554031c40e0c48f3c57896e252bd1c566029"
+  },
+  "fractions": [0.05, 0.1, 0.2, 0.4],
+  "test_draws": 1000,
+  "validation_draws": 100,
+  "alphas": [0, 0.5, 1],
+  "relative_tie_tolerance": 0.01,
+  "streams": {"ridge-static": 11, "ridge-temporal-w11": 12, "squared-rf-static": 13, "squared-rf-temporal-w11": 14, "cost-curve": 15},
+  "training_label_fractions": [0.01, 0.05, 0.2, 1.0],
+  "training_subset_seed": 710000,
+  "test_seed_start": 200000,
+  "validation_seed_start": 100000,
+  "bootstrap_seed": 400003,
+  "bootstrap_resamples": 2000,
+  "variance_prior_count": 20,
+  "sd_floor": 0.000001,
+  "model_seed": 42,
+  "threads": 1,
+  "temporal_window": 11,
+  "main_replacement_allowed": false
+}
