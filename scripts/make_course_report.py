@@ -2,8 +2,10 @@
 
 import argparse
 import csv
+import hashlib
 import json
 import os
+import subprocess
 from pathlib import Path
 
 import numpy as np
@@ -31,6 +33,25 @@ def main():
         or result["feature_hashes"] != checks["feature_hashes"]
     ):
         raise ValueError("Incomplete or inconsistent report inputs")
+    pipeline_path = args.output.parent / "pipeline-status.json"
+    verification_path = args.output.parent / "independent-validation.json"
+    if pipeline_path.exists() and not verification_path.exists():
+        project = Path(__file__).resolve().parents[1]
+        python = project / ".venv" / ("Scripts/python.exe" if os.name == "nt" else "bin/python")
+        subprocess.run(
+            [str(python), "scripts/validate_experiment_run.py", "--run", str(args.output.parent)],
+            check=True,
+            cwd=project,
+        )
+    if pipeline_path.exists():
+        verification = json.loads(verification_path.read_text())
+        if (
+            verification["status"] != "passed"
+            or verification["sampled_audits_recomputed"] != result["sampled_method_runs"]
+            or verification["evaluation_result_sha256"]
+            != hashlib.sha256((args.evaluation / "result.json").read_bytes()).hexdigest()
+        ):
+            raise ValueError("Independent full-run audit validation has not passed")
     args.output.mkdir(parents=True)
     os.environ["MPLCONFIGDIR"] = str((args.output / "matplotlib-cache").resolve())
     import matplotlib
@@ -114,7 +135,6 @@ def main():
         )
         writer.writerows(table_rows)
 
-    pipeline_path = args.output.parent / "pipeline-status.json"
     cost = {
         "development_labels": lock["development_unique_labels"],
         "test_labels_per_audit": dict(zip(map(str, fractions), budgets, strict=True)),
@@ -422,6 +442,19 @@ def main():
         "- Exported tables: `results-table.csv`; shareable figures: PNG and SVG files in "
         "this directory.",
         "",
+        "## Sources and scope of contribution",
+        "",
+        "- [Official MTGS implementation and model description](https://github.com/idiap/MTGS)",
+        "- [VSGaze annotation release](https://zenodo.org/records/17357752)",
+        "- [Original ChildPlay release and extraction metadata](https://zenodo.org/records/8252535)",
+        "- [Stratified prediction-powered inference](https://proceedings.neurips.cc/paper_files/"
+        "paper/2024/file/c9fcd02e6445c7dfbad6986abee53d0d-Paper-Conference.pdf)",
+        "",
+        "The temporal predictor is an external pretrained component. The course contribution is "
+        "the implemented auditing policy, controlled comparison, data-verification workflow and "
+        "reproducible evidence. This report does not claim to introduce residual correction or "
+        "stratified sampling as new statistical ideas.",
+        "",
     ]
     (args.output / "course-report.md").write_text("\n".join(lines), encoding="utf-8")
     (args.output / "report-status.json").write_text(
@@ -439,6 +472,9 @@ def main():
                     "primary-controls.png",
                 ],
                 "report": "course-report.md",
+                "independent_validation": str(verification_path)
+                if pipeline_path.exists()
+                else None,
             },
             indent=2,
         )

@@ -97,6 +97,12 @@ sensitivity and a contextual-surrogate control. A temporal loss or tie remains a
 valid course-project outcome. Report generator checks are separate from visual
 inspection; do not present synthetic software-test charts as ChildPlay results.
 
+Before accepting a real pipeline report, `validate_experiment_run.py` independently
+replays all saved random query streams and recomputes every point estimate,
+finite-population variance and RMSE summary. It checks exact budgets, sampling
+without replacement, frozen allocations and input hashes. Successful evidence is
+saved as `independent-validation.json`; an inconsistency stops report generation.
+
 ## Replay and report
 
 When a run completes, its directories contain:
