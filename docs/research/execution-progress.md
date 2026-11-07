@@ -10,17 +10,21 @@ earlier staging population v1 is withdrawn. See the
 [failed frame-count review](framecount-review-failure.json) and
 [missing-count review](missing-count-visual-review.json).
 
-The initial inference batch is complete: 44,908 frames, 184,461 pair predictions
-and 147 hash-validated clips. The remaining 17 sources resumed on November 7.
-The sequential course-20261107-v1 pipeline is waiting for that batch and then will
-run the complete comparison and replay. No temporal effectiveness finding is yet
-available. Current commands and outputs are in [RUN_EXPERIMENTS.md](../RUN_EXPERIMENTS.md).
-GitHub synchronization through implementation commit `5486926` succeeded on
-November 7 after the earlier connection failures.
+Both inference batches and the sequential `course-20261107-v1` pipeline are now
+complete. All 20,000 sampled audits passed independent query replay and numerical
+recomputation; five report figures and the replay timeline passed visual review.
+At B=1,032, static / temporal / uniform residual RMSE is 0.2603 / 0.2765 /
+0.5529 percentage points. Guided sampling helps on this corpus, but temporal
+guidance did not beat the locked static policy. Normal-interval undercoverage
+and all losses are retained in the [results assessment](course-results.md).
 
-These are exploratory course-project results. Model-assisted and temporal-method
-improvements have not yet been measured. The full sequential protocol remains in
-[COURSE_PROJECT_PLAN.md](../COURSE_PROJECT_PLAN.md).
+The registered window comparison is complete; the summary-only feature ablation
+is running separately. No GPU inference is repeated. See
+[EXPERIMENT_TRACKER.md](../EXPERIMENT_TRACKER.md) and
+[RUN_EXPERIMENTS.md](../RUN_EXPERIMENTS.md) for current commands and status.
+GitHub synchronization recovered on November 7; commits through `8c8f2bd` are
+pushed. The earlier data-preparation and full-annotation baseline sections below
+are historical evidence and use their own populations, not the final media subset.
 
 ## Data preparation
 

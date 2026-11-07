@@ -1,0 +1,280 @@
+{
+  "stage": "E03",
+  "complete": true,
+  "designation": "exploratory",
+  "feature_hashes": {
+    "static": "a149f032b9375be4fa562910342b2bec1a334c85ff81496feea33d4ae55aad68",
+    "temporal-w5": "d299252adbd1524c505b73e2ebe46ff6fd650bde049ecf7d978f05b3aabe25a6",
+    "temporal-w11": "1594d838704b41ee175d33e2f1ee922f98e777c9efe278306a65c0033da80981"
+  },
+  "all_validation_plans_saved_before_selection_queries": true,
+  "selection_draws": 100,
+  "selection_fraction": 0.1,
+  "tie_rule": "within 1% MSE, smaller alpha then smaller temporal window",
+  "development_unique_labels": {
+    "train": 191956,
+    "validation": 25139
+  },
+  "test_references_used_for_selection": false,
+  "oracle_file_sha256": "7ce136e6ed8f1f2b43f08ff3f3e4d9f0efe0624bdb2c2bfb8a4fbf3be10f182e",
+  "candidates": [
+    {
+      "candidate": "static-alpha0",
+      "feature_set": "static",
+      "alpha": 0.0,
+      "temporal_window": null,
+      "budget": 2514,
+      "draws": 100,
+      "query_file": "queries-static-alpha0.npz",
+      "query_sha256": "31b6d258f71f3dec657141ed7f7b3b4a5bc0720c2b6095aba5d53b5f813b3a6f",
+      "stratum_sizes": [
+        2789,
+        3986,
+        18362,
+        2
+      ],
+      "stratum_counts": [
+        279,
+        398,
+        1835,
+        2
+      ],
+      "validation_mse": 2.2627525992011126e-06
+    },
+    {
+      "candidate": "static-alpha0.5",
+      "feature_set": "static",
+      "alpha": 0.5,
+      "temporal_window": null,
+      "budget": 2514,
+      "draws": 100,
+      "query_file": "queries-static-alpha0.5.npz",
+      "query_sha256": "be3dbdeabc908c0458ee71fc661384eaf111d8391d3559700acf6cdd83c43469",
+      "stratum_sizes": [
+        2789,
+        3986,
+        18362,
+        2
+      ],
+      "stratum_counts": [
+        1127,
+        390,
+        995,
+        2
+      ],
+      "validation_mse": 4.194471914802443e-07
+    },
+    {
+      "candidate": "static-alpha1",
+      "feature_set": "static",
+      "alpha": 1.0,
+      "temporal_window": null,
+      "budget": 2514,
+      "draws": 100,
+      "query_file": "queries-static-alpha1.npz",
+      "query_sha256": "2aa81faa209c806ef2650829f839b0c6030a7fed0da3ae7770874497d0cf162a",
+      "stratum_sizes": [
+        2789,
+        3986,
+        18362,
+        2
+      ],
+      "stratum_counts": [
+        1975,
+        383,
+        154,
+        2
+      ],
+      "validation_mse": 8.048164436012143e-08
+    },
+    {
+      "candidate": "temporal-w5-alpha0",
+      "feature_set": "temporal-w5",
+      "alpha": 0.0,
+      "temporal_window": 5,
+      "budget": 2514,
+      "draws": 100,
+      "query_file": "queries-temporal-w5-alpha0.npz",
+      "query_sha256": "ed01cb7f3daba9952377f1fc02d045d17267c94ecc22445061b342342bd96239",
+      "stratum_sizes": [
+        3309,
+        3570,
+        18257,
+        3
+      ],
+      "stratum_counts": [
+        330,
+        357,
+        1824,
+        3
+      ],
+      "validation_mse": 2.0221559511397573e-06
+    },
+    {
+      "candidate": "temporal-w5-alpha0.5",
+      "feature_set": "temporal-w5",
+      "alpha": 0.5,
+      "temporal_window": 5,
+      "budget": 2514,
+      "draws": 100,
+      "query_file": "queries-temporal-w5-alpha0.5.npz",
+      "query_sha256": "2e559c5c0b7a673630b2bbbe33a70a8c076ce4a2baa56198d060407af1d70139",
+      "stratum_sizes": [
+        3309,
+        3570,
+        18257,
+        3
+      ],
+      "stratum_counts": [
+        1202,
+        326,
+        983,
+        3
+      ],
+      "validation_mse": 3.856611261785227e-07
+    },
+    {
+      "candidate": "temporal-w5-alpha1",
+      "feature_set": "temporal-w5",
+      "alpha": 1.0,
+      "temporal_window": 5,
+      "budget": 2514,
+      "draws": 100,
+      "query_file": "queries-temporal-w5-alpha1.npz",
+      "query_sha256": "f92050bb59fb8c9a0b4db1a6ab0bfc04addb10564f8c8e740eeaa2d2ae9949f6",
+      "stratum_sizes": [
+        3309,
+        3570,
+        18257,
+        3
+      ],
+      "stratum_counts": [
+        2073,
+        296,
+        142,
+        3
+      ],
+      "validation_mse": 1.458045190743205e-07
+    },
+    {
+      "candidate": "temporal-w11-alpha0",
+      "feature_set": "temporal-w11",
+      "alpha": 0.0,
+      "temporal_window": 11,
+      "budget": 2514,
+      "draws": 100,
+      "query_file": "queries-temporal-w11-alpha0.npz",
+      "query_sha256": "822ea6e6f62e7b7887e18b6dee7aa4f1fffd97544014dc4142d758198a8610ec",
+      "stratum_sizes": [
+        3308,
+        4129,
+        17696,
+        6
+      ],
+      "stratum_counts": [
+        330,
+        412,
+        1766,
+        6
+      ],
+      "validation_mse": 1.9136093650384834e-06
+    },
+    {
+      "candidate": "temporal-w11-alpha0.5",
+      "feature_set": "temporal-w11",
+      "alpha": 0.5,
+      "temporal_window": 11,
+      "budget": 2514,
+      "draws": 100,
+      "query_file": "queries-temporal-w11-alpha0.5.npz",
+      "query_sha256": "4893dc33a8cb6568fe49c02cb3713aa6d9a9e307b7409015faed47d83b87ae3b",
+      "stratum_sizes": [
+        3308,
+        4129,
+        17696,
+        6
+      ],
+      "stratum_counts": [
+        1162,
+        382,
+        964,
+        6
+      ],
+      "validation_mse": 3.3728419002774215e-07
+    },
+    {
+      "candidate": "temporal-w11-alpha1",
+      "feature_set": "temporal-w11",
+      "alpha": 1.0,
+      "temporal_window": 11,
+      "budget": 2514,
+      "draws": 100,
+      "query_file": "queries-temporal-w11-alpha1.npz",
+      "query_sha256": "c14024bb1f889eb21a01ccd2ae5bc2474427fe7c2a8b13c5c942a61ec2bc5430",
+      "stratum_sizes": [
+        3308,
+        4129,
+        17696,
+        6
+      ],
+      "stratum_counts": [
+        1994,
+        351,
+        163,
+        6
+      ],
+      "validation_mse": 1.108129660068186e-07
+    }
+  ],
+  "selected_static": {
+    "candidate": "static-alpha1",
+    "feature_set": "static",
+    "alpha": 1.0,
+    "temporal_window": null,
+    "budget": 2514,
+    "draws": 100,
+    "query_file": "queries-static-alpha1.npz",
+    "query_sha256": "2aa81faa209c806ef2650829f839b0c6030a7fed0da3ae7770874497d0cf162a",
+    "stratum_sizes": [
+      2789,
+      3986,
+      18362,
+      2
+    ],
+    "stratum_counts": [
+      1975,
+      383,
+      154,
+      2
+    ],
+    "validation_mse": 8.048164436012143e-08
+  },
+  "selected_temporal": {
+    "candidate": "temporal-w11-alpha1",
+    "feature_set": "temporal-w11",
+    "alpha": 1.0,
+    "temporal_window": 11,
+    "budget": 2514,
+    "draws": 100,
+    "query_file": "queries-temporal-w11-alpha1.npz",
+    "query_sha256": "c14024bb1f889eb21a01ccd2ae5bc2474427fe7c2a8b13c5c942a61ec2bc5430",
+    "stratum_sizes": [
+      3308,
+      4129,
+      17696,
+      6
+    ],
+    "stratum_counts": [
+      1994,
+      351,
+      163,
+      6
+    ],
+    "validation_mse": 1.108129660068186e-07
+  },
+  "model_hashes": {
+    "static": "4052ebc19b653e9e17dad0346559302da6cba9ddc4180836fcb0c464fdee0f7d",
+    "temporal-w5": "c63c5d0f530c10562641cbb56166f66cd6d1288e749e6cf35202a7143665f677",
+    "temporal-w11": "8fde8b324a87e5d5c8f9b09f4afa59ff202f88b3bd7814279391ebeb06aad3a6"
+  }
+}

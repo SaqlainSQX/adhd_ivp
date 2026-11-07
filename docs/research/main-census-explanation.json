@@ -1,0 +1,215 @@
+{
+  "scope": "post-hoc explanation only; no policy selection or tuning",
+  "test_size": 10316,
+  "positive_references": 363,
+  "methods": {
+    "M3": {
+      "budgets": [
+        {
+          "budget": 1032,
+          "positive_references_in_census_strata": 2,
+          "design_rmse_pp": 0.2568233689349427,
+          "strata": [
+            {
+              "population_size": 1938,
+              "queries": 890,
+              "positive_references": 262,
+              "census": false,
+              "true_residual_variance": 0.14408121419650163,
+              "design_variance_contribution": 3.0896532496024437e-06
+            },
+            {
+              "population_size": 1401,
+              "queries": 87,
+              "positive_references": 99,
+              "census": false,
+              "true_residual_variance": 0.017593989224981992,
+              "design_variance_contribution": 3.4982907571501678e-06
+            },
+            {
+              "population_size": 6960,
+              "queries": 38,
+              "positive_references": 0,
+              "census": false,
+              "true_residual_variance": 6.614650119142462e-07,
+              "design_variance_contribution": 7.880276356755829e-09
+            },
+            {
+              "population_size": 17,
+              "queries": 17,
+              "positive_references": 2,
+              "census": true,
+              "true_residual_variance": 0.11185715677807341,
+              "design_variance_contribution": 0.0
+            }
+          ]
+        },
+        {
+          "budget": 4126,
+          "positive_references_in_census_strata": 363,
+          "design_rmse_pp": 0.0018648619457560438,
+          "strata": [
+            {
+              "population_size": 1938,
+              "queries": 1938,
+              "positive_references": 262,
+              "census": true,
+              "true_residual_variance": 0.14408121419650163,
+              "design_variance_contribution": 0.0
+            },
+            {
+              "population_size": 1401,
+              "queries": 1401,
+              "positive_references": 99,
+              "census": true,
+              "true_residual_variance": 0.017593989224981992,
+              "design_variance_contribution": 0.0
+            },
+            {
+              "population_size": 6960,
+              "queries": 770,
+              "positive_references": 0,
+              "census": false,
+              "true_residual_variance": 6.614650119142462e-07,
+              "design_variance_contribution": 3.477710076729017e-10
+            },
+            {
+              "population_size": 17,
+              "queries": 17,
+              "positive_references": 2,
+              "census": true,
+              "true_residual_variance": 0.11185715677807341,
+              "design_variance_contribution": 0.0
+            }
+          ]
+        }
+      ],
+      "top_training_feature_importances": [
+        [
+          "f_q_entropy",
+          0.7481092109500947
+        ],
+        [
+          "f_q",
+          0.14148040721590052
+        ],
+        [
+          "f_head_area_ratio",
+          0.0268809114931097
+        ],
+        [
+          "f_head_a_center_y",
+          0.025560687531539852
+        ],
+        [
+          "f_direction_absolute_difference",
+          0.018187483767996525
+        ]
+      ]
+    },
+    "M4": {
+      "budgets": [
+        {
+          "budget": 1032,
+          "positive_references_in_census_strata": 0,
+          "design_rmse_pp": 0.27744956771625623,
+          "strata": [
+            {
+              "population_size": 2148,
+              "queries": 877,
+              "positive_references": 258,
+              "census": false,
+              "true_residual_variance": 0.13202552280142085,
+              "design_variance_contribution": 3.862028400755683e-06
+            },
+            {
+              "population_size": 1650,
+              "queries": 95,
+              "positive_references": 103,
+              "census": false,
+              "true_residual_variance": 0.015043791918295045,
+              "design_variance_contribution": 3.817907332746893e-06
+            },
+            {
+              "population_size": 6483,
+              "queries": 40,
+              "positive_references": 0,
+              "census": false,
+              "true_residual_variance": 4.593183109871465e-07,
+              "design_variance_contribution": 4.507079865590466e-09
+            },
+            {
+              "population_size": 35,
+              "queries": 20,
+              "positive_references": 2,
+              "census": false,
+              "true_residual_variance": 0.05425770435692686,
+              "design_variance_contribution": 1.3383449225578073e-08
+            }
+          ]
+        },
+        {
+          "budget": 4126,
+          "positive_references_in_census_strata": 258,
+          "design_rmse_pp": 0.02237554000168806,
+          "strata": [
+            {
+              "population_size": 2148,
+              "queries": 2148,
+              "positive_references": 258,
+              "census": true,
+              "true_residual_variance": 0.13202552280142085,
+              "design_variance_contribution": 0.0
+            },
+            {
+              "population_size": 1650,
+              "queries": 1365,
+              "positive_references": 103,
+              "census": false,
+              "true_residual_variance": 0.015043791918295045,
+              "design_variance_contribution": 4.870020660477116e-08
+            },
+            {
+              "population_size": 6483,
+              "queries": 580,
+              "positive_references": 0,
+              "census": false,
+              "true_residual_variance": 4.593183109871465e-07,
+              "design_variance_contribution": 2.8478158543172247e-10
+            },
+            {
+              "population_size": 35,
+              "queries": 33,
+              "positive_references": 2,
+              "census": false,
+              "true_residual_variance": 0.05425770435692686,
+              "design_variance_contribution": 1.08149084651136e-09
+            }
+          ]
+        }
+      ],
+      "top_training_feature_importances": [
+        [
+          "f_q_entropy",
+          0.729986559617098
+        ],
+        [
+          "f_q",
+          0.15144400638641847
+        ],
+        [
+          "f_t_head_b_area_change_mean",
+          0.051418636140194256
+        ],
+        [
+          "f_head_b_center_y",
+          0.03380274636455191
+        ],
+        [
+          "f_direction_absolute_difference",
+          0.017315756104573
+        ]
+      ]
+    }
+  }
+}

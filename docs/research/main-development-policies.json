@@ -1,0 +1,188 @@
+{
+  "static": {
+    "target": "signed residual y-q",
+    "folds": [
+      {
+        "fold": 0,
+        "training_rows": 139399,
+        "held_rows": 52557
+      },
+      {
+        "fold": 1,
+        "training_rows": 141921,
+        "held_rows": 50035
+      },
+      {
+        "fold": 2,
+        "training_rows": 142604,
+        "held_rows": 49352
+      },
+      {
+        "fold": 3,
+        "training_rows": 167845,
+        "held_rows": 24111
+      },
+      {
+        "fold": 4,
+        "training_rows": 176055,
+        "held_rows": 15901
+      }
+    ],
+    "cut_points": [
+      -0.021585712092840922,
+      -0.0008239895094035519,
+      -0.0006077830841728156
+    ],
+    "strata": [
+      {
+        "stratum": 0,
+        "oof_rows": 48008,
+        "centered_residual_variance": 0.05667700387388836,
+        "shrunk_sd": 0.23803557572966247
+      },
+      {
+        "stratum": 1,
+        "oof_rows": 68962,
+        "centered_residual_variance": 0.0010377869351049366,
+        "shrunk_sd": 0.03229134851285765
+      },
+      {
+        "stratum": 2,
+        "oof_rows": 49717,
+        "centered_residual_variance": 7.312078479413297e-07,
+        "shrunk_sd": 0.0028294222631487487
+      },
+      {
+        "stratum": 3,
+        "oof_rows": 25269,
+        "centered_residual_variance": 0.003051589856462719,
+        "shrunk_sd": 0.05534875042937906
+      }
+    ],
+    "global_centered_residual_variance": 0.018090765069061647
+  },
+  "temporal-w5": {
+    "target": "signed residual y-q",
+    "folds": [
+      {
+        "fold": 0,
+        "training_rows": 139399,
+        "held_rows": 52557
+      },
+      {
+        "fold": 1,
+        "training_rows": 141921,
+        "held_rows": 50035
+      },
+      {
+        "fold": 2,
+        "training_rows": 142604,
+        "held_rows": 49352
+      },
+      {
+        "fold": 3,
+        "training_rows": 167845,
+        "held_rows": 24111
+      },
+      {
+        "fold": 4,
+        "training_rows": 176055,
+        "held_rows": 15901
+      }
+    ],
+    "cut_points": [
+      -0.02107133203329361,
+      -0.0008147528394845029,
+      -0.0006179931883758638
+    ],
+    "strata": [
+      {
+        "stratum": 0,
+        "oof_rows": 47991,
+        "centered_residual_variance": 0.05693226407601071,
+        "shrunk_sd": 0.2385709192023344
+      },
+      {
+        "stratum": 1,
+        "oof_rows": 69571,
+        "centered_residual_variance": 0.0009905499777983578,
+        "shrunk_sd": 0.03155098316732349
+      },
+      {
+        "stratum": 2,
+        "oof_rows": 44661,
+        "centered_residual_variance": 6.854283960556626e-07,
+        "shrunk_sd": 0.0029636205655439
+      },
+      {
+        "stratum": 3,
+        "oof_rows": 29733,
+        "centered_residual_variance": 0.0019601489017961513,
+        "shrunk_sd": 0.04439585886699716
+      }
+    ],
+    "global_centered_residual_variance": 0.018090765069061647
+  },
+  "temporal-w11": {
+    "target": "signed residual y-q",
+    "folds": [
+      {
+        "fold": 0,
+        "training_rows": 139399,
+        "held_rows": 52557
+      },
+      {
+        "fold": 1,
+        "training_rows": 141921,
+        "held_rows": 50035
+      },
+      {
+        "fold": 2,
+        "training_rows": 142604,
+        "held_rows": 49352
+      },
+      {
+        "fold": 3,
+        "training_rows": 167845,
+        "held_rows": 24111
+      },
+      {
+        "fold": 4,
+        "training_rows": 176055,
+        "held_rows": 15901
+      }
+    ],
+    "cut_points": [
+      -0.020685898978111347,
+      -0.0008469095516184952,
+      -0.0005890215667241444
+    ],
+    "strata": [
+      {
+        "stratum": 0,
+        "oof_rows": 48723,
+        "centered_residual_variance": 0.05597006202457227,
+        "shrunk_sd": 0.2365470761805587
+      },
+      {
+        "stratum": 1,
+        "oof_rows": 73680,
+        "centered_residual_variance": 0.0011087772579699681,
+        "shrunk_sd": 0.03336743516777164
+      },
+      {
+        "stratum": 2,
+        "oof_rows": 29133,
+        "centered_residual_variance": 5.814880964131743e-07,
+        "shrunk_sd": 0.003604500844502523
+      },
+      {
+        "stratum": 3,
+        "oof_rows": 40420,
+        "centered_residual_variance": 0.001462817764102597,
+        "shrunk_sd": 0.03835415860693929
+      }
+    ],
+    "global_centered_residual_variance": 0.018090765069061647
+  }
+}

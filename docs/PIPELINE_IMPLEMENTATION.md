@@ -1,8 +1,10 @@
 # Implementation checklist for the course execution plan
 
-This document specifies missing software. It does not claim these commands already
-exist. See [COURSE_PROJECT_PLAN.md](COURSE_PROJECT_PLAN.md) for the experiment order
-and [EXPERIMENT_TRACKER.md](EXPERIMENT_TRACKER.md) for current status.
+This document preserves the implementation contracts written before execution.
+The main data-to-MTGS-to-frame-audit workflow is now implemented in stage scripts
+and has completed on the verified subset. See [RUN_EXPERIMENTS.md](RUN_EXPERIMENTS.md)
+for executable commands and [EXPERIMENT_TRACKER.md](EXPERIMENT_TRACKER.md) for
+current status. The proposed unified CLI in section 2 remains a specification.
 
 ## 1. Available entry points today
 
@@ -12,11 +14,12 @@ and [EXPERIMENT_TRACKER.md](EXPERIMENT_TRACKER.md) for current status.
 | `uv run gaze-audit run ...` | Provisional block audit on the strict normalized CSV contract |
 | `uv run --extra research python scripts/research/inspect_vsgaze.py --archive ...` | Pinned-release annotation inventory and constant-score block diagnostic |
 | `uv run --extra research python scripts/research/feasibility_checks.py` | Planning arithmetic from the preceding inventory output |
-| `uv run --extra dev pytest ...` | Existing package tests; frame extensions still need additional tests |
+| `uv run --extra dev pytest ...` | Statistical, frame, pipeline, replay and follow-up checks; 34 tests pass |
 
-No complete data-to-MTGS-to-frame-audit entry point exists yet. The JSON design
-file is not loaded by the provisional CLI. Preserve that distinction in README
-updates and teammate handoffs.
+The implemented sequential entry point is `scripts/finish_course_experiment.py`;
+registered ablations use `scripts/run_followup_experiment.py`. The JSON design
+file is not loaded by the provisional block CLI. Preserve that distinction in
+README updates and teammate handoffs.
 
 ## 2. Proposed unified interface: not implemented
 

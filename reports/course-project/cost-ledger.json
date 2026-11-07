@@ -1,0 +1,73 @@
+{
+  "development_labels": {
+    "train": 191956,
+    "validation": 25139
+  },
+  "test_labels_per_audit": {
+    "0.05": 516,
+    "0.1": 1032,
+    "0.2": 2063,
+    "0.4": 4126
+  },
+  "new_human_annotation_time_measured": false,
+  "compute_stages": [
+    {
+      "stage": "P05-merge",
+      "seconds": 8.501138099993113,
+      "state": "completed"
+    },
+    {
+      "stage": "P06-features",
+      "seconds": 128.9627438999887,
+      "state": "completed"
+    },
+    {
+      "stage": "E01-E02-development-checks",
+      "seconds": 25.07992230000673,
+      "state": "completed"
+    },
+    {
+      "stage": "E03-policy-lock",
+      "seconds": 1888.1778908999986,
+      "state": "completed"
+    },
+    {
+      "stage": "E04-E05-evaluation",
+      "seconds": 242.03057400000398,
+      "state": "completed"
+    },
+    {
+      "stage": "E06-replay",
+      "seconds": 29.25575499999104,
+      "state": "completed"
+    },
+    {
+      "stage": "E06-report",
+      "seconds": 55.38128080000752,
+      "state": "completed"
+    },
+    {
+      "stage": "E06-replay-figure",
+      "seconds": 7.972777299990412,
+      "state": "completed"
+    }
+  ],
+  "inference_shards": [
+    {
+      "path": "outputs\\inference\\mtgs-strict-shard-v1",
+      "seconds": 7291.464658000004,
+      "frames": 44908,
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "peak_allocated_bytes": 1472728576
+    },
+    {
+      "path": "outputs\\inference\\mtgs-remaining-shard-v1",
+      "seconds": 6243.921283500007,
+      "frames": 24263,
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "peak_allocated_bytes": 2262765568
+    }
+  ],
+  "kaggle_gpu_hours_used": 0,
+  "note": "Finalized aggregate copy from completed pipeline; original report cost ledger was captured during report generation and is preserved."
+}

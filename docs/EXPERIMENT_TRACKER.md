@@ -18,15 +18,15 @@ No future stage is marked complete merely because this plan exists.
 | 3 | P02 | Normalize data and freeze source/fold manifests | Completed before media filtering | Codex | `research/data-preparation-report.json`; all file hashes/joins checked; 358,000 eligible anchors total; five source folds |
 | 4 | P03 | Media availability, decode mapping and visual alignment | Completed for documented subset | Codex | All 95 sources attempted; verified-population-v2 retains 53 sources. Frame-count review pool excluded after scene-cut failure; another missing-count source excluded after visual review. `research/verified-population-manifest.json` |
 | 5 | P04 | Pin MTGS and benchmark smoke inference | Completed for released DINO temporal variant | Codex | `research/mtgs-runtime-smoke.json`; strict load, native parity after auxiliary pruning, AMP development check and batches 1/2/4 pass on RTX 4060 |
-| 6 | P05 | Full prediction shards and merge | Initial batch complete; remaining 17 sources running | Codex | Initial batch: 44,908 frames, 184,461 pair scores, 147 validated clip hashes. `outputs/inference/mtgs-remaining-shard-v1` resumed November 7. Final merge waits for exact frozen-population coverage |
-| 7 | P06 | Static/temporal frame features | Implemented; real smoke passed | Codex | Static/windows 5 and 11 built for 236 pair predictions from 100 training frames. Full-cache build pending |
-| 8 | E00 | Verify frame estimator, exact budgets and oracle | Core mathematics verified ahead of media | Codex | Exhaustive one/two-stratum point/variance tests, exact budgets, census, oracle boundary and exact hypergeometric coverage pass. End-to-end cache integration pending |
-| 9 | E01 | Frozen-model development diagnostics | Pending | Unassigned | q bias, residual variance, calibration and lag structure |
-| 10 | E02 | Uniform human/residual baseline checks | Preliminary M1 completed; E02 pending | Codex | 4,000 human-only draws on full pre-media test annotations; `research/m1-annotation-baseline.json`. M2 and final common-population validation pending |
-| 11 | E03 | Fit and select static/temporal policies | Implemented; real execution pending | Codex | Five source folds, signed residuals, centered SD, nine validation candidates, immutable lock; synthetic integration check passes |
-| 12 | E04 | Locked M0–M4 main benchmark | Implemented; real execution pending | Codex | Four exact budgets, saved queries, 1,000 draws by default; changing test labels leaves policies/query plans unchanged |
-| 13 | E05 | Contextual-surrogate control and interpretation | Implemented; real execution pending | Codex | M5 shares M1/M2 queries; same frozen temporal residual model; paired draw bootstrap against M3/M2/M5 |
-| 14 | E06 | Aggregate results, course report and demo | Runner/report/replay implemented; real outputs pending | Codex | Sequential `course-20261107-v1` run waits for inference, then runs all CPU stages. Replay test verifies identical query plans/estimates and rejects changed references; figures need final visual review |
+| 6 | P05 | Full prediction shards and merge | Completed | Codex | Both shards complete; exact final cache has 314,058 public pair scores. One previously cached, subsequently excluded source is dropped explicitly. `course-20261107-v1/cache/manifest.json` |
+| 7 | P06 | Static/temporal frame features | Completed | Codex | Label-free static/windows 5 and 11 built from the full cache; 227,411 eligible anchors. Frozen feature hashes in policy lock |
+| 8 | E00 | Verify frame estimator, exact budgets and oracle | Completed | Codex | Statistical tests and real-cache integration pass; independent replay/recomputation of all 20,000 main audits also passes |
+| 9 | E01 | Frozen-model development diagnostics | Completed | Codex | `course-20261107-v1/development-checks/result.json`; development score, calibration and lag diagnostics retained |
+| 10 | E02 | Uniform human/residual baseline checks | Completed | Codex | 800 validation baseline method-runs before policy fitting; all main budgets also evaluated on the same frozen test population |
+| 11 | E03 | Fit and select static/temporal policies | Completed | Codex | Five source folds, nine validation candidates, static alpha 1; temporal window 11 / alpha 1. Immutable lock preserved |
+| 12 | E04 | Locked M0–M4 main benchmark | Completed | Codex | Four exact budgets, 1,000 draws each; all losses/ties retained. Main result SHA b7dba063…aead9 |
+| 13 | E05 | Contextual-surrogate control and interpretation | Main control and A1 completed; A2 running | Codex | M5 complete. Window-5 RMSE 0.2504 versus window-11 0.2765 pp at B=1,032. Registered summary-only ablation started separately; main comparison unchanged |
+| 14 | E06 | Aggregate results, course report and demo | Main evidence package completed; follow-up appendix pending A2 | Codex | All 20,000 audits independently checked; five report figures and replay timeline visually reviewed. [Assessment](research/course-results.md) and tracked aggregate evidence saved |
 
 ## Optional queue
 
@@ -52,34 +52,56 @@ No future stage is marked complete merely because this plan exists.
 | Inference shard target runtime / timeout | Not set | P04 workload projection |
 | Course deadline / final artifact requirements | Not supplied | Add when known; no need to block earlier stages |
 
-## November 7 continuation
+## November 7 execution and results
 
 The initial GPU batch completed while the previous work was running. All its 147
 clip hashes, 184,461 unique score IDs, probability bounds and native minimum-score
 identities were checked again. One source in that original batch was later excluded
 by the frozen media population; the final merger records and drops its cache.
 
-The remaining 17 verified sources are running with the same checkpoint, precision,
-geometry and temporal-input convention. `outputs/experiments/course-20261107-v1/`
-contains a sequential driver waiting for that inference batch. It will execute
-merge, features, E01/E02 diagnostics, E03 policy selection, 20,000 sampled method
-evaluations, replay and report generation. A waiting run is not a completed result.
+The remaining 17 sources completed in 6,243.9 seconds. The sequential main run
+`outputs/experiments/course-20261107-v1/` completed merge, features, diagnostics,
+policy selection, all 20,000 sampled method evaluations, independent validation,
+replay and report generation. Its pipeline state is `complete`; visual review
+passed for all five report figures and the public query timeline. Maximum
+independent point/variance discrepancies were 1.11e-16 / 6.03e-17.
 
-The GitHub connection recovered: the three prior local commits through `5486926`
-were pushed to `main` on November 7. New continuation code and aggregate evidence
-are committed separately. Raw references/media/checkpoints remain ignored.
+At B=1,032, RMSE was 0.5529 pp for uniform residual correction, 0.2603 pp for
+static guidance and 0.2765 pp for temporal guidance. The locked temporal/static
+ratio is 1.0623 with paired-draw Monte Carlo interval [0.9889, 1.1421]: no temporal
+gain is established. Normal interval coverage was only 93.0% / 93.3% for the
+guided methods. [Full assessment and caveats](research/course-results.md).
 
-## Policy lock to fill after development
+Registered follow-ups execute in `outputs/experiments/followups-20261107/`.
+A1 is complete: both alphas are 1; window 5 / 11 RMSE is 0.2504 / 0.2765 pp;
+all 2,000 follow-up draws independently checked, with exact main-M4 reproduction.
+A2 started at 10:44:30 UTC on November 7, PID 37020, CPU only, output
+`A2-summary-only-v1`. Its command, status and stdout/stderr logs are in that
+follow-up root. Check the live PID/log/result before launching anything else.
+The registered protocol and seeds are in [FOLLOWUP_EXPERIMENTS.md](FOLLOWUP_EXPERIMENTS.md).
+
+GitHub synchronization recovered; commits through `8c8f2bd` are pushed to `main`.
+Main results, follow-up implementation and aggregate evidence are synchronized
+separately after validation. Raw references/media/checkpoints remain ignored.
+
+## Frozen main policy lock
 
 | Field | Static M3 | Temporal M4 |
 | --- | --- | --- |
-| Feature version/hash | Not set | Not set |
-| OOF/fold artifact | Not set | Not set |
-| Final error model hash | Not set | Not set |
-| Temporal window | Not applicable | Not selected |
-| Mixture alpha | Not selected | Not selected |
-| Stratum cuts / centered SD file | Not set | Not set |
-| Validation selection evidence | Not set | Not set |
+| Feature version/hash | static / a149f032…aad68 | temporal-w11 / 1594d838…80981 |
+| OOF/fold artifact | development/static-oof-scores.npy; original five training-source folds | development/temporal-w11-oof-scores.npy; same folds |
+| Final error model hash | 4052ebc1…e0f7d | 8fde8b32…ad3a6 |
+| Temporal window | Not applicable | 11 |
+| Mixture alpha | 1 | 1 |
+| Stratum cuts / centered SD file | development/static-development.json | development/temporal-w11-development.json |
+| Validation selection evidence | Nine candidates, 100 draws each; policy-lock.json | Same; minimum validation MSE with registered 1% tie rule |
+
+Full authoritative hashes and validation candidates are in
+[main-policy-lock.json](research/main-policy-lock.json). Cuts and SDs are in
+[main-development-policies.json](research/main-development-policies.json).
+Local paths above are relative to `outputs/experiments/course-20261107-v1/`.
+
+Software checks after follow-up implementation: **34 tests pass**, Ruff passes.
 
 ## Per-stage record template
 

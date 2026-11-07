@@ -1,0 +1,129 @@
+{
+  "complete": true,
+  "stage": "A1",
+  "designation": "exploratory ablation",
+  "budget": 1032,
+  "test_draws_per_policy": 1000,
+  "population_size": 10316,
+  "reference_prevalence": 0.03518805738658395,
+  "results": {
+    "temporal-w5": {
+      "bias_pp": 0.005257555613287638,
+      "mae_pp": 0.20168689642920823,
+      "rmse_pp": 0.2503580169529475,
+      "mean_labels": 1032.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.946,
+          "mean_width_pp": 0.9671455016611753,
+          "median_width_pp": 0.998356372382659
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 28.221562945892924,
+          "median_width_pp": 28.222781714602974
+        }
+      }
+    },
+    "temporal-w11": {
+      "bias_pp": 0.005280136483042465,
+      "mae_pp": 0.21910567728631644,
+      "rmse_pp": 0.2765283147467882,
+      "mean_labels": 1032.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.933,
+          "mean_width_pp": 1.0560134775363152,
+          "median_width_pp": 1.0098017514627016
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 26.982994881523553,
+          "median_width_pp": 26.999601281590667
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "W11/W5": {
+      "rmse_ratio": 1.1045314949860747,
+      "paired_draw_bootstrap_95pct": [
+        1.0388061576949668,
+        1.1737999049724015
+      ],
+      "resamples": 2000,
+      "seed": 400001,
+      "scope": "Monte Carlo uncertainty on the fixed available corpus"
+    },
+    "temporal-w11/M3": {
+      "rmse_ratio": 1.062319211561964,
+      "paired_draw_bootstrap_95pct": [
+        0.9888812002247697,
+        1.1420939677674775
+      ],
+      "resamples": 2000,
+      "seed": 400001,
+      "scope": "Monte Carlo uncertainty on the fixed available corpus"
+    },
+    "temporal-w11/M4": {
+      "rmse_ratio": 1.0000000000000002,
+      "paired_draw_bootstrap_95pct": [
+        0.9999999999999991,
+        1.0000000000000016
+      ],
+      "resamples": 2000,
+      "seed": 400001,
+      "scope": "Monte Carlo uncertainty on the fixed available corpus"
+    },
+    "temporal-w5/M3": {
+      "rmse_ratio": 0.961782634885714,
+      "paired_draw_bootstrap_95pct": [
+        0.8983311304207513,
+        1.027513274170527
+      ],
+      "resamples": 2000,
+      "seed": 400001,
+      "scope": "Monte Carlo uncertainty on the fixed available corpus"
+    },
+    "temporal-w5/M4": {
+      "rmse_ratio": 0.9053612364513043,
+      "paired_draw_bootstrap_95pct": [
+        0.8519339614264653,
+        0.9626435103325511
+      ],
+      "resamples": 2000,
+      "seed": 400001,
+      "scope": "Monte Carlo uncertainty on the fixed available corpus"
+    }
+  },
+  "selected_alphas": {
+    "temporal-w5": 1.0,
+    "temporal-w11": 1.0
+  },
+  "independent_checks": {
+    "temporal-w5": {
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 5.082197683525802e-21
+    },
+    "temporal-w11": {
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 6.776263578034403e-21
+    }
+  },
+  "main_result_unchanged": true,
+  "test_plans_saved_before_query": true,
+  "selected_main_window_reproduced": true,
+  "registration_sha256": "2dcc1f74543c4a9c3067b36d21580015bf1e686c71ce40d0b5660f2f96d0a92c",
+  "policy_lock_sha256": "e4979a9aeb99d497a81db9bb3813f6f32e9324d866651cdae932b228ec9ce3e2",
+  "main_result_sha256": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9"
+}

@@ -1,0 +1,173 @@
+{
+  "started_utc": "2026-11-07T07:32:44.720363+00:00",
+  "complete": true,
+  "state": "complete",
+  "population_sha256": "f656637160d3139e232d7526d7b1942f6b4a66fcc872f6220fc0b470b8a775d7",
+  "shards": [
+    "outputs\\inference\\mtgs-strict-shard-v1",
+    "outputs\\inference\\mtgs-remaining-shard-v1"
+  ],
+  "stages": [
+    {
+      "name": "P05-merge",
+      "state": "completed",
+      "script": "scripts/merge_prediction_shards.py",
+      "script_sha256": "31d8afd279426cd5605e715bcea37b3b61958e7a67006b28b0c4eef352f619bd",
+      "arguments": [
+        "--population",
+        "data\\raw\\childplay\\verified-population-v2",
+        "--shards",
+        "outputs\\inference\\mtgs-strict-shard-v1",
+        "outputs\\inference\\mtgs-remaining-shard-v1",
+        "--output",
+        "outputs\\experiments\\course-20261107-v1\\cache"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 8.501138099993113,
+      "log": "outputs\\experiments\\course-20261107-v1\\P05-merge.log",
+      "log_sha256": "d3a2930a7165b0a0c15e52b1a8c3320172c9fd3eaa63ed609ee4f0ab690d3844"
+    },
+    {
+      "name": "P06-features",
+      "state": "completed",
+      "script": "scripts/build_frame_features.py",
+      "script_sha256": "d6e30db79e8d3d5de70231d2cdf0e996d0ada86e6b66a5820c7539d499c233ca",
+      "arguments": [
+        "--predictions",
+        "outputs\\experiments\\course-20261107-v1\\cache\\predictions.csv",
+        "--output",
+        "outputs\\experiments\\course-20261107-v1\\features"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 128.9627438999887,
+      "log": "outputs\\experiments\\course-20261107-v1\\P06-features.log",
+      "log_sha256": "0b748a755b4a8c71617bcc39d597a69b6ed5f47f78169b10586cb4380f34f8f5"
+    },
+    {
+      "name": "E01-E02-development-checks",
+      "state": "completed",
+      "script": "scripts/run_development_checks.py",
+      "script_sha256": "12ee53bc91311524934cf2364514afb9fe9b5fffa81dacaafd516758052be8aa",
+      "arguments": [
+        "--features",
+        "outputs\\experiments\\course-20261107-v1\\features",
+        "--output",
+        "outputs\\experiments\\course-20261107-v1\\development-checks",
+        "--draws",
+        "100"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 25.07992230000673,
+      "log": "outputs\\experiments\\course-20261107-v1\\E01-E02-development-checks.log",
+      "log_sha256": "e4037ccc0d16ba0f7d8bd7f58388a395fcf969d2676f35ec79aee2fcf8b362c4"
+    },
+    {
+      "name": "E03-policy-lock",
+      "state": "completed",
+      "script": "scripts/run_frame_study.py",
+      "script_sha256": "8f71b8544229a7d87ecd3b52785161e0989bf15e61c027dfe1bbc18a2ac6a973",
+      "arguments": [
+        "develop",
+        "--features",
+        "outputs\\experiments\\course-20261107-v1\\features",
+        "--development",
+        "outputs\\experiments\\course-20261107-v1\\development",
+        "--validation-draws",
+        "100"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1888.1778908999986,
+      "log": "outputs\\experiments\\course-20261107-v1\\E03-policy-lock.log",
+      "log_sha256": "367bbc1d61c45ee13818a857fc95eeefd0d2d57f91f335e7c7ab7546daf9fc4d"
+    },
+    {
+      "name": "E04-E05-evaluation",
+      "state": "completed",
+      "script": "scripts/run_frame_study.py",
+      "script_sha256": "8f71b8544229a7d87ecd3b52785161e0989bf15e61c027dfe1bbc18a2ac6a973",
+      "arguments": [
+        "evaluate",
+        "--features",
+        "outputs\\experiments\\course-20261107-v1\\features",
+        "--development",
+        "outputs\\experiments\\course-20261107-v1\\development",
+        "--evaluation",
+        "outputs\\experiments\\course-20261107-v1\\evaluation",
+        "--test-draws",
+        "1000"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 242.03057400000398,
+      "log": "outputs\\experiments\\course-20261107-v1\\E04-E05-evaluation.log",
+      "log_sha256": "340c873efa014d325c52ab0e2101a06ae48e1e0ca2f47f2f9d712146d6eb57fc"
+    },
+    {
+      "name": "E06-replay",
+      "state": "completed",
+      "script": "scripts/replay_audit.py",
+      "script_sha256": "e890dd4de407d9787509cbd1df45e7853530c8ab8f4be40689483f52944aef2d",
+      "arguments": [
+        "--evaluation",
+        "outputs\\experiments\\course-20261107-v1\\evaluation",
+        "--development",
+        "outputs\\experiments\\course-20261107-v1\\development",
+        "--features",
+        "outputs\\experiments\\course-20261107-v1\\features",
+        "--method",
+        "M4",
+        "--fraction",
+        ".1",
+        "--draw",
+        "0",
+        "--output",
+        "outputs\\experiments\\course-20261107-v1\\replay"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 29.25575499999104,
+      "log": "outputs\\experiments\\course-20261107-v1\\E06-replay.log",
+      "log_sha256": "e5f23a0348810feb87d54a84085b065d207e41b333cdf5cdac3ce26248488b43"
+    },
+    {
+      "name": "E06-report",
+      "state": "completed",
+      "script": "scripts/make_course_report.py",
+      "script_sha256": "910fc484d64df534a211fe54486993d679f20b21e7b48e7cea608af2b48346d5",
+      "arguments": [
+        "--evaluation",
+        "outputs\\experiments\\course-20261107-v1\\evaluation",
+        "--development",
+        "outputs\\experiments\\course-20261107-v1\\development",
+        "--checks",
+        "outputs\\experiments\\course-20261107-v1\\development-checks",
+        "--population",
+        "data\\raw\\childplay\\verified-population-v2",
+        "--output",
+        "outputs\\experiments\\course-20261107-v1\\report"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 55.38128080000752,
+      "log": "outputs\\experiments\\course-20261107-v1\\E06-report.log",
+      "log_sha256": "5c21158f73032d1b4cccccda95833e2d49274740e406d3b2e0cd4bdf40b096aa"
+    },
+    {
+      "name": "E06-replay-figure",
+      "state": "completed",
+      "script": "scripts/plot_audit_replay.py",
+      "script_sha256": "a498dbe11ebd02027b5043a8675b5258ab00d2e446ad43d3dfc588b9bd142a48",
+      "arguments": [
+        "--replay",
+        "outputs\\experiments\\course-20261107-v1\\replay"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 7.972777299990412,
+      "log": "outputs\\experiments\\course-20261107-v1\\E06-replay-figure.log",
+      "log_sha256": "fb5f5aca5e5a96ea3e2b961c4421a41bfe1d1ed0c9d422ba2156f5c02d5d10df"
+    }
+  ],
+  "updated_utc": "2026-11-07T10:41:29.619028+00:00",
+  "waiting_for_shards": [],
+  "current_stage": "E06-replay-figure",
+  "report": "outputs\\experiments\\course-20261107-v1\\report\\course-report.md",
+  "result_sha256": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9",
+  "visual_review": "passed"
+}

@@ -1,0 +1,31 @@
+{
+  "stage": "A2",
+  "designation": "exploratory",
+  "main_policy_lock_sha256": "15dacc805bd3f1e525ac32ace89578d51c44016ead2e4b986ceafe06cc074c4e",
+  "main_result_sha256": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9",
+  "feature_hashes": {
+    "static": "a149f032b9375be4fa562910342b2bec1a334c85ff81496feea33d4ae55aad68",
+    "temporal-w5": "d299252adbd1524c505b73e2ebe46ff6fd650bde049ecf7d978f05b3aabe25a6",
+    "temporal-w11": "1594d838704b41ee175d33e2f1ee922f98e777c9efe278306a65c0033da80981"
+  },
+  "test_draws": 1000,
+  "fraction": 0.1,
+  "seed_start": 200000,
+  "budget_index": 1,
+  "method_stream_id": 4,
+  "validation_draws": 100,
+  "removed_columns": [
+    "f_t_q_adjacent_change_mean",
+    "f_t_q_previous_difference",
+    "f_t_q_next_difference",
+    "f_t_previous_context_missing",
+    "f_t_next_context_missing",
+    "f_t_head_a_area_change_mean",
+    "f_t_head_b_area_change_mean",
+    "f_t_pair_center_distance_change_mean"
+  ],
+  "main_result_replacement_allowed": false,
+  "implementation_sha256": "2109ba379f42e9426c2ef6cd89cc8c2880ab2eb53e36a62a81e32a85304d3c4c",
+  "error_model_implementation_sha256": "03178df231bd38aa515069a21bb2b873a61ee5e3e0fef3c48336495a0b9c025f",
+  "registered_protocol_sha256": "7714413fa4e510d28a74d15cd88348fdf3d4fb1d476928ef28ce24a6171607d1"
+}

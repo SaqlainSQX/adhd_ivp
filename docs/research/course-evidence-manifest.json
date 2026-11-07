@@ -1,0 +1,33 @@
+{
+  "assembled_utc": "2026-11-07T10:47:20.003083+00:00",
+  "main_complete": true,
+  "A1_complete": true,
+  "A2_status": "running",
+  "source_main_run": "outputs\\experiments\\course-20261107-v1",
+  "main_result_sha256": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9",
+  "files": {
+    "docs/research/followup-A1-policy-lock.json": "0e71a16d567430fe82fd5acefd6e03a247a64e6fe4663ecc381d605d80cfb4fc",
+    "docs/research/followup-A1-registration.json": "f14277ed882c60f7cd4a21a7d5fb10d27bdd31b949e529c7898d8863dc0eb1d4",
+    "docs/research/followup-A1-results.json": "57ebfbc070aeb684363dfc4d003cc6ddf663f33f44351905b7844fc3ca7ad4dc",
+    "docs/research/followup-A2-registration.json": "ba032e280cefb0462d60c1b932906d998cf5ac6001414f04ed0ab9a86720b851",
+    "docs/research/main-census-explanation.json": "81189582539d8faa9e35571d7608032ecd2dde7fec94da70a12b324552d4fd63",
+    "docs/research/main-course-independent-validation.json": "912006112d1e7263f90bfd3388ff989353bf8805ab2e84efb296a24888242527",
+    "docs/research/main-course-results.json": "ead4febc07010b3a32cf7fb62a227925cf223302f693420080a4f8f6ee9cf960",
+    "docs/research/main-course-visual-review.json": "86c6bc13fe0c3d9e17eb34257e408e722b99bcab6184467c1f1d0b1f1d2cd454",
+    "docs/research/main-development-policies.json": "65847d1181f8e2cd08e9a5029cfa02db99cb4b3cc1f539d2acfabed9de3c990c",
+    "docs/research/main-pipeline-status.json": "cdd0c93b183c757b4e2077bf5d50f6b78da4a24358e38fcf0af4a01c31764ee4",
+    "docs/research/main-policy-lock.json": "2712497ef1474f5c97c3209cf45f3416ec08ab9a0178a12afcd7295cd19bb5e3",
+    "reports/course-project/bias-coverage-width-budget.png": "ccf14ab256791dd39c595e973798c4f38e615782b22e3cbcd8f18d7f3594e03a",
+    "reports/course-project/cost-ledger.json": "9f7db3a8231f06c5945ead207ca8731e212d500deed784c174aed743b4886330",
+    "reports/course-project/course-report.md": "643e760b1643a101293a2fbeb51c8f1a8dec821f6bff2781d6bb12bd6fc14cf3",
+    "reports/course-project/interval-width-coverage.png": "742d4fda7db4d54b388e548982e4e0116e469d33a8b2125cf4d1dc00309e3a98",
+    "reports/course-project/primary-controls.png": "2bd125a73bf136ded91d61c799dedf869a5e71ca0c216b4d512d5c4bde4a3039",
+    "reports/course-project/public-query-timeline.png": "1e22f6bcbe245a3a593b6ae5495f5e35a994d6535527daf8ae7a87e82e251c9c",
+    "reports/course-project/results-table.csv": "d385635d9c8f7fce8982a7bf58a89d74e5375ef21aac26b7daec9b1b3a7721d2",
+    "reports/course-project/rmse-budget.png": "c224d09046639ed9d65c46fc965a4623939238dd8282def10e1c33eff52a81e1",
+    "reports/course-project/source-sensitivity.png": "dff05a8d822a5752dfdec7eebc64499c1da50f13f615d5e7bdaa665ec035bf4f",
+    "docs/research/course-results.md": "5a39c11cb353684c88713eec47a94931dca0e9c3940acb10456b886fef06420b",
+    "docs/research/course-software-checks.json": "4a1cd3cda86e6b1381bbcb59dbde7f8fb1d46114bed831bdcb974d163b56b8ff"
+  },
+  "file_hash_convention": "SHA-256 of file bytes; for .json/.md/.csv/.svg normalize CRLF to LF for cross-platform Git checkout. Main result hash is the original immutable run file hash."
+}

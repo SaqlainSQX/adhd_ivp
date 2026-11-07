@@ -20,16 +20,22 @@ The November 7 continuation uses:
 
 ```text
 outputs/inference/mtgs-strict-shard-v1/       Finished initial 37-source inference batch
-outputs/inference/mtgs-remaining-shard-v1/    Remaining 17 sources
-outputs/experiments/course-20261107-v1/      Sequential processing and experiment run
+outputs/inference/mtgs-remaining-shard-v1/    Finished remaining 17 sources
+outputs/experiments/course-20261107-v1/      Completed main run; independent + visual QA passed
+outputs/experiments/followups-20261107/      Registered A1 complete; A2 running
 ```
 
 The first batch contains one subsequently excluded source. The merger explicitly
 drops that source and records it, then requires exact coverage of every public
 pair in the final population. The total retained source count remains 53.
 
-Check `outputs/experiments/course-20261107-v1/pipeline-status.json` for the current
-stage. A failed stage records its log and exit status; a waiting stage does not
+The main run has state `complete` and all 20,000 sampled audits passed independent
+validation. Five report figures and the replay timeline have passed visual review.
+See [the results assessment](research/course-results.md) and the tracked evidence
+under `docs/research/main-course-*`. No repeat GPU inference is needed.
+
+For any new run, check its `pipeline-status.json` for the current stage.
+A failed stage records its log and exit status; a waiting stage does not
 mean the comparison has completed. `computed_waiting_for_visual_review` means
 the computations and report files exist but their figures still need inspection.
 
@@ -70,7 +76,7 @@ provenance file. Preserve a partial run rather than relabeling it complete.
 
 ## Sequential experiment
 
-The current sequential driver is already launched. For a separate reproduction,
+The recorded main driver has finished. For a separate reproduction,
 use a new run directory and the relevant completed inference paths:
 
 ```powershell
@@ -133,4 +139,31 @@ isolates this account inside its child process:
 
 It does not change the other agent's Kaggle configuration. Keep credentials out
 of commands, logs and commits. GitHub synchronization resumed successfully on
-November 7; the earlier three local commits through `5486926` are pushed.
+November 7; commits through `8c8f2bd` are pushed, with results synchronized separately.
+
+## Registered interpretation experiments
+
+Read [FOLLOWUP_EXPERIMENTS.md](FOLLOWUP_EXPERIMENTS.md) first. These exploratory
+ablations retain the locked main winner and all main losses/ties. They reuse
+the inference/features cache, original training folds and exact B=1,032 budget.
+Use a new output directory for a reproduction:
+
+```powershell
+.\.venv\Scripts\python.exe -u scripts/run_followup_experiment.py windows `
+  --output outputs/experiments/NEW-A1-WINDOWS
+.\.venv\Scripts\python.exe -u scripts/run_followup_experiment.py summary-only `
+  --output outputs/experiments/NEW-A2-SUMMARY-ONLY
+```
+
+Run in this order. A1 uses the two existing window models and validation-selected
+alphas; it independently checks 2,000 draws and reproduces all primary M4 draws.
+A2 refits after dropping exactly eight registered features, selects alpha with
+100 validation draws and freezes the policy before 1,000 test draws. Each output
+saves registration, policy lock, query manifest, exact query arrays, per-draw
+results, independent numerical/RNG checks and main-result integrity hashes.
+
+The live A2 launch is recorded in
+`outputs/experiments/followups-20261107/status.json`, with separate stdout/stderr
+logs beside it. Check its process ID, logs and `A2-summary-only-v1/result.json`
+before resuming; an existing output directory is never overwritten. If a failure
+requires repair, retain the logs/artifacts and use a new versioned directory.

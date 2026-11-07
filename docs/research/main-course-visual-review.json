@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "reviewed_utc": "2026-11-07T10:41:29.619028+00:00",
+  "report_figures": [
+    "rmse-budget.png",
+    "interval-width-coverage.png",
+    "bias-coverage-width-budget.png",
+    "primary-controls.png",
+    "source-sensitivity.png"
+  ],
+  "replay_figure": "public-query-timeline.png",
+  "checks": [
+    "all six figures viewed",
+    "axis units and budget labels match result JSON",
+    "no missing or clipped text",
+    "normal coverage shortfalls visible",
+    "main temporal/static loss visible",
+    "replay shows public scores and selected-query markers without reference values"
+  ],
+  "limitations": [
+    "M0 scale compresses sampled curves in overall RMSE plot; primary-controls plot shows their differences",
+    "visual inspection does not add independent-source validation"
+  ]
+}

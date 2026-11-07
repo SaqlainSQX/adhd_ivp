@@ -3,10 +3,13 @@
 Research project for measuring benchmark-defined mutual-looking prevalence from
 frozen gaze predictions and a limited sample of reference labels.
 
-**Current priority: execute the course-project plan in sequence.** The methodology
-and deep review are documented. The annotation adapter, frame estimator and
-preliminary human-only baseline now run; the complete frame-based study is in progress.
-No real-data performance improvement by the proposed method has been established.
+**Main course experiment complete and independently validated (7 November 2026).**
+At the 10% test-label budget, static guidance achieved 0.2603 percentage-point
+RMSE, temporal guidance 0.2765, and uniform residual correction 0.5529. Guided
+sampling helped on this fixed subset; the locked temporal policy did not beat
+static guidance. All 20,000 sampled audits passed independent replay and
+recomputation. The registered window ablation is complete; the summary-only
+feature ablation is running. See the [results assessment](docs/research/course-results.md).
 
 ## Start here
 
@@ -14,6 +17,9 @@ No real-data performance improvement by the proposed method has been established
   inference and experiment stages, commands, outputs and gates.
 - [Execution tracker](docs/EXPERIMENT_TRACKER.md) and
   [implementation checklist](docs/PIPELINE_IMPLEMENTATION.md).
+- [Results and limitations](docs/research/course-results.md),
+  [aggregate main evidence](docs/research/main-course-results.json), and
+  [registered interpretation experiments](docs/FOLLOWUP_EXPERIMENTS.md).
 - [Run and resume instructions](docs/RUN_EXPERIMENTS.md): verified subset, local
   environments, full sequential execution, outputs and exact audit replay.
 - [Actual execution evidence](docs/research/execution-progress.md): normalized data,
@@ -33,13 +39,14 @@ No real-data performance improvement by the proposed method has been established
 - [Implementation roadmap](docs/roadmap.md) and [data contract](docs/data-contract.md).
 - [Team Git workflow](CONTRIBUTING.md).
 
-The public annotation inventory has now been independently checked. Raw-media
-alignment, actual MTGS predictions and empirical method gains remain unverified.
+The fixed media-available population contains 53 verified sources, including
+10,316 eligible test pair-frames from 10 sources. Predictions and audit results
+are complete for that population; unavailable or misaligned sources remain excluded.
 
-The principal proposed comparison separates **temporal context in scoring** from
-**contiguous batches in annotation**. It uses a common predictor and estimator to
-compare static/frame, temporal/frame, static/block and temporal/block policies.
-Correction, stratification and active sampling are existing statistical methods.
+The completed comparison uses common frozen predictions and a common estimator
+to compare static and temporal frame-query guidance against uniform controls.
+Contiguous-query experiments remain optional. Correction, stratification and
+active sampling are existing statistical methods.
 
 ## Run the provisional software demo
 
@@ -67,8 +74,9 @@ That command requires the [documented input contract](docs/data-contract.md).
 That original CLI covers provisional block sampling with synthetic development
 data. The separate scripts now support checksum-pinned ChildPlay annotation import,
 public-media acquisition, source-frame mapping, exact-budget frame estimation,
-conservative intervals and a replayable human-only baseline. MTGS inference and
-the full method comparison remain in progress; consult the execution tracker.
+conservative intervals and a replayable real-data study. Use the separate
+frame-study commands in the run instructions to reproduce the completed main
+comparison; consult the execution tracker for the remaining interpretation check.
 
 ## Repository layout
 
@@ -82,7 +90,8 @@ checkpoints/           Local model weights, ignored by Git
 outputs/               Local experiment artifacts, ignored by Git
 ```
 
-Do not commit raw videos, reference-label tables, weights, credentials or generated
-experiment artifacts. Track hashes and reproducible run configurations instead.
+Do not commit raw videos, reference-label tables, weights, credentials or per-query
+experiment artifacts. Track hashes, reproducible configurations and the selected
+aggregate report/figures under `reports/course-project/` instead.
 Original code licensing is not yet selected by the team; upstream model and data
 terms remain separate.

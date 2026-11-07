@@ -1,0 +1,131 @@
+{
+  "main_lock_sha256": "15dacc805bd3f1e525ac32ace89578d51c44016ead2e4b986ceafe06cc074c4e",
+  "candidates": [
+    {
+      "candidate": "temporal-w5-alpha1",
+      "feature_set": "temporal-w5",
+      "alpha": 1.0,
+      "temporal_window": 5,
+      "budget": 2514,
+      "draws": 100,
+      "query_file": "queries-temporal-w5-alpha1.npz",
+      "query_sha256": "f92050bb59fb8c9a0b4db1a6ab0bfc04addb10564f8c8e740eeaa2d2ae9949f6",
+      "stratum_sizes": [
+        3309,
+        3570,
+        18257,
+        3
+      ],
+      "stratum_counts": [
+        2073,
+        296,
+        142,
+        3
+      ],
+      "validation_mse": 1.458045190743205e-07
+    },
+    {
+      "candidate": "temporal-w11-alpha1",
+      "feature_set": "temporal-w11",
+      "alpha": 1.0,
+      "temporal_window": 11,
+      "budget": 2514,
+      "draws": 100,
+      "query_file": "queries-temporal-w11-alpha1.npz",
+      "query_sha256": "c14024bb1f889eb21a01ccd2ae5bc2474427fe7c2a8b13c5c942a61ec2bc5430",
+      "stratum_sizes": [
+        3308,
+        4129,
+        17696,
+        6
+      ],
+      "stratum_counts": [
+        1994,
+        351,
+        163,
+        6
+      ],
+      "validation_mse": 1.108129660068186e-07
+    }
+  ],
+  "selected_alphas": {
+    "temporal-w5": 1.0,
+    "temporal-w11": 1.0
+  },
+  "tie_rule": "within 1% validation MSE; smaller alpha",
+  "selection_uses_test_outcomes": false,
+  "feature_columns": {
+    "temporal-w5": [
+      "f_q",
+      "f_direction_a_to_b",
+      "f_direction_b_to_a",
+      "f_direction_signed_difference",
+      "f_direction_absolute_difference",
+      "f_q_entropy",
+      "f_head_a_center_x",
+      "f_head_a_center_y",
+      "f_head_a_width",
+      "f_head_a_height",
+      "f_head_a_area",
+      "f_head_b_center_x",
+      "f_head_b_center_y",
+      "f_head_b_width",
+      "f_head_b_height",
+      "f_head_b_area",
+      "f_pair_center_distance",
+      "f_head_area_ratio",
+      "f_real_person_occupancy",
+      "f_t_q_mean",
+      "f_t_q_std",
+      "f_t_q_min",
+      "f_t_q_max",
+      "f_t_q_adjacent_change_mean",
+      "f_t_q_previous_difference",
+      "f_t_q_next_difference",
+      "f_t_available_context_count",
+      "f_t_previous_context_missing",
+      "f_t_next_context_missing",
+      "f_t_direction_imbalance_mean",
+      "f_t_direction_imbalance_std",
+      "f_t_head_a_area_change_mean",
+      "f_t_head_b_area_change_mean",
+      "f_t_pair_center_distance_change_mean"
+    ],
+    "temporal-w11": [
+      "f_q",
+      "f_direction_a_to_b",
+      "f_direction_b_to_a",
+      "f_direction_signed_difference",
+      "f_direction_absolute_difference",
+      "f_q_entropy",
+      "f_head_a_center_x",
+      "f_head_a_center_y",
+      "f_head_a_width",
+      "f_head_a_height",
+      "f_head_a_area",
+      "f_head_b_center_x",
+      "f_head_b_center_y",
+      "f_head_b_width",
+      "f_head_b_height",
+      "f_head_b_area",
+      "f_pair_center_distance",
+      "f_head_area_ratio",
+      "f_real_person_occupancy",
+      "f_t_q_mean",
+      "f_t_q_std",
+      "f_t_q_min",
+      "f_t_q_max",
+      "f_t_q_adjacent_change_mean",
+      "f_t_q_previous_difference",
+      "f_t_q_next_difference",
+      "f_t_available_context_count",
+      "f_t_previous_context_missing",
+      "f_t_next_context_missing",
+      "f_t_direction_imbalance_mean",
+      "f_t_direction_imbalance_std",
+      "f_t_head_a_area_change_mean",
+      "f_t_head_b_area_change_mean",
+      "f_t_pair_center_distance_change_mean"
+    ]
+  }
+}
