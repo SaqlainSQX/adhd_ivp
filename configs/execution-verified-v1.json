@@ -1,0 +1,39 @@
+{
+  "execution_version": "verified-course-v1",
+  "resumed_date": "2026-11-07",
+  "designation": "exploratory",
+  "population_manifest": "data\\raw\\childplay\\verified-population-v2\\population-manifest.json",
+  "population_sha256": "f656637160d3139e232d7526d7b1942f6b4a66fcc872f6220fc0b470b8a775d7",
+  "population_sizes": {
+    "test": 10316,
+    "train": 191956,
+    "validation": 25139
+  },
+  "test_budgets": [
+    516,
+    1032,
+    2063,
+    4126
+  ],
+  "model_variant": "released MTGS-DINO temporal",
+  "checkpoint_sha256": "5599382ab78f3993d31300f4e16ed13bc20bed26d7ec9735a37473eb374d994f",
+  "runtime_lock": "outputs/inference/mtgs-smoke-cache-v1/inference-provenance.json",
+  "shards": [
+    "outputs/inference/mtgs-strict-shard-v1",
+    "outputs/inference/mtgs-remaining-shard-v1"
+  ],
+  "experiment_run": "outputs/experiments/course-20261107-v1",
+  "validation_draws": 100,
+  "test_draws": 1000,
+  "prespecified_methods": [
+    "M0",
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5"
+  ],
+  "pipeline_command": ".venv/Scripts/python.exe scripts/finish_course_experiment.py --run outputs/experiments/NEW-RUN-DIRECTORY",
+  "inference_cpu_oracle_access": false,
+  "positive_result_required": false
+}

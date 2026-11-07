@@ -188,6 +188,7 @@ def develop(tables, hashes, processed, output, draws=100):
         "tie_rule": "within 1% MSE, smaller alpha then smaller temporal window",
         "development_unique_labels": {"train": len(train_ids), "validation": len(val_ids)},
         "test_references_used_for_selection": False,
+        "oracle_file_sha256": file_hash(processed / "oracle/oracle_labels.csv"),
         "candidates": candidates,
         "selected_static": static,
         "selected_temporal": temporal,
@@ -245,8 +246,16 @@ def evaluate(tables, hashes, processed, development, output, draws=1000):
         test[lock["selected_temporal"]["feature_set"]]
     )
     size = len(ids)
+    source_codes, source_ids = pd.factorize(test["static"].source_id, sort=True)
+    source_sizes = np.bincount(source_codes)
+    surrogates = {"M1": np.zeros(size), "M2": q, "M3": q, "M4": q, "M5": q_contextual}
+    source_prediction_totals = {
+        method: np.bincount(source_codes, weights=values) for method, values in surrogates.items()
+    }
     output.mkdir(parents=True)
-    test["static"][["record_id", "source_id"]].to_csv(output / "population_index.csv", index=False)
+    test["static"][["record_id", "source_id"]].to_csv(
+        output / "population_index.csv", index_label="row_index"
+    )
     designs, query_records = {}, []
     for budget_index, fraction in enumerate([0.05, 0.1, 0.2, 0.4]):
         budget = integer_budget(fraction, size)
@@ -279,8 +288,9 @@ def evaluate(tables, hashes, processed, development, output, draws=1000):
     labels = read_references(processed, ids)
     oracle = FrameOracle(labels, ids)
     truth = float(np.mean(list(labels.values())))
+    source_reference_totals = np.bincount(source_codes, weights=[labels[key] for key in ids])
     exact_interval = lru_cache(maxsize=None)(hypergeometric_interval)
-    rows = []
+    rows, source_rows = [], []
     for record in query_records:
         budget, design = record["budget"], record["design"]
         populations, counts = designs[(budget, design)]
@@ -290,9 +300,7 @@ def evaluate(tables, hashes, processed, development, output, draws=1000):
             plan = reconstruct_plan(populations, counts, selection)
             methods = ["M1", "M2", "M5"] if design == "uniform" else [design]
             for method in methods:
-                surrogate = (
-                    np.zeros(size) if method == "M1" else q_contextual if method == "M5" else q
-                )
+                surrogate = surrogates[method]
                 estimate = estimate_frames(ids, surrogate, plan, queried)
                 row = {
                     "method": method,
@@ -305,9 +313,80 @@ def evaluate(tables, hashes, processed, development, output, draws=1000):
                     low, high = exact_interval(estimate.positives_revealed, budget, size)
                     row.update({"hypergeometric_low": low, "hypergeometric_high": high})
                 rows.append(row)
+                if record["fraction"] == 0.1:
+                    domain_totals = source_prediction_totals[method].copy()
+                    for stratum in plan:
+                        selected = np.asarray(stratum.selected, dtype=int)
+                        residual = (
+                            np.array([queried[ids[i]] for i in selected]) - surrogate[selected]
+                        )
+                        domain_totals += np.bincount(
+                            source_codes[selected],
+                            weights=(len(stratum.population) / len(selected) * residual),
+                            minlength=len(source_ids),
+                        )
+                    if abs(domain_totals.sum() / size - estimate.prevalence) > 1e-10:
+                        raise ArithmeticError(
+                            "Source-domain totals do not reconstruct global estimate"
+                        )
+                    realized = np.bincount(source_codes[selection], minlength=len(source_ids))
+                    for source, source_id in enumerate(source_ids):
+                        outside_size = size - source_sizes[source]
+                        outside_truth = (
+                            ((truth * size - source_reference_totals[source]) / outside_size)
+                            if outside_size
+                            else None
+                        )
+                        outside_estimate = (
+                            ((estimate.prevalence * size - domain_totals[source]) / outside_size)
+                            if outside_size
+                            else None
+                        )
+                        source_rows.append(
+                            {
+                                "method": method,
+                                "draw": draw,
+                                "budget": budget,
+                                "source_id": source_id,
+                                "source_population_size": int(source_sizes[source]),
+                                "source_queries": int(realized[source]),
+                                "source_prevalence_estimate": float(
+                                    domain_totals[source] / source_sizes[source]
+                                ),
+                                "source_reference_prevalence": float(
+                                    source_reference_totals[source] / source_sizes[source]
+                                ),
+                                "leave_source_out_estimate": outside_estimate,
+                                "leave_source_out_reference": outside_truth,
+                            }
+                        )
         print(f"Evaluated {design}, B={budget}, {draws} draws", flush=True)
     data = pd.DataFrame(rows)
     data.to_csv(output / "draw-results.csv", index=False)
+    domain = pd.DataFrame(source_rows)
+    domain.to_csv(output / "primary-budget-source-domains.csv", index=False)
+    source_sensitivity = []
+    for source_id, group in domain.groupby("source_id"):
+        values = {}
+        for method, subset in group.groupby("method"):
+            source_error = subset.source_prevalence_estimate - subset.source_reference_prevalence
+            outside_error = subset.leave_source_out_estimate - subset.leave_source_out_reference
+            values[method] = {
+                "source_rmse_pp": float(np.sqrt(np.mean(source_error**2)) * 100),
+                "leave_source_out_rmse_pp": float(np.sqrt(np.mean(outside_error**2)) * 100)
+                if not outside_error.isna().all()
+                else None,
+                "mean_source_queries": float(subset.source_queries.mean()),
+            }
+        denominator = values["M3"]["leave_source_out_rmse_pp"]
+        numerator = values["M4"]["leave_source_out_rmse_pp"]
+        source_sensitivity.append(
+            {
+                "source_id": source_id,
+                "methods": values,
+                "leave_source_out_M4_over_M3": numerator / denominator if denominator else None,
+            }
+        )
     results = {
         f"{method}-b{budget}": summarize_draws(group, truth)
         for (method, budget), group in data.groupby(["method", "budget"])
@@ -352,10 +431,17 @@ def evaluate(tables, hashes, processed, development, output, draws=1000):
         "sampled_method_runs": len(rows),
         "feature_hashes": hashes,
         "policy_lock_sha256": file_hash(lock_path),
+        "oracle_file_sha256": file_hash(processed / "oracle/oracle_labels.csv"),
         "all_query_plans_saved_before_oracle": True,
         "uniform_queries_reused_by": ["M1", "M2", "M5"],
         "results": results,
         "comparisons": comparisons,
+        "primary_source_sensitivity": source_sensitivity,
+        "source_sensitivity_scope": (
+            "Source-domain and leave-source-out-domain estimates under the original full-corpus "
+            "query design; removed-source queries are still charged. "
+            "No refitting or new-source guarantee."
+        ),
         "novelty_or_positive_result_assumed": False,
     }
     (output / "result.json").write_text(json.dumps(report, indent=2) + "\n")

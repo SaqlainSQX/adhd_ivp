@@ -1,5 +1,23 @@
 # Execution evidence, 26 October 2026
 
+Continuation on 7 November: P03 is now frozen as verified-population-v2, containing
+53 sources (40 train, 3 validation, 10 test), with 191,956/25,139/10,316 eligible
+pair-frames. All 95 original sources were attempted. The additional frame-count
+review pool failed a scene-cut check and remains excluded; a source without an
+original frame count failed further visual review and was also excluded. The
+earlier staging population v1 is withdrawn. See the
+[final subset manifest](verified-population-manifest.json),
+[failed frame-count review](framecount-review-failure.json) and
+[missing-count review](missing-count-visual-review.json).
+
+The initial inference batch is complete: 44,908 frames, 184,461 pair predictions
+and 147 hash-validated clips. The remaining 17 sources resumed on November 7.
+The sequential course-20261107-v1 pipeline is waiting for that batch and then will
+run the complete comparison and replay. No temporal effectiveness finding is yet
+available. Current commands and outputs are in [RUN_EXPERIMENTS.md](../RUN_EXPERIMENTS.md).
+GitHub synchronization through implementation commit `5486926` succeeded on
+November 7 after the earlier connection failures.
+
 These are exploratory course-project results. Model-assisted and temporal-method
 improvements have not yet been measured. The full sequential protocol remains in
 [COURSE_PROJECT_PLAN.md](../COURSE_PROJECT_PLAN.md).

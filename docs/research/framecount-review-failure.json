@@ -1,0 +1,284 @@
+{
+  "clip_checks": [
+    {
+      "clip_id": "2AT3ped6GsI_238-377",
+      "expected_vsgaze_frames": 140,
+      "missing_frames": 0,
+      "downloaded_frames": 140
+    },
+    {
+      "clip_id": "3mXFJ8S-boU_1532-1683",
+      "expected_vsgaze_frames": 152,
+      "missing_frames": 0,
+      "downloaded_frames": 152
+    },
+    {
+      "clip_id": "3mXFJ8S-boU_1716-2076",
+      "expected_vsgaze_frames": 361,
+      "missing_frames": 0,
+      "downloaded_frames": 361
+    },
+    {
+      "clip_id": "3mXFJ8S-boU_2189-2419",
+      "expected_vsgaze_frames": 231,
+      "missing_frames": 0,
+      "downloaded_frames": 231
+    },
+    {
+      "clip_id": "3mXFJ8S-boU_4218-4655",
+      "expected_vsgaze_frames": 438,
+      "missing_frames": 0,
+      "downloaded_frames": 438
+    },
+    {
+      "clip_id": "3mXFJ8S-boU_4791-4984",
+      "expected_vsgaze_frames": 194,
+      "missing_frames": 0,
+      "downloaded_frames": 194
+    },
+    {
+      "clip_id": "3mXFJ8S-boU_494-895",
+      "expected_vsgaze_frames": 402,
+      "missing_frames": 0,
+      "downloaded_frames": 402
+    },
+    {
+      "clip_id": "3mXFJ8S-boU_5848-6239",
+      "expected_vsgaze_frames": 392,
+      "missing_frames": 0,
+      "downloaded_frames": 392
+    },
+    {
+      "clip_id": "9mNutrRQ1GI_1363-1536",
+      "expected_vsgaze_frames": 174,
+      "missing_frames": 0,
+      "downloaded_frames": 174
+    },
+    {
+      "clip_id": "9mNutrRQ1GI_14699-14947",
+      "expected_vsgaze_frames": 249,
+      "missing_frames": 0,
+      "downloaded_frames": 249
+    },
+    {
+      "clip_id": "9mNutrRQ1GI_16700-17865",
+      "expected_vsgaze_frames": 1166,
+      "missing_frames": 0,
+      "downloaded_frames": 1166
+    },
+    {
+      "clip_id": "9mNutrRQ1GI_24458-24524",
+      "expected_vsgaze_frames": 67,
+      "missing_frames": 0,
+      "downloaded_frames": 67
+    },
+    {
+      "clip_id": "9mNutrRQ1GI_24758-25047",
+      "expected_vsgaze_frames": 290,
+      "missing_frames": 0,
+      "downloaded_frames": 290
+    },
+    {
+      "clip_id": "G0NLcryxxgE_1282-1392",
+      "expected_vsgaze_frames": 111,
+      "missing_frames": 0,
+      "downloaded_frames": 111
+    },
+    {
+      "clip_id": "G0NLcryxxgE_1426-1625",
+      "expected_vsgaze_frames": 200,
+      "missing_frames": 0,
+      "downloaded_frames": 200
+    },
+    {
+      "clip_id": "G0NLcryxxgE_200-290",
+      "expected_vsgaze_frames": 91,
+      "missing_frames": 0,
+      "downloaded_frames": 91
+    },
+    {
+      "clip_id": "G0NLcryxxgE_841-967",
+      "expected_vsgaze_frames": 127,
+      "missing_frames": 0,
+      "downloaded_frames": 127
+    },
+    {
+      "clip_id": "HUnQ6VE9NIY_24-1029",
+      "expected_vsgaze_frames": 1006,
+      "missing_frames": 0,
+      "downloaded_frames": 1006
+    },
+    {
+      "clip_id": "HUnQ6VE9NIY_3547-4167",
+      "expected_vsgaze_frames": 621,
+      "missing_frames": 0,
+      "downloaded_frames": 621
+    },
+    {
+      "clip_id": "HUnQ6VE9NIY_4216-4440",
+      "expected_vsgaze_frames": 225,
+      "missing_frames": 0,
+      "downloaded_frames": 225
+    },
+    {
+      "clip_id": "HUnQ6VE9NIY_4526-4685",
+      "expected_vsgaze_frames": 160,
+      "missing_frames": 0,
+      "downloaded_frames": 160
+    },
+    {
+      "clip_id": "IMrKEA2j278_4605-4875",
+      "expected_vsgaze_frames": 271,
+      "missing_frames": 0,
+      "downloaded_frames": 271
+    },
+    {
+      "clip_id": "IMrKEA2j278_4931-5209",
+      "expected_vsgaze_frames": 279,
+      "missing_frames": 0,
+      "downloaded_frames": 279
+    },
+    {
+      "clip_id": "IMrKEA2j278_6853-6890",
+      "expected_vsgaze_frames": 38,
+      "missing_frames": 0,
+      "downloaded_frames": 38
+    },
+    {
+      "clip_id": "Lu-4VcxuBW0_2035-2159",
+      "expected_vsgaze_frames": 125,
+      "missing_frames": 0,
+      "downloaded_frames": 125
+    },
+    {
+      "clip_id": "Lu-4VcxuBW0_2517-2591",
+      "expected_vsgaze_frames": 75,
+      "missing_frames": 0,
+      "downloaded_frames": 75
+    },
+    {
+      "clip_id": "Lu-4VcxuBW0_3207-3448",
+      "expected_vsgaze_frames": 242,
+      "missing_frames": 0,
+      "downloaded_frames": 242
+    },
+    {
+      "clip_id": "ND7pXuhs3VM_1800-1925",
+      "expected_vsgaze_frames": 126,
+      "missing_frames": 0,
+      "downloaded_frames": 126
+    },
+    {
+      "clip_id": "ND7pXuhs3VM_3066-3159",
+      "expected_vsgaze_frames": 94,
+      "missing_frames": 0,
+      "downloaded_frames": 94
+    },
+    {
+      "clip_id": "N_9vfhsDz8w_5785-5911",
+      "expected_vsgaze_frames": 127,
+      "missing_frames": 0,
+      "downloaded_frames": 127
+    },
+    {
+      "clip_id": "N_9vfhsDz8w_6085-6298",
+      "expected_vsgaze_frames": 214,
+      "missing_frames": 0,
+      "downloaded_frames": 214
+    },
+    {
+      "clip_id": "PggqMEe9dSQ_1489-2054",
+      "expected_vsgaze_frames": 566,
+      "missing_frames": 0,
+      "downloaded_frames": 566
+    },
+    {
+      "clip_id": "PggqMEe9dSQ_905-1060",
+      "expected_vsgaze_frames": 156,
+      "missing_frames": 0,
+      "downloaded_frames": 156
+    },
+    {
+      "clip_id": "TVe0JN9Ij6o_10-287",
+      "expected_vsgaze_frames": 278,
+      "missing_frames": 0,
+      "downloaded_frames": 278
+    },
+    {
+      "clip_id": "TVe0JN9Ij6o_10022-10669",
+      "expected_vsgaze_frames": 648,
+      "missing_frames": 0,
+      "downloaded_frames": 648
+    },
+    {
+      "clip_id": "TVe0JN9Ij6o_14750-15000",
+      "expected_vsgaze_frames": 251,
+      "missing_frames": 0,
+      "downloaded_frames": 251
+    },
+    {
+      "clip_id": "TVe0JN9Ij6o_17029-17489",
+      "expected_vsgaze_frames": 461,
+      "missing_frames": 0,
+      "downloaded_frames": 461
+    },
+    {
+      "clip_id": "TVe0JN9Ij6o_463-2035",
+      "expected_vsgaze_frames": 1573,
+      "missing_frames": 0,
+      "downloaded_frames": 1573
+    },
+    {
+      "clip_id": "UUwGLDeYN8c_266-474",
+      "expected_vsgaze_frames": 209,
+      "missing_frames": 0,
+      "downloaded_frames": 209
+    },
+    {
+      "clip_id": "VMtgYMIS_o0_10810-11000",
+      "expected_vsgaze_frames": 191,
+      "missing_frames": 0,
+      "downloaded_frames": 191
+    },
+    {
+      "clip_id": "VMtgYMIS_o0_16881-17125",
+      "expected_vsgaze_frames": 245,
+      "missing_frames": 0,
+      "downloaded_frames": 245
+    },
+    {
+      "clip_id": "VMtgYMIS_o0_1837-1966",
+      "expected_vsgaze_frames": 130,
+      "missing_frames": 0,
+      "downloaded_frames": 130
+    },
+    {
+      "clip_id": "VMtgYMIS_o0_4414-4598",
+      "expected_vsgaze_frames": 185,
+      "missing_frames": 0,
+      "downloaded_frames": 185
+    },
+    {
+      "clip_id": "VMtgYMIS_o0_4681-4818",
+      "expected_vsgaze_frames": 138,
+      "missing_frames": 0,
+      "downloaded_frames": 138
+    },
+    {
+      "clip_id": "VgunPOuHyW0_1255-1534",
+      "expected_vsgaze_frames": 280,
+      "missing_frames": 0,
+      "downloaded_frames": 280
+    }
+  ],
+  "geometry_visual_review": "failed: scene-cut mismatch at G0NLcryxxgE_1282-1392, annotation filename 1282",
+  "oracle_values_used": false,
+  "pages_inspected": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "decision": "Exclude all frame-count-discrepancy sources from the primary population; preserve downloads as quarantined research input",
+  "followup": "Native 720p stream also contains 2625 versus released 2624 source frames; sequential decoding matches random-access image at index 1281, ruling out the suspected seek-only error"
+}

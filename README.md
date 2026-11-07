@@ -14,6 +14,8 @@ No real-data performance improvement by the proposed method has been established
   inference and experiment stages, commands, outputs and gates.
 - [Execution tracker](docs/EXPERIMENT_TRACKER.md) and
   [implementation checklist](docs/PIPELINE_IMPLEMENTATION.md).
+- [Run and resume instructions](docs/RUN_EXPERIMENTS.md): verified subset, local
+  environments, full sequential execution, outputs and exact audit replay.
 - [Actual execution evidence](docs/research/execution-progress.md): normalized data,
   media acquisition, frame-index checks and the 4,000-draw human-only reference.
 - [Design configuration](configs/course-project.json): defaults, budgets, methods,

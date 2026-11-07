@@ -1,0 +1,72 @@
+{
+  "passed": {
+    "clip_checks": [
+      {
+        "clip_id": "31lG75MDwSA_2857-2928",
+        "expected_vsgaze_frames": 72,
+        "missing_frames": 0,
+        "downloaded_frames": 72
+      },
+      {
+        "clip_id": "31lG75MDwSA_3180-3306",
+        "expected_vsgaze_frames": 127,
+        "missing_frames": 0,
+        "downloaded_frames": 127
+      },
+      {
+        "clip_id": "31lG75MDwSA_4686-4764",
+        "expected_vsgaze_frames": 79,
+        "missing_frames": 0,
+        "downloaded_frames": 79
+      },
+      {
+        "clip_id": "EuYseDl2jm8_1869-2033",
+        "expected_vsgaze_frames": 165,
+        "missing_frames": 0,
+        "downloaded_frames": 165
+      },
+      {
+        "clip_id": "EuYseDl2jm8_3680-3791",
+        "expected_vsgaze_frames": 112,
+        "missing_frames": 0,
+        "downloaded_frames": 112
+      }
+    ],
+    "geometry_visual_review": "passed all 15 first/middle/last frames across five clips of 31lG75MDwSA and EuYseDl2jm8, preserving the released special-clip lag",
+    "oracle_values_used": false,
+    "limitations": "Original source frame count missing; original JPEG hashes unavailable. Decoder mapping and geometry review used."
+  },
+  "failed": {
+    "clip_checks": [
+      {
+        "clip_id": "ZAxOyANz3J0_1363-1457",
+        "expected_vsgaze_frames": 95,
+        "missing_frames": 0,
+        "downloaded_frames": 95
+      },
+      {
+        "clip_id": "ZAxOyANz3J0_1629-1816",
+        "expected_vsgaze_frames": 188,
+        "missing_frames": 0,
+        "downloaded_frames": 188
+      },
+      {
+        "clip_id": "ZAxOyANz3J0_518-614",
+        "expected_vsgaze_frames": 97,
+        "missing_frames": 0,
+        "downloaded_frames": 97
+      },
+      {
+        "clip_id": "ZAxOyANz3J0_656-819",
+        "expected_vsgaze_frames": 164,
+        "missing_frames": 0,
+        "downloaded_frames": 164
+      }
+    ],
+    "geometry_visual_review": "failed source alignment review: first frame of ZAxOyANz3J0_518-614 shows preceding two-infant scene while subsequent annotation geometry belongs to father-child scene",
+    "oracle_values_used": false,
+    "excluded_sources": [
+      "ZAxOyANz3J0"
+    ]
+  }
+}

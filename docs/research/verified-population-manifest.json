@@ -1,0 +1,193 @@
+{
+  "stage": "P03",
+  "media_alignment_complete": true,
+  "population_status": "documented available-media subset",
+  "original_sources_attempted": 95,
+  "retained_sources": 53,
+  "retained_eligible_anchors_by_split": {
+    "test": 10316,
+    "train": 191956,
+    "validation": 25139
+  },
+  "retained_anchor_file_sha256": "e1b70f8bbdd99f592f2effd264b342547e4b31e81cecc899df52b83d3443b162",
+  "acquisition_report_hashes": {
+    "data\\raw\\childplay\\acquisition-full-v1\\acquisition.json": "044c9f071e7746701e3cbb8cef5b1432a0b433df60e5879b22834014cf5818c9"
+  },
+  "visual_review_hashes": {
+    "outputs\\media-qa-missing-count-v1\\failed-sources.json": "3efc204d9a392aaa3fe9fee4ba2defeed425f477c0ba6c1c2a4706a43c3fbc99",
+    "outputs\\media-qa-strict-v1\\review-checks.json": "46d1feddd05ae32a9d3fc833b3ef1c10eac7e80699b8078a5121ed9f815acf74",
+    "outputs\\media-qa-missing-count-v1\\passed-sources.json": "f8ec21877e22bf7695a96cbb40209ffd8314b3a6c2e9c6876ec8145ae8cc50fc"
+  },
+  "excluded_sources": [
+    {
+      "source_id": "2AT3ped6GsI",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "3mXFJ8S-boU",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "6mA6UAoT3M0",
+      "reason": "ERROR: [youtube] 6mA6UAoT3M0: This video is not available"
+    },
+    {
+      "source_id": "9DNwRwt5kI4",
+      "reason": "ERROR: [youtube] 9DNwRwt5kI4: This video is not available"
+    },
+    {
+      "source_id": "9mNutrRQ1GI",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "DGls-Z4e6OI",
+      "reason": "ERROR: [youtube] DGls-Z4e6OI: This video is not available"
+    },
+    {
+      "source_id": "F1Q8R2XJ5cs",
+      "reason": "ERROR: [youtube] F1Q8R2XJ5cs: This video is not available"
+    },
+    {
+      "source_id": "G0NLcryxxgE",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "GNVTuLHdeSo",
+      "reason": "ERROR: [youtube] GNVTuLHdeSo: This video is not available"
+    },
+    {
+      "source_id": "HK25g1U-GF4",
+      "reason": "ERROR: [youtube] HK25g1U-GF4: This video is not available"
+    },
+    {
+      "source_id": "HUnQ6VE9NIY",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "IMrKEA2j278",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "IzIGXVPWaFQ",
+      "reason": "ERROR: [youtube] IzIGXVPWaFQ: This video is not available"
+    },
+    {
+      "source_id": "LHT2zVYvObg",
+      "reason": "ERROR: unable to download video data: HTTP Error 403: Forbidden"
+    },
+    {
+      "source_id": "LS9Hztyrmmw",
+      "reason": "ERROR: [youtube] LS9Hztyrmmw: This video is not available"
+    },
+    {
+      "source_id": "Lu-4VcxuBW0",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "Lva4fn4_q88",
+      "reason": "ERROR: [youtube] Lva4fn4_q88: This video is not available"
+    },
+    {
+      "source_id": "ND7pXuhs3VM",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "NIk1-ck4c6Q",
+      "reason": "ERROR: [youtube] NIk1-ck4c6Q: This video is not available"
+    },
+    {
+      "source_id": "N_9vfhsDz8w",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "PggqMEe9dSQ",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "Pyb0z_YQjjI",
+      "reason": "ERROR: [youtube] Pyb0z_YQjjI: This video is not available"
+    },
+    {
+      "source_id": "RzI6Ar5mu2Q",
+      "reason": "ERROR: [youtube] RzI6Ar5mu2Q: This video is not available"
+    },
+    {
+      "source_id": "TVe0JN9Ij6o",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "UUwGLDeYN8c",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "V9YDDpo9LWg",
+      "reason": "ERROR: [youtube] V9YDDpo9LWg: This video is not available"
+    },
+    {
+      "source_id": "VMtgYMIS_o0",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "VgunPOuHyW0",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "X7qv5w1clGw",
+      "reason": "ERROR: unable to download video data: HTTP Error 403: Forbidden"
+    },
+    {
+      "source_id": "Y-5XEtligfs",
+      "reason": "ERROR: [youtube] Y-5XEtligfs: Please sign in. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "source_id": "ZAxOyANz3J0",
+      "reason": "failed source alignment review: first frame of ZAxOyANz3J0_518-614 shows preceding two-infant scene while subsequent annotation geometry belongs to father-child scene"
+    },
+    {
+      "source_id": "dUYIh1U2z-8",
+      "reason": "ERROR: [youtube] dUYIh1U2z-8: This video is not available"
+    },
+    {
+      "source_id": "gsuga2JCcYc",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "i7GsJrDdCVU",
+      "reason": "ERROR: [youtube] i7GsJrDdCVU: This video is not available"
+    },
+    {
+      "source_id": "jT5WV_7EJr8",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "js4wxP9HxG0",
+      "reason": "ERROR: [youtube] js4wxP9HxG0: This video is unavailable"
+    },
+    {
+      "source_id": "lEeraAOgcKc",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "qSygRnE4D54",
+      "reason": "Downloaded video cadence differs from release metadata"
+    },
+    {
+      "source_id": "rLRfPneawQs",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "r_MB_vPXqkA",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "tw91epryD28",
+      "reason": "Source frame count changed; manual alignment required"
+    },
+    {
+      "source_id": "w6oRoyTBmU4",
+      "reason": "ERROR: [youtube] w6oRoyTBmU4: This video is unavailable"
+    }
+  ],
+  "alignment_limitations": "Official decoder mapping, cadence and visual geometry checks; original JPEG byte equivalence unavailable",
+  "oracle_values_used": false
+}
