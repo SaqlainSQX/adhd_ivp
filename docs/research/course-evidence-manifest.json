@@ -35,7 +35,7 @@
     "docs/research/followup-A2-results.json": "ac349001bc758164608d78ba84f08511cdd96148879f85b78bfa3fb3bbfaf801",
     "docs/research/followup-visual-review.json": "d071becc8817e77a2cd11fa3987a5951fafae8621f6fc6ce32ee32a95f2d149e",
     "reports/course-project/followup-comparison.png": "c0ea1d70c10b417d87ef1c1d5e494df0453775d5872ddc75470206e4b687633b",
-    "reports/course-project/followup-comparison.svg": "6d7f49dc65a239a4123dee500f0228861160f34067896933376b4578d6ad29be",
+    "reports/course-project/followup-comparison.svg": "d61a879992286d6bb70f3330d857fc96bb905f22ebedc5d0b2edb6ae750c6161",
     "reports/course-project/followup-summary.csv": "30b5348cff60fb30fee97426b64279525e2f10e9eea1b6bbe4af7f51d28d0abf"
   },
   "file_hash_convention": "SHA-256 of file bytes; for .json/.md/.csv/.svg normalize CRLF to LF for cross-platform Git checkout. Main result hash is the original immutable run file hash.",

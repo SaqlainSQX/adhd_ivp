@@ -85,8 +85,8 @@ completion state and stdout/stderr logs remain in the follow-up root.
 The registered protocol and seeds are in [FOLLOWUP_EXPERIMENTS.md](FOLLOWUP_EXPERIMENTS.md).
 
 GitHub synchronization recovered; the main results, report and follow-up
-implementation are pushed in `bff410c`. The completed A2 evidence and final
-assessment are synchronized separately after visual QA. Raw references/media/
+implementation are pushed in `bff410c`; completed A2 evidence and the final
+assessment are pushed in `f10c192` after visual QA. Raw references/media/
 checkpoints remain ignored. Required course experiments are complete; X01–X04
 remain deferred rather than being added to seek a positive temporal result.
 

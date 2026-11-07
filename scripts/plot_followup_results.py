@@ -80,7 +80,13 @@ def main():
         "1,032 labels; 1,000 draws; fixed available corpus"
     )
     for extension in ["png", "svg"]:
-        fig.savefig(args.output / f"followup-comparison.{extension}", dpi=220)
+        path = args.output / f"followup-comparison.{extension}"
+        fig.savefig(path, dpi=220)
+        if extension == "svg":
+            # Matplotlib's path coordinates include trailing spaces on each line.
+            path.write_text(
+                "\n".join(line.rstrip() for line in path.read_text().splitlines()) + "\n"
+            )
     plt.close(fig)
     print(args.output / "followup-comparison.png")
 

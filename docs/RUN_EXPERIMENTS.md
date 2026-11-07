@@ -140,7 +140,7 @@ isolates this account inside its child process:
 It does not change the other agent's Kaggle configuration. Keep credentials out
 of commands, logs and commits. GitHub synchronization resumed successfully on
 November 7; the main results and follow-up implementation are pushed in `bff410c`,
-with completed A2 evidence synchronized separately after final inspection.
+with completed A2 evidence pushed in `f10c192` after final inspection.
 
 ## Registered interpretation experiments
 
