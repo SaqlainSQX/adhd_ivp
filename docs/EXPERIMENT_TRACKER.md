@@ -25,8 +25,8 @@ No future stage is marked complete merely because this plan exists.
 | 10 | E02 | Uniform human/residual baseline checks | Completed | Codex | 800 validation baseline method-runs before policy fitting; all main budgets also evaluated on the same frozen test population |
 | 11 | E03 | Fit and select static/temporal policies | Completed | Codex | Five source folds, nine validation candidates, static alpha 1; temporal window 11 / alpha 1. Immutable lock preserved |
 | 12 | E04 | Locked M0–M4 main benchmark | Completed | Codex | Four exact budgets, 1,000 draws each; all losses/ties retained. Main result SHA b7dba063…aead9 |
-| 13 | E05 | Contextual-surrogate control and interpretation | Main control and A1 completed; A2 running | Codex | M5 complete. Window-5 RMSE 0.2504 versus window-11 0.2765 pp at B=1,032. Registered summary-only ablation started separately; main comparison unchanged |
-| 14 | E06 | Aggregate results, course report and demo | Main evidence package completed; follow-up appendix pending A2 | Codex | All 20,000 audits independently checked; five report figures and replay timeline visually reviewed. [Assessment](research/course-results.md) and tracked aggregate evidence saved |
+| 13 | E05 | Contextual-surrogate control and interpretation | Completed, including A1 and A2 | Codex | M5 complete. Window-5 RMSE 0.2504 versus window-11 0.2765 pp; summary-only 0.2754 pp at B=1,032. No clear transition-feature gain; main comparison unchanged |
+| 14 | E06 | Aggregate results, course report and demo | Completed for required course evidence package | Codex | All 20,000 main + 3,000 follow-up audit evaluations checked (1,000 reproduce main M4); seven figures visually reviewed. [Assessment](research/course-results.md), shareable report, replay and tracked aggregate evidence saved |
 
 ## Optional queue
 
@@ -75,14 +75,20 @@ guided methods. [Full assessment and caveats](research/course-results.md).
 Registered follow-ups execute in `outputs/experiments/followups-20261107/`.
 A1 is complete: both alphas are 1; window 5 / 11 RMSE is 0.2504 / 0.2765 pp;
 all 2,000 follow-up draws independently checked, with exact main-M4 reproduction.
-A2 started at 10:44:30 UTC on November 7, PID 37020, CPU only, output
-`A2-summary-only-v1`. Its command, status and stdout/stderr logs are in that
-follow-up root. Check the live PID/log/result before launching anything else.
+A2 ran from 10:44:30 UTC for 547.9 seconds, CPU only, output
+`A2-summary-only-v1`. Alpha 1 was selected on validation only. Its 1,000 draws
+passed independent RNG/point/variance checks; the exact eight-column removal,
+model settings, query hashes and unchanged main-result hashes were also checked.
+Summary-only/full-temporal RMSE ratio is 0.9960 [0.9454, 1.0478]; no clear gain
+from the removed transition/boundary features is established. Its command,
+completion state and stdout/stderr logs remain in the follow-up root.
 The registered protocol and seeds are in [FOLLOWUP_EXPERIMENTS.md](FOLLOWUP_EXPERIMENTS.md).
 
-GitHub synchronization recovered; commits through `8c8f2bd` are pushed to `main`.
-Main results, follow-up implementation and aggregate evidence are synchronized
-separately after validation. Raw references/media/checkpoints remain ignored.
+GitHub synchronization recovered; the main results, report and follow-up
+implementation are pushed in `bff410c`. The completed A2 evidence and final
+assessment are synchronized separately after visual QA. Raw references/media/
+checkpoints remain ignored. Required course experiments are complete; X01–X04
+remain deferred rather than being added to seek a positive temporal result.
 
 ## Frozen main policy lock
 

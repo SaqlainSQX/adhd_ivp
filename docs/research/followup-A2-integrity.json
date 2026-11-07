@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-11-07T10:54:34.168801+00:00",
+  "type": "post-run integrity snapshot; original registration and lock unchanged",
+  "checks": [
+    "registered implementation unchanged",
+    "registration and policy lock hashes",
+    "all test query hashes and exact budgets",
+    "exact eight-column ablation",
+    "model parameters and feature list",
+    "main result and policy lock unchanged"
+  ],
+  "model_parameters": {
+    "n_estimators": 64,
+    "max_depth": 4,
+    "min_samples_leaf": 100,
+    "random_state": 42,
+    "n_jobs": 1
+  },
+  "artifact_sha256": {
+    "draw-results.csv": "fdc1a9e66d86e8b416750086b91f93e1e19fe7afec1fac13b8bddcce6318b7d9",
+    "followup-policy-lock.json": "d23bfd5a11493ee5334c61d5681935bafd5b0f877f3b887e827a912ad88b113f",
+    "population_index.csv": "a0ddcd0eb325d76cb682b184a63633bf1b97a63f834b74e6ef723235de15ad39",
+    "query-manifest.json": "784df648b7c8d3cdc5d9e2ff5d528fc04cd3fefa391f0598ed7157f74af705d5",
+    "registration.json": "3eb79f12bb18f136ec89f2766c5948242e82807fb82e198ba62179289b5b5dd9",
+    "result.json": "3e0457bf87a541933980372c41305921810291e639d6de756c9c0d30c7ba8aa9",
+    "summary-only-development.json": "9e8b85d94a0d983665b36b891db70548c2edd95bb216816f4bdaf6d66b0d18f1",
+    "summary-only-oof.npy": "e0f477ccfb79d7c4c4a9a98e9a27cbdcefcf5e61580a11ec11c3b52ddbac7c47",
+    "summary-only-policy.joblib": "7c83d1a726137c030acabcc7187d1f17effbb4f76214448eb91479aebd3e17e7",
+    "test-queries-summary-only.npz": "f51365c8042550099d5df361acc815a2ac740b9941b00798ef2b048115660773",
+    "validation-alpha0.5.npz": "94fcf6edc2850b9cd4c54a4b78e835e39f7599f7de8eee79de4b9781d5d310f8",
+    "validation-alpha0.npz": "3c2e8fbf0dc93012ac354a2de90541988a75a683b428eda046a91937f5825d34",
+    "validation-alpha1.npz": "916e56f8d11b1d87fccf5ce3b36ed822e62c709e2eff3ee0c0cc935d49198a2c"
+  },
+  "main_result_sha256": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9"
+}

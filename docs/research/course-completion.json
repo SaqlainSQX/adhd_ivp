@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "completed_utc": "2026-11-07T10:56:06.347265+00:00",
+  "required_stages": "P00-P06 and E00-E06",
+  "registered_followups": [
+    "A1",
+    "A2"
+  ],
+  "main_audits_independently_recomputed": 20000,
+  "followup_audits_independently_recomputed": 3000,
+  "followup_reproductions_of_main_M4": 1000,
+  "visually_reviewed_figures": 7,
+  "software_tests_passed": 34,
+  "ruff": "passed",
+  "main_result_unchanged": true,
+  "main_result_sha256": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9",
+  "main_policy_lock_sha256": "15dacc805bd3f1e525ac32ace89578d51c44016ead2e4b986ceafe06cc074c4e",
+  "claim": "Useful guided-sampling course result on the fixed subset; no clear main temporal or transition-feature advantage; no clinical or statistical-novelty claim.",
+  "deferred": [
+    "X01",
+    "X02",
+    "X03",
+    "X04"
+  ],
+  "human_time_pilot_performed": false
+}

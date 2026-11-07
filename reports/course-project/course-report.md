@@ -94,3 +94,22 @@ The temporal predictor is an external pretrained component. The course contribut
 All 20,000 sampled audits passed independent replay/recomputation. Five report figures and the query timeline were visually inspected. The tracked [assessment](../../docs/research/course-results.md) records interval undercoverage, the high-budget census explanation and registered follow-up results; it retains the locked main comparison.
 
 ![Public query timeline](public-query-timeline.png)
+
+## Completed registered interpretation checks
+
+Both exploratory ablations used B=1,032 and 1,000 draws per policy, retaining
+all locked main results. Window 5 achieved RMSE 0.2504 pp versus 0.2765 for
+window 11; its ratio against static guidance is 0.9618 [0.8983, 1.0275], leaving
+an advantage over static uncertain. The summary-only window-11 model achieved
+0.2754 pp, with summary-only/full-temporal ratio 0.9960 [0.9454, 1.0478]. The
+eight removed transition/boundary features showed no clear benefit here.
+All 3,000 follow-up evaluations passed independent replay/recomputation; 1,000
+reproduce the existing main M4 draws and are not independent confirmation.
+Summary-only normal 95% coverage was 92.8%, retaining the uncertainty limitation.
+
+![Registered follow-up comparisons](followup-comparison.png)
+
+The [complete assessment](../../docs/research/course-results.md) includes both
+exploratory checks, the high-budget census explanation, costs and limitations.
+All required experiments and the two registered follow-ups are complete;
+optional extensions remain deferred. No additional GPU inference was used.

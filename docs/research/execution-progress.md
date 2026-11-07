@@ -18,8 +18,10 @@ At B=1,032, static / temporal / uniform residual RMSE is 0.2603 / 0.2765 /
 guidance did not beat the locked static policy. Normal-interval undercoverage
 and all losses are retained in the [results assessment](course-results.md).
 
-The registered window comparison is complete; the summary-only feature ablation
-is running separately. No GPU inference is repeated. See
+Both registered interpretation ablations are complete. Window 5 / window 11 /
+summary-only window 11 RMSE is 0.2504 / 0.2765 / 0.2754 pp at B=1,032. All
+3,000 follow-up evaluations passed independent checks; 1,000 deliberately
+reproduce main M4. No GPU inference was repeated. See
 [EXPERIMENT_TRACKER.md](../EXPERIMENT_TRACKER.md) and
 [RUN_EXPERIMENTS.md](../RUN_EXPERIMENTS.md) for current commands and status.
 GitHub synchronization recovered on November 7; commits through `8c8f2bd` are

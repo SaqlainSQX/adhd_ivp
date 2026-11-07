@@ -1,0 +1,71 @@
+{
+  "complete": true,
+  "stage": "A2",
+  "designation": "exploratory ablation",
+  "budget": 1032,
+  "test_draws_per_policy": 1000,
+  "population_size": 10316,
+  "reference_prevalence": 0.03518805738658395,
+  "results": {
+    "summary-only": {
+      "bias_pp": 0.006051019586416454,
+      "mae_pp": 0.21512777007268594,
+      "rmse_pp": 0.27541213019428135,
+      "mean_labels": 1032.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.928,
+          "mean_width_pp": 1.0306762752299743,
+          "median_width_pp": 1.0040217662080493
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 28.32845080700133,
+          "median_width_pp": 28.3380487023006
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "summary-only/M3": {
+      "rmse_ratio": 1.0580312445417965,
+      "paired_draw_bootstrap_95pct": [
+        0.9842786983306846,
+        1.1362276707397458
+      ],
+      "resamples": 2000,
+      "seed": 400001,
+      "scope": "Monte Carlo uncertainty on the fixed available corpus"
+    },
+    "summary-only/M4": {
+      "rmse_ratio": 0.9959635795215807,
+      "paired_draw_bootstrap_95pct": [
+        0.9453525097587231,
+        1.0478004693356413
+      ],
+      "resamples": 2000,
+      "seed": 400001,
+      "scope": "Monte Carlo uncertainty on the fixed available corpus"
+    }
+  },
+  "selected_alphas": {
+    "summary-only": 1.0
+  },
+  "independent_checks": {
+    "summary-only": {
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 6.776263578034403e-21
+    }
+  },
+  "main_result_unchanged": true,
+  "test_plans_saved_before_query": true,
+  "selected_main_window_reproduced": false,
+  "registration_sha256": "3eb79f12bb18f136ec89f2766c5948242e82807fb82e198ba62179289b5b5dd9",
+  "policy_lock_sha256": "d23bfd5a11493ee5334c61d5681935bafd5b0f877f3b887e827a912ad88b113f",
+  "main_result_sha256": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9"
+}

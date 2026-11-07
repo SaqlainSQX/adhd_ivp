@@ -69,5 +69,19 @@
     }
   ],
   "kaggle_gpu_hours_used": 0,
-  "note": "Finalized aggregate copy from completed pipeline; original report cost ledger was captured during report generation and is preserved."
+  "note": "Finalized aggregate copy from completed pipeline; original report cost ledger was captured during report generation and is preserved.",
+  "followups": {
+    "A1": {
+      "draws": 2000,
+      "includes_main_M4_reproductions": 1000,
+      "extra_gpu_inference": false
+    },
+    "A2": {
+      "draws": 1000,
+      "cpu_wall_seconds": 547.9,
+      "extra_gpu_inference": false
+    },
+    "budgets_per_method_run": 1032,
+    "new_human_time_measured": false
+  }
 }

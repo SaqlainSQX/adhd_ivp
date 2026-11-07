@@ -11,9 +11,8 @@ Main run: `outputs/experiments/course-20261107-v1`. The
 [shareable report and figures](../../reports/course-project/course-report.md),
 [aggregate results](main-course-results.json),
 [independent validation](main-course-independent-validation.json) and
-[visual review](main-course-visual-review.json) are saved. The registered A1
-ablation is complete; A2 is running. This assessment will gain an A2 appendix
-when its actual results pass validation.
+[visual review](main-course-visual-review.json) are saved. Both registered
+interpretation ablations are complete, independently checked and summarized below.
 
 ## What was built and checked
 
@@ -104,15 +103,36 @@ and shares the test corpus: it is an exploratory interpretation, not independent
 confirmation. The validation-selected main window remains 11. Full endpoints,
 including bounded intervals, are in [A1 results](followup-A1-results.json).
 
-## A2 and remaining work
+## A2: summaries without transition/boundary features
 
-The registered summary-only ablation started at 10:44:30 UTC, CPU only, in
-`outputs/experiments/followups-20261107/A2-summary-only-v1`. It removes exactly
-eight transition/boundary columns, refits the original training recipe, selects
-alpha on validation only, then evaluates 1,000 exact-budget test draws. Its
-[pre-outcome registration](followup-A2-registration.json) is saved. No result or
-positive interpretation is assumed while fitting runs. Process and logs are
-recorded in the follow-up root's `status.json` and `A2-summary-only-v1.*.log`.
+The registered summary-only ablation completed in 547.9 seconds, CPU only, in
+`outputs/experiments/followups-20261107/A2-summary-only-v1`. It removed exactly
+eight registered columns and refitted the original training recipe; validation
+selected alpha 1. At B=1,032 its 1,000 test draws have RMSE **0.2754 pp**, bias
++0.0061 pp, normal coverage **92.8%** and mean normal width 1.0307 pp. Bounded
+coverage is 100%, with a very wide mean width of 28.3285 pp. There were no failed,
+zero-positive or zero-variance draws.
+
+Summary-only/full-temporal RMSE is **0.9960 [0.9454, 1.0478]**; summary-only/static
+is **1.0580 [0.9843, 1.1362]**. Removing the ordered transition/boundary features
+barely changes error, and both intervals include a tie. These checks provide no
+clear evidence of added value from those eight features. They do not isolate all
+forms of temporal order or establish that temporal information is never useful.
+
+All 1,000 draws passed independent RNG/point/variance checks. A separate
+[integrity check](followup-A2-integrity.json) verified model settings, the exact
+feature removal, query hashes and unchanged main result/policy hashes. The
+[registration](followup-A2-registration.json),
+[validation selection and feature list](followup-A2-policy-lock.json), and
+[complete outcomes](followup-A2-results.json) are retained. Original registration,
+policy and main-result files were not edited after observing follow-up outcomes.
+
+![Main and exploratory comparisons](../../reports/course-project/followup-comparison.png)
+
+All required experiments and these two registered follow-ups are finished.
+The final plot was visually checked. Optional X01–X04 remain deferred; no additional
+method variants were added to obtain a favorable result. There are 20,000 main
+and 3,000 follow-up evaluations, including 1,000 exact main-M4 reproductions in A1.
 
 ## Claims and costs appropriate for the course
 
@@ -131,7 +151,9 @@ No Kaggle GPU quota was used. [Cost ledger](../../reports/course-project/cost-le
 No annotator time was measured, so human-time savings are not demonstrated.
 
 Limit conclusions to the available media and benchmark labels with provided
-head tracks. Three validation sources limit selection stability. Earlier test
+head tracks. Media alignment was visually reviewed; pixelwise equivalence to
+the original released images is not established. Three validation sources limit
+selection stability. Earlier test
 reference inspection makes the study exploratory. The pretrained predictor may
 have seen the original benchmark training sources. Monte Carlo intervals measure
 sampling variability on this fixed corpus, not transfer to unseen sources.

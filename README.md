@@ -8,8 +8,9 @@ At the 10% test-label budget, static guidance achieved 0.2603 percentage-point
 RMSE, temporal guidance 0.2765, and uniform residual correction 0.5529. Guided
 sampling helped on this fixed subset; the locked temporal policy did not beat
 static guidance. All 20,000 sampled audits passed independent replay and
-recomputation. The registered window ablation is complete; the summary-only
-feature ablation is running. See the [results assessment](docs/research/course-results.md).
+recomputation. Both registered interpretation ablations are complete and checked;
+extra transition features showed no clear benefit. See the
+[results assessment](docs/research/course-results.md).
 
 ## Start here
 

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "reviewed_utc": "2026-11-07T10:56:06.346997+00:00",
+  "file": "reports/course-project/followup-comparison.png",
+  "checks": [
+    "PNG visually inspected",
+    "RMSE and coverage labels match saved JSON",
+    "all method labels legible and unclipped",
+    "nominal coverage reference visible",
+    "main and exploratory ablations distinguished"
+  ],
+  "input_results": [
+    "main-course-results.json",
+    "followup-A1-results.json",
+    "followup-A2-results.json"
+  ]
+}

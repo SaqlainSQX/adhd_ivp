@@ -1,0 +1,62 @@
+{
+  "target": "signed residual y-q",
+  "folds": [
+    {
+      "fold": 0,
+      "training_rows": 139399,
+      "held_rows": 52557
+    },
+    {
+      "fold": 1,
+      "training_rows": 141921,
+      "held_rows": 50035
+    },
+    {
+      "fold": 2,
+      "training_rows": 142604,
+      "held_rows": 49352
+    },
+    {
+      "fold": 3,
+      "training_rows": 167845,
+      "held_rows": 24111
+    },
+    {
+      "fold": 4,
+      "training_rows": 176055,
+      "held_rows": 15901
+    }
+  ],
+  "cut_points": [
+    -0.020478495423746083,
+    -0.0008469095516184952,
+    -0.000571332146815801
+  ],
+  "strata": [
+    {
+      "stratum": 0,
+      "oof_rows": 48033,
+      "centered_residual_variance": 0.05630489570813117,
+      "shrunk_sd": 0.23725300922109616
+    },
+    {
+      "stratum": 1,
+      "oof_rows": 73950,
+      "centered_residual_variance": 0.0011011532797133962,
+      "shrunk_sd": 0.0332527741861651
+    },
+    {
+      "stratum": 2,
+      "oof_rows": 42055,
+      "centered_residual_variance": 5.122750412498357e-07,
+      "shrunk_sd": 0.003018531110534535
+    },
+    {
+      "stratum": 3,
+      "oof_rows": 27918,
+      "centered_residual_variance": 0.00288749101026013,
+      "shrunk_sd": 0.0538365580313611
+    }
+  ],
+  "global_centered_residual_variance": 0.018090765069061647
+}

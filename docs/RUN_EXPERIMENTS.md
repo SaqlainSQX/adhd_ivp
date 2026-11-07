@@ -22,7 +22,7 @@ The November 7 continuation uses:
 outputs/inference/mtgs-strict-shard-v1/       Finished initial 37-source inference batch
 outputs/inference/mtgs-remaining-shard-v1/    Finished remaining 17 sources
 outputs/experiments/course-20261107-v1/      Completed main run; independent + visual QA passed
-outputs/experiments/followups-20261107/      Registered A1 complete; A2 running
+outputs/experiments/followups-20261107/      Registered A1 and A2 complete and checked
 ```
 
 The first batch contains one subsequently excluded source. The merger explicitly
@@ -139,7 +139,8 @@ isolates this account inside its child process:
 
 It does not change the other agent's Kaggle configuration. Keep credentials out
 of commands, logs and commits. GitHub synchronization resumed successfully on
-November 7; commits through `8c8f2bd` are pushed, with results synchronized separately.
+November 7; the main results and follow-up implementation are pushed in `bff410c`,
+with completed A2 evidence synchronized separately after final inspection.
 
 ## Registered interpretation experiments
 
@@ -162,8 +163,13 @@ A2 refits after dropping exactly eight registered features, selects alpha with
 saves registration, policy lock, query manifest, exact query arrays, per-draw
 results, independent numerical/RNG checks and main-result integrity hashes.
 
-The live A2 launch is recorded in
+The completed A2 launch is recorded in
 `outputs/experiments/followups-20261107/status.json`, with separate stdout/stderr
 logs beside it. Check its process ID, logs and `A2-summary-only-v1/result.json`
 before resuming; an existing output directory is never overwritten. If a failure
 requires repair, retain the logs/artifacts and use a new versioned directory.
+
+Both follow-ups are now complete. Their aggregate evidence is under
+`docs/research/followup-A*-*.json`; the final plot/table is under
+`reports/course-project/followup-*`. Recreate it from the saved aggregates with
+`.venv-mtgs/Scripts/python.exe scripts/plot_followup_results.py`.

@@ -1,0 +1,67 @@
+{
+  "main_lock_sha256": "15dacc805bd3f1e525ac32ace89578d51c44016ead2e4b986ceafe06cc074c4e",
+  "candidates": [
+    {
+      "alpha": 0.0,
+      "validation_mse": 1.6861477601002123e-06,
+      "query_file": "validation-alpha0.npz",
+      "query_sha256": "3c2e8fbf0dc93012ac354a2de90541988a75a683b428eda046a91937f5825d34",
+      "budget": 2514,
+      "feature_set": "summary-only",
+      "draws": 100
+    },
+    {
+      "alpha": 0.5,
+      "validation_mse": 3.769787191715494e-07,
+      "query_file": "validation-alpha0.5.npz",
+      "query_sha256": "94fcf6edc2850b9cd4c54a4b78e835e39f7599f7de8eee79de4b9781d5d310f8",
+      "budget": 2514,
+      "feature_set": "summary-only",
+      "draws": 100
+    },
+    {
+      "alpha": 1.0,
+      "validation_mse": 1.3551218369339714e-07,
+      "query_file": "validation-alpha1.npz",
+      "query_sha256": "916e56f8d11b1d87fccf5ce3b36ed822e62c709e2eff3ee0c0cc935d49198a2c",
+      "budget": 2514,
+      "feature_set": "summary-only",
+      "draws": 100
+    }
+  ],
+  "selected_alphas": {
+    "summary-only": 1.0
+  },
+  "tie_rule": "within 1% validation MSE; smaller alpha",
+  "selection_uses_test_outcomes": false,
+  "feature_columns": {
+    "summary-only": [
+      "f_q",
+      "f_direction_a_to_b",
+      "f_direction_b_to_a",
+      "f_direction_signed_difference",
+      "f_direction_absolute_difference",
+      "f_q_entropy",
+      "f_head_a_center_x",
+      "f_head_a_center_y",
+      "f_head_a_width",
+      "f_head_a_height",
+      "f_head_a_area",
+      "f_head_b_center_x",
+      "f_head_b_center_y",
+      "f_head_b_width",
+      "f_head_b_height",
+      "f_head_b_area",
+      "f_pair_center_distance",
+      "f_head_area_ratio",
+      "f_real_person_occupancy",
+      "f_t_q_mean",
+      "f_t_q_std",
+      "f_t_q_min",
+      "f_t_q_max",
+      "f_t_available_context_count",
+      "f_t_direction_imbalance_mean",
+      "f_t_direction_imbalance_std"
+    ]
+  }
+}
