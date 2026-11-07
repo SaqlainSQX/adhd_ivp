@@ -33,7 +33,7 @@ No future stage is marked complete merely because this plan exists.
 | ID | Experiment | Status | Start only when |
 | --- | --- | --- | --- |
 | X01 | Block lengths 2,5,10 versus frame queries | Deferred | Required sequence is complete |
-| X02 | Alternate learner, error target, entropy/tuned-weight controls | Deferred | Required sequence is complete |
+| X02 | Alternate learner, error target, entropy/tuned-weight controls | Score/entropy controls completed in B1; other variants deferred | Required sequence is complete |
 | X03 | Development-label cost curves | Deferred | Required sequence is complete |
 | X04 | Timed annotation-interface pilot | Deferred | Required sequence is complete and annotators/media available |
 
@@ -107,7 +107,38 @@ Full authoritative hashes and validation candidates are in
 [main-development-policies.json](research/main-development-policies.json).
 Local paths above are relative to `outputs/experiments/course-20261107-v1/`.
 
-Software checks after follow-up implementation: **34 tests pass**, Ruff passes.
+Software checks after A1/A2: 34 tests passed. Current strengthening checks:
+**43 tests pass**, Ruff passes.
+
+## Additional user-authorized strengthening round
+
+Registered in [STRENGTHENING_EXPERIMENTS.md](STRENGTHENING_EXPERIMENTS.md),
+commit `9c57c3c`, before new extension outcomes. The exact interval addition was
+registered separately in [EXACT_INTERVAL_EXTENSION.md](EXACT_INTERVAL_EXTENSION.md),
+commit `79c22a9`, after observing the score-control coverage failure and before
+its own outcomes. This timing is disclosed; all extensions are exploratory.
+
+| Stage | Status | Evidence / finding |
+| --- | --- | --- |
+| B1 score/entropy guidance | Completed | 8,000 new control evaluations independently replayed/recomputed. Primary score/entropy RMSE 0.2079 / 0.2958 pp, both alpha 1. Score beats learned guidance at 5–20%; static wins at 40% |
+| B2 coverage diagnosis | Completed | 8,000 fresh validation draws; eight frozen calibration multipliers. 8,000 existing test interval cases independently recomputed. Student-t and development calibration do not resolve undercoverage |
+| Post-hoc residual tails | Completed in v2 | Rare large residuals in a lightly sampled stratum explain draw-specific variance underestimation. Diagnostic uses full references only for evaluation; no sampler change |
+| B2b exact binary reference | Completed in v2 | 16,000 existing cases; exact integer endpoints/tail conditions and saved coverage/width checked. More conservative coverage but primary widths remain about 8.7–10.6 pp; distinct from the residual-centered estimator |
+| B3 local explorer | Completed, running on port 8765 | Seven methods, four budgets, 1,000 saved draws; exact replay, public timelines, frame/track overlays, separate queried labels/truth and summary download |
+| Figures, report and presentation | Completed | Four new figures visually reviewed; desktop and 390px demo QA; nine live API cases and invalid-input checks passed; 43 tests / Ruff passed |
+
+Root: `outputs/experiments/strengthening-20261107-v1`. Commands and logs are
+durable there. Original main result SHA remains b7dba063…aead9; the main policy
+lock also remains unchanged. Successful new CPU stages took 65.3 / 141.0 /
+20.2 seconds, with additional validation/rendering; no new GPU inference.
+
+The score control has normal coverage 96.0% at 10% labels but only 45.9% at 40%.
+The exact binary reference addresses fixed-population coverage conservatively;
+it ignores q and may not contain the retained residual point estimate. These
+limitations and the failed implementation attempts are preserved in the
+[strengthening report](../reports/course-project/strengthening-report.md) and
+tracked aggregate evidence. No further learners/windows were added to obtain
+a positive temporal result. Remaining optional extensions stay deferred.
 
 ## Per-stage record template
 

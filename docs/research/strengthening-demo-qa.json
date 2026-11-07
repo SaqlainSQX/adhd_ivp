@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-11-07T11:46:51.355760+00:00",
+  "replays": [
+    {
+      "method": "M1",
+      "budget": 1032,
+      "draw": 0,
+      "verified": true
+    },
+    {
+      "method": "M2",
+      "budget": 1032,
+      "draw": 0,
+      "verified": true
+    },
+    {
+      "method": "M3",
+      "budget": 1032,
+      "draw": 0,
+      "verified": true
+    },
+    {
+      "method": "M4",
+      "budget": 1032,
+      "draw": 0,
+      "verified": true
+    },
+    {
+      "method": "M5",
+      "budget": 1032,
+      "draw": 0,
+      "verified": true
+    },
+    {
+      "method": "q-quartiles",
+      "budget": 1032,
+      "draw": 0,
+      "verified": true
+    },
+    {
+      "method": "entropy-quartiles",
+      "budget": 1032,
+      "draw": 0,
+      "verified": true
+    },
+    {
+      "method": "M3",
+      "budget": 4126,
+      "draw": 999,
+      "verified": true
+    },
+    {
+      "method": "q-quartiles",
+      "budget": 516,
+      "draw": 999,
+      "verified": true
+    }
+  ],
+  "frame_jpeg": "passed",
+  "invalid_draw_method_budget_and_path_requests": "rejected",
+  "all_returned_labels_are_in_exact_saved_query_plan": true,
+  "browser_checks": [
+    "desktop Results/replay/method panels",
+    "390px responsive layout without horizontal overflow",
+    "budget switching changes observed winner",
+    "provided head tracks and downloaded frame displayed",
+    "query label reveal and separate truth comparison",
+    "score-quartile draw 999 replay",
+    "actual JSON summary download inspected",
+    "no browser console errors",
+    "temporary viewport reset"
+  ],
+  "screenshots_local_only": [
+    "results-desktop.jpg",
+    "results-mobile.jpg",
+    "replay-desktop.jpg"
+  ],
+  "ui_automation_skill": "computer-use",
+  "download_summary_verified": true
+}

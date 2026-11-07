@@ -1,0 +1,62 @@
+{
+  "stage": "B1-simple-controls",
+  "designation": "exploratory extension after inspected main outcomes",
+  "started_utc": "2026-11-07T11:26:47.769487+00:00",
+  "config": {
+    "designation": "exploratory extension after inspected main test outcomes",
+    "main_run": "outputs/experiments/course-20261107-v1",
+    "processed": "data/processed/vsgaze-17357752-v1",
+    "output": "outputs/experiments/strengthening-20261107-v1",
+    "protocol": "docs/STRENGTHENING_EXPERIMENTS.md",
+    "fractions": [
+      0.05,
+      0.1,
+      0.2,
+      0.4
+    ],
+    "test_draws": 1000,
+    "simple_validation_draws": 100,
+    "coverage_validation_draws": 1000,
+    "simple_streams": {
+      "q-quartiles": 7,
+      "entropy-quartiles": 8
+    },
+    "simple_validation_seed_start": 100000,
+    "test_seed_start": 200000,
+    "coverage_validation_seed_start": 600000,
+    "coverage_streams": {
+      "M3": 3,
+      "M4": 4
+    },
+    "alphas": [
+      0,
+      0.5,
+      1
+    ],
+    "relative_tie_tolerance": 0.01,
+    "variance_prior_count": 20,
+    "sd_floor": 1e-06,
+    "bootstrap_resamples": 2000,
+    "bootstrap_seed": 400002,
+    "coverage_target": 0.95,
+    "main_replacement_allowed": false
+  },
+  "config_sha256": "69a0cb15dc391b28757fef39b77374f847c53e5778724622ec6faa825522b33b",
+  "protocol_sha256": "f400712d2444f8df0147e910cd5b135bc8a6a47a4b9ea1a467d7e2b15d714b7e",
+  "implementation_sha256": "1fb6dbfacacbb2aa1881792127b2679bd49034051bcf9db1bcf1b7ce6b37316b",
+  "estimator_implementation_sha256": "89a71ae2c9457ac05240ff957315778b4f72b297780c4439a5495424270bbd5d",
+  "main_result_sha256": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9",
+  "main_policy_lock_sha256": "15dacc805bd3f1e525ac32ace89578d51c44016ead2e4b986ceafe06cc074c4e",
+  "feature_hashes": {
+    "static": "a149f032b9375be4fa562910342b2bec1a334c85ff81496feea33d4ae55aad68",
+    "temporal-w5": "d299252adbd1524c505b73e2ebe46ff6fd650bde049ecf7d978f05b3aabe25a6",
+    "temporal-w11": "1594d838704b41ee175d33e2f1ee922f98e777c9efe278306a65c0033da80981"
+  },
+  "runtime": {
+    "python": "3.13.1",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1"
+  }
+}

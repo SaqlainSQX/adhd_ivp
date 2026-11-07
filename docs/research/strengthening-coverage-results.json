@@ -1,0 +1,1546 @@
+{
+  "complete": true,
+  "designation": "exploratory interval diagnostics",
+  "validation_draws_recomputed": 8000,
+  "test_draws_recomputed": 8000,
+  "reference_prevalence": 0.03518805738658395,
+  "results": {
+    "M3-b516": {
+      "method": "M3",
+      "budget": 516,
+      "fraction": 0.05,
+      "draws": 1000,
+      "exact_design_variance": 1.636898880941197e-05,
+      "empirical_sampling_variance": 1.5618251750286252e-05,
+      "mean_estimated_variance": 1.6489558508746793e-05,
+      "mean_variance_over_exact": 1.0073657390043236,
+      "variance_ratio_quantiles_05_50_95": [
+        0.5030572570806853,
+        1.0764412981143616,
+        1.7663930225361006
+      ],
+      "standardized_error_quantiles_025_50_975": [
+        -1.6327385064731088,
+        0.05008600252026087,
+        2.242409972502378
+      ],
+      "absolute_standardized_q95": 2.0495082950116617,
+      "effective_df_quantiles_05_50_95": [
+        85.70362348737898,
+        158.6370554554133,
+        443.8148870650835
+      ],
+      "calibration": {
+        "multiplier": 1.959963984540054,
+        "rank_one_based": 951,
+        "draws": 1000,
+        "zero_se_nonzero_error_draws": 0,
+        "status": "finite"
+      },
+      "intervals": {
+        "normal": {
+          "coverage": 0.936,
+          "coverage_mcse": 0.007739767438366605,
+          "mean_width_pp": 1.5503501713893564,
+          "median_width_pp": 1.6454480988665852,
+          "unbounded_rate": 0.0
+        },
+        "student_t": {
+          "coverage": 0.938,
+          "coverage_mcse": 0.00762600813007697,
+          "mean_width_pp": 1.5627186127378594,
+          "median_width_pp": 1.659621438392645,
+          "unbounded_rate": 0.0
+        },
+        "validation_calibrated": {
+          "coverage": 0.936,
+          "coverage_mcse": 0.007739767438366605,
+          "mean_width_pp": 1.5503501713893564,
+          "median_width_pp": 1.6454480988665852,
+          "unbounded_rate": 0.0
+        },
+        "exact_variance_normal_DIAGNOSTIC_ONLY": {
+          "coverage": 0.956,
+          "coverage_mcse": 0.006485676526007139,
+          "mean_width_pp": 1.5859482519648496,
+          "median_width_pp": 1.5859482519648496,
+          "unbounded_rate": 0.0
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 37.00010097795421,
+          "median_width_pp": 37.01588555789526
+        }
+      },
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 1938,
+          "queries": 436,
+          "census": false,
+          "positive_references": 262,
+          "true_residual_variance": 0.14408121419650163,
+          "exact_design_variance_component": 9.039031687713503e-06,
+          "mean_estimated_variance_component": 9.034562193482133e-06,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            40.0,
+            49.0,
+            59.0,
+            70.0,
+            80.0
+          ]
+        },
+        {
+          "stratum": 1,
+          "population_size": 1401,
+          "queries": 43,
+          "census": false,
+          "positive_references": 99,
+          "true_residual_variance": 0.017593989224981992,
+          "exact_design_variance_component": 7.314945661998933e-06,
+          "mean_estimated_variance_component": 7.439547744156458e-06,
+          "zero_sampled_positive_rate": 0.041,
+          "sampled_positive_quantiles": [
+            0.0,
+            1.0,
+            3.0,
+            6.0,
+            9.0
+          ]
+        },
+        {
+          "stratum": 2,
+          "population_size": 6960,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 6.614650119142462e-07,
+          "exact_design_variance_component": 1.5011459699535155e-08,
+          "mean_estimated_variance_component": 1.544857110820573e-08,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 3,
+          "population_size": 17,
+          "queries": 17,
+          "census": true,
+          "positive_references": 2,
+          "true_residual_variance": 0.11185715677807341,
+          "exact_design_variance_component": 0.0,
+          "mean_estimated_variance_component": 0.0,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ]
+        }
+      ],
+      "conditional_diagnostics": [
+        {
+          "stratum": 0,
+          "sampled_positives": "five_or_more",
+          "draws": 1000,
+          "normal_coverage": 0.936,
+          "mean_estimated_variance_over_exact": 1.0073657390043236
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "zero",
+          "draws": 41,
+          "normal_coverage": 0.9024390243902439,
+          "mean_estimated_variance_over_exact": 0.9503820937821906
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "one_to_four",
+          "draws": 755,
+          "normal_coverage": 0.9470198675496688,
+          "mean_estimated_variance_over_exact": 1.0088234962517018
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "five_or_more",
+          "draws": 204,
+          "normal_coverage": 0.9019607843137255,
+          "mean_estimated_variance_over_exact": 1.013423203378525
+        },
+        {
+          "stratum": 2,
+          "sampled_positives": "zero",
+          "draws": 1000,
+          "normal_coverage": 0.936,
+          "mean_estimated_variance_over_exact": 1.0073657390043236
+        },
+        {
+          "stratum": 3,
+          "sampled_positives": "one_to_four",
+          "draws": 1000,
+          "normal_coverage": 0.936,
+          "mean_estimated_variance_over_exact": 1.0073657390043236
+        }
+      ]
+    },
+    "M3-b1032": {
+      "method": "M3",
+      "budget": 1032,
+      "fraction": 0.1,
+      "draws": 1000,
+      "exact_design_variance": 6.595824283109368e-06,
+      "empirical_sampling_variance": 6.782652046180927e-06,
+      "mean_estimated_variance": 6.644514600742241e-06,
+      "mean_variance_over_exact": 1.0073819913240503,
+      "variance_ratio_quantiles_05_50_95": [
+        0.4636947018084202,
+        0.8490371786106082,
+        1.755145845237647
+      ],
+      "standardized_error_quantiles_025_50_975": [
+        -1.7841505971562457,
+        0.050597134865943034,
+        2.3756773698286535
+      ],
+      "absolute_standardized_q95": 2.127979759553458,
+      "effective_df_quantiles_05_50_95": [
+        157.1334282648624,
+        381.2526858922113,
+        904.3865831949233
+      ],
+      "calibration": {
+        "multiplier": 1.9842590368558133,
+        "rank_one_based": 951,
+        "draws": 1000,
+        "zero_se_nonzero_error_draws": 0,
+        "status": "finite"
+      },
+      "intervals": {
+        "normal": {
+          "coverage": 0.93,
+          "coverage_mcse": 0.008068457101577721,
+          "mean_width_pp": 0.9911454664568096,
+          "median_width_pp": 0.9276325443043489,
+          "unbounded_rate": 0.0
+        },
+        "student_t": {
+          "coverage": 0.93,
+          "coverage_mcse": 0.008068457101577721,
+          "mean_width_pp": 0.9956189455412218,
+          "median_width_pp": 0.9301296210938524,
+          "unbounded_rate": 0.0
+        },
+        "validation_calibrated": {
+          "coverage": 0.935,
+          "coverage_mcse": 0.0077958322198467015,
+          "mean_width_pp": 1.0034313712744671,
+          "median_width_pp": 0.9391311643664743,
+          "unbounded_rate": 0.0
+        },
+        "exact_variance_normal_DIAGNOSTIC_ONLY": {
+          "coverage": 0.949,
+          "coverage_mcse": 0.006956938982052382,
+          "mean_width_pp": 1.006729107001461,
+          "median_width_pp": 1.006729107001461,
+          "unbounded_rate": 0.0
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 27.589648492572234,
+          "median_width_pp": 27.60296296880396
+        }
+      },
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 1938,
+          "queries": 890,
+          "census": false,
+          "positive_references": 262,
+          "true_residual_variance": 0.14408121419650163,
+          "exact_design_variance_component": 3.089653249602444e-06,
+          "mean_estimated_variance_component": 3.0998216508636927e-06,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            97.0,
+            109.0,
+            120.0,
+            133.0,
+            146.0
+          ]
+        },
+        {
+          "stratum": 1,
+          "population_size": 1401,
+          "queries": 87,
+          "census": false,
+          "positive_references": 99,
+          "true_residual_variance": 0.017593989224981992,
+          "exact_design_variance_component": 3.4982907571501678e-06,
+          "mean_estimated_variance_component": 3.536876727247829e-06,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            1.0,
+            3.0,
+            6.0,
+            10.0,
+            14.0
+          ]
+        },
+        {
+          "stratum": 2,
+          "population_size": 6960,
+          "queries": 38,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 6.614650119142462e-07,
+          "exact_design_variance_component": 7.880276356755827e-09,
+          "mean_estimated_variance_component": 7.816222630717703e-09,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 3,
+          "population_size": 17,
+          "queries": 17,
+          "census": true,
+          "positive_references": 2,
+          "true_residual_variance": 0.11185715677807341,
+          "exact_design_variance_component": 0.0,
+          "mean_estimated_variance_component": 0.0,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ]
+        }
+      ],
+      "conditional_diagnostics": [
+        {
+          "stratum": 0,
+          "sampled_positives": "five_or_more",
+          "draws": 1000,
+          "normal_coverage": 0.93,
+          "mean_estimated_variance_over_exact": 1.0073819913240503
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "one_to_four",
+          "draws": 239,
+          "normal_coverage": 0.9288702928870293,
+          "mean_estimated_variance_over_exact": 1.0149397893648058
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "five_or_more",
+          "draws": 761,
+          "normal_coverage": 0.9303547963206308,
+          "mean_estimated_variance_over_exact": 1.0050083858946932
+        },
+        {
+          "stratum": 2,
+          "sampled_positives": "zero",
+          "draws": 1000,
+          "normal_coverage": 0.93,
+          "mean_estimated_variance_over_exact": 1.0073819913240503
+        },
+        {
+          "stratum": 3,
+          "sampled_positives": "one_to_four",
+          "draws": 1000,
+          "normal_coverage": 0.93,
+          "mean_estimated_variance_over_exact": 1.0073819913240503
+        }
+      ]
+    },
+    "M3-b2063": {
+      "method": "M3",
+      "budget": 2063,
+      "fraction": 0.2,
+      "draws": 1000,
+      "exact_design_variance": 1.8281993716499354e-06,
+      "empirical_sampling_variance": 1.9489237702699982e-06,
+      "mean_estimated_variance": 1.8549290278714228e-06,
+      "mean_variance_over_exact": 1.0146207556112241,
+      "variance_ratio_quantiles_05_50_95": [
+        0.39243147990063376,
+        0.9344643510479766,
+        1.7362299153929905
+      ],
+      "standardized_error_quantiles_025_50_975": [
+        -1.638596478056425,
+        -0.02022622198878903,
+        3.279453742538211
+      ],
+      "absolute_standardized_q95": 2.398559725507435,
+      "effective_df_quantiles_05_50_95": [
+        201.33499299895618,
+        228.71423585131316,
+        352.38239393469775
+      ],
+      "calibration": {
+        "multiplier": 2.0028601890973765,
+        "rank_one_based": 951,
+        "draws": 1000,
+        "zero_se_nonzero_error_draws": 0,
+        "status": "finite"
+      },
+      "intervals": {
+        "normal": {
+          "coverage": 0.913,
+          "coverage_mcse": 0.008912407082264588,
+          "mean_width_pp": 0.5190875735308317,
+          "median_width_pp": 0.5123552996897204,
+          "unbounded_rate": 0.0
+        },
+        "student_t": {
+          "coverage": 0.913,
+          "coverage_mcse": 0.008912407082264588,
+          "mean_width_pp": 0.5218472700700646,
+          "median_width_pp": 0.5150755332297897,
+          "unbounded_rate": 0.0
+        },
+        "validation_calibrated": {
+          "coverage": 0.914,
+          "coverage_mcse": 0.008865889690267975,
+          "mean_width_pp": 0.530448438788041,
+          "median_width_pp": 0.5235688209150485,
+          "unbounded_rate": 0.0
+        },
+        "exact_variance_normal_DIAGNOSTIC_ONLY": {
+          "coverage": 0.947,
+          "coverage_mcse": 0.007084560677981384,
+          "mean_width_pp": 0.5300170790535755,
+          "median_width_pp": 0.5300170790535754,
+          "unbounded_rate": 0.0
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 20.43050611199965,
+          "median_width_pp": 20.433165418126016
+        }
+      },
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 1938,
+          "queries": 1793,
+          "census": false,
+          "positive_references": 262,
+          "true_residual_variance": 0.14408121419650163,
+          "exact_design_variance_component": 2.1219061823396952e-07,
+          "mean_estimated_variance_component": 2.121428328774496e-07,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            228.0,
+            235.0,
+            242.0,
+            248.0,
+            255.0
+          ]
+        },
+        {
+          "stratum": 1,
+          "population_size": 1401,
+          "queries": 176,
+          "census": false,
+          "positive_references": 99,
+          "true_residual_variance": 0.017593989224981992,
+          "exact_design_variance_component": 1.612141697122246e-06,
+          "mean_estimated_variance_component": 1.638909187735634e-06,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            4.0,
+            7.0,
+            12.0,
+            18.0,
+            22.0
+          ]
+        },
+        {
+          "stratum": 2,
+          "population_size": 6960,
+          "queries": 77,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 6.614650119142462e-07,
+          "exact_design_variance_component": 3.867056293719843e-09,
+          "mean_estimated_variance_component": 3.877007258339291e-09,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 3,
+          "population_size": 17,
+          "queries": 17,
+          "census": true,
+          "positive_references": 2,
+          "true_residual_variance": 0.11185715677807341,
+          "exact_design_variance_component": 0.0,
+          "mean_estimated_variance_component": 0.0,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ]
+        }
+      ],
+      "conditional_diagnostics": [
+        {
+          "stratum": 0,
+          "sampled_positives": "five_or_more",
+          "draws": 1000,
+          "normal_coverage": 0.913,
+          "mean_estimated_variance_over_exact": 1.0146207556112241
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "one_to_four",
+          "draws": 1,
+          "normal_coverage": 1.0,
+          "mean_estimated_variance_over_exact": 0.9294568239461746
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "five_or_more",
+          "draws": 999,
+          "normal_coverage": 0.9129129129129129,
+          "mean_estimated_variance_over_exact": 1.0147060047920702
+        },
+        {
+          "stratum": 2,
+          "sampled_positives": "zero",
+          "draws": 1000,
+          "normal_coverage": 0.913,
+          "mean_estimated_variance_over_exact": 1.0146207556112241
+        },
+        {
+          "stratum": 3,
+          "sampled_positives": "one_to_four",
+          "draws": 1000,
+          "normal_coverage": 0.913,
+          "mean_estimated_variance_over_exact": 1.0146207556112241
+        }
+      ]
+    },
+    "M3-b4126": {
+      "method": "M3",
+      "budget": 4126,
+      "fraction": 0.4,
+      "draws": 1000,
+      "exact_design_variance": 3.477710076729017e-10,
+      "empirical_sampling_variance": 3.563199522958176e-10,
+      "mean_estimated_variance": 3.479219751657313e-10,
+      "mean_variance_over_exact": 1.0004341002829413,
+      "variance_ratio_quantiles_05_50_95": [
+        0.9127222823698246,
+        1.0027308406445605,
+        1.086373177599821
+      ],
+      "standardized_error_quantiles_025_50_975": [
+        -1.9105816747348126,
+        -0.01429545691100088,
+        2.096669755893874
+      ],
+      "absolute_standardized_q95": 1.9917569073499588,
+      "effective_df_quantiles_05_50_95": [
+        769.0,
+        769.0,
+        769.0
+      ],
+      "calibration": {
+        "multiplier": 1.959963984540054,
+        "rank_one_based": 951,
+        "draws": 1000,
+        "zero_se_nonzero_error_draws": 0,
+        "status": "finite"
+      },
+      "intervals": {
+        "normal": {
+          "coverage": 0.948,
+          "coverage_mcse": 0.007021111023192843,
+          "mean_width_pp": 0.0073091501490373245,
+          "median_width_pp": 0.007320099078595482,
+          "unbounded_rate": 0.0
+        },
+        "student_t": {
+          "coverage": 0.948,
+          "coverage_mcse": 0.007021111023192843,
+          "mean_width_pp": 0.007320672179025302,
+          "median_width_pp": 0.007331638368304785,
+          "unbounded_rate": 0.0
+        },
+        "validation_calibrated": {
+          "coverage": 0.948,
+          "coverage_mcse": 0.007021111023192843,
+          "mean_width_pp": 0.0073091501490373245,
+          "median_width_pp": 0.007320099078595482,
+          "unbounded_rate": 0.0
+        },
+        "exact_variance_normal_DIAGNOSTIC_ONLY": {
+          "coverage": 0.945,
+          "coverage_mcse": 0.007209368904418752,
+          "mean_width_pp": 0.007310124499642268,
+          "median_width_pp": 0.007310124499642268,
+          "unbounded_rate": 0.0
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 7.404537485677162,
+          "median_width_pp": 7.404543935108708
+        }
+      },
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 1938,
+          "queries": 1938,
+          "census": true,
+          "positive_references": 262,
+          "true_residual_variance": 0.14408121419650163,
+          "exact_design_variance_component": 0.0,
+          "mean_estimated_variance_component": 0.0,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            262.0,
+            262.0,
+            262.0,
+            262.0,
+            262.0
+          ]
+        },
+        {
+          "stratum": 1,
+          "population_size": 1401,
+          "queries": 1401,
+          "census": true,
+          "positive_references": 99,
+          "true_residual_variance": 0.017593989224981992,
+          "exact_design_variance_component": 0.0,
+          "mean_estimated_variance_component": 0.0,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            99.0,
+            99.0,
+            99.0,
+            99.0,
+            99.0
+          ]
+        },
+        {
+          "stratum": 2,
+          "population_size": 6960,
+          "queries": 770,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 6.614650119142462e-07,
+          "exact_design_variance_component": 3.477710076729017e-10,
+          "mean_estimated_variance_component": 3.479219751657313e-10,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 3,
+          "population_size": 17,
+          "queries": 17,
+          "census": true,
+          "positive_references": 2,
+          "true_residual_variance": 0.11185715677807341,
+          "exact_design_variance_component": 0.0,
+          "mean_estimated_variance_component": 0.0,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ]
+        }
+      ],
+      "conditional_diagnostics": [
+        {
+          "stratum": 0,
+          "sampled_positives": "five_or_more",
+          "draws": 1000,
+          "normal_coverage": 0.948,
+          "mean_estimated_variance_over_exact": 1.0004341002829413
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "five_or_more",
+          "draws": 1000,
+          "normal_coverage": 0.948,
+          "mean_estimated_variance_over_exact": 1.0004341002829413
+        },
+        {
+          "stratum": 2,
+          "sampled_positives": "zero",
+          "draws": 1000,
+          "normal_coverage": 0.948,
+          "mean_estimated_variance_over_exact": 1.0004341002829413
+        },
+        {
+          "stratum": 3,
+          "sampled_positives": "one_to_four",
+          "draws": 1000,
+          "normal_coverage": 0.948,
+          "mean_estimated_variance_over_exact": 1.0004341002829413
+        }
+      ]
+    },
+    "M4-b516": {
+      "method": "M4",
+      "budget": 516,
+      "fraction": 0.05,
+      "draws": 1000,
+      "exact_design_variance": 1.8655638519353063e-05,
+      "empirical_sampling_variance": 1.8892941434561782e-05,
+      "mean_estimated_variance": 1.8252658508616218e-05,
+      "mean_variance_over_exact": 0.9783990234202491,
+      "variance_ratio_quantiles_05_50_95": [
+        0.5155860974996693,
+        0.7013943450442491,
+        1.7773220404096477
+      ],
+      "standardized_error_quantiles_025_50_975": [
+        -1.7020548086414127,
+        0.12824195250572065,
+        2.3790638004172315
+      ],
+      "absolute_standardized_q95": 2.1202696895752964,
+      "effective_df_quantiles_05_50_95": [
+        94.30509669286107,
+        429.32236825557277,
+        437.1838051616177
+      ],
+      "calibration": {
+        "multiplier": 1.9605765993367856,
+        "rank_one_based": 951,
+        "draws": 1000,
+        "zero_se_nonzero_error_draws": 0,
+        "status": "finite"
+      },
+      "intervals": {
+        "normal": {
+          "coverage": 0.931,
+          "coverage_mcse": 0.008014923580421711,
+          "mean_width_pp": 1.6290314615765393,
+          "median_width_pp": 1.417959832697686,
+          "unbounded_rate": 0.0
+        },
+        "student_t": {
+          "coverage": 0.932,
+          "coverage_mcse": 0.00796090447122687,
+          "mean_width_pp": 1.6402584415498866,
+          "median_width_pp": 1.4219423543178529,
+          "unbounded_rate": 0.0
+        },
+        "validation_calibrated": {
+          "coverage": 0.931,
+          "coverage_mcse": 0.008014923580421711,
+          "mean_width_pp": 1.6295406386765137,
+          "median_width_pp": 1.4184030363389433,
+          "unbounded_rate": 0.0
+        },
+        "exact_variance_normal_DIAGNOSTIC_ONLY": {
+          "coverage": 0.951,
+          "coverage_mcse": 0.006826346021115546,
+          "mean_width_pp": 1.6931020896077114,
+          "median_width_pp": 1.6931020896077107,
+          "unbounded_rate": 0.0
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 36.72811970234938,
+          "median_width_pp": 36.75582371939751
+        }
+      },
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 2148,
+          "queries": 429,
+          "census": false,
+          "positive_references": 258,
+          "true_residual_variance": 0.13202552280142085,
+          "exact_design_variance_component": 1.0677955103773508e-05,
+          "mean_estimated_variance_component": 1.0672240614968407e-05,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            33.0,
+            42.0,
+            51.0,
+            62.0,
+            70.0
+          ]
+        },
+        {
+          "stratum": 1,
+          "population_size": 1650,
+          "queries": 47,
+          "census": false,
+          "positive_references": 103,
+          "true_residual_variance": 0.015043791918295045,
+          "exact_design_variance_component": 7.955257825372659e-06,
+          "mean_estimated_variance_component": 7.557932656326355e-06,
+          "zero_sampled_positive_rate": 0.049,
+          "sampled_positive_quantiles": [
+            0.0,
+            1.0,
+            3.0,
+            6.0,
+            10.0
+          ]
+        },
+        {
+          "stratum": 2,
+          "population_size": 6483,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 4.593183109871465e-07,
+          "exact_design_variance_component": 9.042140981316526e-09,
+          "mean_estimated_variance_component": 9.114336739886955e-09,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 3,
+          "population_size": 35,
+          "queries": 20,
+          "census": false,
+          "positive_references": 2,
+          "true_residual_variance": 0.05425770435692686,
+          "exact_design_variance_component": 1.3383449225578073e-08,
+          "mean_estimated_variance_component": 1.3370900581565596e-08,
+          "zero_sampled_positive_rate": 0.178,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            1.0,
+            2.0,
+            2.0
+          ]
+        }
+      ],
+      "conditional_diagnostics": [
+        {
+          "stratum": 0,
+          "sampled_positives": "five_or_more",
+          "draws": 1000,
+          "normal_coverage": 0.931,
+          "mean_estimated_variance_over_exact": 0.9783990234202491
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "zero",
+          "draws": 49,
+          "normal_coverage": 0.9183673469387755,
+          "mean_estimated_variance_over_exact": 1.0672513823446372
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "one_to_four",
+          "draws": 791,
+          "normal_coverage": 0.9393173198482933,
+          "mean_estimated_variance_over_exact": 0.968869488536281
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "five_or_more",
+          "draws": 160,
+          "normal_coverage": 0.89375,
+          "mean_estimated_variance_over_exact": 0.998299626582271
+        },
+        {
+          "stratum": 2,
+          "sampled_positives": "zero",
+          "draws": 1000,
+          "normal_coverage": 0.931,
+          "mean_estimated_variance_over_exact": 0.9783990234202491
+        },
+        {
+          "stratum": 3,
+          "sampled_positives": "zero",
+          "draws": 178,
+          "normal_coverage": 0.9438202247191011,
+          "mean_estimated_variance_over_exact": 1.0215236334699913
+        },
+        {
+          "stratum": 3,
+          "sampled_positives": "one_to_four",
+          "draws": 822,
+          "normal_coverage": 0.9282238442822385,
+          "mean_estimated_variance_over_exact": 0.9690606042123971
+        }
+      ]
+    },
+    "M4-b1032": {
+      "method": "M4",
+      "budget": 1032,
+      "fraction": 0.1,
+      "draws": 1000,
+      "exact_design_variance": 7.697826262593745e-06,
+      "empirical_sampling_variance": 7.65165455609802e-06,
+      "mean_estimated_variance": 7.540748840252175e-06,
+      "mean_variance_over_exact": 0.979594574236514,
+      "variance_ratio_quantiles_05_50_95": [
+        0.4849331660643079,
+        0.8620807830971351,
+        1.5677907956381483
+      ],
+      "standardized_error_quantiles_025_50_975": [
+        -1.6902249877168514,
+        0.07971620263859981,
+        2.4294680079873703
+      ],
+      "absolute_standardized_q95": 2.1537956115170327,
+      "effective_df_quantiles_05_50_95": [
+        198.88357444784023,
+        457.382386386136,
+        893.8638529361085
+      ],
+      "calibration": {
+        "multiplier": 1.959963984540054,
+        "rank_one_based": 951,
+        "draws": 1000,
+        "zero_se_nonzero_error_draws": 0,
+        "status": "finite"
+      },
+      "intervals": {
+        "normal": {
+          "coverage": 0.933,
+          "coverage_mcse": 0.007906389820898028,
+          "mean_width_pp": 1.0560134775363157,
+          "median_width_pp": 1.0098017514627016,
+          "unbounded_rate": 0.0
+        },
+        "student_t": {
+          "coverage": 0.933,
+          "coverage_mcse": 0.007906389820898028,
+          "mean_width_pp": 1.0599360146999552,
+          "median_width_pp": 1.012335504062031,
+          "unbounded_rate": 0.0
+        },
+        "validation_calibrated": {
+          "coverage": 0.933,
+          "coverage_mcse": 0.007906389820898028,
+          "mean_width_pp": 1.0560134775363157,
+          "median_width_pp": 1.0098017514627016,
+          "unbounded_rate": 0.0
+        },
+        "exact_variance_normal_DIAGNOSTIC_ONLY": {
+          "coverage": 0.952,
+          "coverage_mcse": 0.006759881655768837,
+          "mean_width_pp": 1.0875823205001383,
+          "median_width_pp": 1.0875823205001383,
+          "unbounded_rate": 0.0
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 26.982994881523553,
+          "median_width_pp": 26.999601281590667
+        }
+      },
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 2148,
+          "queries": 877,
+          "census": false,
+          "positive_references": 258,
+          "true_residual_variance": 0.13202552280142085,
+          "exact_design_variance_component": 3.862028400755683e-06,
+          "mean_estimated_variance_component": 3.865120480333211e-06,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            85.0,
+            93.95,
+            105.0,
+            118.0,
+            131.0
+          ]
+        },
+        {
+          "stratum": 1,
+          "population_size": 1650,
+          "queries": 95,
+          "census": false,
+          "positive_references": 103,
+          "true_residual_variance": 0.015043791918295045,
+          "exact_design_variance_component": 3.817907332746893e-06,
+          "mean_estimated_variance_component": 3.6575979387096784e-06,
+          "zero_sampled_positive_rate": 0.003,
+          "sampled_positive_quantiles": [
+            0.0,
+            2.0,
+            6.0,
+            10.0,
+            15.0
+          ]
+        },
+        {
+          "stratum": 2,
+          "population_size": 6483,
+          "queries": 40,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 4.593183109871465e-07,
+          "exact_design_variance_component": 4.507079865590466e-09,
+          "mean_estimated_variance_component": 4.527399585564817e-09,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 3,
+          "population_size": 35,
+          "queries": 20,
+          "census": false,
+          "positive_references": 2,
+          "true_residual_variance": 0.05425770435692686,
+          "exact_design_variance_component": 1.3383449225578073e-08,
+          "mean_estimated_variance_component": 1.3503021623721527e-08,
+          "zero_sampled_positive_rate": 0.176,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            1.0,
+            2.0,
+            2.0
+          ]
+        }
+      ],
+      "conditional_diagnostics": [
+        {
+          "stratum": 0,
+          "sampled_positives": "five_or_more",
+          "draws": 1000,
+          "normal_coverage": 0.933,
+          "mean_estimated_variance_over_exact": 0.979594574236514
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "zero",
+          "draws": 3,
+          "normal_coverage": 1.0,
+          "mean_estimated_variance_over_exact": 0.8393029147267083
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "one_to_four",
+          "draws": 310,
+          "normal_coverage": 0.9580645161290322,
+          "mean_estimated_variance_over_exact": 0.9742688161071057
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "five_or_more",
+          "draws": 687,
+          "normal_coverage": 0.9213973799126638,
+          "mean_estimated_variance_over_exact": 0.9826103820948051
+        },
+        {
+          "stratum": 2,
+          "sampled_positives": "zero",
+          "draws": 1000,
+          "normal_coverage": 0.933,
+          "mean_estimated_variance_over_exact": 0.979594574236514
+        },
+        {
+          "stratum": 3,
+          "sampled_positives": "zero",
+          "draws": 176,
+          "normal_coverage": 0.9772727272727273,
+          "mean_estimated_variance_over_exact": 1.002425335281356
+        },
+        {
+          "stratum": 3,
+          "sampled_positives": "one_to_four",
+          "draws": 824,
+          "normal_coverage": 0.9235436893203883,
+          "mean_estimated_variance_over_exact": 0.9747181010036351
+        }
+      ]
+    },
+    "M4-b2063": {
+      "method": "M4",
+      "budget": 2063,
+      "fraction": 0.2,
+      "draws": 1000,
+      "exact_design_variance": 2.355924006854153e-06,
+      "empirical_sampling_variance": 2.4994961387397665e-06,
+      "mean_estimated_variance": 2.39098836044539e-06,
+      "mean_variance_over_exact": 1.014883482442228,
+      "variance_ratio_quantiles_05_50_95": [
+        0.49187498442183547,
+        0.9948018606048912,
+        1.7247882851206702
+      ],
+      "standardized_error_quantiles_025_50_975": [
+        -1.737451371199356,
+        0.02305092843590261,
+        3.0569286430105356
+      ],
+      "absolute_standardized_q95": 2.490841084857026,
+      "effective_df_quantiles_05_50_95": [
+        259.1700611633111,
+        334.26192434416816,
+        699.571492644954
+      ],
+      "calibration": {
+        "multiplier": 2.035934304164572,
+        "rank_one_based": 951,
+        "draws": 1000,
+        "zero_se_nonzero_error_draws": 0,
+        "status": "finite"
+      },
+      "intervals": {
+        "normal": {
+          "coverage": 0.905,
+          "coverage_mcse": 0.009272270487857868,
+          "mean_width_pp": 0.5929019545654594,
+          "median_width_pp": 0.6001046883400009,
+          "unbounded_rate": 0.0
+        },
+        "student_t": {
+          "coverage": 0.906,
+          "coverage_mcse": 0.009228434320078352,
+          "mean_width_pp": 0.5950351073753292,
+          "median_width_pp": 0.6022925594096398,
+          "unbounded_rate": 0.0
+        },
+        "validation_calibrated": {
+          "coverage": 0.91,
+          "coverage_mcse": 0.009049861877399012,
+          "mean_width_pp": 0.6158834743023691,
+          "median_width_pp": 0.6233653938126374,
+          "unbounded_rate": 0.0
+        },
+        "exact_variance_normal_DIAGNOSTIC_ONLY": {
+          "coverage": 0.941,
+          "coverage_mcse": 0.007451107300260817,
+          "mean_width_pp": 0.6016705097315284,
+          "median_width_pp": 0.6016705097315285,
+          "unbounded_rate": 0.0
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 20.05544844139808,
+          "median_width_pp": 20.05962696574593
+        }
+      },
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 2148,
+          "queries": 1770,
+          "census": false,
+          "positive_references": 258,
+          "true_residual_variance": 0.13202552280142085,
+          "exact_design_variance_component": 5.690992843487772e-07,
+          "mean_estimated_variance_component": 5.68437319454441e-07,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            193.0,
+            203.0,
+            212.5,
+            222.0,
+            231.0
+          ]
+        },
+        {
+          "stratum": 1,
+          "population_size": 1650,
+          "queries": 192,
+          "census": false,
+          "positive_references": 103,
+          "true_residual_variance": 0.015043791918295045,
+          "exact_design_variance_component": 1.771229718176488e-06,
+          "mean_estimated_variance_component": 1.806884055777361e-06,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            3.0,
+            7.0,
+            12.0,
+            18.0,
+            23.0
+          ]
+        },
+        {
+          "stratum": 2,
+          "population_size": 6483,
+          "queries": 81,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 4.593183109871465e-07,
+          "exact_design_variance_component": 2.2115551033093754e-09,
+          "mean_estimated_variance_component": 2.208692504538708e-09,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 3,
+          "population_size": 35,
+          "queries": 20,
+          "census": false,
+          "positive_references": 2,
+          "true_residual_variance": 0.05425770435692686,
+          "exact_design_variance_component": 1.3383449225578073e-08,
+          "mean_estimated_variance_component": 1.3458292709049337e-08,
+          "zero_sampled_positive_rate": 0.173,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            1.0,
+            2.0,
+            2.0
+          ]
+        }
+      ],
+      "conditional_diagnostics": [
+        {
+          "stratum": 0,
+          "sampled_positives": "five_or_more",
+          "draws": 1000,
+          "normal_coverage": 0.905,
+          "mean_estimated_variance_over_exact": 1.014883482442228
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "one_to_four",
+          "draws": 3,
+          "normal_coverage": 1.0,
+          "mean_estimated_variance_over_exact": 1.228851163753727
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "five_or_more",
+          "draws": 997,
+          "normal_coverage": 0.9047141424272819,
+          "mean_estimated_variance_over_exact": 1.0142396478946507
+        },
+        {
+          "stratum": 2,
+          "sampled_positives": "zero",
+          "draws": 1000,
+          "normal_coverage": 0.905,
+          "mean_estimated_variance_over_exact": 1.014883482442228
+        },
+        {
+          "stratum": 3,
+          "sampled_positives": "zero",
+          "draws": 173,
+          "normal_coverage": 0.9190751445086706,
+          "mean_estimated_variance_over_exact": 1.0153830104220443
+        },
+        {
+          "stratum": 3,
+          "sampled_positives": "one_to_four",
+          "draws": 827,
+          "normal_coverage": 0.9020556227327691,
+          "mean_estimated_variance_over_exact": 1.0147789862626533
+        }
+      ]
+    },
+    "M4-b4126": {
+      "method": "M4",
+      "budget": 4126,
+      "fraction": 0.4,
+      "draws": 1000,
+      "exact_design_variance": 5.006647903671425e-08,
+      "empirical_sampling_variance": 5.126596334029113e-08,
+      "mean_estimated_variance": 5.030729234056748e-08,
+      "mean_variance_over_exact": 1.0048098709652948,
+      "variance_ratio_quantiles_05_50_95": [
+        0.8460348622276807,
+        1.0217311860865197,
+        1.1474312026568052
+      ],
+      "standardized_error_quantiles_025_50_975": [
+        -1.748056056007831,
+        -0.07413992219677648,
+        2.308427968325474
+      ],
+      "absolute_standardized_q95": 2.0259985259422786,
+      "effective_df_quantiles_05_50_95": [
+        1406.1996885395745,
+        1411.5196068576934,
+        1414.423677769349
+      ],
+      "calibration": {
+        "multiplier": 1.959963984540054,
+        "rank_one_based": 951,
+        "draws": 1000,
+        "zero_se_nonzero_error_draws": 0,
+        "status": "finite"
+      },
+      "intervals": {
+        "normal": {
+          "coverage": 0.941,
+          "coverage_mcse": 0.007451107300260817,
+          "mean_width_pp": 0.08783968679021494,
+          "median_width_pp": 0.08865840963240292,
+          "unbounded_rate": 0.0
+        },
+        "student_t": {
+          "coverage": 0.941,
+          "coverage_mcse": 0.007451107300260817,
+          "mean_width_pp": 0.08791509380266405,
+          "median_width_pp": 0.08873459425454039,
+          "unbounded_rate": 0.0
+        },
+        "validation_calibrated": {
+          "coverage": 0.941,
+          "coverage_mcse": 0.007451107300260817,
+          "mean_width_pp": 0.08783968679021494,
+          "median_width_pp": 0.08865840963240292,
+          "unbounded_rate": 0.0
+        },
+        "exact_variance_normal_DIAGNOSTIC_ONLY": {
+          "coverage": 0.94,
+          "coverage_mcse": 0.007509993342207438,
+          "mean_width_pp": 0.08771050507588776,
+          "median_width_pp": 0.0877105050758878,
+          "unbounded_rate": 0.0
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 9.186352612368422,
+          "median_width_pp": 9.185697009491331
+        }
+      },
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 2148,
+          "queries": 2148,
+          "census": true,
+          "positive_references": 258,
+          "true_residual_variance": 0.13202552280142085,
+          "exact_design_variance_component": 0.0,
+          "mean_estimated_variance_component": 0.0,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            258.0,
+            258.0,
+            258.0,
+            258.0,
+            258.0
+          ]
+        },
+        {
+          "stratum": 1,
+          "population_size": 1650,
+          "queries": 1365,
+          "census": false,
+          "positive_references": 103,
+          "true_residual_variance": 0.015043791918295045,
+          "exact_design_variance_component": 4.870020660477117e-08,
+          "mean_estimated_variance_component": 4.8936051283241315e-08,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            67.0,
+            79.0,
+            85.0,
+            91.0,
+            95.0
+          ]
+        },
+        {
+          "stratum": 2,
+          "population_size": 6483,
+          "queries": 580,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 4.593183109871465e-07,
+          "exact_design_variance_component": 2.8478158543172247e-10,
+          "mean_estimated_variance_component": 2.858159742808773e-10,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 3,
+          "population_size": 35,
+          "queries": 33,
+          "census": false,
+          "positive_references": 2,
+          "true_residual_variance": 0.05425770435692686,
+          "exact_design_variance_component": 1.08149084651136e-09,
+          "mean_estimated_variance_component": 1.085425083045291e-09,
+          "zero_sampled_positive_rate": 0.002,
+          "sampled_positive_quantiles": [
+            0.0,
+            1.0,
+            2.0,
+            2.0,
+            2.0
+          ]
+        }
+      ],
+      "conditional_diagnostics": [
+        {
+          "stratum": 0,
+          "sampled_positives": "five_or_more",
+          "draws": 1000,
+          "normal_coverage": 0.941,
+          "mean_estimated_variance_over_exact": 1.0048098709652948
+        },
+        {
+          "stratum": 1,
+          "sampled_positives": "five_or_more",
+          "draws": 1000,
+          "normal_coverage": 0.941,
+          "mean_estimated_variance_over_exact": 1.0048098709652948
+        },
+        {
+          "stratum": 2,
+          "sampled_positives": "zero",
+          "draws": 1000,
+          "normal_coverage": 0.941,
+          "mean_estimated_variance_over_exact": 1.0048098709652948
+        },
+        {
+          "stratum": 3,
+          "sampled_positives": "zero",
+          "draws": 2,
+          "normal_coverage": 1.0,
+          "mean_estimated_variance_over_exact": 1.0480675801568355
+        },
+        {
+          "stratum": 3,
+          "sampled_positives": "one_to_four",
+          "draws": 998,
+          "normal_coverage": 0.9408817635270541,
+          "mean_estimated_variance_over_exact": 1.0047231821693199
+        }
+      ]
+    }
+  },
+  "independent_test_checks": [
+    {
+      "method": "M3",
+      "budget": 516,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 1.0408340855860843e-16,
+      "max_variance_difference": 1.3552527156068805e-20
+    },
+    {
+      "method": "M3",
+      "budget": 1032,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 1.0755285551056204e-16,
+      "max_variance_difference": 6.776263578034403e-21
+    },
+    {
+      "method": "M3",
+      "budget": 2063,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 1.1102230246251565e-16,
+      "max_variance_difference": 1.6940658945086007e-21
+    },
+    {
+      "method": "M3",
+      "budget": 4126,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 1.0408340855860843e-16,
+      "max_variance_difference": 1.550963648536927e-25
+    },
+    {
+      "method": "M4",
+      "budget": 516,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 1.1102230246251565e-16,
+      "max_variance_difference": 1.3552527156068805e-20
+    },
+    {
+      "method": "M4",
+      "budget": 1032,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 1.1102230246251565e-16,
+      "max_variance_difference": 8.470329472543003e-21
+    },
+    {
+      "method": "M4",
+      "budget": 2063,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 1.1102230246251565e-16,
+      "max_variance_difference": 1.6940658945086007e-21
+    },
+    {
+      "method": "M4",
+      "budget": 4126,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 1.1102230246251565e-16,
+      "max_variance_difference": 2.6469779601696886e-23
+    }
+  ],
+  "main_result_unchanged": true,
+  "interval_lock_sha256": "95f6b9a8606f436e6f31895d06845b8d0aaf6729eab544b10d7d3d0bfc380570",
+  "registration_sha256": "86a08fbaa93abde23ca9815099f7607127b6cccc92ea3c61dce2453b71f8a701",
+  "elapsed_seconds": 141.04065199999604
+}

@@ -1,0 +1,20 @@
+{
+  "post_hoc_tail_serialization": {
+    "stage": "post-hoc residual-tail diagnostic v1",
+    "status": "failed before output write",
+    "error": "TypeError: Object of type numpy.bool_ is not JSON serializable",
+    "cause": "Census flag compared a Python length with a NumPy count; JSON requires a native bool",
+    "implementation_sha256": "0e75ae2f9ea3d87d5e55d83d42f42799001633c5d230c34a11f5eb9b62c083ef",
+    "main_or_registered_outcomes_modified": false,
+    "repair": "Convert census flag to native bool; preserve this failure and write residual-tail-diagnostic-v2.json"
+  },
+  "exact_interval_v1": {
+    "status": "failed; not accepted as interval evidence",
+    "error": "Saved interval aggregates did not reproduce",
+    "diagnosis": "Floating weighted endpoint addition and CSV float parsing can exclude a truth lying exactly on the integer census-positive lower endpoint. M3 40% coverage 0 was a numerical artifact.",
+    "repair": "Sum integer feasible total endpoints and score coverage on integer totals; add boundary regression test; retain v1 artifacts and use B2b-exact-reference-v2.",
+    "implementation_sha256": "710233b27353f7eedb617a0ff258ca6165f8607f7f4b80ec4b5fd0e262501c8b"
+  },
+  "all_original_failure_logs_preserved": true,
+  "main_results_changed": false
+}

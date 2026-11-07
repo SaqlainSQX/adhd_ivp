@@ -1,0 +1,114 @@
+{
+  "policies": {
+    "q-quartiles": {
+      "feature": "f_q",
+      "cut_points": [
+        0.0002199533773818,
+        0.0018386652227491,
+        0.0208842158317565
+      ],
+      "residual_sd": [
+        0.002742326941776911,
+        0.016706889852590456,
+        0.023491902090571927,
+        0.2419065870874992
+      ],
+      "learner": "none; public training-feature quartiles"
+    },
+    "entropy-quartiles": {
+      "feature": "f_q_entropy",
+      "cut_points": [
+        0.00207239741586,
+        0.0134182027820541,
+        0.0999344463020561
+      ],
+      "residual_sd": [
+        0.002742326941776911,
+        0.016706889852590456,
+        0.025951985987985857,
+        0.24160146136412916
+      ],
+      "learner": "none; public training-feature quartiles"
+    }
+  },
+  "candidates": [
+    {
+      "policy": "q-quartiles",
+      "alpha": 0.0,
+      "validation_mse": 1.893134512578449e-06,
+      "query_file": "validation-q-quartiles-alpha0.npz",
+      "query_sha256": "b99d08a67cc2b6f93d954848b77ab9116c8075bd94f846e3936c87a7a3144199",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "q-quartiles",
+      "alpha": 0.5,
+      "validation_mse": 4.385339105221851e-07,
+      "query_file": "validation-q-quartiles-alpha0.5.npz",
+      "query_sha256": "58e9de03b1f44759a472b6cead4040e40ddb078be5be2af5f05a337b771083e3",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "q-quartiles",
+      "alpha": 1.0,
+      "validation_mse": 1.2570707355156065e-07,
+      "query_file": "validation-q-quartiles-alpha1.npz",
+      "query_sha256": "9a277676f8c06a9b3c363579e4e12a3169fb156e46889d849fdc7ec6cae18ed1",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "entropy-quartiles",
+      "alpha": 0.0,
+      "validation_mse": 1.7116970897337603e-06,
+      "query_file": "validation-entropy-quartiles-alpha0.npz",
+      "query_sha256": "37be41ab6ebf6f9581514de69ec72ecfbc5e77fb3360d9dbcd1987b1d288d27f",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "entropy-quartiles",
+      "alpha": 0.5,
+      "validation_mse": 4.371445345760061e-07,
+      "query_file": "validation-entropy-quartiles-alpha0.5.npz",
+      "query_sha256": "94c2d249e9c76365aba2e7aead33f3510b87b12f8c91e554eee753bc24b72c26",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "entropy-quartiles",
+      "alpha": 1.0,
+      "validation_mse": 1.3830263431696392e-07,
+      "query_file": "validation-entropy-quartiles-alpha1.npz",
+      "query_sha256": "77464c98983ce3945a8a0331af1faacb5b64c9fe5b0322447b0ef1a73f7af872",
+      "budget": 2514,
+      "draws": 100
+    }
+  ],
+  "selected": {
+    "q-quartiles": {
+      "policy": "q-quartiles",
+      "alpha": 1.0,
+      "validation_mse": 1.2570707355156065e-07,
+      "query_file": "validation-q-quartiles-alpha1.npz",
+      "query_sha256": "9a277676f8c06a9b3c363579e4e12a3169fb156e46889d849fdc7ec6cae18ed1",
+      "budget": 2514,
+      "draws": 100
+    },
+    "entropy-quartiles": {
+      "policy": "entropy-quartiles",
+      "alpha": 1.0,
+      "validation_mse": 1.3830263431696392e-07,
+      "query_file": "validation-entropy-quartiles-alpha1.npz",
+      "query_sha256": "77464c98983ce3945a8a0331af1faacb5b64c9fe5b0322447b0ef1a73f7af872",
+      "budget": 2514,
+      "draws": 100
+    }
+  },
+  "selection_uses_test_outcomes": false,
+  "training_rows": 191956,
+  "validation_rows": 25139,
+  "all_validation_plans_saved_before_selection_queries": true
+}

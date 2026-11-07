@@ -173,3 +173,55 @@ Both follow-ups are now complete. Their aggregate evidence is under
 `docs/research/followup-A*-*.json`; the final plot/table is under
 `reports/course-project/followup-*`. Recreate it from the saved aggregates with
 `.venv-mtgs/Scripts/python.exe scripts/plot_followup_results.py`.
+
+## Strengthening round: completed B1/B2/B2b and local explorer
+
+The [registered protocol](STRENGTHENING_EXPERIMENTS.md) and separately registered
+[exact binary reference](EXACT_INTERVAL_EXTENSION.md) preserve the original
+main comparison. Full outcomes and caveats are in
+[strengthening-report.md](../reports/course-project/strengthening-report.md).
+No additional model inference is needed. Existing completed outputs refuse overwrite.
+
+Original B1/B2 command:
+
+```powershell
+.\.venv\Scripts\python.exe -u scripts/run_strengthening_experiments.py all `
+  --config configs/strengthening-v1.json
+.\.venv\Scripts\python.exe scripts/validate_strengthening_run.py
+.\.venv\Scripts\python.exe scripts/run_exact_reference_intervals.py `
+  --output outputs/experiments/strengthening-20261107-v1/B2b-exact-reference-v2
+```
+
+These commands record the completed run; do not rerun into those directories.
+For reproduction, copy the configuration and change its output to a new root,
+pass that config to the runner, then pass its new `--root` to validation/exact
+scripts. Stage-specific `baselines` / `coverage` commands can continue a partially
+completed root without repeating completed stages.
+
+Render from saved outcomes:
+
+```powershell
+.\.venv-mtgs\Scripts\python.exe scripts/plot_strengthening_results.py
+.\.venv-mtgs\Scripts\python.exe scripts/plot_exact_reference.py
+```
+
+Matplotlib is CPU-only for these scripts; a teammate may install the `plots`
+extra in the CPU environment instead of using `.venv-mtgs`. The post-hoc
+`diagnose_residual_tails.py --output NEW-JSON` script generates aggregate
+evaluation-only explanations. It never modifies policies or interval calibration.
+
+The exact-reference first attempt failed a census floating-boundary/CSV check;
+the accepted v2 sums integer total bounds and checks integer-grid coverage. Its
+v1 folder/log remains marked failed. A post-hoc JSON serialization failure is
+also retained. Never present incomplete failed output as an accepted result.
+
+Start the checked local demo:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/serve_course_demo.py --port 8765
+```
+
+Use [DEMO_GUIDE.md](DEMO_GUIDE.md) for local prerequisites, replay steps and
+[PROJECT_PRESENTATION.md](PROJECT_PRESENTATION.md) for the course walkthrough.
+The interface retains the original normal interval; the exact binary reference
+is a separately reported construction, not a replacement for a saved error bar.

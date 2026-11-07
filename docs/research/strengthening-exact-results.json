@@ -1,0 +1,321 @@
+{
+  "complete": true,
+  "designation": "exploratory exact stratified binary reference",
+  "point_estimates_unchanged": true,
+  "interval_center_is_not_residual_point_estimate": true,
+  "existing_draws_evaluated": 16000,
+  "reference_prevalence": 0.03518805738658395,
+  "alpha": 0.05,
+  "results": {
+    "M3-b516": {
+      "coverage": 1.0,
+      "coverage_mcse": 0.0,
+      "mean_width_pp": 18.407977898410234,
+      "median_width_pp": 18.456766188445133,
+      "original_point_outside_interval_rate": 0.003,
+      "draws": 1000,
+      "budget": 516,
+      "normal": {
+        "coverage": 0.936,
+        "mean_width_pp": 1.550350171389356,
+        "median_width_pp": 1.6454480988665845
+      },
+      "bounded": {
+        "coverage": 1.0,
+        "mean_width_pp": 37.00010097795421,
+        "median_width_pp": 37.01588555789526
+      }
+    },
+    "M4-b516": {
+      "coverage": 1.0,
+      "coverage_mcse": 0.0,
+      "mean_width_pp": 18.631989143078712,
+      "median_width_pp": 18.71849554090733,
+      "original_point_outside_interval_rate": 0.001,
+      "draws": 1000,
+      "budget": 516,
+      "normal": {
+        "coverage": 0.931,
+        "mean_width_pp": 1.6290314615765387,
+        "median_width_pp": 1.4179598326976857
+      },
+      "bounded": {
+        "coverage": 1.0,
+        "mean_width_pp": 36.72811970234938,
+        "median_width_pp": 36.75582371939751
+      }
+    },
+    "M3-b1032": {
+      "coverage": 0.999,
+      "coverage_mcse": 0.0009994998749374613,
+      "mean_width_pp": 10.597024040325707,
+      "median_width_pp": 10.604885614579295,
+      "original_point_outside_interval_rate": 0.002,
+      "draws": 1000,
+      "budget": 1032,
+      "normal": {
+        "coverage": 0.93,
+        "mean_width_pp": 0.9911454664568093,
+        "median_width_pp": 0.9276325443043486
+      },
+      "bounded": {
+        "coverage": 1.0,
+        "mean_width_pp": 27.589648492572234,
+        "median_width_pp": 27.60296296880396
+      }
+    },
+    "M4-b1032": {
+      "coverage": 1.0,
+      "coverage_mcse": 0.0,
+      "mean_width_pp": 10.459470725087243,
+      "median_width_pp": 10.48856145792943,
+      "original_point_outside_interval_rate": 0.003,
+      "draws": 1000,
+      "budget": 1032,
+      "normal": {
+        "coverage": 0.933,
+        "mean_width_pp": 1.0560134775363152,
+        "median_width_pp": 1.0098017514627016
+      },
+      "bounded": {
+        "coverage": 1.0,
+        "mean_width_pp": 26.982994881523553,
+        "median_width_pp": 26.999601281590667
+      }
+    },
+    "M3-b2063": {
+      "coverage": 0.999,
+      "coverage_mcse": 0.0009994998749374613,
+      "mean_width_pp": 5.481155486622723,
+      "median_width_pp": 5.4769290422644445,
+      "original_point_outside_interval_rate": 0.007,
+      "draws": 1000,
+      "budget": 2063,
+      "normal": {
+        "coverage": 0.913,
+        "mean_width_pp": 0.5190875735308315,
+        "median_width_pp": 0.51235529968972
+      },
+      "bounded": {
+        "coverage": 1.0,
+        "mean_width_pp": 20.43050611199965,
+        "median_width_pp": 20.433165418126016
+      }
+    },
+    "M4-b2063": {
+      "coverage": 1.0,
+      "coverage_mcse": 0.0,
+      "mean_width_pp": 5.576221403644824,
+      "median_width_pp": 5.583559519193486,
+      "original_point_outside_interval_rate": 0.007,
+      "draws": 1000,
+      "budget": 2063,
+      "normal": {
+        "coverage": 0.905,
+        "mean_width_pp": 0.5929019545654594,
+        "median_width_pp": 0.6001046883400009
+      },
+      "bounded": {
+        "coverage": 1.0,
+        "mean_width_pp": 20.05544844139808,
+        "median_width_pp": 20.05962696574593
+      }
+    },
+    "M3-b4126": {
+      "coverage": 1.0,
+      "coverage_mcse": 0.0,
+      "mean_width_pp": 0.30050407134548307,
+      "median_width_pp": 0.30050407134548307,
+      "original_point_outside_interval_rate": 0.506,
+      "draws": 1000,
+      "budget": 4126,
+      "normal": {
+        "coverage": 0.948,
+        "mean_width_pp": 0.007309150149037307,
+        "median_width_pp": 0.007320099078595571
+      },
+      "bounded": {
+        "coverage": 1.0,
+        "mean_width_pp": 7.404537485677162,
+        "median_width_pp": 7.404543935108708
+      }
+    },
+    "M4-b4126": {
+      "coverage": 0.994,
+      "coverage_mcse": 0.002442130217658347,
+      "mean_width_pp": 0.7117487398216362,
+      "median_width_pp": 0.7076386196200081,
+      "original_point_outside_interval_rate": 0.014,
+      "draws": 1000,
+      "budget": 4126,
+      "normal": {
+        "coverage": 0.941,
+        "mean_width_pp": 0.08783968679021492,
+        "median_width_pp": 0.08865840963240279
+      },
+      "bounded": {
+        "coverage": 1.0,
+        "mean_width_pp": 9.186352612368422,
+        "median_width_pp": 9.185697009491331
+      }
+    },
+    "q-quartiles-b516": {
+      "coverage": 0.997,
+      "coverage_mcse": 0.0017294507798720387,
+      "mean_width_pp": 12.357115160915082,
+      "median_width_pp": 12.340054284606436,
+      "original_point_outside_interval_rate": 0.007,
+      "draws": 1000,
+      "budget": 516,
+      "normal": {
+        "coverage": 0.958,
+        "mean_width_pp": 1.3720682424765083,
+        "median_width_pp": 1.357979946200759
+      },
+      "bounded": {
+        "coverage": 1.0,
+        "mean_width_pp": 27.855894865664165,
+        "median_width_pp": 27.844691039447035
+      }
+    },
+    "entropy-quartiles-b516": {
+      "coverage": 1.0,
+      "coverage_mcse": 0.0,
+      "mean_width_pp": 13.258443195036834,
+      "median_width_pp": 13.260953858084529,
+      "original_point_outside_interval_rate": 0.002,
+      "draws": 1000,
+      "budget": 516,
+      "normal": {
+        "coverage": 0.948,
+        "mean_width_pp": 1.707608355075264,
+        "median_width_pp": 1.354211866030555
+      },
+      "bounded": {
+        "coverage": 1.0,
+        "mean_width_pp": 32.23038405283493,
+        "median_width_pp": 32.24855610421522
+      }
+    },
+    "q-quartiles-b1032": {
+      "coverage": 0.994,
+      "coverage_mcse": 0.002442130217658347,
+      "mean_width_pp": 8.696035284994185,
+      "median_width_pp": 8.685537029856533,
+      "original_point_outside_interval_rate": 0.003,
+      "draws": 1000,
+      "budget": 1032,
+      "normal": {
+        "coverage": 0.96,
+        "mean_width_pp": 0.8401623158995789,
+        "median_width_pp": 0.8261950331920287
+      },
+      "bounded": {
+        "coverage": 1.0,
+        "mean_width_pp": 22.800976552528645,
+        "median_width_pp": 22.805312466853493
+      }
+    },
+    "entropy-quartiles-b1032": {
+      "coverage": 1.0,
+      "coverage_mcse": 0.0,
+      "mean_width_pp": 9.686787514540521,
+      "median_width_pp": 9.683986041101203,
+      "original_point_outside_interval_rate": 0.004,
+      "draws": 1000,
+      "budget": 1032,
+      "normal": {
+        "coverage": 0.929,
+        "mean_width_pp": 1.118926290275194,
+        "median_width_pp": 1.1459506339474699
+      },
+      "bounded": {
+        "coverage": 1.0,
+        "mean_width_pp": 25.89370398573358,
+        "median_width_pp": 25.90700152477191
+      }
+    },
+    "q-quartiles-b2063": {
+      "coverage": 0.999,
+      "coverage_mcse": 0.0009994998749374613,
+      "mean_width_pp": 6.543902675455604,
+      "median_width_pp": 6.523846452113221,
+      "original_point_outside_interval_rate": 0.003,
+      "draws": 1000,
+      "budget": 2063,
+      "normal": {
+        "coverage": 0.939,
+        "mean_width_pp": 0.36263683563630555,
+        "median_width_pp": 0.3432361826232716
+      },
+      "bounded": {
+        "coverage": 1.0,
+        "mean_width_pp": 19.27350806261539,
+        "median_width_pp": 19.27306266393663
+      }
+    },
+    "entropy-quartiles-b2063": {
+      "coverage": 1.0,
+      "coverage_mcse": 0.0,
+      "mean_width_pp": 7.4562621170996515,
+      "median_width_pp": 7.473827064753779,
+      "original_point_outside_interval_rate": 0.002,
+      "draws": 1000,
+      "budget": 2063,
+      "normal": {
+        "coverage": 0.893,
+        "mean_width_pp": 0.6243713171577895,
+        "median_width_pp": 0.6518956528157559
+      },
+      "bounded": {
+        "coverage": 1.0,
+        "mean_width_pp": 21.45158504449594,
+        "median_width_pp": 21.462120501564993
+      }
+    },
+    "q-quartiles-b4126": {
+      "coverage": 1.0,
+      "coverage_mcse": 0.0,
+      "mean_width_pp": 1.2078324932144244,
+      "median_width_pp": 1.1923226056611094,
+      "original_point_outside_interval_rate": 0.273,
+      "draws": 1000,
+      "budget": 4126,
+      "normal": {
+        "coverage": 0.459,
+        "mean_width_pp": 0.037360996683708805,
+        "median_width_pp": 0.011589342782317158
+      },
+      "bounded": {
+        "coverage": 1.0,
+        "mean_width_pp": 9.889122463274589,
+        "median_width_pp": 9.882568500537717
+      }
+    },
+    "entropy-quartiles-b4126": {
+      "coverage": 0.994,
+      "coverage_mcse": 0.002442130217658347,
+      "mean_width_pp": 1.6591120589375725,
+      "median_width_pp": 1.657619232260566,
+      "original_point_outside_interval_rate": 0.011,
+      "draws": 1000,
+      "budget": 4126,
+      "normal": {
+        "coverage": 0.943,
+        "mean_width_pp": 0.20714883210549281,
+        "median_width_pp": 0.21029325919651384
+      },
+      "bounded": {
+        "coverage": 1.0,
+        "mean_width_pp": 10.995248824826117,
+        "median_width_pp": 10.99476413334927
+      }
+    }
+  },
+  "independent_checks": {
+    "endpoint_integer_tail_conditions_and_neighbors": "passed",
+    "saved_csv_coverage_and_width": "passed",
+    "unique_inversions_checked": 693
+  },
+  "elapsed_seconds": 20.195654899987858
+}

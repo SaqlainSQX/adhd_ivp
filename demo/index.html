@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gaze Audit Lab — Course Explorer</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Gaze Audit Lab home"
+        ><span class="brand-mark" aria-hidden="true">◉</span> GAZE
+        <strong>AUDIT LAB</strong></a
+      >
+      <nav aria-label="Explorer sections">
+        <button
+          class="nav-button active"
+          data-panel="results"
+          aria-pressed="true"
+        >
+          Results
+        </button>
+        <button class="nav-button" data-panel="replay" aria-pressed="false">
+          Audit replay
+        </button>
+        <button class="nav-button" data-panel="method" aria-pressed="false">
+          Method &amp; limits
+        </button>
+      </nav>
+      <span class="local-pill"><span></span> Local · frozen cache</span>
+    </header>
+    <main>
+      <p
+        id="global-status"
+        class="status-line"
+        role="status"
+        aria-live="polite"
+      >
+        Loading verified experiment results…
+      </p>
+      <section id="results" class="panel">
+        <div class="hero">
+          <div>
+            <p class="eyebrow">SOCIAL GAZE · COURSE RESEARCH</p>
+            <h1>Small samples.<br /><em>Clearer estimates.</em></h1>
+            <p class="intro">
+              How much mutual looking occurs in a video collection? Compare
+              exact-budget annotation strategies with a shared, frozen gaze
+              model.
+            </p>
+          </div>
+          <div class="hero-note">
+            <span class="note-number">01 / 03</span>
+            <p>
+              Prediction is a starting point.<br /><strong
+                >A small audit corrects the estimate.</strong
+              >
+            </p>
+            <span class="tag">Fixed available-media benchmark</span>
+          </div>
+        </div>
+        <div class="metric-grid" id="overview-metrics"></div>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">EQUAL LABEL BUDGETS</p>
+            <h2>What does each annotation buy?</h2>
+          </div>
+          <div
+            class="budget-switch"
+            id="budget-switch"
+            aria-label="Results label budget"
+          ></div>
+        </div>
+        <div class="results-grid">
+          <article class="card chart-card">
+            <div class="card-heading">
+              <h3>Estimation error</h3>
+              <span class="unit">RMSE · percentage points ↓</span>
+            </div>
+            <div
+              id="error-chart"
+              class="bar-chart"
+              role="img"
+              aria-label="Method RMSE comparison"
+            ></div>
+            <p class="caption">
+              1,000 saved draws per method and budget. Blue: locked main
+              methods. Teal: exploratory simple controls. A smaller error on
+              this corpus does not establish transfer to new videos.
+            </p>
+          </article>
+          <aside class="card finding-card">
+            <p class="eyebrow">WHAT WE LEARNED</p>
+            <h3 id="finding-title">Loading findings</h3>
+            <p id="finding-body"></p>
+            <div class="finding-divider"></div>
+            <span class="small-label">BENCHMARK TRUTH · EVALUATION ONLY</span
+            ><strong id="reference-prevalence" class="big-number">—</strong>
+            <p class="small-copy">
+              The uncorrected model mean is <span id="model-mean">—</span>.
+              Audits estimate the collection prevalence using selected labels.
+            </p>
+          </aside>
+        </div>
+        <article class="card table-card">
+          <div class="card-heading">
+            <h3>Evidence at the selected budget</h3>
+            <span id="budget-detail" class="unit"></span>
+          </div>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>Method</th>
+                  <th>RMSE (pp)</th>
+                  <th>Bias (pp)</th>
+                  <th>95% coverage</th>
+                  <th>Mean CI width (pp)</th>
+                  <th>Study</th>
+                </tr>
+              </thead>
+              <tbody id="result-rows"></tbody>
+            </table>
+          </div>
+          <p class="caption">
+            Coverage is the fraction of repeated audit intervals containing the
+            fixed benchmark truth. The original normal intervals can
+            under-cover. Width must be interpreted alongside coverage.
+          </p>
+        </article>
+        <article class="card interval-card">
+          <div class="card-heading">
+            <div>
+              <p class="eyebrow">UNCERTAINTY CHECK</p>
+              <h3>Does a 95% interval cover 95% of the time?</h3>
+            </div>
+            <span class="tag">Exploratory diagnostics</span>
+          </div>
+          <p class="small-copy">
+            Compare the retained normal interval with Student-t and
+            validation-calibrated alternatives. Calibration is learned on the
+            small development corpus; it carries no coverage guarantee on new
+            sources.
+          </p>
+          <div id="interval-results"></div>
+        </article>
+      </section>
+      <section id="replay" class="panel" hidden>
+        <div class="compact-hero">
+          <p class="eyebrow">02 / 03 · REPRODUCE AN AUDIT</p>
+          <h1>Follow the <em>selected labels.</em></h1>
+          <p class="intro">
+            Replay one saved random plan. Each result is checked against the
+            original queries, point estimate and variance. No model inference
+            runs here.
+          </p>
+        </div>
+        <form id="replay-form" class="card controls">
+          <label
+            >Guidance / estimator<select
+              id="replay-method"
+              name="method"
+            ></select></label
+          ><label
+            >Label budget<select id="replay-fraction" name="fraction">
+              <option value="0.05">5% · 516 labels</option>
+              <option value="0.1" selected>10% · 1,032 labels</option>
+              <option value="0.2">20% · 2,063 labels</option>
+              <option value="0.4">40% · 4,126 labels</option>
+            </select></label
+          ><label
+            >Saved draw (0–999)<input
+              id="replay-draw"
+              type="number"
+              name="draw"
+              min="0"
+              max="999"
+              value="0"
+              required /></label
+          ><button class="primary-button" id="replay-submit" type="submit">
+            Replay audit <span aria-hidden="true">↗</span>
+          </button>
+        </form>
+        <p
+          id="replay-status"
+          class="status-line"
+          role="status"
+          aria-live="polite"
+        >
+          Choose a method, budget and saved draw to begin.
+        </p>
+        <div id="replay-content" hidden>
+          <div class="metric-grid" id="replay-metrics"></div>
+          <div class="replay-grid">
+            <article class="card frame-card">
+              <div class="card-heading">
+                <h3>Inspect the example frame</h3>
+                <span class="tag">Supplied head tracks</span>
+              </div>
+              <div class="frame-stage">
+                <img
+                  id="frame-image"
+                  alt="Downloaded benchmark frame with the two supplied head-track boxes"
+                />
+                <p id="frame-error" hidden></p>
+              </div>
+              <p id="frame-caption" class="caption"></p>
+              <label class="range-label" for="frame-slider"
+                >Frame in this example pair sequence
+                <output id="frame-position"></output></label
+              ><input
+                id="frame-slider"
+                type="range"
+                min="0"
+                max="1"
+                value="0"
+              />
+              <div class="timeline-legend">
+                <span><i class="legend-line native"></i> Native q</span
+                ><span><i class="legend-line context"></i> Context mean</span
+                ><span><i class="legend-dot"></i> Queried</span>
+              </div>
+              <svg
+                id="timeline"
+                viewBox="0 0 900 180"
+                role="img"
+                aria-label="Public score and selected query timeline"
+              ></svg>
+              <p class="caption">
+                The example pair is chosen by its number of queried frames,
+                before consulting labels. Track boxes come from the benchmark;
+                this demo does not detect people from arbitrary video.
+              </p>
+            </article>
+            <aside class="card replay-explanation">
+              <p class="eyebrow">THE CORRECTION</p>
+              <h3>From model scores<br />to an audited estimate.</h3>
+              <div id="correction-steps"></div>
+              <p class="small-copy warning-note">
+                Approximate normal interval. Repeated audits showed
+                undercoverage; use the Results uncertainty table to assess it.
+              </p>
+              <button class="secondary-button" id="truth-toggle" type="button">
+                Compare with benchmark truth
+              </button>
+              <p id="truth-result" class="small-copy" hidden></p>
+              <button class="text-button" id="export-replay" type="button">
+                Download replay summary ↓
+              </button>
+              <p class="caption">
+                Read-only replay of an offline benchmark. Query labels simulate
+                annotation; no human timing study was performed.
+              </p>
+            </aside>
+          </div>
+          <article class="card table-card">
+            <div class="card-heading">
+              <div>
+                <h3>Queried references</h3>
+                <p id="query-preview-caption" class="small-copy"></p>
+              </div>
+              <button
+                class="secondary-button"
+                id="label-toggle"
+                type="button"
+                aria-pressed="false"
+              >
+                Reveal queried labels
+              </button>
+            </div>
+            <div class="table-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Queried pair-frame ID</th>
+                    <th>Native score q</th>
+                    <th>Revealed reference</th>
+                  </tr>
+                </thead>
+                <tbody id="query-rows"></tbody>
+              </table>
+            </div>
+            <p class="caption">
+              Only labels in the verified saved query plan are returned to the
+              estimator. Changing the displayed example frame does not purchase
+              or reveal additional labels.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="method" class="panel" hidden>
+        <div class="compact-hero">
+          <p class="eyebrow">03 / 03 · METHOD &amp; LIMITS</p>
+          <h1>An estimate you<br />can <em>trace back.</em></h1>
+          <p class="intro">
+            The course contribution is a controlled, reproducible annotation
+            study: verified data, exact budgets, comparable estimators and
+            explicit negative results.
+          </p>
+        </div>
+        <div class="method-grid">
+          <article class="card">
+            <span class="step-number">01</span>
+            <h3>Freeze the population</h3>
+            <p>
+              53 verified public sources; 191,956 training, 25,139 validation
+              and 10,316 test pair-frames. Unknown references and unresolved
+              media-alignment failures are excluded explicitly.
+            </p>
+          </article>
+          <article class="card">
+            <span class="step-number">02</span>
+            <h3>Share the predictions</h3>
+            <p>
+              All methods reuse the same frozen temporal MTGS-DINO scores.
+              “Static” describes the error-guidance features, not a different
+              backbone. Score/entropy controls use no learned error predictor.
+            </p>
+          </article>
+          <article class="card">
+            <span class="step-number">03</span>
+            <h3>Fix queries before labels</h3>
+            <p>
+              Training defines error strata and allocation moments; validation
+              selects allocation settings. Each test audit saves its exact query
+              plan before selected references are retrieved.
+            </p>
+          </article>
+          <article class="card">
+            <span class="step-number">04</span>
+            <h3>Correct the residual</h3>
+            <p>
+              Combine the full model mean with weighted sampled errors. Strata
+              are sampled without replacement, with positive inclusion and a
+              fixed total number of labels.
+            </p>
+          </article>
+        </div>
+        <article class="card equation-card">
+          <p class="eyebrow">COMMON DIFFERENCE ESTIMATOR</p>
+          <code>estimate = mean(q) + Σₕ (Nₕ / M) × meanₛₐₘₚₗₑ,ₕ(y − q)</code>
+          <p class="small-copy">
+            M is the population size, Nₕ is the size of stratum h, q is a frozen
+            prediction, and y is a queried reference. Human-only estimation sets
+            q to zero. The contextual-surrogate control uses its frozen adjusted
+            q.
+          </p>
+        </article>
+        <div class="limits-grid">
+          <article class="card">
+            <h3>What the evidence supports</h3>
+            <p>
+              Guided allocation improves fixed-corpus label-count efficiency
+              over uniform controls. Extra temporal guidance did not beat the
+              locked static method. The registered simple controls test whether
+              learned guidance is necessary.
+            </p>
+            <p>
+              The full original comparison, all losses and all exploratory
+              follow-ups remain available in the repository report.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Where the conclusions stop</h3>
+            <ul>
+              <li>
+                Available-media subset and provided benchmark head tracks.
+              </li>
+              <li>
+                Only three validation sources; inspected test data make this
+                exploratory.
+              </li>
+              <li>Reused development labels are an additional cost.</li>
+              <li>
+                Approximate intervals can under-cover; calibration may not
+                transfer.
+              </li>
+              <li>
+                No clinical validation, diagnosis or measured human-time saving.
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <span>GAZE AUDIT LAB</span>
+      <p>
+        Verified media → frozen scores → exact-budget queries → replayable
+        estimates
+      </p>
+      <span>Course research · exploratory</span>
+    </footer>
+  </body>
+</html>

@@ -12,6 +12,15 @@ recomputation. Both registered interpretation ablations are complete and checked
 extra transition features showed no clear benefit. See the
 [results assessment](docs/research/course-results.md).
 
+**Strengthening round complete.** Eight thousand new simple-control evaluations
+show score quartiles reaching 0.2079 pp RMSE at the primary budget, versus 0.2603
+for learned static guidance. The added uncertainty study retains important
+coverage failures and compares conservative exact binary references. A local
+interactive explorer now replays all seven methods and displays provided-track
+frames. See the [new report](reports/course-project/strengthening-report.md),
+[demo guide](docs/DEMO_GUIDE.md) and [presentation walkthrough](docs/PROJECT_PRESENTATION.md).
+All 43 tests pass. These exploratory extensions preserve the locked main result.
+
 ## Start here
 
 - [Sequential course-project plan](docs/COURSE_PROJECT_PLAN.md): detailed processing,
@@ -21,6 +30,9 @@ extra transition features showed no clear benefit. See the
 - [Results and limitations](docs/research/course-results.md),
   [aggregate main evidence](docs/research/main-course-results.json), and
   [registered interpretation experiments](docs/FOLLOWUP_EXPERIMENTS.md).
+- [Strengthening protocol](docs/STRENGTHENING_EXPERIMENTS.md),
+  [exact-reference protocol](docs/EXACT_INTERVAL_EXTENSION.md), and
+  [new results](reports/course-project/strengthening-report.md).
 - [Run and resume instructions](docs/RUN_EXPERIMENTS.md): verified subset, local
   environments, full sequential execution, outputs and exact audit replay.
 - [Actual execution evidence](docs/research/execution-progress.md): normalized data,

@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "complete": true,
+  "control_draws_independently_recomputed": 8000,
+  "existing_test_interval_draws_recomputed": 8000,
+  "validation_multiplier_draws_rechecked": 8000,
+  "checks": [
+    {
+      "stage": "B1",
+      "method": "q-quartiles",
+      "budget": 516,
+      "draws": 1000
+    },
+    {
+      "stage": "B1",
+      "method": "entropy-quartiles",
+      "budget": 516,
+      "draws": 1000
+    },
+    {
+      "stage": "B1",
+      "method": "q-quartiles",
+      "budget": 1032,
+      "draws": 1000
+    },
+    {
+      "stage": "B1",
+      "method": "entropy-quartiles",
+      "budget": 1032,
+      "draws": 1000
+    },
+    {
+      "stage": "B1",
+      "method": "q-quartiles",
+      "budget": 2063,
+      "draws": 1000
+    },
+    {
+      "stage": "B1",
+      "method": "entropy-quartiles",
+      "budget": 2063,
+      "draws": 1000
+    },
+    {
+      "stage": "B1",
+      "method": "q-quartiles",
+      "budget": 4126,
+      "draws": 1000
+    },
+    {
+      "stage": "B1",
+      "method": "entropy-quartiles",
+      "budget": 4126,
+      "draws": 1000
+    },
+    {
+      "stage": "B2",
+      "method": "M3",
+      "budget": 516,
+      "draws": 1000
+    },
+    {
+      "stage": "B2",
+      "method": "M4",
+      "budget": 516,
+      "draws": 1000
+    },
+    {
+      "stage": "B2",
+      "method": "M3",
+      "budget": 1032,
+      "draws": 1000
+    },
+    {
+      "stage": "B2",
+      "method": "M4",
+      "budget": 1032,
+      "draws": 1000
+    },
+    {
+      "stage": "B2",
+      "method": "M3",
+      "budget": 2063,
+      "draws": 1000
+    },
+    {
+      "stage": "B2",
+      "method": "M4",
+      "budget": 2063,
+      "draws": 1000
+    },
+    {
+      "stage": "B2",
+      "method": "M3",
+      "budget": 4126,
+      "draws": 1000
+    },
+    {
+      "stage": "B2",
+      "method": "M4",
+      "budget": 4126,
+      "draws": 1000
+    }
+  ],
+  "main_result_unchanged": true,
+  "control_result_sha256": "6bf4dae9a0a984203461ef0b4557537bf52a399ad329f7703d5aaf4419b5ebe8",
+  "coverage_result_sha256": "a0737b69dc7125927d16a4f4696c54f5f2e70af88e38e75d50608462599877c1"
+}

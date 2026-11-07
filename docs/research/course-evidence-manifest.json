@@ -18,15 +18,15 @@
     "docs/research/main-pipeline-status.json": "cdd0c93b183c757b4e2077bf5d50f6b78da4a24358e38fcf0af4a01c31764ee4",
     "docs/research/main-policy-lock.json": "2712497ef1474f5c97c3209cf45f3416ec08ab9a0178a12afcd7295cd19bb5e3",
     "reports/course-project/bias-coverage-width-budget.png": "ccf14ab256791dd39c595e973798c4f38e615782b22e3cbcd8f18d7f3594e03a",
-    "reports/course-project/cost-ledger.json": "afcb48a4922ae7e4c9ecb68224109920b2ce1ae5f7b50e627c1574bf4f63f219",
-    "reports/course-project/course-report.md": "56cc15a44d4a2f132157782d6e4c31815987e0c444d2689a1e0b8c6e577fc058",
+    "reports/course-project/cost-ledger.json": "7feaad2a24727cc5d6de378afa09feb5fb2b4e8f1adeea1a8f0998ee9ee1a061",
+    "reports/course-project/course-report.md": "f466f287da814799f41eacd781d669a7d785d82bf4ce1391021e4a08a3282df2",
     "reports/course-project/interval-width-coverage.png": "742d4fda7db4d54b388e548982e4e0116e469d33a8b2125cf4d1dc00309e3a98",
     "reports/course-project/primary-controls.png": "2bd125a73bf136ded91d61c799dedf869a5e71ca0c216b4d512d5c4bde4a3039",
     "reports/course-project/public-query-timeline.png": "1e22f6bcbe245a3a593b6ae5495f5e35a994d6535527daf8ae7a87e82e251c9c",
     "reports/course-project/results-table.csv": "d385635d9c8f7fce8982a7bf58a89d74e5375ef21aac26b7daec9b1b3a7721d2",
     "reports/course-project/rmse-budget.png": "c224d09046639ed9d65c46fc965a4623939238dd8282def10e1c33eff52a81e1",
     "reports/course-project/source-sensitivity.png": "dff05a8d822a5752dfdec7eebc64499c1da50f13f615d5e7bdaa665ec035bf4f",
-    "docs/research/course-results.md": "2ed886c005c4ec3c9a3fa739eb8dd42b1cd851c955822e84ccf2ee9aec3665a8",
+    "docs/research/course-results.md": "80b61bad7d7eab37e1d2f02642a13d3dd1e05ff6fb8316be30bd4f50f5d4a6a5",
     "docs/research/course-software-checks.json": "4a1cd3cda86e6b1381bbcb59dbde7f8fb1d46114bed831bdcb974d163b56b8ff",
     "docs/research/course-completion.json": "bba5917afc247bb3a353d62b8466ebb9f9505703dabb42a99af5c5154a5a5df3",
     "docs/research/followup-A2-development.json": "5a2a7fb9689f196ab2e8b5e24b6259d8f682d07238e6e2f4c0669d7c8ac61fa4",
@@ -40,5 +40,6 @@
   },
   "file_hash_convention": "SHA-256 of file bytes; for .json/.md/.csv/.svg normalize CRLF to LF for cross-platform Git checkout. Main result hash is the original immutable run file hash.",
   "all_required_experiments_complete": true,
-  "visually_reviewed_figures": 7
+  "visually_reviewed_figures": 7,
+  "subsequent_extension_manifest": "docs/research/strengthening-evidence-manifest.json"
 }

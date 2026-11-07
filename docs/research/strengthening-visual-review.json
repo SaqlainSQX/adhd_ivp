@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "figures": [
+    "simple-guidance-controls.png",
+    "interval-strengthening.png",
+    "variance-strengthening.png",
+    "exact-reference-intervals.png"
+  ],
+  "checks": [
+    "figures viewed",
+    "all labels/units legible",
+    "main and exploratory methods separated",
+    "coverage and width shown together",
+    "full histogram range retained",
+    "exact reference not called residual-centered"
+  ]
+}

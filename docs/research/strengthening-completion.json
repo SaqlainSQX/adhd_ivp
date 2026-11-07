@@ -1,0 +1,30 @@
+{
+  "state": "complete",
+  "completed_utc": "2026-11-07T12:15:50.609660+00:00",
+  "stages": [
+    "B1-simple-controls",
+    "B2-coverage",
+    "post-hoc residual-tail-v2",
+    "B2b-exact-reference-v2",
+    "B3-local-explorer",
+    "figures/report/presentation/QA"
+  ],
+  "main_result_and_policy_unchanged": true,
+  "additional_gpu_work": false,
+  "simple_audit_evaluations": 8000,
+  "fresh_coverage_validation_draws": 8000,
+  "reused_test_interval_evaluations": 8000,
+  "reused_exact_reference_cases": 16000,
+  "all_counts_include_reuse_not_distinct_independent_experiments": true,
+  "software_tests_passed": 43,
+  "figures_visually_reviewed": 4,
+  "demo": "http://127.0.0.1:8765",
+  "demo_live_replay_cases_checked": 9,
+  "browser_desktop_and_mobile": "passed",
+  "failed_v1_attempts_preserved": true,
+  "main_20minute_automation": "remains disabled; no pending experiment jobs",
+  "source_control_registration_commits": [
+    "9c57c3c",
+    "79c22a9"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "designation": "exploratory exact binary reference; registered after B1/B2",
+  "protocol_sha256": "d4ae4d04585da6fb8145f77794bfdf78ba4b6f7e2773209599e287346de68c34",
+  "implementation_sha256": "58f9994e1ec7841de2c8aa6d3c324702864096395beedbec425b528eeca58017",
+  "runner_sha256": "8aaa84708cf320bf54e0b7cb3a42032b1e746e4a96189692b111b643acee8e6c",
+  "main_result_sha256": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9",
+  "simple_result_sha256": "6bf4dae9a0a984203461ef0b4557537bf52a399ad329f7703d5aaf4419b5ebe8",
+  "alpha": 0.05,
+  "alpha_allocation": "equal among non-census strata",
+  "point_estimate_modified": false,
+  "interval_uses_q": false
+}

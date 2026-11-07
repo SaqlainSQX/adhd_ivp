@@ -83,5 +83,23 @@
     },
     "budgets_per_method_run": 1032,
     "new_human_time_measured": false
+  },
+  "strengthening": {
+    "new_control_evaluations": 8000,
+    "fresh_validation_draws_for_interval_calibration": 8000,
+    "reused_test_draws_for_B2": 8000,
+    "reused_cases_for_exact_binary_reference": 16000,
+    "successful_cpu_stage_seconds": {
+      "B1": 65.31543059996329,
+      "B2": 141.04065199999604,
+      "B2b_v2": 20.195654899987858
+    },
+    "failed_attempts_preserved": [
+      "residual-tail-v1-failure.json",
+      "B2b-exact-reference/failure.json"
+    ],
+    "failed_attempt_wall_seconds": null,
+    "extra_gpu_inference": false,
+    "new_human_annotation": false
   }
 }

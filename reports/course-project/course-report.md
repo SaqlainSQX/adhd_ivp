@@ -1,5 +1,7 @@
 # Temporal error-guided auditing: course experiment report
 
+Subsequent registered extensions add score/entropy controls, coverage diagnostics and a local explorer. Score quartiles beat learned guidance at the primary budget; see the [strengthening report](strengthening-report.md). The locked main results below remain unchanged.
+
 Temporal guidance did not improve the primary RMSE comparison against static guidance.
 
 This is an exploratory, fixed-corpus benchmark. A positive result would be an application result; generic stratification, residual correction and temporal context are established ideas.

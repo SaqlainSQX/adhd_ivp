@@ -1,0 +1,415 @@
+{
+  "designation": "post-hoc descriptive explanation; threshold not used for selection or deployable intervals",
+  "threshold": "abs(residual - full-test stratum mean) > 0.5",
+  "main_result_sha256": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9",
+  "rows": [
+    {
+      "method": "M3",
+      "budget": 1032,
+      "stratum": 0,
+      "population": 1938,
+      "queries": 890,
+      "census": false,
+      "negative_residual_below_minus_half": 331,
+      "positive_residual_above_half": 94,
+      "centered_absolute_residual_above_half": 382,
+      "variance_fraction_largest_10_residuals": 0.046742814051900956,
+      "zero_tail_query_rate": 0.0,
+      "conditional_diagnostics": [
+        {
+          "tail_queries": "two_or_more",
+          "draws": 1000,
+          "normal_coverage": 0.93,
+          "mean_estimated_variance": 6.64451460074224e-06
+        }
+      ]
+    },
+    {
+      "method": "M3",
+      "budget": 1032,
+      "stratum": 1,
+      "population": 1401,
+      "queries": 87,
+      "census": false,
+      "negative_residual_below_minus_half": 25,
+      "positive_residual_above_half": 1,
+      "centered_absolute_residual_above_half": 26,
+      "variance_fraction_largest_10_residuals": 0.3809866157558752,
+      "zero_tail_query_rate": 0.175,
+      "conditional_diagnostics": [
+        {
+          "tail_queries": "zero",
+          "draws": 175,
+          "normal_coverage": 0.72,
+          "mean_estimated_variance": 3.13514026897219e-06
+        },
+        {
+          "tail_queries": "one",
+          "draws": 333,
+          "normal_coverage": 0.984984984984985,
+          "mean_estimated_variance": 5.306786518880082e-06
+        },
+        {
+          "tail_queries": "two_or_more",
+          "draws": 492,
+          "normal_coverage": 0.967479674796748,
+          "mean_estimated_variance": 8.79818118472569e-06
+        }
+      ]
+    },
+    {
+      "method": "M3",
+      "budget": 1032,
+      "stratum": 2,
+      "population": 6960,
+      "queries": 38,
+      "census": false,
+      "negative_residual_below_minus_half": 0,
+      "positive_residual_above_half": 0,
+      "centered_absolute_residual_above_half": 0,
+      "variance_fraction_largest_10_residuals": 0.013124294119904923,
+      "zero_tail_query_rate": 1.0,
+      "conditional_diagnostics": [
+        {
+          "tail_queries": "zero",
+          "draws": 1000,
+          "normal_coverage": 0.93,
+          "mean_estimated_variance": 6.64451460074224e-06
+        }
+      ]
+    },
+    {
+      "method": "M3",
+      "budget": 1032,
+      "stratum": 3,
+      "population": 17,
+      "queries": 17,
+      "census": true,
+      "negative_residual_below_minus_half": 0,
+      "positive_residual_above_half": 2,
+      "centered_absolute_residual_above_half": 2,
+      "variance_fraction_largest_10_residuals": 0.9708341857936849,
+      "zero_tail_query_rate": 0.0,
+      "conditional_diagnostics": [
+        {
+          "tail_queries": "two_or_more",
+          "draws": 1000,
+          "normal_coverage": 0.93,
+          "mean_estimated_variance": 6.64451460074224e-06
+        }
+      ]
+    },
+    {
+      "method": "M3",
+      "budget": 2063,
+      "stratum": 0,
+      "population": 1938,
+      "queries": 1793,
+      "census": false,
+      "negative_residual_below_minus_half": 331,
+      "positive_residual_above_half": 94,
+      "centered_absolute_residual_above_half": 382,
+      "variance_fraction_largest_10_residuals": 0.046742814051900956,
+      "zero_tail_query_rate": 0.0,
+      "conditional_diagnostics": [
+        {
+          "tail_queries": "two_or_more",
+          "draws": 1000,
+          "normal_coverage": 0.913,
+          "mean_estimated_variance": 1.8549290278714226e-06
+        }
+      ]
+    },
+    {
+      "method": "M3",
+      "budget": 2063,
+      "stratum": 1,
+      "population": 1401,
+      "queries": 176,
+      "census": false,
+      "negative_residual_below_minus_half": 25,
+      "positive_residual_above_half": 1,
+      "centered_absolute_residual_above_half": 26,
+      "variance_fraction_largest_10_residuals": 0.3809866157558752,
+      "zero_tail_query_rate": 0.027,
+      "conditional_diagnostics": [
+        {
+          "tail_queries": "zero",
+          "draws": 27,
+          "normal_coverage": 0.0,
+          "mean_estimated_variance": 2.2533037457719866e-07
+        },
+        {
+          "tail_queries": "one",
+          "draws": 107,
+          "normal_coverage": 0.6074766355140186,
+          "mean_estimated_variance": 7.239894860372746e-07
+        },
+        {
+          "tail_queries": "two_or_more",
+          "draws": 866,
+          "normal_coverage": 0.9792147806004619,
+          "mean_estimated_variance": 2.0454714004062935e-06
+        }
+      ]
+    },
+    {
+      "method": "M3",
+      "budget": 2063,
+      "stratum": 2,
+      "population": 6960,
+      "queries": 77,
+      "census": false,
+      "negative_residual_below_minus_half": 0,
+      "positive_residual_above_half": 0,
+      "centered_absolute_residual_above_half": 0,
+      "variance_fraction_largest_10_residuals": 0.013124294119904923,
+      "zero_tail_query_rate": 1.0,
+      "conditional_diagnostics": [
+        {
+          "tail_queries": "zero",
+          "draws": 1000,
+          "normal_coverage": 0.913,
+          "mean_estimated_variance": 1.8549290278714226e-06
+        }
+      ]
+    },
+    {
+      "method": "M3",
+      "budget": 2063,
+      "stratum": 3,
+      "population": 17,
+      "queries": 17,
+      "census": true,
+      "negative_residual_below_minus_half": 0,
+      "positive_residual_above_half": 2,
+      "centered_absolute_residual_above_half": 2,
+      "variance_fraction_largest_10_residuals": 0.9708341857936849,
+      "zero_tail_query_rate": 0.0,
+      "conditional_diagnostics": [
+        {
+          "tail_queries": "two_or_more",
+          "draws": 1000,
+          "normal_coverage": 0.913,
+          "mean_estimated_variance": 1.8549290278714226e-06
+        }
+      ]
+    },
+    {
+      "method": "M4",
+      "budget": 1032,
+      "stratum": 0,
+      "population": 2148,
+      "queries": 877,
+      "census": false,
+      "negative_residual_below_minus_half": 331,
+      "positive_residual_above_half": 94,
+      "centered_absolute_residual_above_half": 381,
+      "variance_fraction_largest_10_residuals": 0.04483156996276013,
+      "zero_tail_query_rate": 0.0,
+      "conditional_diagnostics": [
+        {
+          "tail_queries": "two_or_more",
+          "draws": 1000,
+          "normal_coverage": 0.933,
+          "mean_estimated_variance": 7.540748840252177e-06
+        }
+      ]
+    },
+    {
+      "method": "M4",
+      "budget": 1032,
+      "stratum": 1,
+      "population": 1650,
+      "queries": 95,
+      "census": false,
+      "negative_residual_below_minus_half": 25,
+      "positive_residual_above_half": 1,
+      "centered_absolute_residual_above_half": 26,
+      "variance_fraction_largest_10_residuals": 0.3816899304386692,
+      "zero_tail_query_rate": 0.235,
+      "conditional_diagnostics": [
+        {
+          "tail_queries": "zero",
+          "draws": 235,
+          "normal_coverage": 0.7872340425531915,
+          "mean_estimated_variance": 3.891013682431391e-06
+        },
+        {
+          "tail_queries": "one",
+          "draws": 338,
+          "normal_coverage": 0.9763313609467456,
+          "mean_estimated_variance": 6.487035324061675e-06
+        },
+        {
+          "tail_queries": "two_or_more",
+          "draws": 427,
+          "normal_coverage": 0.9789227166276346,
+          "mean_estimated_variance": 1.0383472331025651e-05
+        }
+      ]
+    },
+    {
+      "method": "M4",
+      "budget": 1032,
+      "stratum": 2,
+      "population": 6483,
+      "queries": 40,
+      "census": false,
+      "negative_residual_below_minus_half": 0,
+      "positive_residual_above_half": 0,
+      "centered_absolute_residual_above_half": 0,
+      "variance_fraction_largest_10_residuals": 0.02431664992870804,
+      "zero_tail_query_rate": 1.0,
+      "conditional_diagnostics": [
+        {
+          "tail_queries": "zero",
+          "draws": 1000,
+          "normal_coverage": 0.933,
+          "mean_estimated_variance": 7.540748840252177e-06
+        }
+      ]
+    },
+    {
+      "method": "M4",
+      "budget": 1032,
+      "stratum": 3,
+      "population": 35,
+      "queries": 20,
+      "census": false,
+      "negative_residual_below_minus_half": 0,
+      "positive_residual_above_half": 2,
+      "centered_absolute_residual_above_half": 2,
+      "variance_fraction_largest_10_residuals": 0.9243289878714606,
+      "zero_tail_query_rate": 0.176,
+      "conditional_diagnostics": [
+        {
+          "tail_queries": "zero",
+          "draws": 176,
+          "normal_coverage": 0.9772727272727273,
+          "mean_estimated_variance": 7.716496072218162e-06
+        },
+        {
+          "tail_queries": "one",
+          "draws": 492,
+          "normal_coverage": 0.9308943089430894,
+          "mean_estimated_variance": 7.473403242543123e-06
+        },
+        {
+          "tail_queries": "two_or_more",
+          "draws": 332,
+          "normal_coverage": 0.9126506024096386,
+          "mean_estimated_variance": 7.547382940393261e-06
+        }
+      ]
+    },
+    {
+      "method": "M4",
+      "budget": 2063,
+      "stratum": 0,
+      "population": 2148,
+      "queries": 1770,
+      "census": false,
+      "negative_residual_below_minus_half": 331,
+      "positive_residual_above_half": 94,
+      "centered_absolute_residual_above_half": 381,
+      "variance_fraction_largest_10_residuals": 0.04483156996276013,
+      "zero_tail_query_rate": 0.0,
+      "conditional_diagnostics": [
+        {
+          "tail_queries": "two_or_more",
+          "draws": 1000,
+          "normal_coverage": 0.905,
+          "mean_estimated_variance": 2.39098836044539e-06
+        }
+      ]
+    },
+    {
+      "method": "M4",
+      "budget": 2063,
+      "stratum": 1,
+      "population": 1650,
+      "queries": 192,
+      "census": false,
+      "negative_residual_below_minus_half": 25,
+      "positive_residual_above_half": 1,
+      "centered_absolute_residual_above_half": 26,
+      "variance_fraction_largest_10_residuals": 0.3816899304386692,
+      "zero_tail_query_rate": 0.045,
+      "conditional_diagnostics": [
+        {
+          "tail_queries": "zero",
+          "draws": 45,
+          "normal_coverage": 0.17777777777777778,
+          "mean_estimated_variance": 5.993774856519478e-07
+        },
+        {
+          "tail_queries": "one",
+          "draws": 128,
+          "normal_coverage": 0.703125,
+          "mean_estimated_variance": 1.1844777016065395e-06
+        },
+        {
+          "tail_queries": "two_or_more",
+          "draws": 827,
+          "normal_coverage": 0.9758162031438936,
+          "mean_estimated_variance": 2.67521551122783e-06
+        }
+      ]
+    },
+    {
+      "method": "M4",
+      "budget": 2063,
+      "stratum": 2,
+      "population": 6483,
+      "queries": 81,
+      "census": false,
+      "negative_residual_below_minus_half": 0,
+      "positive_residual_above_half": 0,
+      "centered_absolute_residual_above_half": 0,
+      "variance_fraction_largest_10_residuals": 0.02431664992870804,
+      "zero_tail_query_rate": 1.0,
+      "conditional_diagnostics": [
+        {
+          "tail_queries": "zero",
+          "draws": 1000,
+          "normal_coverage": 0.905,
+          "mean_estimated_variance": 2.39098836044539e-06
+        }
+      ]
+    },
+    {
+      "method": "M4",
+      "budget": 2063,
+      "stratum": 3,
+      "population": 35,
+      "queries": 20,
+      "census": false,
+      "negative_residual_below_minus_half": 0,
+      "positive_residual_above_half": 2,
+      "centered_absolute_residual_above_half": 2,
+      "variance_fraction_largest_10_residuals": 0.9243289878714606,
+      "zero_tail_query_rate": 0.173,
+      "conditional_diagnostics": [
+        {
+          "tail_queries": "zero",
+          "draws": 173,
+          "normal_coverage": 0.9190751445086706,
+          "mean_estimated_variance": 2.3921652104051345e-06
+        },
+        {
+          "tail_queries": "one",
+          "draws": 510,
+          "normal_coverage": 0.8941176470588236,
+          "mean_estimated_variance": 2.390064797254266e-06
+        },
+        {
+          "tail_queries": "two_or_more",
+          "draws": 317,
+          "normal_coverage": 0.9148264984227129,
+          "mean_estimated_variance": 2.3918319635508697e-06
+        }
+      ]
+    }
+  ]
+}

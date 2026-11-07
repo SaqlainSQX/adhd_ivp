@@ -1,0 +1,494 @@
+{
+  "complete": true,
+  "designation": "exploratory",
+  "reference_prevalence": 0.03518805738658395,
+  "population_size": 10316,
+  "sampled_method_runs": 8000,
+  "draws_per_policy_budget": 1000,
+  "selected_alphas": {
+    "q-quartiles": 1.0,
+    "entropy-quartiles": 1.0
+  },
+  "results": {
+    "q-quartiles-b516": {
+      "bias_pp": -0.006515154001224213,
+      "mae_pp": 0.27385168675144056,
+      "rmse_pp": 0.34066198218187205,
+      "mean_labels": 516.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.958,
+          "mean_width_pp": 1.3720682424765083,
+          "median_width_pp": 1.357979946200759
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 27.855894865664165,
+          "median_width_pp": 27.844691039447035
+        }
+      }
+    },
+    "entropy-quartiles-b516": {
+      "bias_pp": -0.03777397925736414,
+      "mae_pp": 0.3555116842677186,
+      "rmse_pp": 0.44841328318997314,
+      "mean_labels": 516.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.948,
+          "mean_width_pp": 1.707608355075264,
+          "median_width_pp": 1.354211866030555
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 32.23038405283493,
+          "median_width_pp": 32.24855610421522
+        }
+      }
+    },
+    "q-quartiles-b1032": {
+      "bias_pp": 0.002438927330318956,
+      "mae_pp": 0.16570396503993642,
+      "rmse_pp": 0.20785661680687112,
+      "mean_labels": 1032.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.96,
+          "mean_width_pp": 0.8401623158995789,
+          "median_width_pp": 0.8261950331920287
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 22.800976552528645,
+          "median_width_pp": 22.805312466853493
+        }
+      }
+    },
+    "entropy-quartiles-b1032": {
+      "bias_pp": -0.005493932415024935,
+      "mae_pp": 0.23699644829676011,
+      "rmse_pp": 0.2957572531202309,
+      "mean_labels": 1032.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.929,
+          "mean_width_pp": 1.118926290275194,
+          "median_width_pp": 1.1459506339474699
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 25.89370398573358,
+          "median_width_pp": 25.90700152477191
+        }
+      }
+    },
+    "q-quartiles-b2063": {
+      "bias_pp": 6.977784342898988e-05,
+      "mae_pp": 0.0775115411846915,
+      "rmse_pp": 0.09741865919431904,
+      "mean_labels": 2063.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.939,
+          "mean_width_pp": 0.36263683563630555,
+          "median_width_pp": 0.3432361826232716
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 19.27350806261539,
+          "median_width_pp": 19.27306266393663
+        }
+      }
+    },
+    "entropy-quartiles-b2063": {
+      "bias_pp": 0.002431950008160118,
+      "mae_pp": 0.13498437126065183,
+      "rmse_pp": 0.1696967541166649,
+      "mean_labels": 2063.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.893,
+          "mean_width_pp": 0.6243713171577895,
+          "median_width_pp": 0.6518956528157559
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 21.45158504449594,
+          "median_width_pp": 21.462120501564993
+        }
+      }
+    },
+    "q-quartiles-b4126": {
+      "bias_pp": 0.0003977886566988359,
+      "mae_pp": 0.01161414938742952,
+      "rmse_pp": 0.012310121808578248,
+      "mean_labels": 4126.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.459,
+          "mean_width_pp": 0.037360996683708805,
+          "median_width_pp": 0.011589342782317158
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 9.889122463274589,
+          "median_width_pp": 9.882568500537717
+        }
+      }
+    },
+    "entropy-quartiles-b4126": {
+      "bias_pp": -0.0012206169911599736,
+      "mae_pp": 0.04244984272410322,
+      "rmse_pp": 0.053182964375242184,
+      "mean_labels": 4126.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.943,
+          "mean_width_pp": 0.20714883210549281,
+          "median_width_pp": 0.21029325919651384
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 10.995248824826117,
+          "median_width_pp": 10.99476413334927
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "M2/q-quartiles-b516": {
+      "rmse_ratio": 2.2327758975797645,
+      "draw_bootstrap_95pct": [
+        2.0973871300271525,
+        2.3693589304550473
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M3/q-quartiles-b516": {
+      "rmse_ratio": 1.159517191918309,
+      "draw_bootstrap_95pct": [
+        1.0934155780285109,
+        1.235947595898593
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M4/q-quartiles-b516": {
+      "rmse_ratio": 1.277227685954251,
+      "draw_bootstrap_95pct": [
+        1.2026038330144961,
+        1.354075364093604
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M2/entropy-quartiles-b516": {
+      "rmse_ratio": 1.6962518541521188,
+      "draw_bootstrap_95pct": [
+        1.5979842062366774,
+        1.800939454728683
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M3/entropy-quartiles-b516": {
+      "rmse_ratio": 0.8808914449697592,
+      "draw_bootstrap_95pct": [
+        0.8267048194701436,
+        0.9398887470780808
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M4/entropy-quartiles-b516": {
+      "rmse_ratio": 0.9703167401720493,
+      "draw_bootstrap_95pct": [
+        0.9105353569690583,
+        1.0293855920612267
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M2/q-quartiles-b1032": {
+      "rmse_ratio": 2.6599405556184506,
+      "draw_bootstrap_95pct": [
+        2.4984993607995674,
+        2.8227910341736466
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M3/q-quartiles-b1032": {
+      "rmse_ratio": 1.2523355733935035,
+      "draw_bootstrap_95pct": [
+        1.1722109450421516,
+        1.336889379960496
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M4/q-quartiles-b1032": {
+      "rmse_ratio": 1.3303801389383862,
+      "draw_bootstrap_95pct": [
+        1.2493475977508761,
+        1.4179042202849286
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M2/entropy-quartiles-b1032": {
+      "rmse_ratio": 1.8693920063339289,
+      "draw_bootstrap_95pct": [
+        1.7521560155988058,
+        1.993598716800471
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M3/entropy-quartiles-b1032": {
+      "rmse_ratio": 0.8801347478252624,
+      "draw_bootstrap_95pct": [
+        0.8225054819174064,
+        0.9369336234888219
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M4/entropy-quartiles-b1032": {
+      "rmse_ratio": 0.9349840513780203,
+      "draw_bootstrap_95pct": [
+        0.877506675120108,
+        0.9933259976241531
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M2/q-quartiles-b2063": {
+      "rmse_ratio": 3.702698929211384,
+      "draw_bootstrap_95pct": [
+        3.486268018125346,
+        3.9400745508267074
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M3/q-quartiles-b2063": {
+      "rmse_ratio": 1.4333480899899242,
+      "draw_bootstrap_95pct": [
+        1.3451329555379328,
+        1.535931662159287
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M4/q-quartiles-b2063": {
+      "rmse_ratio": 1.6220711022180723,
+      "draw_bootstrap_95pct": [
+        1.511926158268003,
+        1.733445910975896
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M2/entropy-quartiles-b2063": {
+      "rmse_ratio": 2.1256267803214897,
+      "draw_bootstrap_95pct": [
+        1.9998559376250784,
+        2.259738101616597
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M3/entropy-quartiles-b2063": {
+      "rmse_ratio": 0.8228492631600893,
+      "draw_bootstrap_95pct": [
+        0.7718399909873613,
+        0.8797081445779225
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M4/entropy-quartiles-b2063": {
+      "rmse_ratio": 0.9311904209275481,
+      "draw_bootstrap_95pct": [
+        0.8723578813437892,
+        0.9945211336464459
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M2/q-quartiles-b4126": {
+      "rmse_ratio": 18.11810476685608,
+      "draw_bootstrap_95pct": [
+        17.30046101943823,
+        18.98919882970381
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M3/q-quartiles-b4126": {
+      "rmse_ratio": 0.1532882585672552,
+      "draw_bootstrap_95pct": [
+        0.14577485937527349,
+        0.16088453894849672
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M4/q-quartiles-b4126": {
+      "rmse_ratio": 1.8402524597655672,
+      "draw_bootstrap_95pct": [
+        1.7534909470328475,
+        1.9235813996457785
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M2/entropy-quartiles-b4126": {
+      "rmse_ratio": 4.193750371771467,
+      "draw_bootstrap_95pct": [
+        3.936272501732722,
+        4.458701894290636
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M3/entropy-quartiles-b4126": {
+      "rmse_ratio": 0.035481232702143005,
+      "draw_bootstrap_95pct": [
+        0.033520156117891754,
+        0.03765222614456941
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "M4/entropy-quartiles-b4126": {
+      "rmse_ratio": 0.4259584286880344,
+      "draw_bootstrap_95pct": [
+        0.400683023006783,
+        0.4517531827248307
+      ],
+      "seed": 400002,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    }
+  },
+  "independent_checks": [
+    {
+      "policy": "q-quartiles",
+      "budget": 516,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 1.3552527156068805e-20
+    },
+    {
+      "policy": "entropy-quartiles",
+      "budget": 516,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 1.3552527156068805e-20
+    },
+    {
+      "policy": "q-quartiles",
+      "budget": 1032,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 5.082197683525802e-21
+    },
+    {
+      "policy": "entropy-quartiles",
+      "budget": 1032,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 3.3881317890172014e-21
+    },
+    {
+      "policy": "q-quartiles",
+      "budget": 2063,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 8.470329472543003e-22
+    },
+    {
+      "policy": "entropy-quartiles",
+      "budget": 2063,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 1.6940658945086007e-21
+    },
+    {
+      "policy": "q-quartiles",
+      "budget": 4126,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 1.9852334701272664e-23
+    },
+    {
+      "policy": "entropy-quartiles",
+      "budget": 4126,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 2.117582368135751e-22
+    }
+  ],
+  "main_result_unchanged": true,
+  "policy_lock_sha256": "38466f2d287d37d96bd3bcf4fe2c7ee9122622593e7f160c342e6d599830c8bd",
+  "registration_sha256": "53173e38bc95588f7d8e4124cbcc13f79fe6b263f1f01aaeab45b6a0975ad845",
+  "elapsed_seconds": 65.31543059996329
+}

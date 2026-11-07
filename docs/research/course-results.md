@@ -1,5 +1,11 @@
 # Course-project results assessment — 7 November 2026
 
+**Subsequent strengthening round:** the additional score/entropy controls,
+coverage diagnostics, exact binary reference and interactive demonstration are
+complete. See the [new report](../../reports/course-project/strengthening-report.md).
+The original main results below remain unchanged; score quartiles outperform
+learned guidance at the primary budget in the exploratory extension.
+
 **The completed main experiment is substantial enough for a course project.**
 It demonstrates useful label-count efficiency from error-guided sampling on the
 verified ChildPlay subset, supported by reproducible controls and validation.
@@ -72,9 +78,10 @@ This diagnostic explains an existing result; it selected no policy. It does not
 imply that a 40% sample will nearly solve a new dataset.
 
 Post-hoc training feature importances are dominated by score/entropy features.
-They are descriptive and do not establish necessity or causation. An entropy-only
-sampler and alternative learners were deferred; these results do not show that
-the learned policy is better than every simpler allocation rule.
+They are descriptive and do not establish necessity or causation. The later B1
+extension evaluates score/entropy controls; score quartiles beat the learned
+policy at 5–20%. Alternative learners remain deferred. These results do not show
+that a learned policy is better than simpler allocation rules.
 
 ## Interval limitations
 
@@ -130,8 +137,8 @@ policy and main-result files were not edited after observing follow-up outcomes.
 ![Main and exploratory comparisons](../../reports/course-project/followup-comparison.png)
 
 All required experiments and these two registered follow-ups are finished.
-The final plot was visually checked. Optional X01–X04 remain deferred; no additional
-method variants were added to obtain a favorable result. There are 20,000 main
+The final plot was visually checked. The later user-authorized B1/B2/B2b/B3 round
+is reported separately; remaining optional experiments are deferred. There are 20,000 main
 and 3,000 follow-up evaluations, including 1,000 exact main-M4 reproductions in A1.
 
 ## Claims and costs appropriate for the course
