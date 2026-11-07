@@ -1,0 +1,98 @@
+{
+  "learner": "squared-rf",
+  "target": "squared residual (y-q)^2",
+  "feature_columns": [
+    "f_q",
+    "f_direction_a_to_b",
+    "f_direction_b_to_a",
+    "f_direction_signed_difference",
+    "f_direction_absolute_difference",
+    "f_q_entropy",
+    "f_head_a_center_x",
+    "f_head_a_center_y",
+    "f_head_a_width",
+    "f_head_a_height",
+    "f_head_a_area",
+    "f_head_b_center_x",
+    "f_head_b_center_y",
+    "f_head_b_width",
+    "f_head_b_height",
+    "f_head_b_area",
+    "f_pair_center_distance",
+    "f_head_area_ratio",
+    "f_real_person_occupancy"
+  ],
+  "cuts": [
+    0.00036972211316086084,
+    0.00047277497219892013,
+    0.00047438614841649153
+  ],
+  "residual_sd": [
+    0.024247203533647142,
+    0.014998072610022036,
+    0.010510659778356036,
+    0.24734982314469287
+  ],
+  "allocation_moments_use_centered_signed_residuals": true,
+  "moments": [
+    {
+      "stratum": 0,
+      "training_labels": 54225,
+      "centered_signed_residual_variance": 0.0005814711259600555,
+      "shrunk_sd": 0.024247203533647142
+    },
+    {
+      "stratum": 1,
+      "training_labels": 55521,
+      "centered_signed_residual_variance": 0.00021850636685445354,
+      "shrunk_sd": 0.014998072610022036
+    },
+    {
+      "stratum": 2,
+      "training_labels": 36531,
+      "centered_signed_residual_variance": 0.00010062984573513304,
+      "shrunk_sd": 0.010510659778356036
+    },
+    {
+      "stratum": 3,
+      "training_labels": 45679,
+      "centered_signed_residual_variance": 0.0612008023725291,
+      "shrunk_sd": 0.24734982314469287
+    }
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "training_rows": 139399,
+      "held_rows": 52557,
+      "elapsed_seconds": 43.0842223999789
+    },
+    {
+      "fold": 1,
+      "training_rows": 141921,
+      "held_rows": 50035,
+      "elapsed_seconds": 89.61444660002599
+    },
+    {
+      "fold": 2,
+      "training_rows": 142604,
+      "held_rows": 49352,
+      "elapsed_seconds": 136.63608110003406
+    },
+    {
+      "fold": 3,
+      "training_rows": 167845,
+      "held_rows": 24111,
+      "elapsed_seconds": 190.011774100014
+    },
+    {
+      "fold": 4,
+      "training_rows": 176055,
+      "held_rows": 15901,
+      "elapsed_seconds": 246.45347850001417
+    }
+  ],
+  "scaling_inside_each_training_fold": false,
+  "cpu_threads": 1,
+  "fit_elapsed_seconds": 306.8339138000156
+}

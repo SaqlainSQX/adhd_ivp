@@ -1,0 +1,25 @@
+{
+  "state": "complete",
+  "completed_utc": "2026-11-07T16:45:55.669207+00:00",
+  "branch": "codex/extra-experiments-v1",
+  "fallback_main_commit": "59fb784",
+  "registration_commit": "4b766f0",
+  "test_evaluations": 32000,
+  "validation_evaluations": 2400,
+  "independent_validation": "passed",
+  "source_subset_reconstruction": "passed",
+  "tests_passed": 47,
+  "new_figures_reviewed": 3,
+  "new_gpu_inference": false,
+  "new_human_annotation": false,
+  "frozen_inputs_unchanged": true,
+  "no_new_learner_met_registered_primary_10pct_gain_vs_score": true,
+  "useful_cost_signal": "5% training-label moments: 9599 labels, primary RMSE 0.2119559300 vs 0.2148223082 with 191956; full validation/backbone unchanged",
+  "all_registered_jobs_complete": true,
+  "stop_after_registered_queue": true,
+  "cpu_stage_seconds": {
+    "C1-ridge": 110.20660430000862,
+    "C2-label-cost": 175.767374499992,
+    "C3-squared-rf": 863.972103499982
+  }
+}

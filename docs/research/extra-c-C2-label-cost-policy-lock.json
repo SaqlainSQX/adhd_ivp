@@ -1,0 +1,184 @@
+{
+  "stage": "C2-label-cost",
+  "models": {
+    "score-labels-0.01": {
+      "policy_file": "score-labels-0.01-policy.json",
+      "policy_sha256": "08e588198d27e6301112104c660746a3896d27cd7b752287a76f8e2ab495e601"
+    },
+    "score-labels-0.05": {
+      "policy_file": "score-labels-0.05-policy.json",
+      "policy_sha256": "862100fdc685d080a0fb247100265fe5edfd173cfd79468d968370f0acf61f86"
+    },
+    "score-labels-0.2": {
+      "policy_file": "score-labels-0.2-policy.json",
+      "policy_sha256": "1d8e4d6083964619f9c2158682ab56071eb561dbd2242f1c902dd4c68eb85e4b"
+    },
+    "score-labels-1": {
+      "policy_file": "score-labels-1-policy.json",
+      "policy_sha256": "904dd23ad57b8a40e12aa5833a69450d4147ca5e6850602257cf4fda23d8b28a"
+    }
+  },
+  "feature_sets": {
+    "score-labels-0.01": "static",
+    "score-labels-0.05": "static",
+    "score-labels-0.2": "static",
+    "score-labels-1": "static"
+  },
+  "candidates": [
+    {
+      "policy": "score-labels-0.01",
+      "alpha": 0.0,
+      "validation_mse": 2.048665490387401e-06,
+      "query_file": "validation-score-labels-0.01-alpha0.npz",
+      "query_sha256": "2cd198835c9838ca1e75a16d110c4fc259fc5fa0e83fb90b9307870864d1eb4f",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.01",
+      "alpha": 0.5,
+      "validation_mse": 6.085154139763298e-07,
+      "query_file": "validation-score-labels-0.01-alpha0.5.npz",
+      "query_sha256": "6d0bf44395cd50770d070136832f9f91a27aaf6477cc9393d5dac9cb574d6414",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.01",
+      "alpha": 1.0,
+      "validation_mse": 2.980708733688651e-07,
+      "query_file": "validation-score-labels-0.01-alpha1.npz",
+      "query_sha256": "256a940ceb5854b8295a1f19466f6088064fcdd90d029cb84b00d29a0f1cd251",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.05",
+      "alpha": 0.0,
+      "validation_mse": 2.048665490387401e-06,
+      "query_file": "validation-score-labels-0.05-alpha0.npz",
+      "query_sha256": "2cd198835c9838ca1e75a16d110c4fc259fc5fa0e83fb90b9307870864d1eb4f",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.05",
+      "alpha": 0.5,
+      "validation_mse": 4.432836454683601e-07,
+      "query_file": "validation-score-labels-0.05-alpha0.5.npz",
+      "query_sha256": "d0d68a7ff84ba501b18e387e522a3673f2fd25159039ae7ba2385d269ac8dc48",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.05",
+      "alpha": 1.0,
+      "validation_mse": 1.5093201528704318e-07,
+      "query_file": "validation-score-labels-0.05-alpha1.npz",
+      "query_sha256": "a3ad916ca0e95ed9a7a025c1b0cde123daec66191570dddb9d71f2abae40e383",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.2",
+      "alpha": 0.0,
+      "validation_mse": 2.048665490387401e-06,
+      "query_file": "validation-score-labels-0.2-alpha0.npz",
+      "query_sha256": "2cd198835c9838ca1e75a16d110c4fc259fc5fa0e83fb90b9307870864d1eb4f",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.2",
+      "alpha": 0.5,
+      "validation_mse": 3.262698414221947e-07,
+      "query_file": "validation-score-labels-0.2-alpha0.5.npz",
+      "query_sha256": "2c2579e7bf193ca33ca46ad38bee5fc2a59b63e1e032f11c563dcdab18a95b5d",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.2",
+      "alpha": 1.0,
+      "validation_mse": 1.320530183609076e-07,
+      "query_file": "validation-score-labels-0.2-alpha1.npz",
+      "query_sha256": "80fce1eaf6dfa43538913e5431332230391a8b46a96ac643803494c58569ecdb",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-1",
+      "alpha": 0.0,
+      "validation_mse": 2.048665490387401e-06,
+      "query_file": "validation-score-labels-1-alpha0.npz",
+      "query_sha256": "2cd198835c9838ca1e75a16d110c4fc259fc5fa0e83fb90b9307870864d1eb4f",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-1",
+      "alpha": 0.5,
+      "validation_mse": 4.2385454220558055e-07,
+      "query_file": "validation-score-labels-1-alpha0.5.npz",
+      "query_sha256": "e75c6702867e53a5ecdde3c5f4e41fb619d3a2963dd1e1d7352a4dfb6f014727",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-1",
+      "alpha": 1.0,
+      "validation_mse": 1.2436460992295188e-07,
+      "query_file": "validation-score-labels-1-alpha1.npz",
+      "query_sha256": "243d6ae13867e60066df9a446a575543ebba830781abf922b69ba4e6553b61f0",
+      "budget": 2514,
+      "draws": 100
+    }
+  ],
+  "selected": {
+    "score-labels-0.01": {
+      "policy": "score-labels-0.01",
+      "alpha": 1.0,
+      "validation_mse": 2.980708733688651e-07,
+      "query_file": "validation-score-labels-0.01-alpha1.npz",
+      "query_sha256": "256a940ceb5854b8295a1f19466f6088064fcdd90d029cb84b00d29a0f1cd251",
+      "budget": 2514,
+      "draws": 100
+    },
+    "score-labels-0.05": {
+      "policy": "score-labels-0.05",
+      "alpha": 1.0,
+      "validation_mse": 1.5093201528704318e-07,
+      "query_file": "validation-score-labels-0.05-alpha1.npz",
+      "query_sha256": "a3ad916ca0e95ed9a7a025c1b0cde123daec66191570dddb9d71f2abae40e383",
+      "budget": 2514,
+      "draws": 100
+    },
+    "score-labels-0.2": {
+      "policy": "score-labels-0.2",
+      "alpha": 1.0,
+      "validation_mse": 1.320530183609076e-07,
+      "query_file": "validation-score-labels-0.2-alpha1.npz",
+      "query_sha256": "80fce1eaf6dfa43538913e5431332230391a8b46a96ac643803494c58569ecdb",
+      "budget": 2514,
+      "draws": 100
+    },
+    "score-labels-1": {
+      "policy": "score-labels-1",
+      "alpha": 1.0,
+      "validation_mse": 1.2436460992295188e-07,
+      "query_file": "validation-score-labels-1-alpha1.npz",
+      "query_sha256": "243d6ae13867e60066df9a446a575543ebba830781abf922b69ba4e6553b61f0",
+      "budget": 2514,
+      "draws": 100
+    }
+  },
+  "training_labels": {
+    "score-labels-0.01": 1920,
+    "score-labels-0.05": 9599,
+    "score-labels-0.2": 38390,
+    "score-labels-1": 191956
+  },
+  "validation_labels_reused": 25139,
+  "test_references_used_for_selection": false,
+  "all_validation_plans_saved_before_query": true
+}

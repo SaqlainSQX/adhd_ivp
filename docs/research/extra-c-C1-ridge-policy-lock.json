@@ -1,0 +1,104 @@
+{
+  "stage": "C1-ridge",
+  "models": {
+    "ridge-static": {
+      "model_file": "ridge-static.joblib",
+      "model_sha256": "c13eefa98cca83c15cd46937ca65deda9997a5cd97d15bd1a52f743129c7021a",
+      "development_file": "ridge-static-development.json",
+      "development_sha256": "22f4834c9fa34c6841a05648055a96c7d865c3e24f733161c55eb5a0960fa246"
+    },
+    "ridge-temporal-w11": {
+      "model_file": "ridge-temporal-w11.joblib",
+      "model_sha256": "ce18da91ca2d74dc5654b603cd3b07dc92c4d0734e334139ff319c925d92abca",
+      "development_file": "ridge-temporal-w11-development.json",
+      "development_sha256": "2f344140d21763128100980649995da5ae6a24345459c1a13486cb8a64805331"
+    }
+  },
+  "feature_sets": {
+    "ridge-static": "static",
+    "ridge-temporal-w11": "temporal-w11"
+  },
+  "candidates": [
+    {
+      "policy": "ridge-static",
+      "alpha": 0.0,
+      "validation_mse": 3.0367755667630517e-06,
+      "query_file": "validation-ridge-static-alpha0.npz",
+      "query_sha256": "b3d6dd9abec9000d0786bc12b79530f2564a84e8be1f06ae03df5da8fbbd159b",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "ridge-static",
+      "alpha": 0.5,
+      "validation_mse": 5.14349087242363e-07,
+      "query_file": "validation-ridge-static-alpha0.5.npz",
+      "query_sha256": "41868b4716e9421a237f6d0daec3bd2073fb2af8aa70450c7a0dc0706e444f4a",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "ridge-static",
+      "alpha": 1.0,
+      "validation_mse": 2.3405123649479937e-07,
+      "query_file": "validation-ridge-static-alpha1.npz",
+      "query_sha256": "6aa8f4a076ff7e2625786673278485cb649c5b7552a0d95c994f2c7c8b7d01cf",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "ridge-temporal-w11",
+      "alpha": 0.0,
+      "validation_mse": 1.99520460885891e-06,
+      "query_file": "validation-ridge-temporal-w11-alpha0.npz",
+      "query_sha256": "67e9b4ece11652698e5e1c85b5a57c7b64df5e8e80d1ea4d1c42f04eb7632986",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "ridge-temporal-w11",
+      "alpha": 0.5,
+      "validation_mse": 4.5274641533284445e-07,
+      "query_file": "validation-ridge-temporal-w11-alpha0.5.npz",
+      "query_sha256": "fa7da0fcc6881dc02018c96815cb668d443e24c1ddd43118bc74d3cefb81c7e2",
+      "budget": 2514,
+      "draws": 100
+    },
+    {
+      "policy": "ridge-temporal-w11",
+      "alpha": 1.0,
+      "validation_mse": 2.2252182839517432e-07,
+      "query_file": "validation-ridge-temporal-w11-alpha1.npz",
+      "query_sha256": "9825d208935a26ba00771ca67a31abcd0d527720bd8d1208284e62cac524bb13",
+      "budget": 2514,
+      "draws": 100
+    }
+  ],
+  "selected": {
+    "ridge-static": {
+      "policy": "ridge-static",
+      "alpha": 1.0,
+      "validation_mse": 2.3405123649479937e-07,
+      "query_file": "validation-ridge-static-alpha1.npz",
+      "query_sha256": "6aa8f4a076ff7e2625786673278485cb649c5b7552a0d95c994f2c7c8b7d01cf",
+      "budget": 2514,
+      "draws": 100
+    },
+    "ridge-temporal-w11": {
+      "policy": "ridge-temporal-w11",
+      "alpha": 1.0,
+      "validation_mse": 2.2252182839517432e-07,
+      "query_file": "validation-ridge-temporal-w11-alpha1.npz",
+      "query_sha256": "9825d208935a26ba00771ca67a31abcd0d527720bd8d1208284e62cac524bb13",
+      "budget": 2514,
+      "draws": 100
+    }
+  },
+  "training_labels": {
+    "ridge-static": 191956,
+    "ridge-temporal-w11": 191956
+  },
+  "validation_labels_reused": 25139,
+  "test_references_used_for_selection": false,
+  "all_validation_plans_saved_before_query": true
+}

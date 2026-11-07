@@ -1,0 +1,378 @@
+{
+  "status": "passed",
+  "complete": true,
+  "test_evaluations_recomputed": 32000,
+  "validation_evaluations_recomputed": 2400,
+  "test_checks": [
+    {
+      "stage": "C1-ridge",
+      "policy": "ridge-static",
+      "budget": 516,
+      "draws": 1000,
+      "rmse_pp": 0.33213545249711235
+    },
+    {
+      "stage": "C1-ridge",
+      "policy": "ridge-temporal-w11",
+      "budget": 516,
+      "draws": 1000,
+      "rmse_pp": 0.35399935758177925
+    },
+    {
+      "stage": "C1-ridge",
+      "policy": "ridge-static",
+      "budget": 1032,
+      "draws": 1000,
+      "rmse_pp": 0.20551349903724725
+    },
+    {
+      "stage": "C1-ridge",
+      "policy": "ridge-temporal-w11",
+      "budget": 1032,
+      "draws": 1000,
+      "rmse_pp": 0.22131052295573275
+    },
+    {
+      "stage": "C1-ridge",
+      "policy": "ridge-static",
+      "budget": 2063,
+      "draws": 1000,
+      "rmse_pp": 0.07941075666450692
+    },
+    {
+      "stage": "C1-ridge",
+      "policy": "ridge-temporal-w11",
+      "budget": 2063,
+      "draws": 1000,
+      "rmse_pp": 0.10065841304887935
+    },
+    {
+      "stage": "C1-ridge",
+      "policy": "ridge-static",
+      "budget": 4126,
+      "draws": 1000,
+      "rmse_pp": 0.011196807834300732
+    },
+    {
+      "stage": "C1-ridge",
+      "policy": "ridge-temporal-w11",
+      "budget": 4126,
+      "draws": 1000,
+      "rmse_pp": 0.023698156335263336
+    },
+    {
+      "stage": "C2-label-cost",
+      "policy": "score-labels-0.01",
+      "budget": 516,
+      "draws": 1000,
+      "rmse_pp": 0.3907372601507379
+    },
+    {
+      "stage": "C2-label-cost",
+      "policy": "score-labels-0.05",
+      "budget": 516,
+      "draws": 1000,
+      "rmse_pp": 0.336969615966326
+    },
+    {
+      "stage": "C2-label-cost",
+      "policy": "score-labels-0.2",
+      "budget": 516,
+      "draws": 1000,
+      "rmse_pp": 0.35193425084043023
+    },
+    {
+      "stage": "C2-label-cost",
+      "policy": "score-labels-1",
+      "budget": 516,
+      "draws": 1000,
+      "rmse_pp": 0.3578112512988752
+    },
+    {
+      "stage": "C2-label-cost",
+      "policy": "score-labels-0.01",
+      "budget": 1032,
+      "draws": 1000,
+      "rmse_pp": 0.2439354409933548
+    },
+    {
+      "stage": "C2-label-cost",
+      "policy": "score-labels-0.05",
+      "budget": 1032,
+      "draws": 1000,
+      "rmse_pp": 0.21195593004265928
+    },
+    {
+      "stage": "C2-label-cost",
+      "policy": "score-labels-0.2",
+      "budget": 1032,
+      "draws": 1000,
+      "rmse_pp": 0.20066081671130373
+    },
+    {
+      "stage": "C2-label-cost",
+      "policy": "score-labels-1",
+      "budget": 1032,
+      "draws": 1000,
+      "rmse_pp": 0.21482230816762346
+    },
+    {
+      "stage": "C2-label-cost",
+      "policy": "score-labels-0.01",
+      "budget": 2063,
+      "draws": 1000,
+      "rmse_pp": 0.12379425137559713
+    },
+    {
+      "stage": "C2-label-cost",
+      "policy": "score-labels-0.05",
+      "budget": 2063,
+      "draws": 1000,
+      "rmse_pp": 0.09705775477542143
+    },
+    {
+      "stage": "C2-label-cost",
+      "policy": "score-labels-0.2",
+      "budget": 2063,
+      "draws": 1000,
+      "rmse_pp": 0.0865778049215596
+    },
+    {
+      "stage": "C2-label-cost",
+      "policy": "score-labels-1",
+      "budget": 2063,
+      "draws": 1000,
+      "rmse_pp": 0.0923446415292651
+    },
+    {
+      "stage": "C2-label-cost",
+      "policy": "score-labels-0.01",
+      "budget": 4126,
+      "draws": 1000,
+      "rmse_pp": 0.017094814836974222
+    },
+    {
+      "stage": "C2-label-cost",
+      "policy": "score-labels-0.05",
+      "budget": 4126,
+      "draws": 1000,
+      "rmse_pp": 0.012458691660426395
+    },
+    {
+      "stage": "C2-label-cost",
+      "policy": "score-labels-0.2",
+      "budget": 4126,
+      "draws": 1000,
+      "rmse_pp": 0.01253038616711055
+    },
+    {
+      "stage": "C2-label-cost",
+      "policy": "score-labels-1",
+      "budget": 4126,
+      "draws": 1000,
+      "rmse_pp": 0.012349001133577156
+    },
+    {
+      "stage": "C3-squared-rf",
+      "policy": "squared-rf-static",
+      "budget": 516,
+      "draws": 1000,
+      "rmse_pp": 0.41955165494665
+    },
+    {
+      "stage": "C3-squared-rf",
+      "policy": "squared-rf-temporal-w11",
+      "budget": 516,
+      "draws": 1000,
+      "rmse_pp": 0.43267680822179294
+    },
+    {
+      "stage": "C3-squared-rf",
+      "policy": "squared-rf-static",
+      "budget": 1032,
+      "draws": 1000,
+      "rmse_pp": 0.26185807775425646
+    },
+    {
+      "stage": "C3-squared-rf",
+      "policy": "squared-rf-temporal-w11",
+      "budget": 1032,
+      "draws": 1000,
+      "rmse_pp": 0.2672140878775125
+    },
+    {
+      "stage": "C3-squared-rf",
+      "policy": "squared-rf-static",
+      "budget": 2063,
+      "draws": 1000,
+      "rmse_pp": 0.1382065053573627
+    },
+    {
+      "stage": "C3-squared-rf",
+      "policy": "squared-rf-temporal-w11",
+      "budget": 2063,
+      "draws": 1000,
+      "rmse_pp": 0.15141872862129807
+    },
+    {
+      "stage": "C3-squared-rf",
+      "policy": "squared-rf-static",
+      "budget": 4126,
+      "draws": 1000,
+      "rmse_pp": 0.05292355269274511
+    },
+    {
+      "stage": "C3-squared-rf",
+      "policy": "squared-rf-temporal-w11",
+      "budget": 4126,
+      "draws": 1000,
+      "rmse_pp": 0.0482466344411934
+    }
+  ],
+  "validation_checks": [
+    {
+      "policy": "ridge-static",
+      "alpha": 0.0,
+      "draws": 100
+    },
+    {
+      "policy": "ridge-static",
+      "alpha": 0.5,
+      "draws": 100
+    },
+    {
+      "policy": "ridge-static",
+      "alpha": 1.0,
+      "draws": 100
+    },
+    {
+      "policy": "ridge-temporal-w11",
+      "alpha": 0.0,
+      "draws": 100
+    },
+    {
+      "policy": "ridge-temporal-w11",
+      "alpha": 0.5,
+      "draws": 100
+    },
+    {
+      "policy": "ridge-temporal-w11",
+      "alpha": 1.0,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.01",
+      "alpha": 0.0,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.01",
+      "alpha": 0.5,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.01",
+      "alpha": 1.0,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.05",
+      "alpha": 0.0,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.05",
+      "alpha": 0.5,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.05",
+      "alpha": 1.0,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.2",
+      "alpha": 0.0,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.2",
+      "alpha": 0.5,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-0.2",
+      "alpha": 1.0,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-1",
+      "alpha": 0.0,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-1",
+      "alpha": 0.5,
+      "draws": 100
+    },
+    {
+      "policy": "score-labels-1",
+      "alpha": 1.0,
+      "draws": 100
+    },
+    {
+      "policy": "squared-rf-static",
+      "alpha": 0.0,
+      "draws": 100
+    },
+    {
+      "policy": "squared-rf-static",
+      "alpha": 0.5,
+      "draws": 100
+    },
+    {
+      "policy": "squared-rf-static",
+      "alpha": 1.0,
+      "draws": 100
+    },
+    {
+      "policy": "squared-rf-temporal-w11",
+      "alpha": 0.0,
+      "draws": 100
+    },
+    {
+      "policy": "squared-rf-temporal-w11",
+      "alpha": 0.5,
+      "draws": 100
+    },
+    {
+      "policy": "squared-rf-temporal-w11",
+      "alpha": 1.0,
+      "draws": 100
+    }
+  ],
+  "source_nested_training_checks": [
+    {
+      "policy": "score-labels-0.01",
+      "training_labels": 1920,
+      "status": "passed"
+    },
+    {
+      "policy": "score-labels-0.05",
+      "training_labels": 9599,
+      "status": "passed"
+    },
+    {
+      "policy": "score-labels-0.2",
+      "training_labels": 38390,
+      "status": "passed"
+    },
+    {
+      "policy": "score-labels-1",
+      "training_labels": 191956,
+      "status": "passed"
+    }
+  ],
+  "frozen_baselines_unchanged": true,
+  "validator_sha256": "32bc7101479c0c0898ec0a3ea52fac45430dab5de73ba4878017eb111ee7b46f"
+}

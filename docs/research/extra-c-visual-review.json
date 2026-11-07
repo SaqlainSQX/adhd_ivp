@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "reviewed_utc": "2026-11-07T16:45:55.668854+00:00",
+  "figures": [
+    "alternative-learners.png",
+    "training-label-cost.png",
+    "primary-coverage-width.png"
+  ],
+  "checks": [
+    "all three figures visually inspected",
+    "units and budget labels match saved results",
+    "cost counts include validation caveat",
+    "practical threshold and MC intervals shown",
+    "all losses and full-budget curves preserved",
+    "no clipped labels or missing series"
+  ]
+}

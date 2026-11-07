@@ -1,0 +1,636 @@
+{
+  "complete": true,
+  "stage": "C1-ridge",
+  "designation": "exploratory after repeatedly inspected test outcomes",
+  "reference_prevalence": 0.03518805738658395,
+  "population_size": 10316,
+  "draws_per_policy_budget": 1000,
+  "sampled_method_runs": 8000,
+  "results": {
+    "ridge-static-b516": {
+      "bias_pp": -0.011468081876800035,
+      "mae_pp": 0.2646019323435481,
+      "rmse_pp": 0.33213545249711235,
+      "mean_labels": 516.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.943,
+          "mean_width_pp": 1.2797378427679604,
+          "median_width_pp": 1.253757215632289
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 29.66832386014908,
+          "median_width_pp": 29.669046691645406
+        },
+        "exact_binary_reference": {
+          "coverage": 0.992,
+          "mean_width_pp": 13.535207444746028,
+          "median_width_pp": 13.512989530825903,
+          "point_outside_rate": 0.004,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "ridge-temporal-w11-b516": {
+      "bias_pp": 0.00831787385586701,
+      "mae_pp": 0.2827662428006608,
+      "rmse_pp": 0.3539993575817793,
+      "mean_labels": 516.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.954,
+          "mean_width_pp": 1.3834331839938598,
+          "median_width_pp": 1.3422894747285596
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 28.193133723166607,
+          "median_width_pp": 28.201714672757394
+        },
+        "exact_binary_reference": {
+          "coverage": 0.992,
+          "mean_width_pp": 10.824321442419544,
+          "median_width_pp": 10.789065529274913,
+          "point_outside_rate": 0.005,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "ridge-static-b1032": {
+      "bias_pp": -0.002253322430296543,
+      "mae_pp": 0.163777456863671,
+      "rmse_pp": 0.20551349903724717,
+      "mean_labels": 1032.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.943,
+          "mean_width_pp": 0.7783956310022007,
+          "median_width_pp": 0.7497960301977233
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 22.178069094356545,
+          "median_width_pp": 22.174683899563867
+        },
+        "exact_binary_reference": {
+          "coverage": 0.995,
+          "mean_width_pp": 7.300668863900736,
+          "median_width_pp": 7.270259790616517,
+          "point_outside_rate": 0.002,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "ridge-temporal-w11-b1032": {
+      "bias_pp": -0.002282135636929444,
+      "mae_pp": 0.17673180372267713,
+      "rmse_pp": 0.22131052295573278,
+      "mean_labels": 1032.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.952,
+          "mean_width_pp": 0.8644841184346294,
+          "median_width_pp": 0.8194948544207609
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 21.253285343163302,
+          "median_width_pp": 21.253887045218637
+        },
+        "exact_binary_reference": {
+          "coverage": 0.994,
+          "mean_width_pp": 6.057628925940287,
+          "median_width_pp": 6.010081426909654,
+          "point_outside_rate": 0.004,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "ridge-static-b2063": {
+      "bias_pp": 0.002460154950208921,
+      "mae_pp": 0.06291631134286606,
+      "rmse_pp": 0.07941075666450688,
+      "mean_labels": 2063.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.943,
+          "mean_width_pp": 0.29408153530366465,
+          "median_width_pp": 0.25404446000689906
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 16.733477092763657,
+          "median_width_pp": 16.728700312687554
+        },
+        "exact_binary_reference": {
+          "coverage": 0.997,
+          "mean_width_pp": 3.544668476153548,
+          "median_width_pp": 3.509112058937573,
+          "point_outside_rate": 0.002,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "ridge-temporal-w11-b2063": {
+      "bias_pp": -0.000803838747402771,
+      "mae_pp": 0.08020242828193941,
+      "rmse_pp": 0.10065841304887932,
+      "mean_labels": 2063.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.947,
+          "mean_width_pp": 0.39556153867587684,
+          "median_width_pp": 0.3438820552017018
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 16.089629138051247,
+          "median_width_pp": 16.08636901588492
+        },
+        "exact_binary_reference": {
+          "coverage": 0.996,
+          "mean_width_pp": 3.0061651803024434,
+          "median_width_pp": 2.9565723148507166,
+          "point_outside_rate": 0.004,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "ridge-static-b4126": {
+      "bias_pp": -0.0005233410784364116,
+      "mae_pp": 0.009136394958798439,
+      "rmse_pp": 0.011196807834300741,
+      "mean_labels": 4126.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.84,
+          "mean_width_pp": 0.04160578552870621,
+          "median_width_pp": 0.041313034504891766
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 8.179243534727616,
+          "median_width_pp": 8.177654803921266
+        },
+        "exact_binary_reference": {
+          "coverage": 1.0,
+          "mean_width_pp": 0.4217720046529663,
+          "median_width_pp": 0.41682822799534724,
+          "point_outside_rate": 0.08,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "ridge-temporal-w11-b4126": {
+      "bias_pp": 0.0004969100062289697,
+      "mae_pp": 0.019371053554440482,
+      "rmse_pp": 0.02369815633526332,
+      "mean_labels": 4126.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.742,
+          "mean_width_pp": 0.0830168405492315,
+          "median_width_pp": 0.08172041354092136
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 8.85929963729359,
+          "median_width_pp": 8.857507587286278
+        },
+        "exact_binary_reference": {
+          "coverage": 1.0,
+          "mean_width_pp": 0.5421675067855758,
+          "median_width_pp": 0.5331523846452114,
+          "point_outside_rate": 0.125,
+          "centers_on_residual_estimate": false
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "ridge-static-b516/M2": {
+      "rmse_ratio": 0.43666303670365003,
+      "draw_bootstrap_95pct": [
+        0.41032200257010093,
+        0.4653150946746679
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-static-b516/M3": {
+      "rmse_ratio": 0.84084195604112,
+      "draw_bootstrap_95pct": [
+        0.7914847147811744,
+        0.8963367467212549
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-static-b516/M4": {
+      "rmse_ratio": 0.7633491776272223,
+      "draw_bootstrap_95pct": [
+        0.7160929355224711,
+        0.8146186178673431
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-static-b516/q-quartiles": {
+      "rmse_ratio": 0.9749707037158969,
+      "draw_bootstrap_95pct": [
+        0.9162636274399396,
+        1.0385472373083946
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-temporal-w11-b516/M2": {
+      "rmse_ratio": 0.46540781271805043,
+      "draw_bootstrap_95pct": [
+        0.4385528330987611,
+        0.4942917048671878
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-temporal-w11-b516/M3": {
+      "rmse_ratio": 0.8961931345433565,
+      "draw_bootstrap_95pct": [
+        0.8416924562428,
+        0.9530811575170179
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-temporal-w11-b516/M4": {
+      "rmse_ratio": 0.8135991399260987,
+      "draw_bootstrap_95pct": [
+        0.7663879916442079,
+        0.8628653968977382
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-temporal-w11-b516/q-quartiles": {
+      "rmse_ratio": 1.0391513467821791,
+      "draw_bootstrap_95pct": [
+        0.9773351374597491,
+        1.104229066934378
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-static-b1032/M2": {
+      "rmse_ratio": 0.3717102766994021,
+      "draw_bootstrap_95pct": [
+        0.3489479037096429,
+        0.3964131001088644
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-static-b1032/M3": {
+      "rmse_ratio": 0.7895066314004816,
+      "draw_bootstrap_95pct": [
+        0.7371672616176171,
+        0.8441949549142317
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-static-b1032/M4": {
+      "rmse_ratio": 0.7431915217269237,
+      "draw_bootstrap_95pct": [
+        0.6967044420407029,
+        0.7948225785964206
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-static-b1032/q-quartiles": {
+      "rmse_ratio": 0.9887272399328961,
+      "draw_bootstrap_95pct": [
+        0.928403427977356,
+        1.0521389887269201
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-temporal-w11-b1032/M2": {
+      "rmse_ratio": 0.40028220097335515,
+      "draw_bootstrap_95pct": [
+        0.3759482682924413,
+        0.42671590961924705
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-temporal-w11-b1032/M3": {
+      "rmse_ratio": 0.8501929376453867,
+      "draw_bootstrap_95pct": [
+        0.7939761167460118,
+        0.9095199140230134
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-temporal-w11-b1032/M4": {
+      "rmse_ratio": 0.8003177655003711,
+      "draw_bootstrap_95pct": [
+        0.7483642870003215,
+        0.8577160043214707
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-temporal-w11-b1032/q-quartiles": {
+      "rmse_ratio": 1.0647268600612432,
+      "draw_bootstrap_95pct": [
+        0.9970876672496936,
+        1.1327639979541442
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-static-b2063/M2": {
+      "rmse_ratio": 0.22015004865727486,
+      "draw_bootstrap_95pct": [
+        0.20668778581012687,
+        0.23354786303053063
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-static-b2063/M3": {
+      "rmse_ratio": 0.5687029934472204,
+      "draw_bootstrap_95pct": [
+        0.534047916144879,
+        0.6063408003078812
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-static-b2063/M4": {
+      "rmse_ratio": 0.5025361393310468,
+      "draw_bootstrap_95pct": [
+        0.4694125068996917,
+        0.5387321116130521
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-static-b2063/q-quartiles": {
+      "rmse_ratio": 0.8151493494291273,
+      "draw_bootstrap_95pct": [
+        0.7633866817530514,
+        0.8689158143915334
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-temporal-w11-b2063/M2": {
+      "rmse_ratio": 0.2790548215539089,
+      "draw_bootstrap_95pct": [
+        0.26273640715644614,
+        0.29613968765000054
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-temporal-w11-b2063/M3": {
+      "rmse_ratio": 0.7208688497754903,
+      "draw_bootstrap_95pct": [
+        0.6714116666684501,
+        0.7668771479110932
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-temporal-w11-b2063/M4": {
+      "rmse_ratio": 0.6369979636194893,
+      "draw_bootstrap_95pct": [
+        0.596729867048411,
+        0.6766689132913821
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-temporal-w11-b2063/q-quartiles": {
+      "rmse_ratio": 1.0332559889589346,
+      "draw_bootstrap_95pct": [
+        0.9709619611455167,
+        1.100475369920701
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-static-b4126/M2": {
+      "rmse_ratio": 0.050201779030341676,
+      "draw_bootstrap_95pct": [
+        0.04741850339954444,
+        0.05300787602874196
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-static-b4126/M3": {
+      "rmse_ratio": 5.9336644597291155,
+      "draw_bootstrap_95pct": [
+        5.635398124272304,
+        6.262026725070222
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-static-b4126/M4": {
+      "rmse_ratio": 0.49425886493321675,
+      "draw_bootstrap_95pct": [
+        0.46811135399822684,
+        0.5248298368986851
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-static-b4126/q-quartiles": {
+      "rmse_ratio": 0.9095610919542869,
+      "draw_bootstrap_95pct": [
+        0.8741434968156017,
+        0.9490751650069801
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-temporal-w11-b4126/M2": {
+      "rmse_ratio": 0.10625256996238151,
+      "draw_bootstrap_95pct": [
+        0.0999430032673844,
+        0.11264319550529657
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-temporal-w11-b4126/M3": {
+      "rmse_ratio": 12.558660476147942,
+      "draw_bootstrap_95pct": [
+        11.864425551029266,
+        13.272970604040573
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-temporal-w11-b4126/M4": {
+      "rmse_ratio": 1.0461038560825373,
+      "draw_bootstrap_95pct": [
+        0.9834405593145422,
+        1.1099080952152562
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "ridge-temporal-w11-b4126/q-quartiles": {
+      "rmse_ratio": 1.9250951943261287,
+      "draw_bootstrap_95pct": [
+        1.8434271840461691,
+        2.007102138071672
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    }
+  },
+  "selected_alphas": {
+    "ridge-static": 1.0,
+    "ridge-temporal-w11": 1.0
+  },
+  "training_labels": {
+    "ridge-static": 191956,
+    "ridge-temporal-w11": 191956
+  },
+  "validation_labels_reused": 25139,
+  "independent_checks": [
+    {
+      "policy": "ridge-static",
+      "budget": 516,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 6.776263578034403e-21
+    },
+    {
+      "policy": "ridge-temporal-w11",
+      "budget": 516,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 1.3552527156068805e-20
+    },
+    {
+      "policy": "ridge-static",
+      "budget": 1032,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 3.3881317890172014e-21
+    },
+    {
+      "policy": "ridge-temporal-w11",
+      "budget": 1032,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 5.082197683525802e-21
+    },
+    {
+      "policy": "ridge-static",
+      "budget": 2063,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 8.470329472543003e-22
+    },
+    {
+      "policy": "ridge-temporal-w11",
+      "budget": 2063,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 8.470329472543003e-22
+    },
+    {
+      "policy": "ridge-static",
+      "budget": 4126,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 9.926167350636332e-24
+    },
+    {
+      "policy": "ridge-temporal-w11",
+      "budget": 4126,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 5.293955920339377e-23
+    }
+  ],
+  "frozen_baseline_inputs_unchanged": true,
+  "registration_sha256": "3c9dd68e59b4d57cddf8fa0d3de3eb39143fc151a2ee943ea6555c29df297f9e",
+  "policy_lock_sha256": "e3f5ec64d0b9d167bcc2dcf127ca26113e1d212ffc8410304cd859909bf11eb0",
+  "elapsed_seconds": 110.20660430000862
+}

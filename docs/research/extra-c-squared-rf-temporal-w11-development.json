@@ -1,0 +1,113 @@
+{
+  "learner": "squared-rf",
+  "target": "squared residual (y-q)^2",
+  "feature_columns": [
+    "f_q",
+    "f_direction_a_to_b",
+    "f_direction_b_to_a",
+    "f_direction_signed_difference",
+    "f_direction_absolute_difference",
+    "f_q_entropy",
+    "f_head_a_center_x",
+    "f_head_a_center_y",
+    "f_head_a_width",
+    "f_head_a_height",
+    "f_head_a_area",
+    "f_head_b_center_x",
+    "f_head_b_center_y",
+    "f_head_b_width",
+    "f_head_b_height",
+    "f_head_b_area",
+    "f_pair_center_distance",
+    "f_head_area_ratio",
+    "f_real_person_occupancy",
+    "f_t_q_mean",
+    "f_t_q_std",
+    "f_t_q_min",
+    "f_t_q_max",
+    "f_t_q_adjacent_change_mean",
+    "f_t_q_previous_difference",
+    "f_t_q_next_difference",
+    "f_t_available_context_count",
+    "f_t_previous_context_missing",
+    "f_t_next_context_missing",
+    "f_t_direction_imbalance_mean",
+    "f_t_direction_imbalance_std",
+    "f_t_head_a_area_change_mean",
+    "f_t_head_b_area_change_mean",
+    "f_t_pair_center_distance_change_mean"
+  ],
+  "cuts": [
+    0.0004142573982923132,
+    0.0004170340010724739,
+    0.0005051808567575599
+  ],
+  "residual_sd": [
+    0.02342560359979998,
+    0.01130391144947145,
+    0.008735868087542396,
+    0.24576572532472285
+  ],
+  "allocation_moments_use_centered_signed_residuals": true,
+  "moments": [
+    {
+      "stratum": 0,
+      "training_labels": 54584,
+      "centered_signed_residual_variance": 0.0005423312594497869,
+      "shrunk_sd": 0.02342560359979998
+    },
+    {
+      "stratum": 1,
+      "training_labels": 53525,
+      "centered_signed_residual_variance": 0.00012106628990570782,
+      "shrunk_sd": 0.01130391144947145
+    },
+    {
+      "stratum": 2,
+      "training_labels": 36815,
+      "centered_signed_residual_variance": 6.652865267727713e-05,
+      "shrunk_sd": 0.008735868087542396
+    },
+    {
+      "stratum": 3,
+      "training_labels": 47032,
+      "centered_signed_residual_variance": 0.060418784143730246,
+      "shrunk_sd": 0.24576572532472285
+    }
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "training_rows": 139399,
+      "held_rows": 52557,
+      "elapsed_seconds": 68.07888839999214
+    },
+    {
+      "fold": 1,
+      "training_rows": 141921,
+      "held_rows": 50035,
+      "elapsed_seconds": 137.22806190000847
+    },
+    {
+      "fold": 2,
+      "training_rows": 142604,
+      "held_rows": 49352,
+      "elapsed_seconds": 207.2360966000124
+    },
+    {
+      "fold": 3,
+      "training_rows": 167845,
+      "held_rows": 24111,
+      "elapsed_seconds": 291.62068250001175
+    },
+    {
+      "fold": 4,
+      "training_rows": 176055,
+      "held_rows": 15901,
+      "elapsed_seconds": 379.25107180001214
+    }
+  ],
+  "scaling_inside_each_training_fold": false,
+  "cpu_threads": 1,
+  "fit_elapsed_seconds": 471.614967600035
+}

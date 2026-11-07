@@ -1,0 +1,1408 @@
+{
+  "complete": true,
+  "stage": "C2-label-cost",
+  "designation": "exploratory after repeatedly inspected test outcomes",
+  "reference_prevalence": 0.03518805738658395,
+  "population_size": 10316,
+  "draws_per_policy_budget": 1000,
+  "sampled_method_runs": 16000,
+  "results": {
+    "score-labels-0.01-b516": {
+      "bias_pp": 0.0045868226684872455,
+      "mae_pp": 0.31226234949945175,
+      "rmse_pp": 0.3907372601507379,
+      "mean_labels": 516.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.944,
+          "mean_width_pp": 1.4723342730650244,
+          "median_width_pp": 1.4613800292382837
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 24.32553509766735,
+          "median_width_pp": 24.32437526042581
+        },
+        "exact_binary_reference": {
+          "coverage": 0.995,
+          "mean_width_pp": 9.098003101977511,
+          "median_width_pp": 9.092671578131059,
+          "point_outside_rate": 0.003,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "score-labels-0.05-b516": {
+      "bias_pp": -0.011325228020021096,
+      "mae_pp": 0.27258369826497086,
+      "rmse_pp": 0.336969615966326,
+      "mean_labels": 516.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.957,
+          "mean_width_pp": 1.3516184472942923,
+          "median_width_pp": 1.3346507304509834
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 28.916992963690095,
+          "median_width_pp": 28.919365307163105
+        },
+        "exact_binary_reference": {
+          "coverage": 0.996,
+          "mean_width_pp": 13.240635905389682,
+          "median_width_pp": 13.22217913920124,
+          "point_outside_rate": 0.001,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "score-labels-0.2-b516": {
+      "bias_pp": 0.004678655680281812,
+      "mae_pp": 0.2758764179141017,
+      "rmse_pp": 0.35193425084043023,
+      "mean_labels": 516.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.941,
+          "mean_width_pp": 1.3414821937599783,
+          "median_width_pp": 1.3150950427428414
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 29.66569033975286,
+          "median_width_pp": 29.67640812157834
+        },
+        "exact_binary_reference": {
+          "coverage": 0.996,
+          "mean_width_pp": 13.939811942613414,
+          "median_width_pp": 13.920124079100427,
+          "point_outside_rate": 0.006,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "score-labels-1-b516": {
+      "bias_pp": -0.004537881867816939,
+      "mae_pp": 0.2880351053291409,
+      "rmse_pp": 0.35781125129887525,
+      "mean_labels": 516.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.947,
+          "mean_width_pp": 1.3685184140855944,
+          "median_width_pp": 1.3571060497523588
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 27.857872137797568,
+          "median_width_pp": 27.86854894672699
+        },
+        "exact_binary_reference": {
+          "coverage": 0.995,
+          "mean_width_pp": 12.35542846064366,
+          "median_width_pp": 12.340054284606436,
+          "point_outside_rate": 0.009,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "score-labels-0.01-b1032": {
+      "bias_pp": 0.004976778136148751,
+      "mae_pp": 0.19391873549306135,
+      "rmse_pp": 0.2439354409933548,
+      "mean_labels": 1032.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.949,
+          "mean_width_pp": 0.932788258256329,
+          "median_width_pp": 0.9212884479821289
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 18.237455146542576,
+          "median_width_pp": 18.23827611432111
+        },
+        "exact_binary_reference": {
+          "coverage": 0.994,
+          "mean_width_pp": 4.854274912756883,
+          "median_width_pp": 4.83714618069019,
+          "point_outside_rate": 0.003,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "score-labels-0.05-b1032": {
+      "bias_pp": 0.0049329573031025925,
+      "mae_pp": 0.1689708331620956,
+      "rmse_pp": 0.21195593004265928,
+      "mean_labels": 1032.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.96,
+          "mean_width_pp": 0.8447847497994453,
+          "median_width_pp": 0.8237344691771821
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 21.477193677849634,
+          "median_width_pp": 21.476292390556438
+        },
+        "exact_binary_reference": {
+          "coverage": 0.995,
+          "mean_width_pp": 7.013852268321054,
+          "median_width_pp": 6.98914307871268,
+          "point_outside_rate": 0.005,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "score-labels-0.2-b1032": {
+      "bias_pp": -0.002797150943372268,
+      "mae_pp": 0.16066877678317673,
+      "rmse_pp": 0.2006608167113038,
+      "mean_labels": 1032.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.963,
+          "mean_width_pp": 0.815354689603367,
+          "median_width_pp": 0.7975121102895706
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 23.698178963352614,
+          "median_width_pp": 23.69698660392449
+        },
+        "exact_binary_reference": {
+          "coverage": 0.996,
+          "mean_width_pp": 9.104817758821248,
+          "median_width_pp": 9.082977898410237,
+          "point_outside_rate": 0.002,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "score-labels-1-b1032": {
+      "bias_pp": 0.008102636804132765,
+      "mae_pp": 0.1704426963719525,
+      "rmse_pp": 0.21482230816762346,
+      "mean_labels": 1032.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.958,
+          "mean_width_pp": 0.8499705122627474,
+          "median_width_pp": 0.8275740732074932
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 22.80664026200246,
+          "median_width_pp": 22.797819193864655
+        },
+        "exact_binary_reference": {
+          "coverage": 0.997,
+          "mean_width_pp": 8.7059131446297,
+          "median_width_pp": 8.685537029856533,
+          "point_outside_rate": 0.001,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "score-labels-0.01-b2063": {
+      "bias_pp": 0.005800968084277601,
+      "mae_pp": 0.09806697905056629,
+      "rmse_pp": 0.12379425137559714,
+      "mean_labels": 2063.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.954,
+          "mean_width_pp": 0.4720238971237153,
+          "median_width_pp": 0.4546239069948783
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 13.934853257017386,
+          "median_width_pp": 13.937600276568004
+        },
+        "exact_binary_reference": {
+          "coverage": 0.994,
+          "mean_width_pp": 2.405118262892594,
+          "median_width_pp": 2.384645211322218,
+          "point_outside_rate": 0.006,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "score-labels-0.05-b2063": {
+      "bias_pp": -0.0005291281045733877,
+      "mae_pp": 0.07658811192858245,
+      "rmse_pp": 0.09705775477542139,
+      "mean_labels": 2063.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.935,
+          "mean_width_pp": 0.36805554826371634,
+          "median_width_pp": 0.3465483208413146
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 16.226845968181834,
+          "median_width_pp": 16.22372926841664
+        },
+        "exact_binary_reference": {
+          "coverage": 0.996,
+          "mean_width_pp": 3.448371461806902,
+          "median_width_pp": 3.421868941450175,
+          "point_outside_rate": 0.008,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "score-labels-0.2-b2063": {
+      "bias_pp": 0.0019066952221946814,
+      "mae_pp": 0.06926232085049952,
+      "rmse_pp": 0.08657780492155957,
+      "mean_labels": 2063.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.953,
+          "mean_width_pp": 0.3326712183101014,
+          "median_width_pp": 0.3138968091262885
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 17.802043496064368,
+          "median_width_pp": 17.800778365210952
+        },
+        "exact_binary_reference": {
+          "coverage": 0.996,
+          "mean_width_pp": 4.562611477316788,
+          "median_width_pp": 4.546335789065529,
+          "point_outside_rate": 0.005,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "score-labels-1-b2063": {
+      "bias_pp": 0.00024204864934366523,
+      "mae_pp": 0.07294008597392887,
+      "rmse_pp": 0.09234464152926507,
+      "mean_labels": 2063.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.952,
+          "mean_width_pp": 0.3657125005963322,
+          "median_width_pp": 0.3436245612571401
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 19.273680333421307,
+          "median_width_pp": 19.272761465233344
+        },
+        "exact_binary_reference": {
+          "coverage": 0.998,
+          "mean_width_pp": 6.546636293136876,
+          "median_width_pp": 6.523846452113221,
+          "point_outside_rate": 0.005,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "score-labels-0.01-b4126": {
+      "bias_pp": 0.00011384934045487946,
+      "mae_pp": 0.01454340519619894,
+      "rmse_pp": 0.017094814836974163,
+      "mean_labels": 4126.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.476,
+          "mean_width_pp": 0.044535480104293285,
+          "median_width_pp": 0.015595706600708692
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 8.379857674228884,
+          "median_width_pp": 8.371737183010797
+        },
+        "exact_binary_reference": {
+          "coverage": 1.0,
+          "mean_width_pp": 0.49005428460643713,
+          "median_width_pp": 0.4749903063202797,
+          "point_outside_rate": 0.367,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "score-labels-0.05-b4126": {
+      "bias_pp": 0.00036208924476793314,
+      "mae_pp": 0.01183066339111811,
+      "rmse_pp": 0.012458691660426372,
+      "mean_labels": 4126.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.449,
+          "mean_width_pp": 0.03797354407348053,
+          "median_width_pp": 0.01172338332437739
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 8.50108829193447,
+          "median_width_pp": 8.493905332748946
+        },
+        "exact_binary_reference": {
+          "coverage": 1.0,
+          "mean_width_pp": 0.5198138813493605,
+          "median_width_pp": 0.5040713454827456,
+          "point_outside_rate": 0.292,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "score-labels-0.2-b4126": {
+      "bias_pp": 0.0002442120148113784,
+      "mae_pp": 0.0118293708259259,
+      "rmse_pp": 0.012530386167110507,
+      "mean_labels": 4126.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.442,
+          "mean_width_pp": 0.03750289704047824,
+          "median_width_pp": 0.01175965011220928
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 8.72730189291118,
+          "median_width_pp": 8.720282447456231
+        },
+        "exact_binary_reference": {
+          "coverage": 1.0,
+          "mean_width_pp": 0.6162078324932142,
+          "median_width_pp": 0.6010081426909654,
+          "point_outside_rate": 0.278,
+          "centers_on_residual_estimate": false
+        }
+      }
+    },
+    "score-labels-1-b4126": {
+      "bias_pp": -1.163792575477468e-05,
+      "mae_pp": 0.011732952898709785,
+      "rmse_pp": 0.012349001133577165,
+      "mean_labels": 4126.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.448,
+          "mean_width_pp": 0.03712189060033956,
+          "median_width_pp": 0.011607944208761461
+        },
+        "bounded": {
+          "coverage": 1.0,
+          "mean_width_pp": 9.888713036692137,
+          "median_width_pp": 9.8817526020442
+        },
+        "exact_binary_reference": {
+          "coverage": 1.0,
+          "mean_width_pp": 1.2076773943388912,
+          "median_width_pp": 1.1923226056611094,
+          "point_outside_rate": 0.303,
+          "centers_on_residual_estimate": false
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "score-labels-0.01-b516/M2": {
+      "rmse_ratio": 0.5137076373145341,
+      "draw_bootstrap_95pct": [
+        0.4826478424394711,
+        0.5467627477707216
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b516/M3": {
+      "rmse_ratio": 0.9891996763764651,
+      "draw_bootstrap_95pct": [
+        0.9280278534162274,
+        1.049435864614863
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b516/M4": {
+      "rmse_ratio": 0.8980341121728731,
+      "draw_bootstrap_95pct": [
+        0.8426683340311724,
+        0.9587317524959892
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b516/q-quartiles": {
+      "rmse_ratio": 1.146994030998538,
+      "draw_bootstrap_95pct": [
+        1.0752362060657474,
+        1.2222340073202125
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b516/M2": {
+      "rmse_ratio": 0.443018577747276,
+      "draw_bootstrap_95pct": [
+        0.41780074840693027,
+        0.4696735662108176
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b516/M3": {
+      "rmse_ratio": 0.8530802384548635,
+      "draw_bootstrap_95pct": [
+        0.8054560300238107,
+        0.9064238504067671
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b516/M4": {
+      "rmse_ratio": 0.7744595685264651,
+      "draw_bootstrap_95pct": [
+        0.7278090436350345,
+        0.8227998095319162
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b516/q-quartiles": {
+      "rmse_ratio": 0.9891612025741839,
+      "draw_bootstrap_95pct": [
+        0.9324352498436139,
+        1.04934128008518
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b516/M2": {
+      "rmse_ratio": 0.46269278854940193,
+      "draw_bootstrap_95pct": [
+        0.43387300863022044,
+        0.4931127385763402
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b516/M3": {
+      "rmse_ratio": 0.8909650615424932,
+      "draw_bootstrap_95pct": [
+        0.833956911819217,
+        0.9509577499331094
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b516/M4": {
+      "rmse_ratio": 0.8088528910060593,
+      "draw_bootstrap_95pct": [
+        0.7565466651076362,
+        0.8643125024029004
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b516/q-quartiles": {
+      "rmse_ratio": 1.0330893062570743,
+      "draw_bootstrap_95pct": [
+        0.9675797311626461,
+        1.104623762269436
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b516/M2": {
+      "rmse_ratio": 0.4704193616917727,
+      "draw_bootstrap_95pct": [
+        0.44373746882800386,
+        0.5001326787195172
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b516/M3": {
+      "rmse_ratio": 0.9058434147082891,
+      "draw_bootstrap_95pct": [
+        0.8510376791613963,
+        0.9615622657716336
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b516/M4": {
+      "rmse_ratio": 0.8223600412760468,
+      "draw_bootstrap_95pct": [
+        0.7721228629181559,
+        0.8766693003888772
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b516/q-quartiles": {
+      "rmse_ratio": 1.0503410125402466,
+      "draw_bootstrap_95pct": [
+        0.9886947074228003,
+        1.1179989925705696
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b1032/M2": {
+      "rmse_ratio": 0.44120367125858234,
+      "draw_bootstrap_95pct": [
+        0.41464794949942646,
+        0.4717298731091706
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b1032/M3": {
+      "rmse_ratio": 0.9371094803993864,
+      "draw_bootstrap_95pct": [
+        0.869961124986162,
+        1.003210669727258
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b1032/M4": {
+      "rmse_ratio": 0.8821354920443573,
+      "draw_bootstrap_95pct": [
+        0.8252828529139877,
+        0.9408585452153571
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b1032/q-quartiles": {
+      "rmse_ratio": 1.1735755384684545,
+      "draw_bootstrap_95pct": [
+        1.1072582288603097,
+        1.2477708319184715
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b1032/M2": {
+      "rmse_ratio": 0.38336263930748815,
+      "draw_bootstrap_95pct": [
+        0.35945826991037183,
+        0.408480185529128
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b1032/M3": {
+      "rmse_ratio": 0.81425606160794,
+      "draw_bootstrap_95pct": [
+        0.7600600948539211,
+        0.8693843783703652
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b1032/M4": {
+      "rmse_ratio": 0.7664890672651132,
+      "draw_bootstrap_95pct": [
+        0.7188537479267842,
+        0.8161991399447031
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b1032/q-quartiles": {
+      "rmse_ratio": 1.0197218318029162,
+      "draw_bootstrap_95pct": [
+        0.9570286342733262,
+        1.0797982910488102
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b1032/M2": {
+      "rmse_ratio": 0.3629332771418996,
+      "draw_bootstrap_95pct": [
+        0.33956815293213743,
+        0.38764304687352286
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b1032/M3": {
+      "rmse_ratio": 0.7708644259280428,
+      "draw_bootstrap_95pct": [
+        0.7187960863605009,
+        0.8213665231742767
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b1032/M4": {
+      "rmse_ratio": 0.7256429306165093,
+      "draw_bootstrap_95pct": [
+        0.6793048355202913,
+        0.7731185253836453
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b1032/q-quartiles": {
+      "rmse_ratio": 0.9653809428532502,
+      "draw_bootstrap_95pct": [
+        0.9069224557596653,
+        1.0227588227529094
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b1032/M2": {
+      "rmse_ratio": 0.3885470296806113,
+      "draw_bootstrap_95pct": [
+        0.36399415646896593,
+        0.41379952314506
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b1032/M3": {
+      "rmse_ratio": 0.8252676231275576,
+      "draw_bootstrap_95pct": [
+        0.7678067769882873,
+        0.8849304547125448
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b1032/M4": {
+      "rmse_ratio": 0.7768546536159682,
+      "draw_bootstrap_95pct": [
+        0.727833130389198,
+        0.8322018395074561
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b1032/q-quartiles": {
+      "rmse_ratio": 1.0335120020125443,
+      "draw_bootstrap_95pct": [
+        0.9679285441249877,
+        1.099217174004785
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b2063/M2": {
+      "rmse_ratio": 0.3431941919275233,
+      "draw_bootstrap_95pct": [
+        0.32300003785840603,
+        0.3644014404256888
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b2063/M3": {
+      "rmse_ratio": 0.8865569890776075,
+      "draw_bootstrap_95pct": [
+        0.830168800243729,
+        0.9471300454771978
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b2063/M4": {
+      "rmse_ratio": 0.78340879461076,
+      "draw_bootstrap_95pct": [
+        0.7347672161708719,
+        0.8366790252652374
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b2063/q-quartiles": {
+      "rmse_ratio": 1.2707447669616092,
+      "draw_bootstrap_95pct": [
+        1.1908255645955346,
+        1.353963516346826
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b2063/M2": {
+      "rmse_ratio": 0.26907273439852636,
+      "draw_bootstrap_95pct": [
+        0.25312317058967104,
+        0.28593794609055306
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b2063/M3": {
+      "rmse_ratio": 0.6950826058898271,
+      "draw_bootstrap_95pct": [
+        0.6530549355288924,
+        0.7395325399620007
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b2063/M4": {
+      "rmse_ratio": 0.614211870352068,
+      "draw_bootstrap_95pct": [
+        0.5739106034222214,
+        0.6557665907730624
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b2063/q-quartiles": {
+      "rmse_ratio": 0.9962953255374047,
+      "draw_bootstrap_95pct": [
+        0.9362129169823461,
+        1.0601169179283307
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b2063/M2": {
+      "rmse_ratio": 0.24001922115723176,
+      "draw_bootstrap_95pct": [
+        0.2258893133869947,
+        0.2534952047403654
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b2063/M3": {
+      "rmse_ratio": 0.620030067626685,
+      "draw_bootstrap_95pct": [
+        0.5831511564775834,
+        0.6594989359947677
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b2063/M4": {
+      "rmse_ratio": 0.5478914653949322,
+      "draw_bootstrap_95pct": [
+        0.5143087785084087,
+        0.5826631245104134
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b2063/q-quartiles": {
+      "rmse_ratio": 0.8887189131690342,
+      "draw_bootstrap_95pct": [
+        0.8352328632515951,
+        0.9395249117853014
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b2063/M2": {
+      "rmse_ratio": 0.2560065938144219,
+      "draw_bootstrap_95pct": [
+        0.24132269225802314,
+        0.2705476158954901
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b2063/M3": {
+      "rmse_ratio": 0.6613294756574987,
+      "draw_bootstrap_95pct": [
+        0.6213439646539974,
+        0.7049353461229098
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b2063/M4": {
+      "rmse_ratio": 0.5843858136005898,
+      "draw_bootstrap_95pct": [
+        0.5457756252754895,
+        0.6244753794431009
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b2063/q-quartiles": {
+      "rmse_ratio": 0.9479153407877156,
+      "draw_bootstrap_95pct": [
+        0.8913864381072724,
+        1.008884584222085
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b4126/M2": {
+      "rmse_ratio": 0.0766459628235621,
+      "draw_bootstrap_95pct": [
+        0.07255246081607773,
+        0.08086047089144513
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b4126/M3": {
+      "rmse_ratio": 9.05926910106146,
+      "draw_bootstrap_95pct": [
+        8.547451240528192,
+        9.578720605908927
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b4126/M4": {
+      "rmse_ratio": 0.7546136276164852,
+      "draw_bootstrap_95pct": [
+        0.7133075579083896,
+        0.8005519527713306
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b4126/q-quartiles": {
+      "rmse_ratio": 1.3886795843938509,
+      "draw_bootstrap_95pct": [
+        1.3311456202355563,
+        1.4468257812742509
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b4126/M2": {
+      "rmse_ratio": 0.055859535592623286,
+      "draw_bootstrap_95pct": [
+        0.05329935420505571,
+        0.05862514812403785
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b4126/M3": {
+      "rmse_ratio": 6.602390343230561,
+      "draw_bootstrap_95pct": [
+        6.312973559226518,
+        6.923688613808114
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b4126/M4": {
+      "rmse_ratio": 0.5499619971838017,
+      "draw_bootstrap_95pct": [
+        0.5242310524314356,
+        0.5793737446135477
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b4126/q-quartiles": {
+      "rmse_ratio": 1.0120689180950724,
+      "draw_bootstrap_95pct": [
+        0.9845035638942646,
+        1.0426316145116834
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b4126/M2": {
+      "rmse_ratio": 0.05618098361919568,
+      "draw_bootstrap_95pct": [
+        0.05350351970796944,
+        0.059011546484012814
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b4126/M3": {
+      "rmse_ratio": 6.640384310133006,
+      "draw_bootstrap_95pct": [
+        6.32201358140296,
+        6.96467335224754
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b4126/M4": {
+      "rmse_ratio": 0.5531267961175739,
+      "draw_bootstrap_95pct": [
+        0.527072830939847,
+        0.5812747565808265
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b4126/q-quartiles": {
+      "rmse_ratio": 1.01789294711761,
+      "draw_bootstrap_95pct": [
+        0.9872971092244491,
+        1.0491017288582065
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b4126/M2": {
+      "rmse_ratio": 0.05536772938570273,
+      "draw_bootstrap_95pct": [
+        0.05296565743597846,
+        0.058116054973733955
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b4126/M3": {
+      "rmse_ratio": 6.544260669990995,
+      "draw_bootstrap_95pct": [
+        6.267044908112375,
+        6.847868577028539
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b4126/M4": {
+      "rmse_ratio": 0.5451199461191821,
+      "draw_bootstrap_95pct": [
+        0.519249868894148,
+        0.5743029148388415
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b4126/q-quartiles": {
+      "rmse_ratio": 1.0031583217130955,
+      "draw_bootstrap_95pct": [
+        0.9761398908985783,
+        1.0340795920264105
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b516/full-labels": {
+      "rmse_ratio": 1.0920206078828973,
+      "draw_bootstrap_95pct": [
+        1.0317835620526745,
+        1.1581013283114778
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b516/full-labels": {
+      "rmse_ratio": 0.9417524316049513,
+      "draw_bootstrap_95pct": [
+        0.9015823780031893,
+        0.9851949686633245
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b516/full-labels": {
+      "rmse_ratio": 0.9835751379054987,
+      "draw_bootstrap_95pct": [
+        0.9326763200236527,
+        1.0411688585000092
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b516/full-labels": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b1032/full-labels": {
+      "rmse_ratio": 1.1355219254185402,
+      "draw_bootstrap_95pct": [
+        1.066327298797039,
+        1.2146264027079583
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b1032/full-labels": {
+      "rmse_ratio": 0.9866569810676851,
+      "draw_bootstrap_95pct": [
+        0.9421644523723386,
+        1.0347341195724948
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b1032/full-labels": {
+      "rmse_ratio": 0.9340781151775466,
+      "draw_bootstrap_95pct": [
+        0.8790289668412125,
+        0.9913386984508252
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b1032/full-labels": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b2063/full-labels": {
+      "rmse_ratio": 1.3405677830950844,
+      "draw_bootstrap_95pct": [
+        1.2609837315844445,
+        1.4327042976058575
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b2063/full-labels": {
+      "rmse_ratio": 1.0510382970587706,
+      "draw_bootstrap_95pct": [
+        0.9927403761966419,
+        1.1158144830925423
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b2063/full-labels": {
+      "rmse_ratio": 0.9375509340639119,
+      "draw_bootstrap_95pct": [
+        0.8813332400792999,
+        0.997890034650125
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b2063/full-labels": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.01-b4126/full-labels": {
+      "rmse_ratio": 1.3843074959717223,
+      "draw_bootstrap_95pct": [
+        1.3281615662948363,
+        1.4364705097471542
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.05-b4126/full-labels": {
+      "rmse_ratio": 1.0088825424552728,
+      "draw_bootstrap_95pct": [
+        0.9922578993579347,
+        1.02420098663092
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-0.2-b4126/full-labels": {
+      "rmse_ratio": 1.0146882352322533,
+      "draw_bootstrap_95pct": [
+        0.987123802344229,
+        1.0401185694939123
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    },
+    "score-labels-1-b4126/full-labels": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400003,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; aligned draw IDs and registered streams"
+    }
+  },
+  "selected_alphas": {
+    "score-labels-0.01": 1.0,
+    "score-labels-0.05": 1.0,
+    "score-labels-0.2": 1.0,
+    "score-labels-1": 1.0
+  },
+  "training_labels": {
+    "score-labels-0.01": 1920,
+    "score-labels-0.05": 9599,
+    "score-labels-0.2": 38390,
+    "score-labels-1": 191956
+  },
+  "validation_labels_reused": 25139,
+  "independent_checks": [
+    {
+      "policy": "score-labels-0.01",
+      "budget": 516,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 6.776263578034403e-21
+    },
+    {
+      "policy": "score-labels-0.05",
+      "budget": 516,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.122502256758253e-17,
+      "max_variance_difference": 6.776263578034403e-21
+    },
+    {
+      "policy": "score-labels-0.2",
+      "budget": 516,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 1.3552527156068805e-20
+    },
+    {
+      "policy": "score-labels-1",
+      "budget": 516,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 4.163336342344337e-17,
+      "max_variance_difference": 6.776263578034403e-21
+    },
+    {
+      "policy": "score-labels-0.01",
+      "budget": 1032,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 3.3881317890172014e-21
+    },
+    {
+      "policy": "score-labels-0.05",
+      "budget": 1032,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 1.6940658945086007e-21
+    },
+    {
+      "policy": "score-labels-0.2",
+      "budget": 1032,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 4.163336342344337e-17,
+      "max_variance_difference": 5.082197683525802e-21
+    },
+    {
+      "policy": "score-labels-1",
+      "budget": 1032,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 5.082197683525802e-21
+    },
+    {
+      "policy": "score-labels-0.01",
+      "budget": 2063,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 8.470329472543003e-22
+    },
+    {
+      "policy": "score-labels-0.05",
+      "budget": 2063,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 4.235164736271502e-22
+    },
+    {
+      "policy": "score-labels-0.2",
+      "budget": 2063,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 8.470329472543003e-22
+    },
+    {
+      "policy": "score-labels-1",
+      "budget": 2063,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 8.470329472543003e-22
+    },
+    {
+      "policy": "score-labels-0.01",
+      "budget": 4126,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 3.970466940254533e-23
+    },
+    {
+      "policy": "score-labels-0.05",
+      "budget": 4126,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 1.3234889800848443e-23
+    },
+    {
+      "policy": "score-labels-0.2",
+      "budget": 4126,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 1.9852334701272664e-23
+    },
+    {
+      "policy": "score-labels-1",
+      "budget": 4126,
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 1.9852334701272664e-23
+    }
+  ],
+  "frozen_baseline_inputs_unchanged": true,
+  "registration_sha256": "26e544279093b4ebd6eba4356fd9d26453183e77eb79d56c829ad31343cf08d8",
+  "policy_lock_sha256": "81c03819a78a219f46ed592dd61ee9529869a1c4650b834cd236a7bb77b2e934",
+  "elapsed_seconds": 175.767374499992
+}

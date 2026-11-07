@@ -1,0 +1,9 @@
+{
+  "pytest_passed": 47,
+  "pytest_failed": 0,
+  "pytest_elapsed_seconds": 13.86,
+  "pytest_command": ".venv/Scripts/python.exe -m pytest -q --basetemp outputs/pytest-extra-c-full-v1",
+  "ruff": "passed",
+  "independent_test_cases": 32000,
+  "independent_validation_cases": 2400
+}

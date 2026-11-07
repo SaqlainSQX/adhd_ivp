@@ -1,0 +1,113 @@
+{
+  "learner": "ridge",
+  "target": "signed residual y-q",
+  "feature_columns": [
+    "f_q",
+    "f_direction_a_to_b",
+    "f_direction_b_to_a",
+    "f_direction_signed_difference",
+    "f_direction_absolute_difference",
+    "f_q_entropy",
+    "f_head_a_center_x",
+    "f_head_a_center_y",
+    "f_head_a_width",
+    "f_head_a_height",
+    "f_head_a_area",
+    "f_head_b_center_x",
+    "f_head_b_center_y",
+    "f_head_b_width",
+    "f_head_b_height",
+    "f_head_b_area",
+    "f_pair_center_distance",
+    "f_head_area_ratio",
+    "f_real_person_occupancy",
+    "f_t_q_mean",
+    "f_t_q_std",
+    "f_t_q_min",
+    "f_t_q_max",
+    "f_t_q_adjacent_change_mean",
+    "f_t_q_previous_difference",
+    "f_t_q_next_difference",
+    "f_t_available_context_count",
+    "f_t_previous_context_missing",
+    "f_t_next_context_missing",
+    "f_t_direction_imbalance_mean",
+    "f_t_direction_imbalance_std",
+    "f_t_head_a_area_change_mean",
+    "f_t_head_b_area_change_mean",
+    "f_t_pair_center_distance_change_mean"
+  ],
+  "cuts": [
+    -0.03308028439737533,
+    -0.004688666016300724,
+    0.006833654751916961
+  ],
+  "residual_sd": [
+    0.2411872829005524,
+    0.029340221749812417,
+    0.010563264806363614,
+    0.020489981150110043
+  ],
+  "allocation_moments_use_centered_signed_residuals": true,
+  "moments": [
+    {
+      "stratum": 0,
+      "training_labels": 47989,
+      "centered_signed_residual_variance": 0.05818800983420303,
+      "shrunk_sd": 0.2411872829005524
+    },
+    {
+      "stratum": 1,
+      "training_labels": 47989,
+      "centered_signed_residual_variance": 0.000853667685239421,
+      "shrunk_sd": 0.029340221749812417
+    },
+    {
+      "stratum": 2,
+      "training_labels": 47989,
+      "centered_signed_residual_variance": 0.00010408936402548571,
+      "shrunk_sd": 0.010563264806363614
+    },
+    {
+      "stratum": 3,
+      "training_labels": 47989,
+      "centered_signed_residual_variance": 0.0004124746006245007,
+      "shrunk_sd": 0.020489981150110043
+    }
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "training_rows": 139399,
+      "held_rows": 52557,
+      "elapsed_seconds": 0.23285279999254271
+    },
+    {
+      "fold": 1,
+      "training_rows": 141921,
+      "held_rows": 50035,
+      "elapsed_seconds": 0.45815829996718094
+    },
+    {
+      "fold": 2,
+      "training_rows": 142604,
+      "held_rows": 49352,
+      "elapsed_seconds": 0.6795893999515101
+    },
+    {
+      "fold": 3,
+      "training_rows": 167845,
+      "held_rows": 24111,
+      "elapsed_seconds": 0.9713410999975167
+    },
+    {
+      "fold": 4,
+      "training_rows": 176055,
+      "held_rows": 15901,
+      "elapsed_seconds": 1.3354447999736294
+    }
+  ],
+  "scaling_inside_each_training_fold": true,
+  "cpu_threads": 1,
+  "fit_elapsed_seconds": 1.687713299994357
+}

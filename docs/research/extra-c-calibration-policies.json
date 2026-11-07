@@ -1,0 +1,174 @@
+{
+  "score-labels-0.01-policy.json": {
+    "feature": "f_q",
+    "cut_points": [
+      0.0002199533773818,
+      0.0018386652227491,
+      0.0208842158317565
+    ],
+    "residual_sd": [
+      0.029209306529117518,
+      0.028020198878468707,
+      0.029931628086874194,
+      0.2567179024945819
+    ],
+    "learner": "none; public training-feature quartiles",
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 464,
+        "centered_signed_residual_variance": 4.065943474344938e-09,
+        "shrunk_sd": 0.029209306529117518
+      },
+      {
+        "stratum": 1,
+        "training_labels": 506,
+        "centered_signed_residual_variance": 2.1439761297261679e-07,
+        "shrunk_sd": 0.028020198878468707
+      },
+      {
+        "stratum": 2,
+        "training_labels": 454,
+        "centered_signed_residual_variance": 2.5774891429802144e-05,
+        "shrunk_sd": 0.029931628086874194
+      },
+      {
+        "stratum": 3,
+        "training_labels": 496,
+        "centered_signed_residual_variance": 0.06773437608504534,
+        "shrunk_sd": 0.2567179024945819
+      }
+    ],
+    "training_labels": 1920,
+    "training_fraction": 0.01
+  },
+  "score-labels-0.05-policy.json": {
+    "feature": "f_q",
+    "cut_points": [
+      0.0002199533773818,
+      0.0018386652227491,
+      0.0208842158317565
+    ],
+    "residual_sd": [
+      0.012451492228116699,
+      0.012059905534617582,
+      0.02424929738144767,
+      0.2454060516944682
+    ],
+    "learner": "none; public training-feature quartiles",
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 2337,
+        "centered_signed_residual_variance": 3.779301134811417e-09,
+        "shrunk_sd": 0.012451492228116699
+      },
+      {
+        "stratum": 1,
+        "training_labels": 2496,
+        "centered_signed_residual_variance": 2.0854353363487257e-07,
+        "shrunk_sd": 0.012059905534617582
+      },
+      {
+        "stratum": 2,
+        "training_labels": 2389,
+        "centered_signed_residual_variance": 0.00043999490632637596,
+        "shrunk_sd": 0.02424929738144767
+      },
+      {
+        "stratum": 3,
+        "training_labels": 2377,
+        "centered_signed_residual_variance": 0.060577336435835114,
+        "shrunk_sd": 0.2454060516944682
+      }
+    ],
+    "training_labels": 9599,
+    "training_fraction": 0.05
+  },
+  "score-labels-0.2-policy.json": {
+    "feature": "f_q",
+    "cut_points": [
+      0.0002199533773818,
+      0.0018386652227491,
+      0.0208842158317565
+    ],
+    "residual_sd": [
+      0.006205403453495279,
+      0.011947851260500783,
+      0.01933571660365687,
+      0.24683326332789307
+    ],
+    "learner": "none; public training-feature quartiles",
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 9605,
+        "centered_signed_residual_variance": 3.936071026873079e-09,
+        "shrunk_sd": 0.006205403453495279
+      },
+      {
+        "stratum": 1,
+        "training_labels": 9595,
+        "centered_signed_residual_variance": 0.00010442523238368562,
+        "shrunk_sd": 0.011947851260500783
+      },
+      {
+        "stratum": 2,
+        "training_labels": 9616,
+        "centered_signed_residual_variance": 0.00033610847267583315,
+        "shrunk_sd": 0.01933571660365687
+      },
+      {
+        "stratum": 3,
+        "training_labels": 9574,
+        "centered_signed_residual_variance": 0.061015240196761196,
+        "shrunk_sd": 0.24683326332789307
+      }
+    ],
+    "training_labels": 38390,
+    "training_fraction": 0.2
+  },
+  "score-labels-1-policy.json": {
+    "feature": "f_q",
+    "cut_points": [
+      0.0002199533773818,
+      0.0018386652227491,
+      0.0208842158317565
+    ],
+    "residual_sd": [
+      0.002742326941776911,
+      0.016706889852590456,
+      0.023491902090571927,
+      0.2419065870874992
+    ],
+    "learner": "none; public training-feature quartiles",
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 48118,
+        "centered_signed_residual_variance": 3.992896563956551e-09,
+        "shrunk_sd": 0.002742326941776911
+      },
+      {
+        "stratum": 1,
+        "training_labels": 47883,
+        "centered_signed_residual_variance": 0.00027168036030945914,
+        "shrunk_sd": 0.016706889852590456
+      },
+      {
+        "stratum": 2,
+        "training_labels": 47977,
+        "centered_signed_residual_variance": 0.0005445579348997057,
+        "shrunk_sd": 0.023491902090571927
+      },
+      {
+        "stratum": 3,
+        "training_labels": 47978,
+        "centered_signed_residual_variance": 0.05853564996501319,
+        "shrunk_sd": 0.2419065870874992
+      }
+    ],
+    "training_labels": 191956,
+    "training_fraction": 1.0
+  }
+}

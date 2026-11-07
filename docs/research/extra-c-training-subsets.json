@@ -1,0 +1,838 @@
+[
+  {
+    "policy": "score-labels-0.01",
+    "fraction": 0.01,
+    "selected_labels": 1920,
+    "file": "score-labels-0.01-training-queries.csv",
+    "sha256": "9d84d1d127614b45b02c24c6dff6d4f5015e7a0c738cb506d026c486a396b41b",
+    "source_counts": [
+      {
+        "source_id": "1Aea8BH-PCs",
+        "public_rows": 1362,
+        "selected_labels": 14
+      },
+      {
+        "source_id": "2b1zXYv7Fn8",
+        "public_rows": 3566,
+        "selected_labels": 36
+      },
+      {
+        "source_id": "3rxHweb2fXw",
+        "public_rows": 1953,
+        "selected_labels": 20
+      },
+      {
+        "source_id": "4Y7MMmedX7E",
+        "public_rows": 3458,
+        "selected_labels": 35
+      },
+      {
+        "source_id": "4ktkxv1aNS8",
+        "public_rows": 3767,
+        "selected_labels": 38
+      },
+      {
+        "source_id": "4yWavYq9_Ks",
+        "public_rows": 2830,
+        "selected_labels": 28
+      },
+      {
+        "source_id": "88pZ5kmV96I",
+        "public_rows": 1482,
+        "selected_labels": 15
+      },
+      {
+        "source_id": "8db0Gcv3V10",
+        "public_rows": 4833,
+        "selected_labels": 48
+      },
+      {
+        "source_id": "9WkwG6uxnBI",
+        "public_rows": 5048,
+        "selected_labels": 50
+      },
+      {
+        "source_id": "BL9cNtpb_QI",
+        "public_rows": 19,
+        "selected_labels": 1
+      },
+      {
+        "source_id": "Cmw2H5C_Ves",
+        "public_rows": 1529,
+        "selected_labels": 15
+      },
+      {
+        "source_id": "Cztb-0cliGA",
+        "public_rows": 1101,
+        "selected_labels": 11
+      },
+      {
+        "source_id": "Dai13S2XbsI",
+        "public_rows": 2020,
+        "selected_labels": 20
+      },
+      {
+        "source_id": "EuYseDl2jm8",
+        "public_rows": 277,
+        "selected_labels": 3
+      },
+      {
+        "source_id": "LHprThG7a00",
+        "public_rows": 855,
+        "selected_labels": 9
+      },
+      {
+        "source_id": "Lz0Oh2cxoTU",
+        "public_rows": 13509,
+        "selected_labels": 135
+      },
+      {
+        "source_id": "MTLKr-8UDYE",
+        "public_rows": 9903,
+        "selected_labels": 99
+      },
+      {
+        "source_id": "Nc3hwh-AFFw",
+        "public_rows": 2541,
+        "selected_labels": 25
+      },
+      {
+        "source_id": "PO6iJ3tTvcA",
+        "public_rows": 427,
+        "selected_labels": 4
+      },
+      {
+        "source_id": "WPRrMorSAkQ",
+        "public_rows": 3541,
+        "selected_labels": 35
+      },
+      {
+        "source_id": "XyNTKSm69Gs",
+        "public_rows": 1011,
+        "selected_labels": 10
+      },
+      {
+        "source_id": "Y6_S5bipsBk",
+        "public_rows": 1705,
+        "selected_labels": 17
+      },
+      {
+        "source_id": "YUdsgQGHSR8",
+        "public_rows": 899,
+        "selected_labels": 9
+      },
+      {
+        "source_id": "dzaiF1iIc68",
+        "public_rows": 1637,
+        "selected_labels": 16
+      },
+      {
+        "source_id": "ec_OE0WFEOY",
+        "public_rows": 1821,
+        "selected_labels": 18
+      },
+      {
+        "source_id": "erJVXbaIicU",
+        "public_rows": 1416,
+        "selected_labels": 14
+      },
+      {
+        "source_id": "iDg2hR1FPgA",
+        "public_rows": 33811,
+        "selected_labels": 338
+      },
+      {
+        "source_id": "iTzr7agImr8",
+        "public_rows": 6863,
+        "selected_labels": 69
+      },
+      {
+        "source_id": "iWYy8n6mSwc",
+        "public_rows": 15745,
+        "selected_labels": 157
+      },
+      {
+        "source_id": "iZHhWklQwmQ",
+        "public_rows": 7492,
+        "selected_labels": 75
+      },
+      {
+        "source_id": "jSOSCiJx_nM",
+        "public_rows": 1316,
+        "selected_labels": 13
+      },
+      {
+        "source_id": "jisAfi381WM",
+        "public_rows": 420,
+        "selected_labels": 4
+      },
+      {
+        "source_id": "ljahBVDaBNE",
+        "public_rows": 42955,
+        "selected_labels": 430
+      },
+      {
+        "source_id": "oRtGfXWrf6Y",
+        "public_rows": 685,
+        "selected_labels": 7
+      },
+      {
+        "source_id": "pQyNKRHbjRA",
+        "public_rows": 1698,
+        "selected_labels": 17
+      },
+      {
+        "source_id": "pzh7M60ujyE",
+        "public_rows": 500,
+        "selected_labels": 5
+      },
+      {
+        "source_id": "rvIPH4ccfpI",
+        "public_rows": 1336,
+        "selected_labels": 13
+      },
+      {
+        "source_id": "s0BpHgMB_8o",
+        "public_rows": 2651,
+        "selected_labels": 27
+      },
+      {
+        "source_id": "smwfiZd8HLc",
+        "public_rows": 2258,
+        "selected_labels": 23
+      },
+      {
+        "source_id": "zUdMBtK2UVE",
+        "public_rows": 1716,
+        "selected_labels": 17
+      }
+    ]
+  },
+  {
+    "policy": "score-labels-0.05",
+    "fraction": 0.05,
+    "selected_labels": 9599,
+    "file": "score-labels-0.05-training-queries.csv",
+    "sha256": "4878d216058c3f5cc1fbff2f6eddcd61f16f65bffcebdd3006b04f378addf757",
+    "source_counts": [
+      {
+        "source_id": "1Aea8BH-PCs",
+        "public_rows": 1362,
+        "selected_labels": 68
+      },
+      {
+        "source_id": "2b1zXYv7Fn8",
+        "public_rows": 3566,
+        "selected_labels": 178
+      },
+      {
+        "source_id": "3rxHweb2fXw",
+        "public_rows": 1953,
+        "selected_labels": 98
+      },
+      {
+        "source_id": "4Y7MMmedX7E",
+        "public_rows": 3458,
+        "selected_labels": 173
+      },
+      {
+        "source_id": "4ktkxv1aNS8",
+        "public_rows": 3767,
+        "selected_labels": 188
+      },
+      {
+        "source_id": "4yWavYq9_Ks",
+        "public_rows": 2830,
+        "selected_labels": 142
+      },
+      {
+        "source_id": "88pZ5kmV96I",
+        "public_rows": 1482,
+        "selected_labels": 74
+      },
+      {
+        "source_id": "8db0Gcv3V10",
+        "public_rows": 4833,
+        "selected_labels": 242
+      },
+      {
+        "source_id": "9WkwG6uxnBI",
+        "public_rows": 5048,
+        "selected_labels": 252
+      },
+      {
+        "source_id": "BL9cNtpb_QI",
+        "public_rows": 19,
+        "selected_labels": 1
+      },
+      {
+        "source_id": "Cmw2H5C_Ves",
+        "public_rows": 1529,
+        "selected_labels": 76
+      },
+      {
+        "source_id": "Cztb-0cliGA",
+        "public_rows": 1101,
+        "selected_labels": 55
+      },
+      {
+        "source_id": "Dai13S2XbsI",
+        "public_rows": 2020,
+        "selected_labels": 101
+      },
+      {
+        "source_id": "EuYseDl2jm8",
+        "public_rows": 277,
+        "selected_labels": 14
+      },
+      {
+        "source_id": "LHprThG7a00",
+        "public_rows": 855,
+        "selected_labels": 43
+      },
+      {
+        "source_id": "Lz0Oh2cxoTU",
+        "public_rows": 13509,
+        "selected_labels": 675
+      },
+      {
+        "source_id": "MTLKr-8UDYE",
+        "public_rows": 9903,
+        "selected_labels": 495
+      },
+      {
+        "source_id": "Nc3hwh-AFFw",
+        "public_rows": 2541,
+        "selected_labels": 127
+      },
+      {
+        "source_id": "PO6iJ3tTvcA",
+        "public_rows": 427,
+        "selected_labels": 21
+      },
+      {
+        "source_id": "WPRrMorSAkQ",
+        "public_rows": 3541,
+        "selected_labels": 177
+      },
+      {
+        "source_id": "XyNTKSm69Gs",
+        "public_rows": 1011,
+        "selected_labels": 51
+      },
+      {
+        "source_id": "Y6_S5bipsBk",
+        "public_rows": 1705,
+        "selected_labels": 85
+      },
+      {
+        "source_id": "YUdsgQGHSR8",
+        "public_rows": 899,
+        "selected_labels": 45
+      },
+      {
+        "source_id": "dzaiF1iIc68",
+        "public_rows": 1637,
+        "selected_labels": 82
+      },
+      {
+        "source_id": "ec_OE0WFEOY",
+        "public_rows": 1821,
+        "selected_labels": 91
+      },
+      {
+        "source_id": "erJVXbaIicU",
+        "public_rows": 1416,
+        "selected_labels": 71
+      },
+      {
+        "source_id": "iDg2hR1FPgA",
+        "public_rows": 33811,
+        "selected_labels": 1691
+      },
+      {
+        "source_id": "iTzr7agImr8",
+        "public_rows": 6863,
+        "selected_labels": 343
+      },
+      {
+        "source_id": "iWYy8n6mSwc",
+        "public_rows": 15745,
+        "selected_labels": 787
+      },
+      {
+        "source_id": "iZHhWklQwmQ",
+        "public_rows": 7492,
+        "selected_labels": 375
+      },
+      {
+        "source_id": "jSOSCiJx_nM",
+        "public_rows": 1316,
+        "selected_labels": 66
+      },
+      {
+        "source_id": "jisAfi381WM",
+        "public_rows": 420,
+        "selected_labels": 21
+      },
+      {
+        "source_id": "ljahBVDaBNE",
+        "public_rows": 42955,
+        "selected_labels": 2148
+      },
+      {
+        "source_id": "oRtGfXWrf6Y",
+        "public_rows": 685,
+        "selected_labels": 34
+      },
+      {
+        "source_id": "pQyNKRHbjRA",
+        "public_rows": 1698,
+        "selected_labels": 85
+      },
+      {
+        "source_id": "pzh7M60ujyE",
+        "public_rows": 500,
+        "selected_labels": 25
+      },
+      {
+        "source_id": "rvIPH4ccfpI",
+        "public_rows": 1336,
+        "selected_labels": 67
+      },
+      {
+        "source_id": "s0BpHgMB_8o",
+        "public_rows": 2651,
+        "selected_labels": 133
+      },
+      {
+        "source_id": "smwfiZd8HLc",
+        "public_rows": 2258,
+        "selected_labels": 113
+      },
+      {
+        "source_id": "zUdMBtK2UVE",
+        "public_rows": 1716,
+        "selected_labels": 86
+      }
+    ]
+  },
+  {
+    "policy": "score-labels-0.2",
+    "fraction": 0.2,
+    "selected_labels": 38390,
+    "file": "score-labels-0.2-training-queries.csv",
+    "sha256": "06884472492dd6056dc31a49eaee6d8dff967d1d371d7ae79c5a4c9e58a88733",
+    "source_counts": [
+      {
+        "source_id": "1Aea8BH-PCs",
+        "public_rows": 1362,
+        "selected_labels": 272
+      },
+      {
+        "source_id": "2b1zXYv7Fn8",
+        "public_rows": 3566,
+        "selected_labels": 713
+      },
+      {
+        "source_id": "3rxHweb2fXw",
+        "public_rows": 1953,
+        "selected_labels": 391
+      },
+      {
+        "source_id": "4Y7MMmedX7E",
+        "public_rows": 3458,
+        "selected_labels": 692
+      },
+      {
+        "source_id": "4ktkxv1aNS8",
+        "public_rows": 3767,
+        "selected_labels": 753
+      },
+      {
+        "source_id": "4yWavYq9_Ks",
+        "public_rows": 2830,
+        "selected_labels": 566
+      },
+      {
+        "source_id": "88pZ5kmV96I",
+        "public_rows": 1482,
+        "selected_labels": 296
+      },
+      {
+        "source_id": "8db0Gcv3V10",
+        "public_rows": 4833,
+        "selected_labels": 967
+      },
+      {
+        "source_id": "9WkwG6uxnBI",
+        "public_rows": 5048,
+        "selected_labels": 1010
+      },
+      {
+        "source_id": "BL9cNtpb_QI",
+        "public_rows": 19,
+        "selected_labels": 4
+      },
+      {
+        "source_id": "Cmw2H5C_Ves",
+        "public_rows": 1529,
+        "selected_labels": 306
+      },
+      {
+        "source_id": "Cztb-0cliGA",
+        "public_rows": 1101,
+        "selected_labels": 220
+      },
+      {
+        "source_id": "Dai13S2XbsI",
+        "public_rows": 2020,
+        "selected_labels": 404
+      },
+      {
+        "source_id": "EuYseDl2jm8",
+        "public_rows": 277,
+        "selected_labels": 55
+      },
+      {
+        "source_id": "LHprThG7a00",
+        "public_rows": 855,
+        "selected_labels": 171
+      },
+      {
+        "source_id": "Lz0Oh2cxoTU",
+        "public_rows": 13509,
+        "selected_labels": 2702
+      },
+      {
+        "source_id": "MTLKr-8UDYE",
+        "public_rows": 9903,
+        "selected_labels": 1981
+      },
+      {
+        "source_id": "Nc3hwh-AFFw",
+        "public_rows": 2541,
+        "selected_labels": 508
+      },
+      {
+        "source_id": "PO6iJ3tTvcA",
+        "public_rows": 427,
+        "selected_labels": 85
+      },
+      {
+        "source_id": "WPRrMorSAkQ",
+        "public_rows": 3541,
+        "selected_labels": 708
+      },
+      {
+        "source_id": "XyNTKSm69Gs",
+        "public_rows": 1011,
+        "selected_labels": 202
+      },
+      {
+        "source_id": "Y6_S5bipsBk",
+        "public_rows": 1705,
+        "selected_labels": 341
+      },
+      {
+        "source_id": "YUdsgQGHSR8",
+        "public_rows": 899,
+        "selected_labels": 180
+      },
+      {
+        "source_id": "dzaiF1iIc68",
+        "public_rows": 1637,
+        "selected_labels": 327
+      },
+      {
+        "source_id": "ec_OE0WFEOY",
+        "public_rows": 1821,
+        "selected_labels": 364
+      },
+      {
+        "source_id": "erJVXbaIicU",
+        "public_rows": 1416,
+        "selected_labels": 283
+      },
+      {
+        "source_id": "iDg2hR1FPgA",
+        "public_rows": 33811,
+        "selected_labels": 6762
+      },
+      {
+        "source_id": "iTzr7agImr8",
+        "public_rows": 6863,
+        "selected_labels": 1373
+      },
+      {
+        "source_id": "iWYy8n6mSwc",
+        "public_rows": 15745,
+        "selected_labels": 3149
+      },
+      {
+        "source_id": "iZHhWklQwmQ",
+        "public_rows": 7492,
+        "selected_labels": 1498
+      },
+      {
+        "source_id": "jSOSCiJx_nM",
+        "public_rows": 1316,
+        "selected_labels": 263
+      },
+      {
+        "source_id": "jisAfi381WM",
+        "public_rows": 420,
+        "selected_labels": 84
+      },
+      {
+        "source_id": "ljahBVDaBNE",
+        "public_rows": 42955,
+        "selected_labels": 8591
+      },
+      {
+        "source_id": "oRtGfXWrf6Y",
+        "public_rows": 685,
+        "selected_labels": 137
+      },
+      {
+        "source_id": "pQyNKRHbjRA",
+        "public_rows": 1698,
+        "selected_labels": 340
+      },
+      {
+        "source_id": "pzh7M60ujyE",
+        "public_rows": 500,
+        "selected_labels": 100
+      },
+      {
+        "source_id": "rvIPH4ccfpI",
+        "public_rows": 1336,
+        "selected_labels": 267
+      },
+      {
+        "source_id": "s0BpHgMB_8o",
+        "public_rows": 2651,
+        "selected_labels": 530
+      },
+      {
+        "source_id": "smwfiZd8HLc",
+        "public_rows": 2258,
+        "selected_labels": 452
+      },
+      {
+        "source_id": "zUdMBtK2UVE",
+        "public_rows": 1716,
+        "selected_labels": 343
+      }
+    ]
+  },
+  {
+    "policy": "score-labels-1",
+    "fraction": 1.0,
+    "selected_labels": 191956,
+    "file": "score-labels-1-training-queries.csv",
+    "sha256": "0befdd59d518408c0bb27355104515ba7cac72c218b34ee36f2fa3d61ada3293",
+    "source_counts": [
+      {
+        "source_id": "1Aea8BH-PCs",
+        "public_rows": 1362,
+        "selected_labels": 1362
+      },
+      {
+        "source_id": "2b1zXYv7Fn8",
+        "public_rows": 3566,
+        "selected_labels": 3566
+      },
+      {
+        "source_id": "3rxHweb2fXw",
+        "public_rows": 1953,
+        "selected_labels": 1953
+      },
+      {
+        "source_id": "4Y7MMmedX7E",
+        "public_rows": 3458,
+        "selected_labels": 3458
+      },
+      {
+        "source_id": "4ktkxv1aNS8",
+        "public_rows": 3767,
+        "selected_labels": 3767
+      },
+      {
+        "source_id": "4yWavYq9_Ks",
+        "public_rows": 2830,
+        "selected_labels": 2830
+      },
+      {
+        "source_id": "88pZ5kmV96I",
+        "public_rows": 1482,
+        "selected_labels": 1482
+      },
+      {
+        "source_id": "8db0Gcv3V10",
+        "public_rows": 4833,
+        "selected_labels": 4833
+      },
+      {
+        "source_id": "9WkwG6uxnBI",
+        "public_rows": 5048,
+        "selected_labels": 5048
+      },
+      {
+        "source_id": "BL9cNtpb_QI",
+        "public_rows": 19,
+        "selected_labels": 19
+      },
+      {
+        "source_id": "Cmw2H5C_Ves",
+        "public_rows": 1529,
+        "selected_labels": 1529
+      },
+      {
+        "source_id": "Cztb-0cliGA",
+        "public_rows": 1101,
+        "selected_labels": 1101
+      },
+      {
+        "source_id": "Dai13S2XbsI",
+        "public_rows": 2020,
+        "selected_labels": 2020
+      },
+      {
+        "source_id": "EuYseDl2jm8",
+        "public_rows": 277,
+        "selected_labels": 277
+      },
+      {
+        "source_id": "LHprThG7a00",
+        "public_rows": 855,
+        "selected_labels": 855
+      },
+      {
+        "source_id": "Lz0Oh2cxoTU",
+        "public_rows": 13509,
+        "selected_labels": 13509
+      },
+      {
+        "source_id": "MTLKr-8UDYE",
+        "public_rows": 9903,
+        "selected_labels": 9903
+      },
+      {
+        "source_id": "Nc3hwh-AFFw",
+        "public_rows": 2541,
+        "selected_labels": 2541
+      },
+      {
+        "source_id": "PO6iJ3tTvcA",
+        "public_rows": 427,
+        "selected_labels": 427
+      },
+      {
+        "source_id": "WPRrMorSAkQ",
+        "public_rows": 3541,
+        "selected_labels": 3541
+      },
+      {
+        "source_id": "XyNTKSm69Gs",
+        "public_rows": 1011,
+        "selected_labels": 1011
+      },
+      {
+        "source_id": "Y6_S5bipsBk",
+        "public_rows": 1705,
+        "selected_labels": 1705
+      },
+      {
+        "source_id": "YUdsgQGHSR8",
+        "public_rows": 899,
+        "selected_labels": 899
+      },
+      {
+        "source_id": "dzaiF1iIc68",
+        "public_rows": 1637,
+        "selected_labels": 1637
+      },
+      {
+        "source_id": "ec_OE0WFEOY",
+        "public_rows": 1821,
+        "selected_labels": 1821
+      },
+      {
+        "source_id": "erJVXbaIicU",
+        "public_rows": 1416,
+        "selected_labels": 1416
+      },
+      {
+        "source_id": "iDg2hR1FPgA",
+        "public_rows": 33811,
+        "selected_labels": 33811
+      },
+      {
+        "source_id": "iTzr7agImr8",
+        "public_rows": 6863,
+        "selected_labels": 6863
+      },
+      {
+        "source_id": "iWYy8n6mSwc",
+        "public_rows": 15745,
+        "selected_labels": 15745
+      },
+      {
+        "source_id": "iZHhWklQwmQ",
+        "public_rows": 7492,
+        "selected_labels": 7492
+      },
+      {
+        "source_id": "jSOSCiJx_nM",
+        "public_rows": 1316,
+        "selected_labels": 1316
+      },
+      {
+        "source_id": "jisAfi381WM",
+        "public_rows": 420,
+        "selected_labels": 420
+      },
+      {
+        "source_id": "ljahBVDaBNE",
+        "public_rows": 42955,
+        "selected_labels": 42955
+      },
+      {
+        "source_id": "oRtGfXWrf6Y",
+        "public_rows": 685,
+        "selected_labels": 685
+      },
+      {
+        "source_id": "pQyNKRHbjRA",
+        "public_rows": 1698,
+        "selected_labels": 1698
+      },
+      {
+        "source_id": "pzh7M60ujyE",
+        "public_rows": 500,
+        "selected_labels": 500
+      },
+      {
+        "source_id": "rvIPH4ccfpI",
+        "public_rows": 1336,
+        "selected_labels": 1336
+      },
+      {
+        "source_id": "s0BpHgMB_8o",
+        "public_rows": 2651,
+        "selected_labels": 2651
+      },
+      {
+        "source_id": "smwfiZd8HLc",
+        "public_rows": 2258,
+        "selected_labels": 2258
+      },
+      {
+        "source_id": "zUdMBtK2UVE",
+        "public_rows": 1716,
+        "selected_labels": 1716
+      }
+    ]
+  }
+]
