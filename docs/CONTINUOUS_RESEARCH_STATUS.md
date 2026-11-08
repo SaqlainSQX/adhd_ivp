@@ -14,7 +14,17 @@ flips, full-K4 RMSE is1.9959pp on ChildPlay and1.5334pp on UCO; normal clean-tar
 coverage33.9% and93.6%. This is an accuracy-assumption limitation, not a win or a
 human-error estimate. V1's missing M2 interval-reference failure and registered
 v2 repair are preserved. All frozen inputs/main evidence remain unchanged.
-Review branch: `codex/query-noise-q-v1`. R is registered but not started.
+Review branch: `codex/query-noise-q-v1`.
+
+R is complete; see [DIRECTIONAL_NOISE_R_RESULTS.md](DIRECTIONAL_NOISE_R_RESULTS.md).
+All18000 independently replayed cases and18 exhaustive toy moment cases pass.
+At2% class-conditional false-positive errors, ChildPlay full-K4 RMSE is2.1562pp
+and normal coverage26.4%; false-negative errors give0.2316pp and92.9%.
+UCO full-K4 RMSE is1.7985pp/0.8272pp and coverage80.5%/88.5%, respectively.
+The error cases do NOT have equal total corruption counts. No human-error rate,
+new method gain or untouched-test confirmation is claimed. All inputs/main
+evidence remain unchanged. Review branch: `codex/directional-noise-r-v1`.
+No experiment job is pending; S is registered but not started.
 
 P is complete; see [AGGREGATE_INTEGRITY_P_RESULTS.md](AGGREGATE_INTEGRITY_P_RESULTS.md).
 The staged baseline showed an optimized-Python assertion bypass. The additive
@@ -34,14 +44,13 @@ actual processes and logs before any new job, never trust historical PIDs alone.
 
 ## Next concrete work
 
-Advance [ASYMMETRIC_NOISE_R.md](ASYMMETRIC_NOISE_R.md): bounded directional-error
-decomposition. Before outcomes, pin the exact Q config/source/query/result hashes
-in a new R config; validate the class-conditional analytical moments exhaustively.
-Use only the three registered settings, unchanged queries/budgets/weights and
-fixed new noise RNG. Reproduce clean controls, then independently replay all18000
-cases. Report false-positive/negative sensitivity, not real annotator accuracy or
-a new performance win. No GPU/Kaggle work, tuning or changed main/reference tables.
-Check actual process/log state before running; do not repeat completed Q work.
+Advance [SUBMISSION_SYNTHESIS_S.md](SUBMISSION_SYNTHESIS_S.md): additive course
+results guide through R plus a checked numeric claim map. Resolve every headline
+metric from accepted aggregate sources with exact selectors/units; preserve all
+losses and held-out/label-error limitations. This is reporting work with no new
+predictions, random draws, tuning or outcomes. Keep historical assessments and
+all sealed delivery files intact. Check process/log state before any computation;
+do not repeat completed Q/R experiments. No GPU/Kaggle work is needed.
 
 ## Completed recent stages
 

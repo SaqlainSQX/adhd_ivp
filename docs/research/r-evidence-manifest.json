@@ -1,0 +1,34 @@
+{
+  "stage": "R directional synthetic label-error sensitivity",
+  "hash_convention": "Tracked text CRLF to LF; binaries and local files raw",
+  "files": {
+    "configs/directional-noise-r-v1.json": "f9b06bbd2b5ed20607642ad9ab4a80a9c3142406ea8dafc8cc700b0f23fe68a4",
+    "docs/ASYMMETRIC_NOISE_R.md": "880eeeccd69e206617541a651ab8f23329e5dbb2a2c6b541c012fada859583d4",
+    "docs/DIRECTIONAL_NOISE_R_RESULTS.md": "1694d0016bf23970213c0eadfc7b59a4ae776a77f14b4e35428062de7a79bb31",
+    "docs/SUBMISSION_SYNTHESIS_S.md": "1d8cb8794dfa9aa2b3f119d78a27959f593073c51aeaf7f1fc9042a2780a18d1",
+    "docs/research/directional-noise-r-v1-validation.log": "585dd163204227848a1389a17981657d15e1f6333c2f37daf2336070e5741dc7",
+    "docs/research/directional-noise-r-v1.log": "d71c396dd3f51c9216efa87ede41fa13a99cd7566d14036ee3586557ae018780",
+    "docs/research/r-clean-baseline-validation.json": "e6b4c483d769acf9d487db9107958e67c599178805c641c71b62ca7fe6554c4c",
+    "docs/research/r-independent-validation.json": "f51587fb9b9b26bb89bc188581cedb703e83176002417238ff937647d6ea30f9",
+    "docs/research/r-registration.json": "95ea973514605426a81b612d7985608b5282056076cdd40d9f58e8b0ac6f9650",
+    "docs/research/r-result.json": "e54ab9ac1e48a2c32b5c9296db1df32e0d806e68dcc64bf0cfe5edb13052405e",
+    "docs/research/r-status.json": "0247cf8defd94d8f8005909e3f4a75b3c12f587724f8e3b68d69f1ec89dba09c",
+    "docs/research/r-toy-validation.json": "21253d42cc5d21ddd5edad09d67d3f2876c069da31dc5920b286f41fd3f50902",
+    "reports/course-project/directional-noise-r.pdf": "d53630b97b0c1083f98fd8033689aea573c82125c8ae20a6d1839a048a592c59",
+    "reports/course-project/directional-noise-r.png": "20ceb2b8eecd351d38deca892c0bcca385e2de2f8683c23b8aed78e30ec24447",
+    "scripts/archive_directional_noise.py": "ee5112fb3959194265e6abdcdf96d441cfeae710f3e29840d3faa6657374c4cd",
+    "scripts/register_directional_noise.py": "a28d78ba50a08dd9b710c50c3d0b6bb09d3397943407cfa970f5c3c4765f7c94",
+    "scripts/report_directional_noise.py": "db3dd92b43110ef389840863a04ebae4ed2088975527bbfb30487f4fabb21aa5",
+    "scripts/run_directional_noise.py": "23edb5be1dbe56d1324436ddb97c85299425b33a854d9b4ef7aa19fe3b50ddbd",
+    "scripts/seal_directional_noise.py": "9a8a28f2f91e6eb878a301ea7f115ab137b76116c8a264c0bd54f4d78167889a",
+    "scripts/validate_directional_noise.py": "14fb15a7083c2adf095e80030de73e04a4da4afbff1a0a53973952de139186d3",
+    "src/gaze_audit/directional_noise.py": "5d9d8e7e47dad932beee95a67b7771a281d83cedd6cf4111c376443c2ff70a1e"
+  },
+  "prior_manifest_file_checks": 320,
+  "local_files": {
+    "outputs/directional-noise-r-v1/draw-results.csv": "3661cdaaab560ff8c4df722cc76d80de915200c95a33887a030d2d1e36ba9bf4"
+  },
+  "mutable_exclusions": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md"
+  ]
+}

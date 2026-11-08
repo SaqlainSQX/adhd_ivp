@@ -1,0 +1,28 @@
+Validated ChildPlay/K4/clean
+Validated ChildPlay/power-score/clean
+Validated ChildPlay/uniform/clean
+Validated ChildPlay/K4/false-positive
+Validated ChildPlay/power-score/false-positive
+Validated ChildPlay/uniform/false-positive
+Validated ChildPlay/K4/false-negative
+Validated ChildPlay/power-score/false-negative
+Validated ChildPlay/uniform/false-negative
+Validated UCO/K4/clean
+Validated UCO/power-score/clean
+Validated UCO/uniform/clean
+Validated UCO/K4/false-positive
+Validated UCO/power-score/false-positive
+Validated UCO/uniform/false-positive
+Validated UCO/K4/false-negative
+Validated UCO/power-score/false-negative
+Validated UCO/uniform/false-negative
+{
+  "complete": true,
+  "method_case_draws_checked": 18000,
+  "max_point_difference": 1.6653345369377348e-16,
+  "max_variance_difference": 9.996344030316351e-17,
+  "rng_costs_flips_all_endpoints_and_summary_fields_checked": true,
+  "exact_integer_interval_cases": 304,
+  "interval_method": "exhaustive feasible integer totals",
+  "analytical_moments_independently_checked": true
+}

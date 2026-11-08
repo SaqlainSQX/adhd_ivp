@@ -1,0 +1,35 @@
+{
+  "complete": true,
+  "checks": [
+    {
+      "dataset": "ChildPlay",
+      "method": "K4",
+      "draws": 1000
+    },
+    {
+      "dataset": "ChildPlay",
+      "method": "power-score",
+      "draws": 1000
+    },
+    {
+      "dataset": "ChildPlay",
+      "method": "uniform",
+      "draws": 1000
+    },
+    {
+      "dataset": "UCO",
+      "method": "K4",
+      "draws": 1000
+    },
+    {
+      "dataset": "UCO",
+      "method": "power-score",
+      "draws": 1000
+    },
+    {
+      "dataset": "UCO",
+      "method": "uniform",
+      "draws": 1000
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "state": "complete",
+  "independent_draw_checks": 18000,
+  "toy_cases": 18,
+  "all_25_pinned_inputs_and_main_evidence_unchanged": true,
+  "figure_visually_reviewed": true,
+  "cpu_only": true,
+  "preregistration_commit": "bf7f1b4",
+  "next": "docs/SUBMISSION_SYNTHESIS_S.md"
+}
