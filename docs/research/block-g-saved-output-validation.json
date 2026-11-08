@@ -1,0 +1,168 @@
+{
+  "status": "passed",
+  "method_draws": 32000,
+  "checks": [
+    {
+      "setting": "L1-w0.5-b516",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L1-w0.5-b1032",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L1-w0.5-b2063",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L1-w0.5-b4126",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L1-w1-b516",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L1-w1-b1032",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L1-w1-b2063",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L1-w1-b4126",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L2-w0.5-b516",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L2-w0.5-b1032",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L2-w0.5-b2063",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L2-w0.5-b4126",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L2-w1-b516",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L2-w1-b1032",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L2-w1-b2063",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L2-w1-b4126",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L5-w0.5-b516",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L5-w0.5-b1032",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L5-w0.5-b2063",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L5-w0.5-b4126",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L5-w1-b516",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L5-w1-b1032",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L5-w1-b2063",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L5-w1-b4126",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L10-w0.5-b516",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L10-w0.5-b1032",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L10-w0.5-b2063",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L10-w0.5-b4126",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L10-w1-b516",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L10-w1-b1032",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L10-w1-b2063",
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "setting": "L10-w1-b4126",
+      "draws": 1000,
+      "status": "passed"
+    }
+  ],
+  "primary_bootstrap": "reproduced",
+  "result_sha256": "0934b365ce20f843d021f9813bc4750eafc19c3bdfca279e9af3b5520a8cd940"
+}
