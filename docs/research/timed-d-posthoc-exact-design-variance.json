@@ -1,0 +1,127 @@
+{
+  "designation": "post-hoc evaluation-only diagnostic",
+  "explanation": "For each frozen design the estimator is design-unbiased; exact design RMSE is sqrt of finite-population stratified residual variance. Full test labels are used only here for explanation; no new policy or test-based lambda is selected.",
+  "rows": [
+    {
+      "policy": "K2",
+      "budget": 516,
+      "exact_design_rmse_pp": 0.5010355529947761
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "exact_design_rmse_pp": 0.35343643671979813
+    },
+    {
+      "policy": "K8",
+      "budget": 516,
+      "exact_design_rmse_pp": 0.38244945992133345
+    },
+    {
+      "policy": "K16",
+      "budget": 516,
+      "exact_design_rmse_pp": 0.3955366050936285
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "exact_design_rmse_pp": 0.31380112223762097
+    },
+    {
+      "policy": "power-uniform",
+      "budget": 516,
+      "exact_design_rmse_pp": 0.6493935776989608
+    },
+    {
+      "policy": "K2",
+      "budget": 1032,
+      "exact_design_rmse_pp": 0.3315794412291998
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "exact_design_rmse_pp": 0.21598501838011194
+    },
+    {
+      "policy": "K8",
+      "budget": 1032,
+      "exact_design_rmse_pp": 0.23850606299509117
+    },
+    {
+      "policy": "K16",
+      "budget": 1032,
+      "exact_design_rmse_pp": 0.2484428826539346
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "exact_design_rmse_pp": 0.19203320754756883
+    },
+    {
+      "policy": "power-uniform",
+      "budget": 1032,
+      "exact_design_rmse_pp": 0.44693824518268666
+    },
+    {
+      "policy": "K2",
+      "budget": 2063,
+      "exact_design_rmse_pp": 0.19849207852930972
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "exact_design_rmse_pp": 0.09361330142462956
+    },
+    {
+      "policy": "K8",
+      "budget": 2063,
+      "exact_design_rmse_pp": 0.11553032036614726
+    },
+    {
+      "policy": "K16",
+      "budget": 2063,
+      "exact_design_rmse_pp": 0.12212911400451855
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "exact_design_rmse_pp": 0.08403967108687396
+    },
+    {
+      "policy": "power-uniform",
+      "budget": 2063,
+      "exact_design_rmse_pp": 0.29804106788355195
+    },
+    {
+      "policy": "K2",
+      "budget": 4126,
+      "exact_design_rmse_pp": 0.06430771241643858
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "exact_design_rmse_pp": 0.012355748990807821
+    },
+    {
+      "policy": "K8",
+      "budget": 4126,
+      "exact_design_rmse_pp": 0.01028670208948356
+    },
+    {
+      "policy": "K16",
+      "budget": 4126,
+      "exact_design_rmse_pp": 0.03408476251696016
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "exact_design_rmse_pp": 0.012176727457695985
+    },
+    {
+      "policy": "power-uniform",
+      "budget": 4126,
+      "exact_design_rmse_pp": 0.1825158204135612
+    }
+  ],
+  "result_sha256": "620b1555fbfefdd4fbd34cf976d398006ae0fe651e87f5e86600d3c76131ce27"
+}

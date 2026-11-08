@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "comparisons": 24,
+  "shared_query_cases": 8,
+  "prior_manifests": [
+    {
+      "manifest": "docs/research/extra-c-evidence-manifest.json",
+      "files": 34,
+      "status": "passed"
+    },
+    {
+      "manifest": "docs/research/strengthening-evidence-manifest.json",
+      "files": 52,
+      "status": "passed"
+    }
+  ],
+  "result_sha256": "620b1555fbfefdd4fbd34cf976d398006ae0fe651e87f5e86600d3c76131ce27",
+  "scope_note": "D1 score/K4 and uniform/M2 reuse exact queries; K settings use common stream21 with different designs. Generic inherited streams-differ wording in raw result is imprecise; arrays and bootstrap values are checked."
+}

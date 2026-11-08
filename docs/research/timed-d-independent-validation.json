@@ -1,0 +1,328 @@
+{
+  "status": "passed",
+  "sampled_method_runs": 24000,
+  "training_checks": [
+    {
+      "policy": "K2",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "status": "passed"
+    },
+    {
+      "policy": "K8",
+      "status": "passed"
+    },
+    {
+      "policy": "K16",
+      "status": "passed"
+    }
+  ],
+  "validation_checks": [
+    {
+      "policy": "K2",
+      "alpha": 0.0,
+      "weight": 1.0,
+      "status": "passed"
+    },
+    {
+      "policy": "K2",
+      "alpha": 0.5,
+      "weight": 1.0,
+      "status": "passed"
+    },
+    {
+      "policy": "K2",
+      "alpha": 1.0,
+      "weight": 1.0,
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "alpha": 0.0,
+      "weight": 1.0,
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "alpha": 0.5,
+      "weight": 1.0,
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "alpha": 1.0,
+      "weight": 1.0,
+      "status": "passed"
+    },
+    {
+      "policy": "K8",
+      "alpha": 0.0,
+      "weight": 1.0,
+      "status": "passed"
+    },
+    {
+      "policy": "K8",
+      "alpha": 0.5,
+      "weight": 1.0,
+      "status": "passed"
+    },
+    {
+      "policy": "K8",
+      "alpha": 1.0,
+      "weight": 1.0,
+      "status": "passed"
+    },
+    {
+      "policy": "K16",
+      "alpha": 0.0,
+      "weight": 1.0,
+      "status": "passed"
+    },
+    {
+      "policy": "K16",
+      "alpha": 0.5,
+      "weight": 1.0,
+      "status": "passed"
+    },
+    {
+      "policy": "K16",
+      "alpha": 1.0,
+      "weight": 1.0,
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "alpha": 1.0,
+      "weight": 0.0,
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "alpha": 1.0,
+      "weight": 0.25,
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "alpha": 1.0,
+      "weight": 0.5,
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "alpha": 1.0,
+      "weight": 0.75,
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "alpha": 1.0,
+      "weight": 1.0,
+      "status": "passed"
+    },
+    {
+      "policy": "uniform",
+      "alpha": 0.0,
+      "weight": 0.0,
+      "status": "passed"
+    },
+    {
+      "policy": "uniform",
+      "alpha": 0.0,
+      "weight": 0.25,
+      "status": "passed"
+    },
+    {
+      "policy": "uniform",
+      "alpha": 0.0,
+      "weight": 0.5,
+      "status": "passed"
+    },
+    {
+      "policy": "uniform",
+      "alpha": 0.0,
+      "weight": 0.75,
+      "status": "passed"
+    },
+    {
+      "policy": "uniform",
+      "alpha": 0.0,
+      "weight": 1.0,
+      "status": "passed"
+    }
+  ],
+  "checks": [
+    {
+      "policy": "K2",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.1796119636642288e-16
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.1796119636642288e-16
+    },
+    {
+      "policy": "K8",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.3877787807814457e-16
+    },
+    {
+      "policy": "K16",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.5265566588595902e-16
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.1102230246251565e-16
+    },
+    {
+      "policy": "power-uniform",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.0408340855860843e-16
+    },
+    {
+      "policy": "K2",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.1796119636642288e-16
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.249000902703301e-16
+    },
+    {
+      "policy": "K8",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.3183898417423734e-16
+    },
+    {
+      "policy": "K16",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.5265566588595902e-16
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.0755285551056204e-16
+    },
+    {
+      "policy": "power-uniform",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.0408340855860843e-16
+    },
+    {
+      "policy": "K2",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.1796119636642288e-16
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.1796119636642288e-16
+    },
+    {
+      "policy": "K8",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.1796119636642288e-16
+    },
+    {
+      "policy": "K16",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.5265566588595902e-16
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.0408340855860843e-16
+    },
+    {
+      "policy": "power-uniform",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.0408340855860843e-16
+    },
+    {
+      "policy": "K2",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.1102230246251565e-16
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.1796119636642288e-16
+    },
+    {
+      "policy": "K8",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.3877787807814457e-16
+    },
+    {
+      "policy": "K16",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.457167719820518e-16
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.0408340855860843e-16
+    },
+    {
+      "policy": "power-uniform",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed",
+      "max_point_difference": 1.0408340855860843e-16
+    }
+  ],
+  "result_sha256": "620b1555fbfefdd4fbd34cf976d398006ae0fe651e87f5e86600d3c76131ce27",
+  "policy_lock_sha256": "7131a3de0895ca5bbdff98b0872af071a2221ddb1f8d6865dc56c01d4599d0f3"
+}

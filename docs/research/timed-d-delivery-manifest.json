@@ -1,0 +1,32 @@
+{
+  "state": "complete",
+  "hash_convention": "SHA256, normalize CRLF to LF for text; PNG bytes unchanged",
+  "registration_commit": "4da6bf3",
+  "main_commit": "59fb784",
+  "files": {
+    "configs/timed-research-d-v1.json": "bb76df7e37427af9583b6df7a8bdf396d32ec96728fee17fc63bfc7c54f44b39",
+    "docs/research/timed-d-comparison-validation.json": "850115371393bc96272aee79dd5c09471aa4ea644e09c36a68e48e1e58f2baf6",
+    "docs/research/timed-d-evidence-manifest.json": "d10aaf175163235ff5bc15722881e3b1c36782c65e5329392cc6ac186b42e4be",
+    "docs/research/timed-d-independent-validation.json": "ec96799e81f350cb70378d8bd47c51789433c7b6c493eb608057f983f92c67c8",
+    "docs/research/timed-d-literature.md": "0bb6f5d735ad156d79550443df1d9f2ed7bb8d4075c49da2f4e8ee79b3aa134b",
+    "docs/research/timed-d-policy-lock.json": "7a31b133e466b03ee5ec94654235722e8a1b99e3740fd446fd62fd145bb74b1d",
+    "docs/research/timed-d-posthoc-exact-design-variance.json": "0fcab3ffb1747a5bcdfcb9907681ff1ca9fd9e0a9048baf8208e737cf446e659",
+    "docs/research/timed-d-primary-decision.json": "f22cdae880f8dccefa4ebc091befc003f538fcf578c998b95b283369d8bfc1ce",
+    "docs/research/timed-d-registration.json": "1987bf09d5e3bc1b7c2297f0e45ce8fcbd8c0fb52498647e7534afd3aefbc2af",
+    "docs/research/timed-d-result.json": "6e158f701d7568f972756afe33e5fbd47664642786de0dd3e7312b815290739a",
+    "docs/TIMED_RESEARCH_D.md": "d261df63d6c8b086fd1335a547adce4d867b09ed745031cd74749b82bb1cde7c",
+    "docs/TIMED_RESEARCH_D_STATUS.md": "a5a0cdc81021af9e6780ea34339f2494485e9182ac26780b6dcb6ea0f18d2a4d",
+    "reports/course-project/timed-d/accuracy-coverage.png": "463ebb5a832442034ae8d02be369a8e0918c2a3819e7f0970e6a373ecd5facab",
+    "reports/course-project/timed-d/accuracy-coverage.svg": "a79ff6b3c07c0ca63e57d6fdc142097e2aca436196c08e4a60e66c5d7eaf314a",
+    "reports/course-project/timed-d/development-selection.png": "677badc352c22154ac1bee595727f8fb9447110ad0901c004259a573bcfec7f3",
+    "reports/course-project/timed-d/development-selection.svg": "5297250fd2e4674cefb54797615c179c170e96defac04f7c664dc5ecc8af084b",
+    "reports/course-project/timed-d/results.md": "7bf2bcaa76e293c8fd5e016232680ee9fa015871ecf7f6fb65e19890443b76bb",
+    "scripts/check_timed_comparisons.py": "2e2fb6289d0c5a55f122b78420c3ad58507a9d5232ae65b08c726fa149f18a21",
+    "scripts/diagnose_timed_design_variance.py": "a99d45c37ea37f7a834604ec8a9b94ee98fb62a70b63ca4f7e76ba46151fcbd6",
+    "scripts/report_timed_research.py": "74e1922e096fcf4470f7ada04d69f201ee9d435a28f1a800cf8fe9f9c9440178",
+    "scripts/run_timed_research.py": "a9acd26212fb639a0e9dbabccd812d9a49be613932f94880d85000acd4600fc8",
+    "scripts/validate_timed_research.py": "97d103a757cef6fcd035fc84f49c63117a42c69dfc4b1ed8f1a4a8f8d5651d88",
+    "src/gaze_audit/timed_research.py": "da3fa0ea96ff6c3bd8b93d46e03d844eed828b240389de0b9c6b40098a1a7ede",
+    "tests/test_power_weight.py": "f86e46fa0d82375d35aaff017624f065d31b48c6ca903104fb8b8546f15261c0"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "rmse_ratio": 0.8946773418634837,
+    "draw_bootstrap_95pct": [
+      0.8712365068351794,
+      0.919003322591215
+    ],
+    "seed": 400004,
+    "resamples": 2000,
+    "scope": "Fixed-corpus draw-bootstrap uncertainty; shared queries for power-score/K4, common seeds with different designs for K8/K4. Not source-generalization uncertainty.",
+    "policy": "power-score",
+    "meets_threshold": true
+  },
+  {
+    "rmse_ratio": 1.0660795385973796,
+    "draw_bootstrap_95pct": [
+      1.0012802288627878,
+      1.1354662899702153
+    ],
+    "seed": 400004,
+    "resamples": 2000,
+    "scope": "Fixed-corpus draw-bootstrap uncertainty; shared queries for power-score/K4, common seeds with different designs for K8/K4. Not source-generalization uncertainty.",
+    "policy": "K8",
+    "meets_threshold": false
+  }
+]

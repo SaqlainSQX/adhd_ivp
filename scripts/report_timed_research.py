@@ -1,5 +1,6 @@
 """Render an aggregate-only appendix after independent D verification."""
 
+import hashlib
 import json
 from pathlib import Path
 
@@ -9,7 +10,10 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
-from gaze_audit.frame_study import file_hash
+
+def file_hash(path):
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
 
 root = Path("outputs/experiments/timed-d-20261108-v1")
 out = Path("reports/course-project/timed-d")
@@ -18,6 +22,9 @@ r = json.loads((root / "result.json").read_text())
 v = json.loads((root / "independent-validation.json").read_text())
 lock = json.loads((root / "policy-lock.json").read_text())
 assert v["status"] == "passed" and v["result_sha256"] == file_hash(root / "result.json")
+comparison_check = json.loads((root / "comparison-validation.json").read_text())
+assert comparison_check["status"] == "passed"
+assert comparison_check["result_sha256"] == file_hash(root / "result.json")
 names = ["K2", "K4", "K8", "K16", "power-score", "power-uniform"]
 budgets = [516, 1032, 2063, 4126]
 colors = ["#997a2f", "#184e77", "#397f5b", "#9467a3", "#d05e28", "#62676e"]
@@ -117,7 +124,15 @@ for name in ["power-score", r["selected_k"]]:
     c = r["comparisons"][f"{name}-b1032/K4"]
     lo, hi = c["draw_bootstrap_95pct"]
     passed = c["rmse_ratio"] <= 0.9 and hi < 1
-    decisions.append(dict(policy=name, meets_threshold=passed, **c))
+    decisions.append(
+        dict(
+            c,
+            policy=name,
+            meets_threshold=passed,
+            scope="Fixed-corpus draw-bootstrap uncertainty; shared queries for power-score/K4, "
+            "common seeds with different designs for K8/K4. Not source-generalization uncertainty.",
+        )
+    )
     lines.append(f"| {name} / K4 | {c['rmse_ratio']:.4f} | [{lo:.4f}, {hi:.4f}] | {passed} |")
 c = r["comparisons"]["power-uniform-b1032/M2"]
 lo, hi = c["draw_bootstrap_95pct"]
@@ -127,6 +142,9 @@ lines += [
     "The bootstrap describes simulation error on this fixed corpus, not generalization "
     "to new children/videos. Validation-selected K is the D2 endpoint even if another K "
     "looks better on test. No combined lambda/K policy was tested.",
+    "D1 score/K4 and uniform/M2 use identical queried records. Across K, stream21 "
+    "aligns random seeds but the designs differ. The inherited generic raw-JSON "
+    "scope text saying streams differ is imprecise; the saved arrays were checked.",
     "",
     "The exact binary reference is a conservative, separately centered interval for "
     "the same finite population. It does not validate the residual-centered normal "
@@ -137,6 +155,14 @@ lines += [
     "statistical method or an independent replication. The original temporal-versus-static "
     "finding is unchanged. These results estimate benchmark-defined mutual looking, "
     "not ADHD diagnosis.",
+    "The prior B1 score-control run reported 0.2079 pp at B1032 on stream7. "
+    "This round's unweighted control is 0.2199 pp on stream21; the registered "
+    "10.5% gain compares identical stream21 queries. Relative to the old simulation "
+    "number, the weighted 0.1967 pp is about 5.4% lower. This is not a new dataset.",
+    "A post-hoc evaluation-only calculation using full test references gives exact "
+    "design RMSE 0.2160 pp for K4 and 0.1920 pp for power-score at B1032 "
+    "(about 11.1% lower). This explains the fixed-population variance reduction; "
+    "it does not select a new policy or establish transfer to unseen sources.",
     "",
     "![Accuracy and coverage](accuracy-coverage.png)",
     "",
@@ -147,6 +173,7 @@ lines += [
     "```powershell",
     ".venv/Scripts/python.exe scripts/run_timed_research.py",
     ".venv/Scripts/python.exe scripts/validate_timed_research.py",
+    ".venv/Scripts/python.exe scripts/check_timed_comparisons.py",
     ".venv-mtgs/Scripts/python.exe scripts/report_timed_research.py",
     "```",
     "",
@@ -155,9 +182,16 @@ lines += [
 ]
 (out / "results.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 tracked = Path("docs/research")
-for name in ["result.json", "policy-lock.json", "independent-validation.json", "registration.json"]:
+for name in [
+    "result.json",
+    "policy-lock.json",
+    "independent-validation.json",
+    "registration.json",
+    "comparison-validation.json",
+    "posthoc-exact-design-variance.json",
+]:
     (tracked / f"timed-d-{name}").write_text((root / name).read_text(), encoding="utf-8")
 (tracked / "timed-d-primary-decision.json").write_text(json.dumps(decisions, indent=2) + "\n")
-evidence = {str(p).replace("\\", "/"): file_hash(p) for p in sorted(root.iterdir()) if p.is_file()}
+evidence = {str(p).replace("\\", "/"): file_hash(p) for p in sorted(root.rglob("*")) if p.is_file()}
 (tracked / "timed-d-evidence-manifest.json").write_text(json.dumps(evidence, indent=2) + "\n")
 print(json.dumps(dict(primary_decisions=decisions, uniform_vs_M2=c), indent=2))

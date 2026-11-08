@@ -1,0 +1,57 @@
+{
+  "config": {
+    "designation": "exploratory after repeatedly inspected test outcomes",
+    "main_run": "outputs/experiments/course-20261107-v1",
+    "simple_run": "outputs/experiments/strengthening-20261107-v1/B1-simple-controls",
+    "processed": "data/processed/vsgaze-17357752-v1",
+    "output": "outputs/experiments/timed-d-20261108-v1",
+    "protocol": "docs/TIMED_RESEARCH_D.md",
+    "frozen_hashes": {
+      "main_result": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9",
+      "main_policy_lock": "15dacc805bd3f1e525ac32ace89578d51c44016ead2e4b986ceafe06cc074c4e",
+      "simple_result": "6bf4dae9a0a984203461ef0b4557537bf52a399ad329f7703d5aaf4419b5ebe8",
+      "simple_policy_lock": "38466f2d287d37d96bd3bcf4fe2c7ee9122622593e7f160c342e6d599830c8bd",
+      "source_folds": "68b0f7db3b0ec3fa0069d11a4ca4554031c40e0c48f3c57896e252bd1c566029"
+    },
+    "fractions": [
+      0.05,
+      0.1,
+      0.2,
+      0.4
+    ],
+    "strata_counts": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "lambdas": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "alphas": [
+      0,
+      0.5,
+      1
+    ],
+    "validation_draws": 1000,
+    "test_draws": 1000,
+    "validation_seed_start": 100000,
+    "test_seed_start": 200000,
+    "bootstrap_seed": 400004,
+    "bootstrap_resamples": 2000,
+    "main_replacement_allowed": false
+  },
+  "config_sha256": "bb76df7e37427af9583b6df7a8bdf396d32ec96728fee17fc63bfc7c54f44b39",
+  "protocol_sha256": "d261df63d6c8b086fd1335a547adce4d867b09ed745031cd74749b82bb1cde7c",
+  "implementation_sha256": "da3fa0ea96ff6c3bd8b93d46e03d844eed828b240389de0b9c6b40098a1a7ede",
+  "feature_hashes": {
+    "static": "a149f032b9375be4fa562910342b2bec1a334c85ff81496feea33d4ae55aad68",
+    "temporal-w5": "d299252adbd1524c505b73e2ebe46ff6fd650bde049ecf7d978f05b3aabe25a6",
+    "temporal-w11": "1594d838704b41ee175d33e2f1ee922f98e777c9efe278306a65c0033da80981"
+  },
+  "started_utc": "2026-11-08T05:31:28.626786+00:00"
+}
