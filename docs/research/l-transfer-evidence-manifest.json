@@ -1,0 +1,32 @@
+{
+  "stage": "L accepted transfer evidence, primary loss retained",
+  "hash_convention": "Tracked text normalized CRLF to LF; media/PDF and local evidence raw bytes",
+  "files": {
+    "scripts/run_uco_transfer.py": "9f844825eb46f9184e7466f4da3a4d97b6e8d5655851bfa2f805baa45c785c31",
+    "scripts/validate_uco_transfer.py": "8a98d332961a982cff83f122a3a06cdec238111cdec52e016bb389703f27dd97",
+    "scripts/report_uco_transfer.py": "08cc3e8de3750f593ce04d3b09f443c8d381f9ffcb7a0d3d5655d80b7dba66bf",
+    "docs/UCO_TRANSFER_L_RESULTS.md": "4e5a3167d6c0e507bbb3674170b9e41bc0d654e6ee1fe3e89dfc5fb1ec7ae174",
+    "docs/VARIANCE_DECOMPOSITION_M.md": "b59ae71d402b23671b6a4e29628566d7f64a2c2866bba6d5a9f686e6a6319c4e",
+    "docs/research/l-transfer-result.json": "35d37f00bd2c60c7b8e98812c6363002e150bb95e0875896864091aed74306f0",
+    "docs/research/l-transfer-registration.json": "7dd84945a49a8ad2aed3a4a922b721d590ce5ae64546e567fe72d3122419e51a",
+    "docs/research/l-independent-validation.json": "838ca7e2dbaae503e1be918368ee2050c851f64ffb5c5d18b42df96dfa7a832c",
+    "docs/research/l-query-designs.json": "68d9a625f9998b464ae717acc3bf6a199e6dafb290ff59bdfb1674f9361f006e",
+    "docs/research/l-inference-completion.json": "ef80db5b24a7fc3e47900092281af43eab94b87e8a6036fb9362efb9b8643069",
+    "reports/course-project/uco-transfer-l.png": "43fca1b2626944d4e5aa59c5937d61bda1266cd6ae217e8537018facb052f575",
+    "reports/course-project/uco-transfer-l.pdf": "ccdef9bdddef566fdbe33c6f78ce5c32340030d143fddfea627bcbbb0304065f"
+  },
+  "local_files": {
+    "outputs/experiments/uco-transfer-l-v1/result.json": "d0e7810888f9b5e264e801772c40c40e87d47651d829da217c96c9aada574000",
+    "outputs/experiments/uco-transfer-l-v1/registration.json": "ee253fb53fa736b2f12326b12e06f97f0d8f039f8711c8804cfe8e2cdbffe7da",
+    "outputs/experiments/uco-transfer-l-v1/independent-validation.json": "5da2ab2ae3110b11f1c47eb447ad2f120e59c33b6165ac78773855229c7d80c6",
+    "outputs/experiments/uco-transfer-l-v1/independent-validation-exhaustive.json": "0394b9bbd49c1473e03e724e99350039537fea38b38e170f7a1a2b48133c4188",
+    "outputs/experiments/uco-transfer-l-v1/query-manifest.json": "5e0274f5d0fdfb91059db0f9fa925bfb3ccef7c58a3505b39f87ed6901583206",
+    "outputs/experiments/uco-transfer-l-v1/draw-results.csv": "9706d418b9aa44f883b68d62bf64e8091b7ee766790b527d8c76de563c081dc5",
+    "outputs/experiments/uco-transfer-l-v1/scores-population-order.csv": "a7dd219c5208f373231e96d030cbbd878d99b6a7a39b35eef80ace992600b944",
+    "outputs/experiments/uco-transfer-l-v1/review-status.json": "9344977eefa018978cf30946f4399c3c09031a68a2cf71d966ebe7a30372c695"
+  },
+  "mutable_exclusions": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md",
+    "outputs/experiments/uco-transfer-l-v1/status.json"
+  ]
+}

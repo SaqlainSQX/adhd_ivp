@@ -1,0 +1,139 @@
+{
+  "stage": "L-inference",
+  "complete": true,
+  "status": "complete",
+  "pid": 31216,
+  "oracle_opened": false,
+  "reference_values_used": false,
+  "config_sha256": "302580d6fe7f4acaa4cd19f0ecf8930fc0be65781dc95ead7ed8f5e12dbe43a9",
+  "implementation_sha256": "9f3890a074c74d5c61f9d59660904dff4bc59d9bef4ecbfce84a40d2d61d9b26",
+  "public_adapter_sha256": "62229b4e9ab95f31b47f1c0c67bba595b9115f28b736dd097956b4f3f7a9da72",
+  "verified_inputs": {
+    "data/processed/uco-eligible-k4-v2/eligible-pairs.csv": "7b4af502d60d08a0f569abde58edec3947a5e11a3043d584b89c8a2ab25393f0",
+    "data/processed/uco-public-k2-v1/public-frames.json": "7d5aba5fc7ef73b83dfe31f99a3094525c75645ef3ccaf9e12c3e37d1418281e",
+    "outputs/experiments/timed-d-20261108-v1/K4-training.json": "c2531d8581b13524444d048816554724bcc14bc70c9909dea87751fb83ba89fe",
+    "outputs/experiments/timed-d-20261108-v1/policy-lock.json": "7131a3de0895ca5bbdff98b0872af071a2221ddb1f8d6865dc56c01d4599d0f3",
+    "src/gaze_audit/mtgs_runtime.py": "ecd6cfc2380f53710f5e495bf50371a94784a72a435748e704895c462e0e2f1c",
+    "src/gaze_audit/frame_study.py": "1885ce1a277f407a8ac939181f140d69646dfac237d6b4f17ec6ed9fe1e68b88",
+    "src/gaze_audit/frames.py": "89a71ae2c9457ac05240ff957315778b4f72b297780c4439a5495424270bbd5d",
+    "src/gaze_audit/strengthening.py": "1fb6dbfacacbb2aa1881792127b2679bd49034051bcf9db1bcf1b7ce6b37316b",
+    "src/gaze_audit/exact_intervals.py": "58f9994e1ec7841de2c8aa6d3c324702864096395beedbec425b528eeca58017",
+    "external/MTGS-pinned/mtgs/utils/utils.py": "1e3e568d015252053bffdc86191459a2424d3c0cdb2404c80baddf421d108b00"
+  },
+  "checkpoint_sha256": "5599382ab78f3993d31300f4e16ed13bc20bed26d7ec9735a37473eb374d994f",
+  "clips": [
+    {
+      "clip": "got05",
+      "rows": 200,
+      "file": "predictions-got05.csv",
+      "sha256": "367e1e42f28f2f99a19f4efdc4935eb614ce8d0fc0c55eaa1a42f4c76e5293e0"
+    },
+    {
+      "clip": "got06",
+      "rows": 244,
+      "file": "predictions-got06.csv",
+      "sha256": "001d0bf0d41cc45e737bd1feef4766eca989a4154acde145850914bcfa8a04bf"
+    },
+    {
+      "clip": "got08",
+      "rows": 478,
+      "file": "predictions-got08.csv",
+      "sha256": "d976774d66381a4db9aced91238e2cefeca4227d804e6fc76f890d3c076f18ff"
+    },
+    {
+      "clip": "mr04",
+      "rows": 125,
+      "file": "predictions-mr04.csv",
+      "sha256": "0e9e6227750037966601bddffdeacca8f3ef219e9da950b641d66e3ee2b9a36c"
+    },
+    {
+      "clip": "mr05",
+      "rows": 98,
+      "file": "predictions-mr05.csv",
+      "sha256": "f2232c9f98f414d87802b4c1175505dc8a6984dcac146a6051b3521bb4759398"
+    },
+    {
+      "clip": "mr06",
+      "rows": 270,
+      "file": "predictions-mr06.csv",
+      "sha256": "f24446039d3c46b96db206ed88f0b4b1ca72dffdac144f34801d5845ae3220c8"
+    },
+    {
+      "clip": "mr10",
+      "rows": 181,
+      "file": "predictions-mr10.csv",
+      "sha256": "5083dec8c416d5c84eb52f74bf404a3cf464da4ac7f4b3fb924b473371361173"
+    },
+    {
+      "clip": "sv03",
+      "rows": 421,
+      "file": "predictions-sv03.csv",
+      "sha256": "99070a45989cfb86abb4a1f031162644af4fc37615c13e1083f51912ef1328da"
+    },
+    {
+      "clip": "sv06",
+      "rows": 175,
+      "file": "predictions-sv06.csv",
+      "sha256": "0100dba7eaa1e707138952f39f2b11e3425f47da6b76d8caee17a09669dec5c5"
+    },
+    {
+      "clip": "sv10",
+      "rows": 354,
+      "file": "predictions-sv10.csv",
+      "sha256": "2baa83f24a60ee341910325190499b89c7ae660c8a0bb645529c1c194c04b64b"
+    },
+    {
+      "clip": "twd03",
+      "rows": 1285,
+      "file": "predictions-twd03.csv",
+      "sha256": "62916662631f90f8ed872cdbaf62d91b880f963860dc41eeed3b6d26d30d5d8a"
+    },
+    {
+      "clip": "twd04",
+      "rows": 263,
+      "file": "predictions-twd04.csv",
+      "sha256": "bc91d0f51143ed9491063d33eaa2d75a0e9c9427b8248f4abc2663f9d66ade7b"
+    },
+    {
+      "clip": "twd05",
+      "rows": 413,
+      "file": "predictions-twd05.csv",
+      "sha256": "f97ed6ad2ddea6cc5bcd3c008b915a62ffd0985e0143140956a8de957f7bc59f"
+    },
+    {
+      "clip": "twd06",
+      "rows": 551,
+      "file": "predictions-twd06.csv",
+      "sha256": "6682f95b2cda08f9049fe8c4d2adba0284251e76907c727e6c084564ed4d854e"
+    },
+    {
+      "clip": "twd07",
+      "rows": 161,
+      "file": "predictions-twd07.csv",
+      "sha256": "269b57c371fc250ea7d558b69a28a50f720be7b96d73b0879c3ea299b113a523"
+    }
+  ],
+  "processed_anchor_frames": 2357,
+  "precision": "float16-autocast",
+  "memory_fraction": 0.5,
+  "upstream_geometry": "UCO raw border coordinates retained; ChildPlay export previously clipped",
+  "runtime": {
+    "python": "3.13.1",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+  },
+  "existing_runtime_lock_sha256": "0e4f9c95149c526c7c7addba2059698e4ea48ba210c9d99fb0c4882416aae840",
+  "auxiliary_pruning": "reuse same-checkpoint auxiliary independence validation",
+  "first_public_cached_uncached_input_parity": true,
+  "amp_uco_check": {
+    "max_abs_LAH_LAEO": [
+      0.0004196763038635254,
+      7.752887904644012e-05
+    ],
+    "tolerance": 0.002,
+    "scope": "first public UCO window, no labels"
+  },
+  "elapsed_seconds": 295.9481803000017,
+  "peak_gpu_allocated_bytes": 856421888
+}

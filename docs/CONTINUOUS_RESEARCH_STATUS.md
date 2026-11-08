@@ -8,30 +8,30 @@ status changes are intentionally excluded from immutable scientific manifests.
 
 I and J's UCO metadata review are complete. See
 [UCO_CONTRACT_J_STATUS.md](UCO_CONTRACT_J_STATUS.md) and the prior I findings.
-L inference is implemented and launched; read
-[UCO_INFERENCE_L_STATUS.md](UCO_INFERENCE_L_STATUS.md) plus the actual saved
-runtime before acting.81 tests passed. The job processes2,357 public anchors
-for5,219 eligible pairs; no oracle readout/evaluation has started. Review branch:
-`codex/uco-inference-l-v1`; main remains59fb784. Earlier evidence is unchanged.
+L is complete and independently validated; read
+[UCO_TRANSFER_L_RESULTS.md](UCO_TRANSFER_L_RESULTS.md) and actual result/proof in
+outputs/experiments/uco-transfer-l-v1. Primary half/full RMSE ratio1.26948 is a
+loss; full-weight K4/uniform ratio0.74412 is a secondary gain. All12,000 method
+draws, exact intervals and12 bootstrap comparisons passed independent checks.
+Review branch:`codex/uco-evaluation-l-v1`; main remains59fb784. Earlier evidence
+and every prior loss are unchanged.
 
 The local research service is available at http://127.0.0.1:8766. Treat recorded
 PIDs as historical; inspect actual process/listener state before reusing or
 restarting a service. Do not duplicate jobs or kill another agent's workload.
-One local capped inference job was launched after resource checks; no Kaggle
-work was started. Inspect actual processes and logs before any new job.
+The local inference and evaluation jobs finished; no Kaggle job was used. Inspect
+actual processes and logs before any new job, never trust historical PIDs alone.
 
 ## Next concrete work
 
-First read outputs/inference/uco-transfer-l-v1/inference-provenance.json and
-outputs/uco-inference-l-launch-v1 logs, and inspect live processes. Do not
-duplicate active inference. If it fails, preserve evidence and diagnose under a
-new versioned repair. If complete, verify5,219 unique finite score rows and
-per-clip hashes, then implement the registered L query/evaluation stages using
-fixed ChildPlay K4 cuts/SDs, alpha1, weights1/0.5, budgets260/521/1043/2087 and
-streams61/62. Generate/hash every query file before oracle readout. Independently
-replay all12,000 method draws and inspect figures. Disclose raw UCO border boxes
-versus upstream-clipped ChildPlay geometry and backbone-family exposure. No
-Kaggle job, test-label tuning or main-study modification. Preserve every loss.
+Advance [VARIANCE_DECOMPOSITION_M.md](VARIANCE_DECOMPOSITION_M.md): a descriptive
+post-hoc finite-population variance explanation on the locked ChildPlay D/UCO L
+K4 allocations. Reuse caches, compute A/B/C components and verify the algebra
+against saved exact variances; no fitted/optimal lambda or new stream/search.
+Afterwards integrate accepted UCO findings into an additive course/demo appendix
+without rewriting the original immutable explorer. Do not repeat completed
+inference/evaluation, hide UCO's half-weight loss, or treat inspected test labels
+as fresh confirmation. Keep geometry and backbone-family limitations explicit.
 
 ## Completed recent stages
 

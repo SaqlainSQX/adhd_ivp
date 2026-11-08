@@ -1,0 +1,1056 @@
+{
+  "complete": true,
+  "reference_prevalence": 0.27380724276681356,
+  "population_size": 5219,
+  "method_draws": 12000,
+  "results": {
+    "K4-b260": {
+      "bias_pp": 0.012490716621419231,
+      "mae_pp": 0.741630596624397,
+      "rmse_pp": 0.9473302119257416,
+      "mean_labels": 260.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.95,
+          "mean_width_pp": 3.784928731113229,
+          "median_width_pp": 3.782990775211907
+        },
+        "exact_binary_reference": {
+          "coverage": 0.994,
+          "mean_width_pp": 19.524506610461774
+        }
+      },
+      "exact_design_variance": 9.356017612024468e-05,
+      "mean_estimated_variance": 9.377659426354066e-05,
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 376,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 3.81980993311268e-09,
+          "exact_design_variance_component": 9.385880213403842e-13,
+          "mean_estimated_variance_component": 9.248408617141245e-13,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 1,
+          "population_size": 835,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 2.1940793621072272e-07,
+          "exact_design_variance_component": 2.740891393996086e-10,
+          "mean_estimated_variance_component": 2.7291835749075336e-10,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 2,
+          "population_size": 1218,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 3.049402790932148e-05,
+          "exact_design_variance_component": 8.167973318611691e-08,
+          "mean_estimated_variance_component": 8.304377579756957e-08,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 3,
+          "population_size": 2790,
+          "queries": 200,
+          "census": false,
+          "positive_references": 1429,
+          "true_residual_variance": 0.07047110191485943,
+          "exact_design_variance_component": 9.347822135933115e-05,
+          "mean_estimated_variance_component": 9.369327664454473e-05,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            80.0,
+            91.95,
+            102.0,
+            114.04999999999995,
+            127.0
+          ]
+        }
+      ]
+    },
+    "power-score-b260": {
+      "bias_pp": 0.03333867120589955,
+      "mae_pp": 1.0109693678265739,
+      "rmse_pp": 1.2802192694170882,
+      "mean_labels": 260.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.945,
+          "mean_width_pp": 4.946176092609316,
+          "median_width_pp": 4.947868748044199
+        },
+        "exact_binary_reference": {
+          "coverage": 0.994,
+          "mean_width_pp": 19.524506610461774
+        }
+      },
+      "exact_design_variance": 0.0001592171640378323,
+      "mean_estimated_variance": 0.00015932174184381614,
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 376,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 9.5495248327817e-10,
+          "exact_design_variance_component": 2.3464700533509604e-13,
+          "mean_estimated_variance_component": 2.3121021542853113e-13,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 1,
+          "population_size": 835,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 5.485198405268068e-08,
+          "exact_design_variance_component": 6.852228484990215e-11,
+          "mean_estimated_variance_component": 6.822958937268834e-11,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 2,
+          "population_size": 1218,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 7.62350697733037e-06,
+          "exact_design_variance_component": 2.0419933296529227e-08,
+          "mean_estimated_variance_component": 2.0760943949392394e-08,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 3,
+          "population_size": 2790,
+          "queries": 200,
+          "census": false,
+          "positive_references": 1429,
+          "true_residual_variance": 0.1200147474972031,
+          "exact_design_variance_component": 0.00015919667534760392,
+          "mean_estimated_variance_component": 0.0001593009124390672,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            80.0,
+            91.95,
+            102.0,
+            114.04999999999995,
+            127.0
+          ]
+        }
+      ]
+    },
+    "uniform-b260": {
+      "bias_pp": -0.041415430948320266,
+      "mae_pp": 0.9193663610487278,
+      "rmse_pp": 1.163361456343179,
+      "mean_labels": 260.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.95,
+          "mean_width_pp": 4.648610937666095,
+          "median_width_pp": 4.643306236908658
+        },
+        "exact_binary_reference": {
+          "coverage": 0.953,
+          "mean_width_pp": 10.86058631921824
+        }
+      },
+      "exact_design_variance": 0.000141513694785412,
+      "mean_estimated_variance": 0.00014205290510540142,
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 5219,
+          "queries": 260,
+          "census": false,
+          "positive_references": 1429,
+          "true_residual_variance": 0.038722644283548484,
+          "exact_design_variance_component": 0.000141513694785412,
+          "mean_estimated_variance_component": 0.00014205290510540142,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            50.0,
+            60.0,
+            71.0,
+            83.0,
+            95.0
+          ]
+        }
+      ]
+    },
+    "K4-b521": {
+      "bias_pp": 0.019421556510360836,
+      "mae_pp": 0.4732755996685085,
+      "rmse_pp": 0.5923105706657774,
+      "mean_labels": 521.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.951,
+          "mean_width_pp": 2.368659585280792,
+          "median_width_pp": 2.370952132513715
+        },
+        "exact_binary_reference": {
+          "coverage": 0.994,
+          "mean_width_pp": 16.035926422686337
+        }
+      },
+      "exact_design_variance": 3.654972711175102e-05,
+      "mean_estimated_variance": 3.6598742798729945e-05,
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 376,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 3.81980993311268e-09,
+          "exact_design_variance_component": 9.385880213403842e-13,
+          "mean_estimated_variance_component": 9.44165286103074e-13,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 1,
+          "population_size": 835,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 2.1940793621072272e-07,
+          "exact_design_variance_component": 2.740891393996086e-10,
+          "mean_estimated_variance_component": 2.743453201453094e-10,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 2,
+          "population_size": 1218,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 3.049402790932148e-05,
+          "exact_design_variance_component": 8.167973318611691e-08,
+          "mean_estimated_variance_component": 8.034342181174066e-08,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 3,
+          "population_size": 2790,
+          "queries": 461,
+          "census": false,
+          "positive_references": 1429,
+          "true_residual_variance": 0.07047110191485943,
+          "exact_design_variance_component": 3.646777235083748e-05,
+          "mean_estimated_variance_component": 3.651812408743277e-05,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            206.0,
+            220.0,
+            236.0,
+            251.04999999999995,
+            271.0
+          ]
+        }
+      ]
+    },
+    "power-score-b521": {
+      "bias_pp": 0.01458575742149195,
+      "mae_pp": 0.5948538428704605,
+      "rmse_pp": 0.7519271584342306,
+      "mean_labels": 521.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.959,
+          "mean_width_pp": 3.089771389031514,
+          "median_width_pp": 3.091589435656028
+        },
+        "exact_binary_reference": {
+          "coverage": 0.994,
+          "mean_width_pp": 16.035926422686337
+        }
+      },
+      "exact_design_variance": 6.212637850246626e-05,
+      "mean_estimated_variance": 6.214611225809582e-05,
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 376,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 9.5495248327817e-10,
+          "exact_design_variance_component": 2.3464700533509604e-13,
+          "mean_estimated_variance_component": 2.360413215257685e-13,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 1,
+          "population_size": 835,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 5.485198405268068e-08,
+          "exact_design_variance_component": 6.852228484990215e-11,
+          "mean_estimated_variance_component": 6.858633003632735e-11,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 2,
+          "population_size": 1218,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 7.62350697733037e-06,
+          "exact_design_variance_component": 2.0419933296529227e-08,
+          "mean_estimated_variance_component": 2.0085855452935164e-08,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 3,
+          "population_size": 2790,
+          "queries": 461,
+          "census": false,
+          "positive_references": 1429,
+          "true_residual_variance": 0.1200147474972031,
+          "exact_design_variance_component": 6.210588981223788e-05,
+          "mean_estimated_variance_component": 6.212595758027154e-05,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            206.0,
+            220.0,
+            236.0,
+            251.04999999999995,
+            271.0
+          ]
+        }
+      ]
+    },
+    "uniform-b521": {
+      "bias_pp": -0.037501819394007964,
+      "mae_pp": 0.6470273840121564,
+      "rmse_pp": 0.7959886318495861,
+      "mean_labels": 521.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.959,
+          "mean_width_pp": 3.205312404989909,
+          "median_width_pp": 3.208108037268781
+        },
+        "exact_binary_reference": {
+          "coverage": 0.955,
+          "mean_width_pp": 7.413623299482659
+        }
+      },
+      "exact_design_variance": 6.690414098350621e-05,
+      "mean_estimated_variance": 6.716695388876836e-05,
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 5219,
+          "queries": 521,
+          "census": false,
+          "positive_references": 1429,
+          "true_residual_variance": 0.038722644283548484,
+          "exact_design_variance_component": 6.690414098350621e-05,
+          "mean_estimated_variance_component": 6.716695388876836e-05,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            108.0,
+            127.0,
+            142.0,
+            159.0,
+            174.0
+          ]
+        }
+      ]
+    },
+    "K4-b1043": {
+      "bias_pp": 0.008315989737471517,
+      "mae_pp": 0.29209753897090557,
+      "rmse_pp": 0.3628769032779995,
+      "mean_labels": 1043.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.962,
+          "mean_width_pp": 1.454106047862935,
+          "median_width_pp": 1.454930264092802
+        },
+        "exact_binary_reference": {
+          "coverage": 0.993,
+          "mean_width_pp": 11.29087947882736
+        }
+      },
+      "exact_design_variance": 1.3755872472217246e-05,
+      "mean_estimated_variance": 1.377154421936632e-05,
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 376,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 3.81980993311268e-09,
+          "exact_design_variance_component": 9.385880213403842e-13,
+          "mean_estimated_variance_component": 9.436677979070922e-13,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 1,
+          "population_size": 835,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 2.1940793621072272e-07,
+          "exact_design_variance_component": 2.740891393996086e-10,
+          "mean_estimated_variance_component": 2.7780093054259524e-10,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 2,
+          "population_size": 1218,
+          "queries": 41,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 3.049402790932148e-05,
+          "exact_design_variance_component": 3.914534222079873e-08,
+          "mean_estimated_variance_component": 3.90210866587505e-08,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 3,
+          "population_size": 2790,
+          "queries": 962,
+          "census": false,
+          "positive_references": 1429,
+          "true_residual_variance": 0.07047110191485943,
+          "exact_design_variance_component": 1.3716452102269027e-05,
+          "mean_estimated_variance_component": 1.3732244388109228e-05,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            455.0,
+            472.0,
+            493.0,
+            514.0,
+            534.0
+          ]
+        }
+      ]
+    },
+    "power-score-b1043": {
+      "bias_pp": 0.008956549964282412,
+      "mae_pp": 0.38795314304883877,
+      "rmse_pp": 0.48580544376799883,
+      "mean_labels": 1043.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.95,
+          "mean_width_pp": 1.8950554078012767,
+          "median_width_pp": 1.894998926265412
+        },
+        "exact_binary_reference": {
+          "coverage": 0.993,
+          "mean_width_pp": 11.29087947882736
+        }
+      },
+      "exact_design_variance": 2.3369452017764984e-05,
+      "mean_estimated_variance": 2.337374637464494e-05,
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 376,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 9.5495248327817e-10,
+          "exact_design_variance_component": 2.3464700533509604e-13,
+          "mean_estimated_variance_component": 2.3591694947677305e-13,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 1,
+          "population_size": 835,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 5.485198405268068e-08,
+          "exact_design_variance_component": 6.852228484990215e-11,
+          "mean_estimated_variance_component": 6.945023263564881e-11,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 2,
+          "population_size": 1218,
+          "queries": 41,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 7.62350697733037e-06,
+          "exact_design_variance_component": 9.786335555199683e-09,
+          "mean_estimated_variance_component": 9.755271664687626e-09,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 3,
+          "population_size": 2790,
+          "queries": 962,
+          "census": false,
+          "positive_references": 1429,
+          "true_residual_variance": 0.1200147474972031,
+          "exact_design_variance_component": 2.335959692527793e-05,
+          "mean_estimated_variance_component": 2.3363921416830666e-05,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            455.0,
+            472.0,
+            493.0,
+            514.0,
+            534.0
+          ]
+        }
+      ]
+    },
+    "uniform-b1043": {
+      "bias_pp": -0.005537102569133379,
+      "mae_pp": 0.4413428294153755,
+      "rmse_pp": 0.5544819062572988,
+      "mean_labels": 1043.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.941,
+          "mean_width_pp": 2.136379418007542,
+          "median_width_pp": 2.1390978483615655
+        },
+        "exact_binary_reference": {
+          "coverage": 0.961,
+          "mean_width_pp": 4.915156160183943
+        }
+      },
+      "exact_design_variance": 2.970666449549951e-05,
+      "mean_estimated_variance": 2.97683834205513e-05,
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 5219,
+          "queries": 1043,
+          "census": false,
+          "positive_references": 1429,
+          "true_residual_variance": 0.038722644283548484,
+          "exact_design_variance_component": 2.970666449549951e-05,
+          "mean_estimated_variance_component": 2.97683834205513e-05,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            245.0,
+            265.0,
+            286.5,
+            308.0,
+            329.0
+          ]
+        }
+      ]
+    },
+    "K4-b2087": {
+      "bias_pp": 0.006309989951459777,
+      "mae_pp": 0.13951618110436886,
+      "rmse_pp": 0.17628666687547334,
+      "mean_labels": 2087.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.948,
+          "mean_width_pp": 0.696931092760288,
+          "median_width_pp": 0.6969116403734932
+        },
+        "exact_binary_reference": {
+          "coverage": 0.99,
+          "mean_width_pp": 6.425215558536118
+        }
+      },
+      "exact_design_variance": 3.1601202307706547e-06,
+      "mean_estimated_variance": 3.1616377218929018e-06,
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 376,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 3.81980993311268e-09,
+          "exact_design_variance_component": 9.385880213403842e-13,
+          "mean_estimated_variance_component": 9.49911928366997e-13,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 1,
+          "population_size": 835,
+          "queries": 40,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 2.1940793621072272e-07,
+          "exact_design_variance_component": 1.3368151277465572e-10,
+          "mean_estimated_variance_component": 1.3449136392514882e-10,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 2,
+          "population_size": 1218,
+          "queries": 83,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 3.049402790932148e-05,
+          "exact_design_variance_component": 1.8646840550765873e-08,
+          "mean_estimated_variance_component": 1.871517075100448e-08,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 3,
+          "population_size": 2790,
+          "queries": 1944,
+          "census": false,
+          "positive_references": 1429,
+          "true_residual_variance": 0.07047110191485943,
+          "exact_design_variance_component": 3.141338770119093e-06,
+          "mean_estimated_variance_component": 3.142787109866044e-06,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            962.0,
+            976.0,
+            997.0,
+            1016.0,
+            1041.0
+          ]
+        }
+      ]
+    },
+    "power-score-b2087": {
+      "bias_pp": 0.0142602514105508,
+      "mae_pp": 0.17973844180833343,
+      "rmse_pp": 0.22909639495324574,
+      "mean_labels": 2087.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.945,
+          "mean_width_pp": 0.9071323470121474,
+          "median_width_pp": 0.9071575441293278
+        },
+        "exact_binary_reference": {
+          "coverage": 0.99,
+          "mean_width_pp": 6.425215558536118
+        }
+      },
+      "exact_design_variance": 5.354504990028745e-06,
+      "mean_estimated_variance": 5.355442253161971e-06,
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 376,
+          "queries": 20,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 9.5495248327817e-10,
+          "exact_design_variance_component": 2.3464700533509604e-13,
+          "mean_estimated_variance_component": 2.3747798209174923e-13,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 1,
+          "population_size": 835,
+          "queries": 40,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 5.485198405268068e-08,
+          "exact_design_variance_component": 3.342037819366393e-11,
+          "mean_estimated_variance_component": 3.3622840981287205e-11,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 2,
+          "population_size": 1218,
+          "queries": 83,
+          "census": false,
+          "positive_references": 0,
+          "true_residual_variance": 7.62350697733037e-06,
+          "exact_design_variance_component": 4.661710137691468e-09,
+          "mean_estimated_variance_component": 4.67879268775112e-09,
+          "zero_sampled_positive_rate": 1.0,
+          "sampled_positive_quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "stratum": 3,
+          "population_size": 2790,
+          "queries": 1944,
+          "census": false,
+          "positive_references": 1429,
+          "true_residual_variance": 0.1200147474972031,
+          "exact_design_variance_component": 5.349809624865854e-06,
+          "mean_estimated_variance_component": 5.350729600155257e-06,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            962.0,
+            976.0,
+            997.0,
+            1016.0,
+            1041.0
+          ]
+        }
+      ]
+    },
+    "uniform-b2087": {
+      "bias_pp": 0.009552560648214076,
+      "mae_pp": 0.2711445754795343,
+      "rmse_pp": 0.33925151929285896,
+      "mean_labels": 2087.0,
+      "zero_variance_rate": 0.0,
+      "zero_positive_rate": 0.0,
+      "failed_draw_rate": 0.0,
+      "intervals": {
+        "normal": {
+          "coverage": 0.946,
+          "mean_width_pp": 1.3057266239463763,
+          "median_width_pp": 1.3080046212875285
+        },
+        "exact_binary_reference": {
+          "coverage": 0.953,
+          "mean_width_pp": 2.990362138340678
+        }
+      },
+      "exact_design_variance": 1.1134661380740053e-05,
+      "mean_estimated_variance": 1.1104383048726734e-05,
+      "strata": [
+        {
+          "stratum": 0,
+          "population_size": 5219,
+          "queries": 2087,
+          "census": false,
+          "positive_references": 1429,
+          "true_residual_variance": 0.038722644283548484,
+          "exact_design_variance_component": 1.1134661380740053e-05,
+          "mean_estimated_variance_component": 1.1104383048726734e-05,
+          "zero_sampled_positive_rate": 0.0,
+          "sampled_positive_quantiles": [
+            521.0,
+            547.0,
+            571.0,
+            596.05,
+            622.0
+          ]
+        }
+      ]
+    }
+  },
+  "comparisons": {
+    "power-score/K4-b260": {
+      "rmse_ratio": 1.351397066514586,
+      "draw_bootstrap_95pct": [
+        1.3071979102673683,
+        1.3986512691494595
+      ],
+      "seed": 500000,
+      "same_queries": true
+    },
+    "K4/uniform-b260": {
+      "rmse_ratio": 0.814304279001564,
+      "draw_bootstrap_95pct": [
+        0.7631056662606881,
+        0.8680282627915783
+      ],
+      "seed": 500000,
+      "same_queries": false
+    },
+    "power-score/uniform-b260": {
+      "rmse_ratio": 1.1004484138929884,
+      "draw_bootstrap_95pct": [
+        1.0332901806517307,
+        1.172226731678388
+      ],
+      "seed": 500000,
+      "same_queries": false
+    },
+    "power-score/K4-b521": {
+      "rmse_ratio": 1.2694812412161387,
+      "draw_bootstrap_95pct": [
+        1.2202125849220373,
+        1.3193408396274222
+      ],
+      "seed": 500001,
+      "same_queries": true
+    },
+    "K4/uniform-b521": {
+      "rmse_ratio": 0.7441193843302317,
+      "draw_bootstrap_95pct": [
+        0.7009754479106396,
+        0.7922567670627765
+      ],
+      "seed": 500001,
+      "same_queries": false
+    },
+    "power-score/uniform-b521": {
+      "rmse_ratio": 0.9446455996325316,
+      "draw_bootstrap_95pct": [
+        0.889824229227783,
+        1.004932153747736
+      ],
+      "seed": 500001,
+      "same_queries": false
+    },
+    "power-score/K4-b1043": {
+      "rmse_ratio": 1.3387609940989382,
+      "draw_bootstrap_95pct": [
+        1.2921608501833897,
+        1.3831843428371837
+      ],
+      "seed": 500002,
+      "same_queries": true
+    },
+    "K4/uniform-b1043": {
+      "rmse_ratio": 0.6544431823346316,
+      "draw_bootstrap_95pct": [
+        0.6145664497481825,
+        0.6967765314283239
+      ],
+      "seed": 500002,
+      "same_queries": false
+    },
+    "power-score/uniform-b1043": {
+      "rmse_ratio": 0.876143005363584,
+      "draw_bootstrap_95pct": [
+        0.8214914466656994,
+        0.9328647894470578
+      ],
+      "seed": 500002,
+      "same_queries": false
+    },
+    "power-score/K4-b2087": {
+      "rmse_ratio": 1.2995673411595927,
+      "draw_bootstrap_95pct": [
+        1.247689292548761,
+        1.3521054578184792
+      ],
+      "seed": 500003,
+      "same_queries": true
+    },
+    "K4/uniform-b2087": {
+      "rmse_ratio": 0.5196341264526331,
+      "draw_bootstrap_95pct": [
+        0.4884867477973134,
+        0.5536800902106936
+      ],
+      "seed": 500003,
+      "same_queries": false
+    },
+    "power-score/uniform-b2087": {
+      "rmse_ratio": 0.675299540089836,
+      "draw_bootstrap_95pct": [
+        0.634822470883097,
+        0.7203130177827298
+      ],
+      "seed": 500003,
+      "same_queries": false
+    }
+  },
+  "registration_sha256": "ee253fb53fa736b2f12326b12e06f97f0d8f039f8711c8804cfe8e2cdbffe7da",
+  "query_manifest_sha256": "5e0274f5d0fdfb91059db0f9fa925bfb3ccef7c58a3505b39f87ed6901583206"
+}

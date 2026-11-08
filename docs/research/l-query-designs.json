@@ -1,0 +1,138 @@
+[
+  {
+    "design": "K4",
+    "budget_index": 0,
+    "budget": 260,
+    "stream": 61,
+    "file": "queries-K4-b260.npz",
+    "sha256": "359f7c1fead3f880f8f93f7e33a45090084f01c7d5ac642edb604108b65e95f9",
+    "counts": [
+      20,
+      20,
+      20,
+      200
+    ],
+    "sizes": [
+      376,
+      835,
+      1218,
+      2790
+    ]
+  },
+  {
+    "design": "uniform",
+    "budget_index": 0,
+    "budget": 260,
+    "stream": 62,
+    "file": "queries-uniform-b260.npz",
+    "sha256": "7007398a4a142ea9f1daf9a51b9b35778dae8803058243b6b6b6001426286fb4",
+    "counts": [
+      260
+    ],
+    "sizes": [
+      5219
+    ]
+  },
+  {
+    "design": "K4",
+    "budget_index": 1,
+    "budget": 521,
+    "stream": 61,
+    "file": "queries-K4-b521.npz",
+    "sha256": "682d682bf7d6609c852c74647cef027362047950c57e6bfe547f98c7a6045e82",
+    "counts": [
+      20,
+      20,
+      20,
+      461
+    ],
+    "sizes": [
+      376,
+      835,
+      1218,
+      2790
+    ]
+  },
+  {
+    "design": "uniform",
+    "budget_index": 1,
+    "budget": 521,
+    "stream": 62,
+    "file": "queries-uniform-b521.npz",
+    "sha256": "22d90717614168cac1593a21d3344e236309a74be5032ef3f2d3b081f8326b2b",
+    "counts": [
+      521
+    ],
+    "sizes": [
+      5219
+    ]
+  },
+  {
+    "design": "K4",
+    "budget_index": 2,
+    "budget": 1043,
+    "stream": 61,
+    "file": "queries-K4-b1043.npz",
+    "sha256": "3d9f8e8a529b9458539aa4cf438f12ed51d0648668a13a6305611501f382e06a",
+    "counts": [
+      20,
+      20,
+      41,
+      962
+    ],
+    "sizes": [
+      376,
+      835,
+      1218,
+      2790
+    ]
+  },
+  {
+    "design": "uniform",
+    "budget_index": 2,
+    "budget": 1043,
+    "stream": 62,
+    "file": "queries-uniform-b1043.npz",
+    "sha256": "610edbedec516ae7b9479283426a385e8b8a19b8181a0db641fe8ba1e47ac0e4",
+    "counts": [
+      1043
+    ],
+    "sizes": [
+      5219
+    ]
+  },
+  {
+    "design": "K4",
+    "budget_index": 3,
+    "budget": 2087,
+    "stream": 61,
+    "file": "queries-K4-b2087.npz",
+    "sha256": "c2d4916c7649a79e7078a1f841fdf78d23404840f0f89202d81df1c95aa14c63",
+    "counts": [
+      20,
+      40,
+      83,
+      1944
+    ],
+    "sizes": [
+      376,
+      835,
+      1218,
+      2790
+    ]
+  },
+  {
+    "design": "uniform",
+    "budget_index": 3,
+    "budget": 2087,
+    "stream": 62,
+    "file": "queries-uniform-b2087.npz",
+    "sha256": "9f01e6ed587d720b39debd2af295490a7bc7f7f209b1c6270650882df48fc275",
+    "counts": [
+      2087
+    ],
+    "sizes": [
+      5219
+    ]
+  }
+]

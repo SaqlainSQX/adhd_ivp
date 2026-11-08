@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "method_draws_independently_checked": 12000,
+  "integer_reference_interval_method": "exhaustive feasible totals using scipy sf/cdf",
+  "integer_interval_cache_entries": 515,
+  "max_point_difference": 1.6653345369377348e-16,
+  "max_variance_difference": 9.999054535747565e-17,
+  "paired_bootstrap_comparisons_checked": 12,
+  "normal_bounds_and_exact_design_variances_checked": true,
+  "all_query_RNGs_and_unique_costs_reproduced": true
+}

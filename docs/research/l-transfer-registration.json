@@ -1,0 +1,11 @@
+{
+  "stage": "L-queries-frozen-before-oracle-evaluation",
+  "utc": "2026-11-08T15:02:56.659657+00:00",
+  "config_sha256": "302580d6fe7f4acaa4cd19f0ecf8930fc0be65781dc95ead7ed8f5e12dbe43a9",
+  "protocol_sha256": "70e9f1bdd4b5916b37436b865ed91f1b26771737780ea4b9dee679b868c59afe",
+  "implementation_sha256": "9f844825eb46f9184e7466f4da3a4d97b6e8d5655851bfa2f805baa45c785c31",
+  "inference_provenance_sha256": "f73ccf42b577fdec438471404588096a53d160d34ce89dcf10476b818a007ab0",
+  "score_table_sha256": "a7dd219c5208f373231e96d030cbbd878d99b6a7a39b35eef80ace992600b944",
+  "manifest_sha256": "5e0274f5d0fdfb91059db0f9fa925bfb3ccef7c58a3505b39f87ed6901583206",
+  "oracle_opened": false
+}
