@@ -1,0 +1,110 @@
+{
+  "designation": "exploratory downstream UCO transfer; VSGaze backbone family exposure",
+  "protocol": "docs/UCO_TRANSFER_L.md",
+  "population_size": 5219,
+  "official_test_clips": 15,
+  "population_order": "eligible-pairs.csv data row order",
+  "budgets": [
+    260,
+    521,
+    1043,
+    2087
+  ],
+  "budget_rule": "floor, explicitly not integer_budget round-to-nearest",
+  "input_sha256": {
+    "data/processed/uco-eligible-k4-v2/eligible-pairs.csv": "7b4af502d60d08a0f569abde58edec3947a5e11a3043d584b89c8a2ab25393f0",
+    "data/processed/uco-eligible-k4-v2/oracle.csv": "9332144eee933c3013df9e929edcc6fa25ad133568713edab48756f1e29da520",
+    "data/processed/uco-eligible-k4-v2/ambiguity-mask.json": "d5df27bf194d46809ba9a8a90f8c71824dcfdd479608c03207c55dd5c79d0e84",
+    "data/processed/uco-public-k2-v1/public-frames.json": "7d5aba5fc7ef73b83dfe31f99a3094525c75645ef3ccaf9e12c3e37d1418281e",
+    "outputs/experiments/timed-d-20261108-v1/K4-training.json": "c2531d8581b13524444d048816554724bcc14bc70c9909dea87751fb83ba89fe",
+    "outputs/experiments/timed-d-20261108-v1/policy-lock.json": "7131a3de0895ca5bbdff98b0872af071a2221ddb1f8d6865dc56c01d4599d0f3",
+    "src/gaze_audit/mtgs_runtime.py": "ecd6cfc2380f53710f5e495bf50371a94784a72a435748e704895c462e0e2f1c",
+    "src/gaze_audit/frame_study.py": "1885ce1a277f407a8ac939181f140d69646dfac237d6b4f17ec6ed9fe1e68b88",
+    "src/gaze_audit/frames.py": "89a71ae2c9457ac05240ff957315778b4f72b297780c4439a5495424270bbd5d",
+    "src/gaze_audit/strengthening.py": "1fb6dbfacacbb2aa1881792127b2679bd49034051bcf9db1bcf1b7ce6b37316b",
+    "src/gaze_audit/exact_intervals.py": "58f9994e1ec7841de2c8aa6d3c324702864096395beedbec425b528eeca58017",
+    "external/MTGS-pinned/mtgs/utils/utils.py": "1e3e568d015252053bffdc86191459a2424d3c0cdb2404c80baddf421d108b00"
+  },
+  "checkpoint_sha256": "5599382ab78f3993d31300f4e16ed13bc20bed26d7ec9735a37473eb374d994f",
+  "mtgs_commit": "a2ce45f44ed73d86e89e16bffb6be7a9567e3052",
+  "dinov2_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "q": "min(sigmoid(directional LAH logits))",
+  "scene_size": 448,
+  "head_size": 224,
+  "temporal_offsets": [
+    -6,
+    -3,
+    0,
+    3,
+    6
+  ],
+  "precision": "float16-autocast",
+  "upstream_geometry": "UCO raw border coordinates retained; ChildPlay export previously clipped",
+  "k4_training": {
+    "cuts": [
+      0.0002199533773818,
+      0.0018386652227491,
+      0.0208842158317565
+    ],
+    "sd": [
+      0.002742326941776911,
+      0.016706889852590456,
+      0.023491902090571927,
+      0.2419065870874992
+    ],
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 48118,
+        "centered_signed_residual_variance": 3.992896563956551e-09,
+        "shrunk_sd": 0.002742326941776911
+      },
+      {
+        "stratum": 1,
+        "training_labels": 47883,
+        "centered_signed_residual_variance": 0.00027168036030945914,
+        "shrunk_sd": 0.016706889852590456
+      },
+      {
+        "stratum": 2,
+        "training_labels": 47977,
+        "centered_signed_residual_variance": 0.0005445579348997057,
+        "shrunk_sd": 0.023491902090571927
+      },
+      {
+        "stratum": 3,
+        "training_labels": 47978,
+        "centered_signed_residual_variance": 0.05853564996501319,
+        "shrunk_sd": 0.2419065870874992
+      }
+    ]
+  },
+  "alpha": 1.0,
+  "minimum_per_stratum": 20,
+  "methods": {
+    "uniform": {
+      "weight": 1.0,
+      "stream": 62
+    },
+    "K4": {
+      "weight": 1.0,
+      "stream": 61
+    },
+    "power-score": {
+      "weight": 0.5,
+      "stream": 61
+    }
+  },
+  "draws": 1000,
+  "seed_start": 200000,
+  "rng": "default_rng(SeedSequence([seed_start+draw,budget_index,stream]))",
+  "bootstrap_resamples": 2000,
+  "bootstrap_seed_start": 500000,
+  "primary_budget": 521,
+  "primary_ratio": "power-score RMSE / K4 RMSE",
+  "target_ratio": 0.9,
+  "output": "outputs/experiments/uco-transfer-l-v1",
+  "score_cache": "outputs/inference/uco-transfer-l-v1",
+  "main_replacement_allowed": false,
+  "uco_fit_or_selection_allowed": false
+}

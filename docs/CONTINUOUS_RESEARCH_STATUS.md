@@ -8,13 +8,12 @@ status changes are intentionally excluded from immutable scientific manifests.
 
 I and J's UCO metadata review are complete. See
 [UCO_CONTRACT_J_STATUS.md](UCO_CONTRACT_J_STATUS.md) and the prior I findings.
-K1/K2 and K3 sampled visual review are complete; see
-[UCO_VISUAL_K3_STATUS.md](UCO_VISUAL_K3_STATUS.md). All2,366 paths map. The360
-border-extending rows are retained under the unchanged pinned square/PIL-padding
-convention. All15 clips/75 selected panels were inspected; a heuristic10,757
-comparison ID screen had zero strong swaps. No reference-field readout or
-performance evaluation has occurred. Branch:`codex/uco-visual-k3-v1`;
-main remains59fb784. All earlier evidence is unchanged.
+K4b eligibility is complete; see [UCO_K4_STATUS.md](UCO_K4_STATUS.md).
+v1's index failure is preserved; the author-supported ordinal-minus-one repair
+produced5,219 eligible pairs across15 clips, with482 unknown pairs excluded.
+Budgets260/521/1043/2087 and separate public/oracle hashes are fixed. No reference
+mean, model scores or performance outcomes have been computed. Review branch:
+`codex/uco-eligibility-k4-v1`; main remains59fb784. Earlier evidence is unchanged.
 
 The local research service is available at http://127.0.0.1:8766. Treat recorded
 PIDs as historical; inspect actual process/listener state before reusing or
@@ -24,15 +23,15 @@ mapping processes have finished; inspect actual processes before any new job.
 
 ## Next concrete work
 
-Run [UCO_ELIGIBILITY_K4.md](UCO_ELIGIBILITY_K4.md). First inspect original
-frame-code/index schema and reconcile ambiguous code9 with unified pair-unknown
-eligibility. No prevalence/performance readout is allowed during this gate.
-Freeze exact eligible population, oracle/public file hashes and numerical
-budgets, then register the complete transfer comparison before inference or
-results. Preserve all360 geometry flags/raw coordinates and K3 limitations;
-do not repeat completed downloads, mapping or visual sheets. No GPU/Kaggle
-work, label-based tuning or changes to the locked main. UCO remains downstream
-transfer with backbone-family exposure disclosed.
+Implement the registered [UCO_TRANSFER_L.md](UCO_TRANSFER_L.md) and
+configs/uco-transfer-l-v1.json. First verify frozen hashes, then build a public-only
+UCO inference adapter/CPU preprocessing; inspect actual GPU/process availability
+before optional inference and do not interfere with other workloads. No oracle
+input to inference or allocation. Use fixed ChildPlay K4 cuts/SDs, alpha1,
+weights1/0.5 on identical K4 queries, exact floor budgets and streams61/62. Freeze
+all scores/query plans before reference-mean/performance readout. Record the UCO
+raw-box versus ChildPlay upstream-clipping difference explicitly. No Kaggle job,
+test-label tuning or main-study modification. Preserve every gain/loss/tie.
 
 ## Completed recent stages
 

@@ -1,0 +1,26 @@
+{
+  "stage": "K4 failure and K4b acceptance; L registration before scores/performance",
+  "hash_convention": "Tracked text normalized CRLF to LF; local files raw bytes",
+  "files": {
+    "scripts/prepare_uco_eligibility.py": "49e8cee88166d72149d176a121590c08cd1c8aba0dbb41a29814db4449b2dc82",
+    "scripts/prepare_uco_eligibility_v2.py": "47f33c6ecc749b7e9001913d4fdd456762d2fb0a52eb28766173e70e5e8d4f1d",
+    "docs/UCO_ELIGIBILITY_K4B.md": "c0dbe33a1b3f386c39a35d733d4aa4d6b948170cc628e504efa61de0aa15d904",
+    "docs/UCO_K4_STATUS.md": "a147d78c0e31f1e6bef4498b7172e95f1cbfc3bc8272ff840102c385d8a933f7",
+    "docs/UCO_TRANSFER_L.md": "70e9f1bdd4b5916b37436b865ed91f1b26771737780ea4b9dee679b868c59afe",
+    "configs/uco-transfer-l-v1.json": "5952dced22023a6dd838acd5240a4550c2107f46b4015793b008b4b4255e8e78",
+    "docs/research/k4-eligibility.json": "9c4b25e6d7b50eff34a005607d1ff297f5427782919b25202d9f5e5f91562056",
+    "docs/research/k4-independent-validation.json": "700f1aa5c1ca14af4f3d808dad003c0edcc8c52ba3bb59ad443167190090de4a",
+    "docs/research/k4-v1-failure.json": "789d3c64ecaf7d4381d362d2d80cc05b7c588a21dcab1dadeab2ab068f42d62f",
+    "docs/research/k4-index-diagnosis.json": "99336dd7e5d6112ece6b72f67c41d0379f5a95ea94b55a2e1f94368e8552ecd5"
+  },
+  "local_files": {
+    "outputs/uco-eligibility-k4-v1/implementation.py": "49dd3f868e05641062594f714f9eb20aec6ed2cd304051c310623e9c97aea53e",
+    "outputs/uco-eligibility-k4-v1/failure.json": "8c3ea4b8cda9321da678bd3b70a29f5ac6054d2ac10c7a81bbbef3e0031a0cdb",
+    "outputs/uco-eligibility-k4-v1/index-diagnosis.json": "a6f072b3ec5ebd48f146e52cd063af1c34be420255d1f81c068047ca5b2a0d02",
+    "outputs/uco-eligibility-k4-v2/result.json": "c65de2dc2f749bc3a71058ca25f19526b4a9ebd1cb11dca02fd2b82ef5beabf7",
+    "outputs/uco-eligibility-k4-v2/independent-validation.json": "2ca2332d9f3be300550f9d56d30103ee741770827b8fcec34f3156314e0a86be"
+  },
+  "mutable_exclusions": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md"
+  ]
+}

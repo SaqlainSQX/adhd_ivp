@@ -1,0 +1,181 @@
+{
+  "stage": "K4b-eligibility-only-original-ordinal-minus-one",
+  "complete": true,
+  "unified_frames": 2366,
+  "eligible_pairs": 5219,
+  "candidate_budgets": [
+    260,
+    521,
+    1043,
+    2087
+  ],
+  "exclusion_and_duplicate_counts": {
+    "placeholder_or_invalid_pair_rows": 12262,
+    "duplicate_direction_rows": 5701,
+    "unknown_canonical_pairs": 482
+  },
+  "eligible_pairs_by_clip": {
+    "got05": {
+      "eligible_pairs": 200
+    },
+    "got06": {
+      "eligible_pairs": 244
+    },
+    "got08": {
+      "eligible_pairs": 478
+    },
+    "mr04": {
+      "eligible_pairs": 125
+    },
+    "mr05": {
+      "eligible_pairs": 98
+    },
+    "mr06": {
+      "eligible_pairs": 270
+    },
+    "mr10": {
+      "eligible_pairs": 181
+    },
+    "sv03": {
+      "eligible_pairs": 421
+    },
+    "sv06": {
+      "eligible_pairs": 175
+    },
+    "sv10": {
+      "eligible_pairs": 354
+    },
+    "twd03": {
+      "eligible_pairs": 1285
+    },
+    "twd04": {
+      "eligible_pairs": 263
+    },
+    "twd05": {
+      "eligible_pairs": 413
+    },
+    "twd06": {
+      "eligible_pairs": 551
+    },
+    "twd07": {
+      "eligible_pairs": 161
+    }
+  },
+  "original_frame_index_schema": {
+    "mr04": {
+      "rows": 258,
+      "min": 1,
+      "max": 258,
+      "consecutive": true
+    },
+    "mr05": {
+      "rows": 106,
+      "min": 1,
+      "max": 106,
+      "consecutive": true
+    },
+    "mr06": {
+      "rows": 96,
+      "min": 1,
+      "max": 96,
+      "consecutive": true
+    },
+    "got05": {
+      "rows": 212,
+      "min": 1,
+      "max": 212,
+      "consecutive": true
+    },
+    "twd07": {
+      "rows": 200,
+      "min": 1,
+      "max": 200,
+      "consecutive": true
+    },
+    "mr10": {
+      "rows": 241,
+      "min": 1,
+      "max": 241,
+      "consecutive": true
+    },
+    "sv03": {
+      "rows": 93,
+      "min": 1,
+      "max": 93,
+      "consecutive": true
+    },
+    "got08": {
+      "rows": 206,
+      "min": 1,
+      "max": 206,
+      "consecutive": true
+    },
+    "got06": {
+      "rows": 262,
+      "min": 1,
+      "max": 262,
+      "consecutive": true
+    },
+    "twd06": {
+      "rows": 168,
+      "min": 1,
+      "max": 168,
+      "consecutive": true
+    },
+    "twd05": {
+      "rows": 206,
+      "min": 1,
+      "max": 206,
+      "consecutive": true
+    },
+    "twd03": {
+      "rows": 276,
+      "min": 1,
+      "max": 276,
+      "consecutive": true
+    },
+    "sv06": {
+      "rows": 219,
+      "min": 1,
+      "max": 219,
+      "consecutive": true
+    },
+    "sv10": {
+      "rows": 177,
+      "min": 1,
+      "max": 177,
+      "consecutive": true
+    },
+    "twd04": {
+      "rows": 290,
+      "min": 1,
+      "max": 290,
+      "consecutive": true
+    }
+  },
+  "original_annotation_sha256": {
+    "mr04": "a6821613e0b881d1fe758b4f92f83f8c269ea198e88e52679f4788762a579bcf",
+    "mr05": "36dbb5a4dec2aee0967a7e1a284d44ebb87fbc630bb6de7491221124b776bf7e",
+    "mr06": "9138dd16cf903d78d111378ad291ef9ef75f206b94b287276776776570312cae",
+    "got05": "3f50f4e678a3d706b495a6c582bc5118a1911cf304ad59ed172458c3ed63082a",
+    "twd07": "c462f6648a50f634bc0d6f8437739510d20e82627476719e37c3121f58e859ae",
+    "mr10": "3773dfd7927b385c961a8a07cc7ee8fcccd6b3e882402938aaa50fb715f81229",
+    "sv03": "8791f2627cfe44c66ce2ddd3d05398d98d6d93656f12ed19272e2fcef39b328d",
+    "got08": "d3451a8c7a3d242e914c1a565aed919c9fba7841ec082c34cdbe5c6171db959d",
+    "got06": "99fcc7a0a0f22b602c95ec48122b79b9c588ef3c8f2b55cf27cd331c6ccad670",
+    "twd06": "d2d09d54f23a4e257b2fecf1cc4857b729916ad3206ed33b5d4b7341d1ac525a",
+    "twd05": "629277c040dc0f33f05ee9ab2b94ac2d36ed2f562b6755cc883264108b9a91b5",
+    "twd03": "e49fc5e1bcb238346a87ce5ac99adbf257398282a7cedd1726384e3896c10777",
+    "sv06": "3c2170b1a6af88714cfba3b0c2f6f9cc5bbca8ff202a999a54fe4e179dfcfb03",
+    "sv10": "4a94eb78bb25ae3987e580f5ff9571561248cfd033eb320fdfc82ed37dddf489",
+    "twd04": "41fea8becae0960560e0343de74081c4a9cee8f4e189f3a514469acbd2a11275"
+  },
+  "output_sha256": {
+    "ambiguity-mask.json": "d5df27bf194d46809ba9a8a90f8c71824dcfdd479608c03207c55dd5c79d0e84",
+    "eligible-pairs.csv": "7b4af502d60d08a0f569abde58edec3947a5e11a3043d584b89c8a2ab25393f0",
+    "oracle.csv": "9332144eee933c3013df9e929edcc6fa25ad133568713edab48756f1e29da520"
+  },
+  "prevalence_or_positive_counts_computed": false,
+  "scores_or_performance_computed": false,
+  "geometry_changed": false
+}

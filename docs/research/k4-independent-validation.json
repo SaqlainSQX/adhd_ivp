@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "all_original_ordinal_to_row_mappings_checked": 3010,
+  "eligible_private_references_independently_recomputed": 5219,
+  "unknown_canonical_pairs_checked": 482,
+  "ambiguous_unified_frames": 0,
+  "duplicate_conflicts": 0,
+  "missing_original_codes": 0,
+  "extra_original_mask_rows_beyond_supplied_images": 1,
+  "prevalence_or_class_counts_reported": false,
+  "scores_or_performance_evaluated": false,
+  "budgets": [
+    260,
+    521,
+    1043,
+    2087
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "type": "AssertionError",
+  "message": "Original frame index missing; mapping gate failed"
+}
