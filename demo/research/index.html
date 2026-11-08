@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gaze Audit Lab · Research Explorer</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='9' fill='%23132e38'/%3E%3Ccircle cx='20' cy='20' r='11' fill='none' stroke='%237cddd0' stroke-width='3'/%3E%3Ccircle cx='20' cy='20' r='5' fill='%237cddd0'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+  <aside class="rail">
+    <a class="brand" href="#view=overview"><span class="brand-symbol" aria-hidden="true">◉</span><span>GAZE AUDIT LAB<small>RESEARCH EXPLORER</small></span></a>
+    <p class="rail-label">THE EVIDENCE</p>
+    <nav aria-label="Research views">
+      <button class="nav active" data-view="overview" aria-pressed="true">Overview <span>01</span></button>
+      <button class="nav" data-view="frames" aria-pressed="false">Frame methods <span>02</span></button>
+      <button class="nav" data-view="blocks" aria-pressed="false">Blocks &amp; label cost <span>03</span></button>
+      <button class="nav" data-view="intervals" aria-pressed="false">Interval reliability <span>04</span></button>
+      <button class="nav" data-view="replay" aria-pressed="false">Replay an audit <span>05</span></button>
+      <button class="nav" data-view="limits" aria-pressed="false">Method &amp; limits <span>06</span></button>
+    </nav>
+    <div class="rail-foot"><span class="dot"></span> Frozen MTGS cache<small>Course project · evidence through G2</small></div>
+  </aside>
+  <main>
+    <header class="topbar"><span id="connection" role="status">Aggregate research evidence</span><label>Label budget <select id="budget"><option value="516">5% · 516 labels</option><option value="1032" selected>10% · 1,032 labels</option><option value="2063">20% · 2,063 labels</option><option value="4126">40% · 4,126 labels</option></select></label></header>
+    <section id="overview" class="view">
+      <div class="page-heading"><p class="eyebrow">SOCIAL GAZE / COURSE RESEARCH</p><h1>What improves a gaze audit?</h1><p class="lead">A frozen gaze model, a limited label budget, and a reproducible comparison of what works—and where it fails.</p></div>
+      <div class="kpis">
+        <article class="kpi accent"><p>PRIMARY WEIGHTING EXTENSION · 10%</p><strong id="gain">—</strong><span>lower RMSE on identical queries</span><small>Weight selected on validation; fixed-corpus result.</small></article>
+        <article class="kpi"><p>POSITIVE-REFERENCE SOURCES</p><strong>3 <i>/ 6</i></strong><span>improve with weighting</span><small>The other three lose. Aggregate gains are uneven.</small></article>
+        <article class="kpi"><p>TEMPORAL BLOCK GUIDANCE · L5 / 10%</p><strong id="temporal-loss">—</strong><span>higher RMSE than static guidance</span><small>A retained negative control, not a temporal gain.</small></article>
+      </div>
+      <div class="grid two">
+        <article class="card"><div class="card-heading"><div><p class="eyebrow">THE USEFUL CHANGE</p><h2>Use the predictions with less weight.</h2></div><span class="tag">D · exploratory</span></div><div id="primary-chart"></div><p class="caption">RMSE in percentage points at 1,032 labels. The two methods query exactly the same records. λ = 0.5 changes the correction, not the native gaze scores.</p><p id="primary-range" class="detail"></p></article>
+        <article class="card decision"><p class="eyebrow">WHAT WE KEEP</p><h2>A useful system.<br>Honest controls.</h2><ul class="decisions"><li><b>Simple score strata + weighting</b><span>A modest accuracy gain with a frozen recipe.</span></li><li><b>Every loss and coverage failure</b><span>Temporal features and longer blocks do not automatically help.</span></li><li><b>A boundary on the claim</b><span>Repeated test inspection; three validation sources; new-source evaluation is still needed.</span></li></ul></article>
+      </div>
+      <article class="card"><div class="card-heading"><div><p class="eyebrow">SOURCE SENSITIVITY · 10%</p><h2>The average does not describe every video.</h2></div><span class="tag muted">E · fixed corpus</span></div><div class="table-wrap" id="source-table"></div><p class="caption">Four sources have no positive reference labels. Their error halves mechanically when λ halves. Omitting influential source S05 weakens the aggregate gain to about 1.2%, with a Monte Carlo range including a tie. These are not independent replications.</p></article>
+    </section>
+    <section id="frames" class="view" hidden>
+      <div class="page-heading"><p class="eyebrow">FRAME QUERIES</p><h1>Compare at the same label budget.</h1><p class="lead">Each row summarizes 1,000 audits on the same 10,316 eligible pair-frames. RMSE measures prevalence error, not per-frame classification accuracy.</p></div>
+      <article class="card"><div class="card-heading"><h2>Locked main comparison</h2><span class="tag muted">Original policies retained</span></div><div class="table-wrap" id="main-table"></div><p class="caption">The static and temporal error features share the same frozen temporal MTGS backbone. The main study found no clear primary temporal advantage.</p></article>
+      <article class="card"><div class="card-heading"><h2>Weighting extension</h2><span class="tag">D · exploratory</span></div><div class="table-wrap" id="frame-table"></div><p class="caption">K4 and weighted score correction share stream21 queries. The earlier B1 score control reported RMSE 0.2079 pp at 10% on stream7; this round's unweighted 0.2199 pp uses stream21. The 10.5% change is the same-query comparison, not a new dataset.</p></article>
+    </section>
+    <section id="blocks" class="view" hidden>
+      <div class="page-heading"><p class="eyebrow">LABEL COST</p><h1>Fewer tasks can mean less precision.</h1><p class="lead">Contiguous blocks reduce the number of query tasks. Nearby residuals are correlated, so matching label cost does not guarantee matching accuracy.</p></div>
+      <article class="card"><div class="card-heading"><h2>Frozen block guidance</h2><label class="inline-label">Block length <select id="block-length"><option>1</option><option>2</option><option selected>5</option><option>10</option></select></label></div><div class="table-wrap" id="block-table"></div><div class="notice">Block budgets match <b>expected unique-frame labels</b>. Actual labels vary; samples are never cut at a hard cap. Query-task counts are not measured annotation time.</div><p class="caption">Q = native score sums; S/T = frozen static/temporal error-score sums. All estimates use λ = 1. G2 uses a minimum of two noncensus blocks per stratum; its L1 control differs from the main minimum-20, exact-budget frame design.</p></article>
+      <article class="card"><div class="card-heading"><div><p class="eyebrow">DOWNSTREAM CALIBRATION LABELS</p><h2>How much training reference data was reused?</h2></div><span class="tag muted">C2 · 10% audit budget</span></div><div class="table-wrap" id="cost-table"></div><p class="caption">Every setting also reuses all 25,139 validation labels and the pretrained MTGS backbone. This is not a cold-start result, a measured annotation-time saving, or a count of historical backbone supervision.</p></article>
+    </section>
+    <section id="intervals" class="view" hidden>
+      <div class="page-heading"><p class="eyebrow">UNCERTAINTY</p><h1>Accuracy and coverage are different questions.</h1><p class="lead">An accurate point estimate can still have an unreliable normal interval. Conservative binary references cover the same prevalence with a separate center.</p></div>
+      <div class="notice danger">At the 40% budget, the weighted score method's nominal 95% normal interval covers only <b>39.1%</b> of saved audits. Weighting improves point accuracy; it does not solve interval reliability.</div>
+      <article class="card"><div class="card-heading"><h2>Public error-allocation recipes</h2><span class="tag">F · fixed queries</span></div><div class="table-wrap" id="interval-table"></div><p class="caption">The primary inverse-fraction recipe narrows the score reference by 2.59% at 10%, below the registered 10% target. Weighted Bonferroni + exact hypergeometric stratum bounds is an established conservative construction. Its assumptions are a fixed population and valid within-stratum random sampling.</p></article>
+      <article class="card slim"><h2>Read these intervals correctly</h2><p>The binary reference need not contain the residual-correction point. It is not a replacement for the saved normal interval, and it does not apply to nonbinary block totals. G2's separately reported bounded residual-total intervals are conservative and broad. No intervals are intersected or selected after seeing a favorable draw.</p></article>
+    </section>
+    <section id="replay" class="view" hidden>
+      <div class="page-heading"><p class="eyebrow">LOCAL OFFLINE REPLAY</p><h1>Inspect one saved audit.</h1><p class="lead">Replay the frozen query plan, recompute its estimate, and inspect cached frames with supplied head tracks. No inference or training runs here.</p></div>
+      <div class="card replay-controls"><label>Method <select id="replay-method"><option value="power-score">Weighted score correction · λ = 0.5</option><option value="K4">Score correction · λ = 1</option><option value="power-uniform">Weighted uniform correction · λ = 0.5</option></select></label><label>Saved draw <input id="draw" type="number" min="0" max="999" step="1" value="0"></label><button id="run-replay" class="primary">Replay saved audit <span>↗</span></button><label class="check"><input type="checkbox" id="reveal"> Reveal queried labels</label></div>
+      <p id="replay-status" class="status" role="status" aria-live="polite">Checking local replay prerequisites…</p>
+      <div id="replay-content" hidden>
+        <div class="kpis compact"><article class="kpi"><p>PREVALENCE ESTIMATE</p><strong id="estimate">—</strong><span id="normal">—</span></article><article class="kpi"><p>FROZEN PREDICTIONS</p><strong id="native-mean">—</strong><span id="weight-note">Native q mean</span></article><article class="kpi"><p>BINARY REFERENCE</p><strong id="exact">—</strong><span>Conservative, separate center</span></article></div>
+        <p class="caption" id="reference-note"></p>
+        <article class="card"><div class="card-heading"><h2>Public score timeline</h2><span class="tag" id="verified-tag">Verified saved queries</span></div><div id="timeline"></div><label class="range-label">Frame in this pair sequence <input type="range" id="frame-range" min="0" max="0" value="0"></label><p class="caption">Line: native frozen q. Teal dots: queried frames. The slider changes the displayed cached frame; it requests no new label.</p></article>
+        <div class="grid two"><article class="card media-card"><div class="frame-stage"><img id="frame-image" alt="Cached benchmark frame with supplied pair head tracks"><p id="frame-fallback" hidden>Local frame media unavailable. Numerical replay remains valid.</p></div><p class="caption">Supplied head tracks, not new detections. Media stays on this PC.</p></article><article class="card"><p class="eyebrow">CURRENT FRAME</p><h2 id="frame-position">—</h2><dl class="facts"><div><dt>Native score q</dt><dd id="frame-q">—</dd></div><div><dt>Audit selection</dt><dd id="frame-query">—</dd></div><div><dt>Reference label</dt><dd id="frame-label">Hidden</dd></div><div><dt>Labels in this audit</dt><dd id="audit-cost">—</dd></div></dl><a id="export" class="secondary" download>Download audit summary ↓</a><p class="caption">Exports aggregate statistics and the query-file hash. No raw labels, frames or record IDs.</p></article></div>
+      </div>
+      <article class="card slim"><label class="check"><input type="checkbox" id="truth"> Show aggregate benchmark truth for evaluation</label><p id="truth-value" hidden></p></article>
+    </section>
+    <section id="limits" class="view" hidden>
+      <div class="page-heading"><p class="eyebrow">METHOD &amp; LIMITS</p><h1>A reproducible course experiment.</h1><p class="lead">The contribution is a working prevalence-audit system, careful budget comparisons, and an honest account of its useful and unsuccessful extensions.</p></div>
+      <article class="card"><p class="eyebrow">FIXED-STRATUM DIFFERENCE ESTIMATOR</p><div class="formula">p̂ = λ mean(q) + Σₕ (Nₕ / M) meanₛₐₘₚₗₑ,ₕ(y − λq)</div><p>Freeze predictions and strata before querying labels. Randomly sample within each stratum, correct the prediction error, and retain finite-population variance. D selects λ on validation; test labels never select the D weight.</p></article>
+      <div class="grid two"><article class="card"><h2>What the evidence supports</h2><ul class="plain-list"><li>Benchmark-defined mutual-looking prevalence on 53 retained sources.</li><li>A modest weighting gain on the fixed 10,316-pair-frame test corpus.</li><li>Simple score controls, downstream label-cost curves, source sensitivity, and retained negative temporal/block findings.</li><li>Independent replay and numerical verification of the reported experiments.</li></ul></article><article class="card"><h2>What remains unresolved</h2><ul class="plain-list"><li>Repeated inspection of the same test set limits confirmatory claims.</li><li>Only three validation sources; 53 of 95 attempted media sources retained.</li><li>Normal-interval undercoverage; conservative references remain broad.</li><li>No measured human annotation-time benefit or genuinely unseen-source evaluation yet.</li><li>No ADHD diagnosis, clinical assessment, live-camera system, or new statistical theorem.</li></ul></article></div>
+      <article class="card slim"><h2>Full evidence</h2><p>The tracked reports under <code>reports/course-project/</code> retain every budget, tie, loss, interval family and cost tail. This portable overview reads aggregate evidence only; raw media, query arrays, reference labels and model weights stay outside Git.</p><p class="caption">Main study retained. Extensions C–G2 are exploratory. The original seven-method course explorer remains separate.</p></article>
+    </section>
+    <footer>Gaze Audit Lab <span>Frozen benchmark · cached predictions · course research</span></footer>
+  </main>
+</body>
+</html>

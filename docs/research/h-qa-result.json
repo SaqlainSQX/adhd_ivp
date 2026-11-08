@@ -1,0 +1,115 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-11-08T07:10:28.668022+00:00",
+  "tests": 78,
+  "ruff": "passed",
+  "javascript_syntax": "passed",
+  "raw_cache_optional": true,
+  "replay_methods": [
+    "power-score",
+    "K4",
+    "power-uniform"
+  ],
+  "numerical_replay_cases": 12,
+  "live_http_cases": 8,
+  "browser": {
+    "desktop": [
+      1280,
+      900
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "mobile_document_width": 375,
+    "views_checked": [
+      "overview",
+      "frames",
+      "blocks",
+      "intervals",
+      "replay",
+      "limits"
+    ],
+    "verified_replays": [
+      "power-score/10%/0",
+      "K4/40%/999",
+      "power-uniform/5%/0"
+    ],
+    "label_reveal": "queried only; unqueried remained unavailable",
+    "truth_control": "separate aggregate evaluation",
+    "media_rendered": [
+      1100,
+      619
+    ],
+    "invalid_draw": "1000 rejected",
+    "fallback": "aggregate views work; replay disabled",
+    "export": "real JSON downloaded and checked",
+    "viewport_overrides": "reset",
+    "console_errors_after_reload": 0,
+    "original_explorer_untouched": true
+  },
+  "export_fields": [
+    "method",
+    "budget",
+    "draw",
+    "verified",
+    "correction_weight",
+    "native_model_mean",
+    "surrogate_mean",
+    "estimate",
+    "exact_binary_reference",
+    "query_file_sha256",
+    "scope"
+  ],
+  "preview_dimensions": [
+    1265,
+    889
+  ],
+  "preview_contains": "aggregate overview only",
+  "prior_evidence_checks": [
+    {
+      "manifest": "g2-evidence-manifest.json",
+      "files": 16,
+      "status": "passed"
+    },
+    {
+      "manifest": "block-g-evidence-manifest.json",
+      "files": 13,
+      "status": "passed"
+    },
+    {
+      "manifest": "weighted-f-evidence-manifest.json",
+      "files": 17,
+      "status": "passed"
+    },
+    {
+      "manifest": "source-e-evidence-manifest.json",
+      "files": 15,
+      "status": "passed"
+    },
+    {
+      "manifest": "timed-d-delivery-manifest.json",
+      "files": 24,
+      "status": "passed"
+    },
+    {
+      "manifest": "strengthening-evidence-manifest.json",
+      "files": 52,
+      "status": "passed"
+    },
+    {
+      "manifest": "extra-c-evidence-manifest.json",
+      "files": 34,
+      "status": "passed"
+    }
+  ],
+  "server": {
+    "url": "http://127.0.0.1:8766",
+    "launcher_pid": 30660,
+    "listener_pid": 30428,
+    "loopback_only": true,
+    "temporary8767": "stopped"
+  },
+  "next": "docs/EXTERNAL_VALIDATION_REVIEW_I.md",
+  "automation": "continue-social-gaze-research remains ACTIVE every10minutes"
+}

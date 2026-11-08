@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "hash_convention": "Tracked text normalized CRLF to LF; JPG/raw files original bytes",
+  "files": {
+    "docs/RESEARCH_DEMO_H.md": "208cf1bad96f9812036f05e793b166bba0616605519bab5e5b81085b999a6263",
+    "docs/RESEARCH_EXPLORER_GUIDE.md": "e9f5a4d05023443a67444407028670d511a61c6917ff066baa5c28341d28fee6",
+    "docs/COURSE_RESULTS_UPDATE.md": "39b7ea49ebf90e47eb2e46f21a4f58643f58f35198f770161118dee91138e021",
+    "docs/EXTERNAL_VALIDATION_REVIEW_I.md": "851e77009028660ecbaa7f3217f7d996e0117d6791efe2623e2316577dc4bb78",
+    "src/gaze_audit/research_explorer.py": "73c06b6407243034e500b7013d44031fe542e63247c5ba5bda680d1b71b4bd9d",
+    "scripts/build_research_demo_data.py": "121132fa5c5e61e02c82f6e48570eed8b4dc01358853eeb904d85cc95e1d33c0",
+    "scripts/serve_research_demo.py": "f77ef4e27f4744b604d1ef672a3b7a762f64a4de5e9e77de17c1bb1dac8703de",
+    "tests/test_research_explorer.py": "098f7ca574bab58e502a5854cc6ba406957f3a9e38fd40dd6867a3c32ae95684",
+    "docs/research/h-qa-result.json": "324cb47652e23cf58520680a91eabea7498e826a75133eecfedc363102749e83",
+    "reports/course-project/research-explorer-preview.jpg": "6f00d63bbe5eb0f33549862653a5893809c3893e7ee5a3641dbd4659eb68ab28",
+    "demo/research/app.js": "b868c64664365e2e73ae89124aeafe151b3ab26a19cfad0938a22362fd8af931",
+    "demo/research/data.js": "9fa47971274d3abed8be9577f8a10f757d16e48b58e1a0d370f3b5c661c46ada",
+    "demo/research/data.json": "fbfbeb2855ff21f6a92296bd4dbc4547f93ecc29fb2b29d7609d4df6e30329b0",
+    "demo/research/index.html": "002c6f1bb56276ece155c3f667a9f6a02d1499f1f4125c25eed8db426a8f663f",
+    "demo/research/style.css": "37d6f5a386526f474c879ddd50521db742b71153e3bd1bb0d2390c2cf7e32148"
+  },
+  "raw_files": {
+    "outputs/research-demo-h/export-check.json": "941c9ba6a613ea11937a02067b360dbe384a73364e787ef2f1dd588a748201f9",
+    "outputs/research-demo-h/http-checks.json": "d88466e12eb8ac5cd87f15de458a5506271d67321a00a57cb9b35bea55b95cfa",
+    "outputs/research-demo-h/manifest-first-attempt.json": "659da2b9b723e572ea2d11bca1ce77f7a33fa462ab5897fa4b257fa828105a2b",
+    "outputs/research-demo-h/qa-result.json": "5282b3cf8f159b02d6ee80ecd4103d0872d834ae96763b4aaf59bb3e07ac9355",
+    "outputs/research-demo-h/logs/h-full-tests-v2.log": "1b5cf290b7eafd140602d95722037626cb8ca57031593cdc44236ab6a9c216fd",
+    "outputs/research-demo-h/logs/h-full-tests-v3.log": "580e816bd4665f2504f2323576f93fe16fdd26e1b614debb42987ae5ece523ec",
+    "outputs/research-demo-h/logs/h-server8766-v2.err.log": "600d373b12de5e5527ed03c5b3ce35ff9017caaf466eb03e7f7602b221a3dafd",
+    "outputs/research-demo-h/logs/h-server8766-v2.out.log": "2e0e5fc6a72b8ae8169a26bf4dcce92c5d9ab61b80e9c9af07543e356c344846",
+    "outputs/research-demo-h/logs/h-server8767.err.log": "fe68f18d293e5b6cdccb793c7aa2f7bbcf594c8f10a70cc7562c98493838eca0",
+    "outputs/research-demo-h/logs/h-server8767.out.log": "623975a5fbf2b8bcfb0b166ee3e527a6d37f818259f1ab714203239f26f0e0fd",
+    "outputs/research-demo-h/logs/h-tests-v1.log": "b1ec37726736aaf2c6243c8cab9734b430eaf04f7938f2cac6652f00135b65eb",
+    "outputs/research-demo-h/qa/overview-desktop.jpg": "300e79d58d15effb2aee35d267e58b71508365ccf42dcb1d847a29995d9ee2e0",
+    "outputs/research-demo-h/qa/replay-mobile-final.jpg": "04b6a2e51fcc8acfafb957896cc48ec19a59c9177afe04a1a167ff75048c3051",
+    "outputs/research-demo-h/qa/replay-mobile.jpg": "57e79ba5307ec50f17ce71d27ac7eb4add33755f3111ab6e9e64d3e60cdf2078"
+  },
+  "tests": 78,
+  "scientific_outcomes_changed": false,
+  "original_explorer_changed": false,
+  "mutable_status_excluded": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md",
+    "docs/RESEARCH_DEMO_H_STATUS.md",
+    "docs/X01_BLOCK_STATUS.md"
+  ],
+  "logs_note": "Live service logs copied at acceptance; later requests do not alter these snapshots."
+}
