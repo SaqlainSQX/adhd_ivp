@@ -1,0 +1,18 @@
+{
+  "stage": "L inference implementation/launch",
+  "files": {
+    "src/gaze_audit/uco_inference.py": "62229b4e9ab95f31b47f1c0c67bba595b9115f28b736dd097956b4f3f7a9da72",
+    "scripts/infer_uco_transfer.py": "9f3890a074c74d5c61f9d59660904dff4bc59d9bef4ecbfce84a40d2d61d9b26",
+    "tests/test_uco_inference.py": "5411f7a677184bbd97c624fefd26b825616606387dc8b73762cb234b230cba6c",
+    "docs/UCO_INFERENCE_L_STATUS.md": "269794df9a9407b014e30d18593b7b3dc62db8c875a107d2fe4eeb3f27917a7e",
+    "docs/research/l-inference-implementation.json": "1dfb02f83fa5689f88bbbadb4910fe44d6031945a5d1365a3e96e543e43e7c74"
+  },
+  "hash_convention": "Tracked text normalized CRLF to LF",
+  "local_test_log_sha256": "f5c5d442f056f8ce539b815bb71545d6048f291105dd8cca8ae3435dc5942209",
+  "mutable_exclusions": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md",
+    "outputs/inference/uco-transfer-l-v1/inference-provenance.json",
+    "outputs/uco-inference-l-launch-v1/stdout.log",
+    "outputs/uco-inference-l-launch-v1/stderr.log"
+  ]
+}

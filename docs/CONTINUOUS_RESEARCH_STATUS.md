@@ -8,30 +8,30 @@ status changes are intentionally excluded from immutable scientific manifests.
 
 I and J's UCO metadata review are complete. See
 [UCO_CONTRACT_J_STATUS.md](UCO_CONTRACT_J_STATUS.md) and the prior I findings.
-K4b eligibility is complete; see [UCO_K4_STATUS.md](UCO_K4_STATUS.md).
-v1's index failure is preserved; the author-supported ordinal-minus-one repair
-produced5,219 eligible pairs across15 clips, with482 unknown pairs excluded.
-Budgets260/521/1043/2087 and separate public/oracle hashes are fixed. No reference
-mean, model scores or performance outcomes have been computed. Review branch:
-`codex/uco-eligibility-k4-v1`; main remains59fb784. Earlier evidence is unchanged.
+L inference is implemented and launched; read
+[UCO_INFERENCE_L_STATUS.md](UCO_INFERENCE_L_STATUS.md) plus the actual saved
+runtime before acting.81 tests passed. The job processes2,357 public anchors
+for5,219 eligible pairs; no oracle readout/evaluation has started. Review branch:
+`codex/uco-inference-l-v1`; main remains59fb784. Earlier evidence is unchanged.
 
 The local research service is available at http://127.0.0.1:8766. Treat recorded
 PIDs as historical; inspect actual process/listener state before reusing or
 restarting a service. Do not duplicate jobs or kill another agent's workload.
-No performance experiment or GPU/Kaggle job was launched. Download and public
-mapping processes have finished; inspect actual processes before any new job.
+One local capped inference job was launched after resource checks; no Kaggle
+work was started. Inspect actual processes and logs before any new job.
 
 ## Next concrete work
 
-Implement the registered [UCO_TRANSFER_L.md](UCO_TRANSFER_L.md) and
-configs/uco-transfer-l-v1.json. First verify frozen hashes, then build a public-only
-UCO inference adapter/CPU preprocessing; inspect actual GPU/process availability
-before optional inference and do not interfere with other workloads. No oracle
-input to inference or allocation. Use fixed ChildPlay K4 cuts/SDs, alpha1,
-weights1/0.5 on identical K4 queries, exact floor budgets and streams61/62. Freeze
-all scores/query plans before reference-mean/performance readout. Record the UCO
-raw-box versus ChildPlay upstream-clipping difference explicitly. No Kaggle job,
-test-label tuning or main-study modification. Preserve every gain/loss/tie.
+First read outputs/inference/uco-transfer-l-v1/inference-provenance.json and
+outputs/uco-inference-l-launch-v1 logs, and inspect live processes. Do not
+duplicate active inference. If it fails, preserve evidence and diagnose under a
+new versioned repair. If complete, verify5,219 unique finite score rows and
+per-clip hashes, then implement the registered L query/evaluation stages using
+fixed ChildPlay K4 cuts/SDs, alpha1, weights1/0.5, budgets260/521/1043/2087 and
+streams61/62. Generate/hash every query file before oracle readout. Independently
+replay all12,000 method draws and inspect figures. Disclose raw UCO border boxes
+versus upstream-clipped ChildPlay geometry and backbone-family exposure. No
+Kaggle job, test-label tuning or main-study modification. Preserve every loss.
 
 ## Completed recent stages
 

@@ -1,0 +1,17 @@
+{
+  "adapter_public_frames": 2366,
+  "inference_anchor_frames": 2357,
+  "eligible_pairs": 5219,
+  "max_real_heads": 7,
+  "public_adapter_oracle_access": false,
+  "tests": {
+    "passed": 81,
+    "seconds": 17.52,
+    "new_tests": 3,
+    "workspace_basetemp": "outputs/test-full-l-v1"
+  },
+  "launch_log": "outputs/uco-inference-l-launch-v1",
+  "GPU_memory_fraction": 0.5,
+  "resource_gate": "no Python GPU workload; existing memory<=2500MiB",
+  "performance_results_computed": false
+}
