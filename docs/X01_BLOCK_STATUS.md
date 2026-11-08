@@ -36,7 +36,13 @@ docs/research/block-g-*. Report: reports/course-project/block-g/results.md.
 .venv/Scripts/ruff.exe check src scripts tests
 ```
 
-Next: register and implement G2 static-versus-temporal block guidance per G1's
+G2 is now registered in X01_BLOCK_GUIDANCE_G2.md and
+configs/block-guidance-g2-v1.json; implementation/execution is next. No G2
+computation is active or outcome accepted yet. The10-minute continuation should
+implement the registered stage after reading actual process/log state, then
+execute/check/report it without routine permission requests.
+
+Next: implement G2 static-versus-temporal block guidance per G1's
 fixed recipe. Existing five-fold OOF score files are in the main development
 folder; do not refit or replace the main policies. G1 does not select G2's length
 or weight on test. After X01, proceed to the local-demo extension in the standing
