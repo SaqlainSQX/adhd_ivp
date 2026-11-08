@@ -1,0 +1,101 @@
+{
+  "complete": true,
+  "checks": [
+    {
+      "dataset": "ChildPlay",
+      "budget": 516,
+      "method": "full",
+      "draws": 1000
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 516,
+      "method": "half",
+      "draws": 1000
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 1032,
+      "method": "full",
+      "draws": 1000
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 1032,
+      "method": "half",
+      "draws": 1000
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 2063,
+      "method": "full",
+      "draws": 1000
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 2063,
+      "method": "half",
+      "draws": 1000
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 4126,
+      "method": "full",
+      "draws": 1000
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 4126,
+      "method": "half",
+      "draws": 1000
+    },
+    {
+      "dataset": "UCO",
+      "budget": 260,
+      "method": "full",
+      "draws": 1000
+    },
+    {
+      "dataset": "UCO",
+      "budget": 260,
+      "method": "half",
+      "draws": 1000
+    },
+    {
+      "dataset": "UCO",
+      "budget": 521,
+      "method": "full",
+      "draws": 1000
+    },
+    {
+      "dataset": "UCO",
+      "budget": 521,
+      "method": "half",
+      "draws": 1000
+    },
+    {
+      "dataset": "UCO",
+      "budget": 1043,
+      "method": "full",
+      "draws": 1000
+    },
+    {
+      "dataset": "UCO",
+      "budget": 1043,
+      "method": "half",
+      "draws": 1000
+    },
+    {
+      "dataset": "UCO",
+      "budget": 2087,
+      "method": "full",
+      "draws": 1000
+    },
+    {
+      "dataset": "UCO",
+      "budget": 2087,
+      "method": "half",
+      "draws": 1000
+    }
+  ]
+}

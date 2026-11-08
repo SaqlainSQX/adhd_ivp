@@ -1,0 +1,6 @@
+{
+  "complete": true,
+  "exhaustive_designs": 2,
+  "coefficient_boundary_cases": 4,
+  "max_moment_difference": 5.551115123125783e-17
+}

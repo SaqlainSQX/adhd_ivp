@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "final_user_authorized_run": true,
+  "independent_draw_checks": 32000,
+  "independent_bootstraps": 24,
+  "coefficient_fits": 5,
+  "prior_manifest_entries_verified": 376,
+  "main_evidence_unchanged": true,
+  "figure_visually_reviewed": true,
+  "automation": "PAUSED per explicit user instruction",
+  "pending_experiments": [],
+  "recommended_next_work": "course report, slides and demonstration; no further experiments"
+}

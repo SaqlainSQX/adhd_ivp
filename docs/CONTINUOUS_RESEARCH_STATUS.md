@@ -1,8 +1,10 @@
 # Current research continuation
 
-This is the mutable entry point for the user's10-minute standing research
-program. Read it before the historical CONTINUOUS_RESEARCH_QUEUE.md. Operational
-status changes are intentionally excluded from immutable scientific manifests.
+THE USER STOPPED THE RECURRING PROGRAM and authorized U as the last run.
+The automation is PAUSED, independently verified after the app tool update.
+Do not restart it or advance the historical queue without a new explicit user
+request. U is complete; no experiment is pending. See FINAL_PROJECT_HANDOFF.md.
+This mutable status is excluded from immutable scientific manifests.
 
 ## Current state
 
@@ -40,7 +42,16 @@ M3/M4 at2063 retain family undercoverage flags. The report keeps all cells and
 explains this exploratory family's limits. All358 prior manifest entries/main
 hashes remain intact; the figure was visually reviewed. No new queries/models/
 labels were used. Review branch: `codex/coverage-mc-t-v1`.
-U is registered but not started; no experiment job is pending.
+U is complete; see [STRATUM_WEIGHTS_U_RESULTS.md](STRATUM_WEIGHTS_U_RESULTS.md).
+All32000 draw calculations, five training coefficient fits and24 paired
+bootstraps passed independent validation. ChildPlay primary per-stratum/full
+RMSE ratio0.907451 improves on full, but per-stratum/half1.014277 loses to the
+prior half-weight result. UCO per-stratum/full1.127822 loses to full. Retain all
+32 cells/24 comparisons; this is no new best overall method or untouched test.
+All376 prior manifest entries/main hashes remain intact; figure visually checked.
+Review branch: `codex/stratum-weights-u-v1`. This is the final authorized run.
+No further experiment is queued. Prepare the report/slides/demo using the checked
+course guide and T/U addenda; preserve historical reports/demos and losses.
 
 P is complete; see [AGGREGATE_INTEGRITY_P_RESULTS.md](AGGREGATE_INTEGRITY_P_RESULTS.md).
 The staged baseline showed an optimized-Python assertion bypass. The additive
@@ -60,15 +71,10 @@ actual processes and logs before any new job, never trust historical PIDs alone.
 
 ## Next concrete work
 
-Advance [STRATUM_WEIGHTS_U.md](STRATUM_WEIGHTS_U.md): bounded exploratory
-training-only global/per-stratum control-variate coefficients. Pin all inputs,
-existing K4 query streams/settings before fitting; verify the exact eligible
-training contract and toy estimator first. No test/UCO labels fit or select
-weights. Reproduce full/half controls, evaluate all32 registered cells on saved
-queries, independently check32000 draws/coefficients/variances/bootstraps. Keep
-all losses/ties, training-label costs and inspected-test limitations. Do not
-replace the locked main comparison. Check live jobs first; no GPU/Kaggle work
-or new inference is needed. Keep the10-minute continuation active.
+No automatic work remains. Read [FINAL_PROJECT_HANDOFF.md](FINAL_PROJECT_HANDOFF.md)
+for the submission recommendation and saved evidence. The user requested this
+stopping point. Do not register or run another experiment, restart the timer or
+advance any older queue instruction without a new explicit user request.
 
 ## Completed recent stages
 
@@ -93,7 +99,8 @@ At the user's explicit restart request, the saved automation was PAUSED. The
 app update succeeded with ACTIVE and the config independently confirmed the
 10-minute interval. Preserve this active standing prompt across stage boundaries.
 
-The10-minute prompt remains active until the user stops the program. A completed
-stage advances this index; it does not disable the automation. Save commands,
-logs, hashes and GitHub sync state after meaningful actions. Notify only material
-findings/completion/failure or required input, and stay quiet for unchanged checks.
+The user has now explicitly stopped the program. The app automation update
+returned PAUSED and the saved config independently confirmed it. This revokes
+the earlier standing continuation. U was the last run; no further research is
+authorized automatically. Final commands, evidence hashes and Git sync status
+are saved under outputs/stratum-weights-u-v1 and the tracked aggregate delivery.

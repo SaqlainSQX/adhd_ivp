@@ -1,0 +1,803 @@
+{
+  "complete": true,
+  "designation": "exploratory training-only coefficient extension",
+  "rows": [
+    {
+      "dataset": "ChildPlay",
+      "budget": 516,
+      "method": "full",
+      "bias_pp": 0.01236337508157405,
+      "rmse_pp": 0.33375913921814654,
+      "normal_coverage": 0.962,
+      "normal_width_pp": 1.3727725884301392,
+      "exact_design_variance": 1.2491731480118787e-05,
+      "exact_design_rmse_pp": 0.35343643671979813,
+      "mean_estimated_variance": 1.2394929065919893e-05
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 516,
+      "method": "half",
+      "bias_pp": 0.012047887407187072,
+      "rmse_pp": 0.30145770287699797,
+      "normal_coverage": 0.958,
+      "normal_width_pp": 1.2163295147132909,
+      "exact_design_variance": 9.847114431759035e-06,
+      "exact_design_rmse_pp": 0.31380112223762097,
+      "mean_estimated_variance": 9.770798058189228e-06
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 516,
+      "method": "global",
+      "bias_pp": 0.012095156294340126,
+      "rmse_pp": 0.3012403019772255,
+      "normal_coverage": 0.96,
+      "normal_width_pp": 1.2202105653756747,
+      "exact_design_variance": 9.9113700865651e-06,
+      "exact_design_rmse_pp": 0.31482328513890295,
+      "mean_estimated_variance": 9.831982748325044e-06
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 516,
+      "method": "stratum",
+      "bias_pp": 0.011873367275905683,
+      "rmse_pp": 0.30354067215362296,
+      "normal_coverage": 0.959,
+      "normal_width_pp": 1.2342668520626103,
+      "exact_design_variance": 1.0143220309878394e-05,
+      "exact_design_rmse_pp": 0.3184842273940484,
+      "mean_estimated_variance": 1.0058494943556838e-05
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 1032,
+      "method": "full",
+      "bias_pp": 0.00475782745510498,
+      "rmse_pp": 0.21988365185578723,
+      "normal_coverage": 0.948,
+      "normal_width_pp": 0.841560930465795,
+      "exact_design_variance": 4.664952816465729e-06,
+      "exact_design_rmse_pp": 0.21598501838011194,
+      "mean_estimated_variance": 4.657025212049799e-06
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 1032,
+      "method": "half",
+      "bias_pp": 0.0067270380542609354,
+      "rmse_pp": 0.19672492116157136,
+      "normal_coverage": 0.947,
+      "normal_width_pp": 0.7461783287766055,
+      "exact_design_variance": 3.6876752801007643e-06,
+      "exact_design_rmse_pp": 0.19203320754756883,
+      "mean_estimated_variance": 3.679511555586707e-06
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 1032,
+      "method": "global",
+      "bias_pp": 0.006431995169385094,
+      "rmse_pp": 0.19736871383788293,
+      "normal_coverage": 0.946,
+      "normal_width_pp": 0.7486681291192102,
+      "exact_design_variance": 3.711524620755956e-06,
+      "exact_design_rmse_pp": 0.1926531759602202,
+      "mean_estimated_variance": 3.703371400118951e-06
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 1032,
+      "method": "stratum",
+      "bias_pp": 0.006351625815326153,
+      "rmse_pp": 0.19953355895331779,
+      "normal_coverage": 0.945,
+      "normal_width_pp": 0.757285840160139,
+      "exact_design_variance": 3.796786990758961e-06,
+      "exact_design_rmse_pp": 0.19485345752023395,
+      "mean_estimated_variance": 3.7883342861382297e-06
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 2063,
+      "method": "full",
+      "bias_pp": 0.004374325937025086,
+      "rmse_pp": 0.0968576085341528,
+      "normal_coverage": 0.945,
+      "normal_width_pp": 0.3644966944569084,
+      "exact_design_variance": 8.763450203618553e-07,
+      "exact_design_rmse_pp": 0.09361330142462956,
+      "mean_estimated_variance": 8.956154572767154e-07
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 2063,
+      "method": "half",
+      "bias_pp": 0.0038169423412179214,
+      "rmse_pp": 0.08630398386348198,
+      "normal_coverage": 0.939,
+      "normal_width_pp": 0.32558642862893017,
+      "exact_design_variance": 7.062666316389959e-07,
+      "exact_design_rmse_pp": 0.08403967108687396,
+      "mean_estimated_variance": 7.262590999606311e-07
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 2063,
+      "method": "global",
+      "bias_pp": 0.003900454010390285,
+      "rmse_pp": 0.08675148672076624,
+      "normal_coverage": 0.939,
+      "normal_width_pp": 0.3266314586235193,
+      "exact_design_variance": 7.105551739126138e-07,
+      "exact_design_rmse_pp": 0.08429443480518829,
+      "mean_estimated_variance": 7.304486798138156e-07
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 2063,
+      "method": "stratum",
+      "bias_pp": 0.003930380134398936,
+      "rmse_pp": 0.08788863777469709,
+      "normal_coverage": 0.936,
+      "normal_width_pp": 0.32993853676244633,
+      "exact_design_variance": 7.248479549893451e-07,
+      "exact_design_rmse_pp": 0.08513800297102024,
+      "mean_estimated_variance": 7.449345138616712e-07
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 4126,
+      "method": "full",
+      "bias_pp": 0.00019748073124458007,
+      "rmse_pp": 0.012370734436852772,
+      "normal_coverage": 0.45,
+      "normal_width_pp": 0.036783536085074356,
+      "exact_design_variance": 1.526645331238485e-08,
+      "exact_design_rmse_pp": 0.012355748990807821,
+      "mean_estimated_variance": 1.536885902968726e-08
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 4126,
+      "method": "half",
+      "bias_pp": 0.00013339182500338024,
+      "rmse_pp": 0.012189133661630025,
+      "normal_coverage": 0.391,
+      "normal_width_pp": 0.033275816733348645,
+      "exact_design_variance": 1.4827269157900735e-08,
+      "exact_design_rmse_pp": 0.012176727457695985,
+      "mean_estimated_variance": 1.4931549778558065e-08
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 4126,
+      "method": "global",
+      "bias_pp": 0.0001429941376216756,
+      "rmse_pp": 0.012205173716383601,
+      "normal_coverage": 0.391,
+      "normal_width_pp": 0.03379083217292106,
+      "exact_design_variance": 1.4866348396995543e-08,
+      "exact_design_rmse_pp": 0.012192763590341422,
+      "mean_estimated_variance": 1.497036665485759e-08
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 4126,
+      "method": "stratum",
+      "bias_pp": 7.507286330753551e-05,
+      "rmse_pp": 0.012177566319489332,
+      "normal_coverage": 0.391,
+      "normal_width_pp": 0.030226062544951873,
+      "exact_design_variance": 1.4792089723976564e-08,
+      "exact_design_rmse_pp": 0.01216227352265051,
+      "mean_estimated_variance": 1.4897822317001723e-08
+    },
+    {
+      "dataset": "UCO",
+      "budget": 260,
+      "method": "full",
+      "bias_pp": 0.0124907166214196,
+      "rmse_pp": 0.9473302119257417,
+      "normal_coverage": 0.95,
+      "normal_width_pp": 3.784928731113229,
+      "exact_design_variance": 9.356017612024468e-05,
+      "exact_design_rmse_pp": 0.9672650935511148,
+      "mean_estimated_variance": 9.377659426354066e-05
+    },
+    {
+      "dataset": "UCO",
+      "budget": 260,
+      "method": "half",
+      "bias_pp": 0.033338671205899964,
+      "rmse_pp": 1.2802192694170882,
+      "normal_coverage": 0.945,
+      "normal_width_pp": 4.946176092609316,
+      "exact_design_variance": 0.0001592171640378323,
+      "exact_design_rmse_pp": 1.2618128388863077,
+      "mean_estimated_variance": 0.00015932174184381614
+    },
+    {
+      "dataset": "UCO",
+      "budget": 260,
+      "method": "global",
+      "bias_pp": 0.030215063874622274,
+      "rmse_pp": 1.2080347020057367,
+      "normal_coverage": 0.946,
+      "normal_width_pp": 4.680392030458594,
+      "exact_design_variance": 0.0001425863313681377,
+      "exact_design_rmse_pp": 1.1940951861896845,
+      "mean_estimated_variance": 0.00014271348416405204
+    },
+    {
+      "dataset": "UCO",
+      "budget": 260,
+      "method": "stratum",
+      "bias_pp": 0.027048686785947636,
+      "rmse_pp": 1.128625983702661,
+      "normal_coverage": 0.947,
+      "normal_width_pp": 4.390718075173566,
+      "exact_design_variance": 0.00012552732918743817,
+      "exact_design_rmse_pp": 1.1203897946136343,
+      "mean_estimated_variance": 0.00012567860760049007
+    },
+    {
+      "dataset": "UCO",
+      "budget": 521,
+      "method": "full",
+      "bias_pp": 0.01942155651036153,
+      "rmse_pp": 0.5923105706657777,
+      "normal_coverage": 0.951,
+      "normal_width_pp": 2.368659585280792,
+      "exact_design_variance": 3.654972711175102e-05,
+      "exact_design_rmse_pp": 0.6045637031095319,
+      "mean_estimated_variance": 3.6598742798729945e-05
+    },
+    {
+      "dataset": "UCO",
+      "budget": 521,
+      "method": "half",
+      "bias_pp": 0.014585757421492079,
+      "rmse_pp": 0.7519271584342305,
+      "normal_coverage": 0.959,
+      "normal_width_pp": 3.089771389031514,
+      "exact_design_variance": 6.212637850246626e-05,
+      "exact_design_rmse_pp": 0.7882028831618562,
+      "mean_estimated_variance": 6.214611225809582e-05
+    },
+    {
+      "dataset": "UCO",
+      "budget": 521,
+      "method": "global",
+      "bias_pp": 0.015310295525473337,
+      "rmse_pp": 0.7120473934017433,
+      "normal_coverage": 0.96,
+      "normal_width_pp": 2.923993525810072,
+      "exact_design_variance": 5.564237430712393e-05,
+      "exact_design_rmse_pp": 0.7459381630344698,
+      "mean_estimated_variance": 5.566486059939252e-05
+    },
+    {
+      "dataset": "UCO",
+      "budget": 521,
+      "method": "stratum",
+      "bias_pp": 0.015382859639453128,
+      "rmse_pp": 0.668020603034969,
+      "normal_coverage": 0.956,
+      "normal_width_pp": 2.7429411605183276,
+      "exact_design_variance": 4.897088952885249e-05,
+      "exact_design_rmse_pp": 0.6997920371714191,
+      "mean_estimated_variance": 4.8998097100467235e-05
+    },
+    {
+      "dataset": "UCO",
+      "budget": 1043,
+      "method": "full",
+      "bias_pp": 0.008315989737472124,
+      "rmse_pp": 0.3628769032779994,
+      "normal_coverage": 0.962,
+      "normal_width_pp": 1.4541060478629353,
+      "exact_design_variance": 1.3755872472217246e-05,
+      "exact_design_rmse_pp": 0.37088910030111755,
+      "mean_estimated_variance": 1.3771544219366321e-05
+    },
+    {
+      "dataset": "UCO",
+      "budget": 1043,
+      "method": "half",
+      "bias_pp": 0.008956549964282533,
+      "rmse_pp": 0.48580544376799883,
+      "normal_coverage": 0.95,
+      "normal_width_pp": 1.8950554078012771,
+      "exact_design_variance": 2.3369452017764984e-05,
+      "exact_design_rmse_pp": 0.48341961087408303,
+      "mean_estimated_variance": 2.337374637464494e-05
+    },
+    {
+      "dataset": "UCO",
+      "budget": 1043,
+      "method": "global",
+      "bias_pp": 0.008860576106870155,
+      "rmse_pp": 0.45825857379917223,
+      "normal_coverage": 0.95,
+      "normal_width_pp": 1.7935093669402724,
+      "exact_design_variance": 2.093134607442512e-05,
+      "exact_design_rmse_pp": 0.45750788052693825,
+      "mean_estimated_variance": 2.0937020984797094e-05
+    },
+    {
+      "dataset": "UCO",
+      "budget": 1043,
+      "method": "stratum",
+      "bias_pp": 0.008507394366395627,
+      "rmse_pp": 0.4277275980504667,
+      "normal_coverage": 0.958,
+      "normal_width_pp": 1.6824827011455534,
+      "exact_design_variance": 1.8419208242220347e-05,
+      "exact_design_rmse_pp": 0.4291760506158323,
+      "mean_estimated_variance": 1.8426772311460982e-05
+    },
+    {
+      "dataset": "UCO",
+      "budget": 2087,
+      "method": "full",
+      "bias_pp": 0.006309989951460438,
+      "rmse_pp": 0.17628666687547356,
+      "normal_coverage": 0.948,
+      "normal_width_pp": 0.696931092760288,
+      "exact_design_variance": 3.1601202307706547e-06,
+      "exact_design_rmse_pp": 0.17776727006877996,
+      "mean_estimated_variance": 3.1616377218929018e-06
+    },
+    {
+      "dataset": "UCO",
+      "budget": 2087,
+      "method": "half",
+      "bias_pp": 0.014260251410551318,
+      "rmse_pp": 0.2290963949532458,
+      "normal_coverage": 0.945,
+      "normal_width_pp": 0.9071323470121472,
+      "exact_design_variance": 5.354504990028745e-06,
+      "exact_design_rmse_pp": 0.23139803348405413,
+      "mean_estimated_variance": 5.355442253161971e-06
+    },
+    {
+      "dataset": "UCO",
+      "budget": 2087,
+      "method": "global",
+      "bias_pp": 0.013069079639786506,
+      "rmse_pp": 0.21645369272167964,
+      "normal_coverage": 0.947,
+      "normal_width_pp": 0.8586176732620157,
+      "exact_design_variance": 4.796915920849822e-06,
+      "exact_design_rmse_pp": 0.21901862753770104,
+      "mean_estimated_variance": 4.797992178687099e-06
+    },
+    {
+      "dataset": "UCO",
+      "budget": 2087,
+      "method": "stratum",
+      "bias_pp": 0.011709616460684474,
+      "rmse_pp": 0.20258788589479626,
+      "normal_coverage": 0.95,
+      "normal_width_pp": 0.8051914493441441,
+      "exact_design_variance": 4.218382854441246e-06,
+      "exact_design_rmse_pp": 0.2053870213631145,
+      "mean_estimated_variance": 4.219573082388765e-06
+    }
+  ],
+  "comparisons": [
+    {
+      "dataset": "ChildPlay",
+      "budget": 516,
+      "comparison": "stratum/full",
+      "primary": false,
+      "rmse_ratio": 0.9094602558740043,
+      "paired_bootstrap_95pct": [
+        0.8916342911825881,
+        0.9273459032231832
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820100,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 516,
+      "comparison": "stratum/half",
+      "primary": false,
+      "rmse_ratio": 1.006909656833267,
+      "paired_bootstrap_95pct": [
+        0.9962446336813202,
+        1.0180215953954972
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820100,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 516,
+      "comparison": "global/full",
+      "primary": false,
+      "rmse_ratio": 0.9025679496984005,
+      "paired_bootstrap_95pct": [
+        0.8798101467678855,
+        0.9252570858915525
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820100,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 1032,
+      "comparison": "stratum/full",
+      "primary": true,
+      "rmse_ratio": 0.9074506325017003,
+      "paired_bootstrap_95pct": [
+        0.8912473409990213,
+        0.9244870050818124
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820101,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 1032,
+      "comparison": "stratum/half",
+      "primary": false,
+      "rmse_ratio": 1.0142769801363383,
+      "paired_bootstrap_95pct": [
+        1.0042070289931633,
+        1.0245984468128266
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820101,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 1032,
+      "comparison": "global/full",
+      "primary": false,
+      "rmse_ratio": 0.8976052206342702,
+      "paired_bootstrap_95pct": [
+        0.877117725867888,
+        0.9187726607311338
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820101,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 2063,
+      "comparison": "stratum/full",
+      "primary": false,
+      "rmse_ratio": 0.9074004521153011,
+      "paired_bootstrap_95pct": [
+        0.8916570073437057,
+        0.9239451624634799
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820102,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 2063,
+      "comparison": "stratum/half",
+      "primary": false,
+      "rmse_ratio": 1.0183613066312414,
+      "paired_bootstrap_95pct": [
+        1.0085682352042682,
+        1.0274100208673795
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820102,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 2063,
+      "comparison": "global/full",
+      "primary": false,
+      "rmse_ratio": 0.8956600109549158,
+      "paired_bootstrap_95pct": [
+        0.8769880618135804,
+        0.9153254094647038
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820102,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 4126,
+      "comparison": "stratum/full",
+      "primary": false,
+      "rmse_ratio": 0.9843850728225166,
+      "paired_bootstrap_95pct": [
+        0.9709289394316133,
+        0.9978448628861734
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820103,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 4126,
+      "comparison": "stratum/half",
+      "primary": false,
+      "rmse_ratio": 0.9990510119536136,
+      "paired_bootstrap_95pct": [
+        0.9922893542206233,
+        1.005784597642025
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820103,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 4126,
+      "comparison": "global/full",
+      "primary": false,
+      "rmse_ratio": 0.986616742820381,
+      "paired_bootstrap_95pct": [
+        0.9807472006129588,
+        0.9924824514606088
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820103,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "UCO",
+      "budget": 260,
+      "comparison": "stratum/full",
+      "primary": false,
+      "rmse_ratio": 1.1913754776260959,
+      "paired_bootstrap_95pct": [
+        1.1612400951718005,
+        1.2231495515005193
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820200,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "UCO",
+      "budget": 260,
+      "comparison": "stratum/half",
+      "primary": false,
+      "rmse_ratio": 0.8815880300071949,
+      "paired_bootstrap_95pct": [
+        0.8732519659723176,
+        0.8903225662739366
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820200,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "UCO",
+      "budget": 260,
+      "comparison": "global/full",
+      "primary": false,
+      "rmse_ratio": 1.2751991721556442,
+      "paired_bootstrap_95pct": [
+        1.23758354445704,
+        1.3153622821622413
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820200,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "UCO",
+      "budget": 521,
+      "comparison": "stratum/full",
+      "primary": true,
+      "rmse_ratio": 1.1278215114143422,
+      "paired_bootstrap_95pct": [
+        1.0960735197595028,
+        1.1619315507253023
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820201,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "UCO",
+      "budget": 521,
+      "comparison": "stratum/half",
+      "primary": false,
+      "rmse_ratio": 0.8884113248762238,
+      "paired_bootstrap_95pct": [
+        0.8780508810652288,
+        0.8987960135456412
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820201,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "UCO",
+      "budget": 521,
+      "comparison": "global/full",
+      "primary": false,
+      "rmse_ratio": 1.202152094975069,
+      "paired_bootstrap_95pct": [
+        1.1620507033577643,
+        1.2449675670356002
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820201,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "UCO",
+      "budget": 1043,
+      "comparison": "stratum/full",
+      "primary": false,
+      "rmse_ratio": 1.1787126548607731,
+      "paired_bootstrap_95pct": [
+        1.1467759261716381,
+        1.210098207467261
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820202,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "UCO",
+      "budget": 1043,
+      "comparison": "stratum/half",
+      "primary": false,
+      "rmse_ratio": 0.8804504015700823,
+      "paired_bootstrap_95pct": [
+        0.8717048374204011,
+        0.889379761893313
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820202,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "UCO",
+      "budget": 1043,
+      "comparison": "global/full",
+      "primary": false,
+      "rmse_ratio": 1.2628485573470107,
+      "paired_bootstrap_95pct": [
+        1.2228309855758641,
+        1.3029189251425009
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820202,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "UCO",
+      "budget": 2087,
+      "comparison": "stratum/full",
+      "primary": false,
+      "rmse_ratio": 1.1491957360445277,
+      "paired_bootstrap_95pct": [
+        1.1168059988560917,
+        1.1840347982009076
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820203,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "UCO",
+      "budget": 2087,
+      "comparison": "stratum/half",
+      "primary": false,
+      "rmse_ratio": 0.8842910249030353,
+      "paired_bootstrap_95pct": [
+        0.8744966587937222,
+        0.8939571529189205
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820203,
+        1,
+        93
+      ]
+    },
+    {
+      "dataset": "UCO",
+      "budget": 2087,
+      "comparison": "global/full",
+      "primary": false,
+      "rmse_ratio": 1.227850617168793,
+      "paired_bootstrap_95pct": [
+        1.1856324779598182,
+        1.2716151132210702
+      ],
+      "resamples": 2000,
+      "seed_sequence": [
+        820203,
+        1,
+        93
+      ]
+    }
+  ],
+  "draw_calculations": 32000,
+  "no_test_weight_selection": true,
+  "coefficient_lock_sha256": "2af37503396b41b2a761219df44136ee95ef2beb37061feca41f9b528d208bd1"
+}

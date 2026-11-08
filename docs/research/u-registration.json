@@ -1,0 +1,190 @@
+{
+  "config": {
+    "protocol": "docs/STRATUM_WEIGHTS_U.md",
+    "training_rows": 191956,
+    "training_sources": 40,
+    "draws": 1000,
+    "bootstrap_resamples": 2000,
+    "methods": [
+      "full",
+      "half",
+      "global",
+      "stratum"
+    ],
+    "comparisons": [
+      [
+        "stratum",
+        "full"
+      ],
+      [
+        "stratum",
+        "half"
+      ],
+      [
+        "global",
+        "full"
+      ]
+    ],
+    "minimum_count": 2,
+    "minimum_q_ss": 1e-12,
+    "clip": [
+      0,
+      1
+    ],
+    "cuts_side": "left",
+    "rng_seed_start": 200000,
+    "bootstrap_seed": "SeedSequence([820000+dataset_code*100+budget_index,1,93])",
+    "designs": [
+      {
+        "dataset": "ChildPlay",
+        "dataset_code": 1,
+        "base": "outputs/experiments/timed-d-20261108-v1",
+        "budget": 516,
+        "budget_index": 0,
+        "stream": 21,
+        "counts": [
+          20,
+          52,
+          40,
+          404
+        ],
+        "query": "outputs/experiments/timed-d-20261108-v1/queries-K4-b516.npz"
+      },
+      {
+        "dataset": "ChildPlay",
+        "dataset_code": 1,
+        "base": "outputs/experiments/timed-d-20261108-v1",
+        "budget": 1032,
+        "budget_index": 1,
+        "stream": 21,
+        "counts": [
+          20,
+          105,
+          82,
+          825
+        ],
+        "query": "outputs/experiments/timed-d-20261108-v1/queries-K4-b1032.npz"
+      },
+      {
+        "dataset": "ChildPlay",
+        "dataset_code": 1,
+        "base": "outputs/experiments/timed-d-20261108-v1",
+        "budget": 2063,
+        "budget_index": 2,
+        "stream": 21,
+        "counts": [
+          20,
+          212,
+          166,
+          1665
+        ],
+        "query": "outputs/experiments/timed-d-20261108-v1/queries-K4-b2063.npz"
+      },
+      {
+        "dataset": "ChildPlay",
+        "dataset_code": 1,
+        "base": "outputs/experiments/timed-d-20261108-v1",
+        "budget": 4126,
+        "budget_index": 3,
+        "stream": 21,
+        "counts": [
+          97,
+          1074,
+          844,
+          2111
+        ],
+        "query": "outputs/experiments/timed-d-20261108-v1/queries-K4-b4126.npz"
+      },
+      {
+        "dataset": "UCO",
+        "dataset_code": 2,
+        "base": "outputs/experiments/uco-transfer-l-v1",
+        "budget": 260,
+        "budget_index": 0,
+        "stream": 61,
+        "counts": [
+          20,
+          20,
+          20,
+          200
+        ],
+        "query": "outputs/experiments/uco-transfer-l-v1/queries-K4-b260.npz"
+      },
+      {
+        "dataset": "UCO",
+        "dataset_code": 2,
+        "base": "outputs/experiments/uco-transfer-l-v1",
+        "budget": 521,
+        "budget_index": 1,
+        "stream": 61,
+        "counts": [
+          20,
+          20,
+          20,
+          461
+        ],
+        "query": "outputs/experiments/uco-transfer-l-v1/queries-K4-b521.npz"
+      },
+      {
+        "dataset": "UCO",
+        "dataset_code": 2,
+        "base": "outputs/experiments/uco-transfer-l-v1",
+        "budget": 1043,
+        "budget_index": 2,
+        "stream": 61,
+        "counts": [
+          20,
+          20,
+          41,
+          962
+        ],
+        "query": "outputs/experiments/uco-transfer-l-v1/queries-K4-b1043.npz"
+      },
+      {
+        "dataset": "UCO",
+        "dataset_code": 2,
+        "base": "outputs/experiments/uco-transfer-l-v1",
+        "budget": 2087,
+        "budget_index": 3,
+        "stream": 61,
+        "counts": [
+          20,
+          40,
+          83,
+          1944
+        ],
+        "query": "outputs/experiments/uco-transfer-l-v1/queries-K4-b2087.npz"
+      }
+    ],
+    "expected_draw_calculations": 32000,
+    "input_sha256": {
+      "data/processed/uco-eligible-k4-v2/oracle.csv": "9332144eee933c3013df9e929edcc6fa25ad133568713edab48756f1e29da520",
+      "data/processed/vsgaze-17357752-v1/oracle/oracle_labels.csv": "7ce136e6ed8f1f2b43f08ff3f3e4d9f0efe0624bdb2c2bfb8a4fbf3be10f182e",
+      "docs/STRATUM_WEIGHTS_U.md": "3931a49bafd2085d05e78385856bf7010f5b75ffdcde387ce7f18bf30e1f2208",
+      "outputs/experiments/course-20261107-v1/evaluation/draw-results.csv": "0138e13432f6ae91128ed6cfd079ed7722d27f465d5f3784d1a506d17385a1f9",
+      "outputs/experiments/course-20261107-v1/evaluation/queries-uniform-b1032.npz": "8b0082959b8da96165e1b108e1c11eb29be5bb59e120e5ae4c56c7512925323e",
+      "outputs/experiments/course-20261107-v1/evaluation/query-manifest.json": "eb5c84ee677518b73d3599b9bc56fa48a7104e6250722b57aab39f639218be3d",
+      "outputs/experiments/course-20261107-v1/features/features-static.csv": "a149f032b9375be4fa562910342b2bec1a334c85ff81496feea33d4ae55aad68",
+      "outputs/experiments/timed-d-20261108-v1/K4-training.json": "c2531d8581b13524444d048816554724bcc14bc70c9909dea87751fb83ba89fe",
+      "outputs/experiments/timed-d-20261108-v1/draw-results.csv": "222112a3e5ea1f8204abab65f7803b7b243130d1e52f3e865318a45b1282e820",
+      "outputs/experiments/timed-d-20261108-v1/population_index.csv": "5d432dcd9b6e328e91dcb47925593617855b9332d40849ce7ce9718f8b100271",
+      "outputs/experiments/timed-d-20261108-v1/queries-K4-b1032.npz": "ef3c36d426019892f5b9e8da40f3be3b41445c27342ed291b90f7579fcdcd2e9",
+      "outputs/experiments/timed-d-20261108-v1/queries-K4-b2063.npz": "fb65587c1a8ab50e996fd21256af5b15ee97ee3cf4fcfd5624b8158c0293aedc",
+      "outputs/experiments/timed-d-20261108-v1/queries-K4-b4126.npz": "a720ef465f4d212f67be3643cfe540df9c1b8933c935998eadb033be99aa004a",
+      "outputs/experiments/timed-d-20261108-v1/queries-K4-b516.npz": "3fdadba1a5618492bfd5a8b74a324aa5b66635ed44bcffaac3cf30e30c56ac55",
+      "outputs/experiments/timed-d-20261108-v1/queries-power-uniform-b1032.npz": "8b0082959b8da96165e1b108e1c11eb29be5bb59e120e5ae4c56c7512925323e",
+      "outputs/experiments/timed-d-20261108-v1/query-manifest.json": "9cb4303e5ac0ba9f27803d5f5f0db97ee8f44e06976b95ef3c6af2b19ee1e7de",
+      "outputs/experiments/uco-transfer-l-v1/draw-results.csv": "9706d418b9aa44f883b68d62bf64e8091b7ee766790b527d8c76de563c081dc5",
+      "outputs/experiments/uco-transfer-l-v1/queries-K4-b1043.npz": "3d9f8e8a529b9458539aa4cf438f12ed51d0648668a13a6305611501f382e06a",
+      "outputs/experiments/uco-transfer-l-v1/queries-K4-b2087.npz": "c2d4916c7649a79e7078a1f841fdf78d23404840f0f89202d81df1c95aa14c63",
+      "outputs/experiments/uco-transfer-l-v1/queries-K4-b260.npz": "359f7c1fead3f880f8f93f7e33a45090084f01c7d5ac642edb604108b65e95f9",
+      "outputs/experiments/uco-transfer-l-v1/queries-K4-b521.npz": "682d682bf7d6609c852c74647cef027362047950c57e6bfe547f98c7a6045e82",
+      "outputs/experiments/uco-transfer-l-v1/queries-uniform-b521.npz": "22d90717614168cac1593a21d3344e236309a74be5032ef3f2d3b081f8326b2b",
+      "outputs/experiments/uco-transfer-l-v1/query-manifest.json": "5e0274f5d0fdfb91059db0f9fa925bfb3ccef7c58a3505b39f87ed6901583206",
+      "outputs/experiments/uco-transfer-l-v1/scores-population-order.csv": "a7dd219c5208f373231e96d030cbbd878d99b6a7a39b35eef80ace992600b944"
+    }
+  },
+  "config_sha256": "8003648d446b25eee8d2ca3d0d4e29868335ffe35d757cfadc6e16339100e4b5",
+  "implementation_sha256": "ec83ce05f2f64b62f3248036b19e54b0872bfa9510df8bcfde1cfd4a67f6f561",
+  "kernel_sha256": "635bdfa154b25675275a947f093a3198a7cf12863c66ec1b614489ff845afacc"
+}

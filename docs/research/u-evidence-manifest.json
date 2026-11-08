@@ -1,0 +1,34 @@
+{
+  "stage": "U final authorized experiment and handoff",
+  "files": {
+    "docs/research/u-result.json": "3eb4c60e8977242c89d6acfde738e66ec901a299c3df6a21a8372dd910c9323d",
+    "docs/research/u-registration.json": "03834fb1ccfce16c4ef08c21617474c648b12bd309c1d89a4e0e99dc84483b76",
+    "docs/research/u-toy-validation.json": "da2f3c55fbe23a6fae81ba7dfcff3e7b1324a90230dd384f92ab59359a9d3583",
+    "docs/research/u-coefficient-lock.json": "a534eea014b96c8ed2dc5ed35107a986d1d17169ba484cb5f5ed4b298c26d566",
+    "docs/research/u-baseline-validation.json": "9007b6b7dd04935b7a07de339357b17ab43e145cc750c65035e443fc5c5a06ff",
+    "docs/research/u-independent-validation.json": "0604805280e276d2d485a0c14cb92f88173185476db0a013caa46056130be7dc",
+    "docs/research/u-status.json": "e323a64fc8f0589b926e95a3f3d16912ff1d6465b9ae6bf19f10dffeedf26c01",
+    "docs/research/stratum-weights-u-v1.log": "0d311ffcf5187fde1f9e4855c499a04aed78cc00ec063bd29f4f01b9073fceb5",
+    "docs/research/stratum-weights-u-v1-validation.log": "0604805280e276d2d485a0c14cb92f88173185476db0a013caa46056130be7dc",
+    "docs/research/stratum-weights-u-v1-validation-formatted.log": "0604805280e276d2d485a0c14cb92f88173185476db0a013caa46056130be7dc",
+    "docs/STRATUM_WEIGHTS_U.md": "3931a49bafd2085d05e78385856bf7010f5b75ffdcde387ce7f18bf30e1f2208",
+    "docs/STRATUM_WEIGHTS_U_RESULTS.md": "9b40cede2cc580422061f2810059bdb70236dd0f5d684d9aaa7a35a2429514da",
+    "docs/FINAL_PROJECT_HANDOFF.md": "a8d41aefde0ed82d3b5a3311f28cf4c15338936c9cf957e96979d132b71612fa",
+    "configs/stratum-weights-u-v1.json": "187264c8b3128c264ccb54c3d66f69e76e5d8fefb68948422401fd20784c9663",
+    "src/gaze_audit/stratum_weights.py": "635bdfa154b25675275a947f093a3198a7cf12863c66ec1b614489ff845afacc",
+    "scripts/register_stratum_weights.py": "21ddf50b4bdd52b308c3ad0c879f6477ed47accb230375d62e1069414d48b7e1",
+    "scripts/run_stratum_weights.py": "ec83ce05f2f64b62f3248036b19e54b0872bfa9510df8bcfde1cfd4a67f6f561",
+    "scripts/validate_stratum_weights.py": "4335df3ea28d3a37afe02ebdd5bbe4407e9698fe4456f3b5dde14d4836b9c3dd",
+    "scripts/report_stratum_weights.py": "1542e50312073d29b7af20824f236a448ee5011c92a18483f665d036d6d1380d",
+    "scripts/archive_stratum_weights.py": "355e622315aecb61b176be6917762680c13627fd341eb5edcb469438ca9383d6",
+    "reports/course-project/stratum-weights-u.png": "5392efb68f15ba8a51e1c41d6dad9581022ec72a720830875dc76c730e8ba645",
+    "reports/course-project/stratum-weights-u.pdf": "e35a0f34721398d14c3203f63946d28c6b7aadb6536712f036029e9c6ddab01a"
+  },
+  "hash_convention": "Tracked text CRLF to LF; binaries/local data raw",
+  "local_files": {
+    "outputs/stratum-weights-u-v1/draw-results.csv": "6539c7cf64ba293b33acf80063ca307709c34f4c732f0e89cde0ec68bf4683b6"
+  },
+  "mutable_exclusions": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md"
+  ]
+}

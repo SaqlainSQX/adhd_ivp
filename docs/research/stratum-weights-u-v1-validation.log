@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "coefficient_fits_checked": 5,
+  "draw_calculations_checked": 32000,
+  "paired_bootstraps_checked": 24,
+  "max_point_difference": 1.6653345369377348e-16,
+  "max_variance_difference": 9.999054535747565e-17,
+  "max_bootstrap_endpoint_difference": 3.9968028886505635e-15,
+  "independent_methods": "fsum centered fits; residual sum squares; frequency-weight bootstrap and manual quantiles",
+  "exact_design_variances_and_all_summary_fields_checked": true,
+  "training_only_contract_and_query_rng_costs_verified": true
+}
