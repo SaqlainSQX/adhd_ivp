@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "claims_independently_resolved": 93,
+  "aggregate_sources": 14,
+  "local_links_checked": 16,
+  "prior_manifest_entries_checked": 341,
+  "main_result_and_lock_unchanged": true,
+  "scientific_outcomes_created": false,
+  "guide_sha256": "70180ea15206d6d697fd2744834711da28bf4e6ab0deac56cec338c332f66b53"
+}

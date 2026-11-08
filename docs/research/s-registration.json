@@ -1,0 +1,23 @@
+{
+  "protocol": "docs/SUBMISSION_SYNTHESIS_S.md",
+  "protocol_hash": "1d8cb8794dfa9aa2b3f119d78a27959f593073c51aeaf7f1fc9042a2780a18d1",
+  "template_hash": "9ce7f033f450cf701b36d0aa86653541f5be54298a4db1532e07d62b38702b78",
+  "implementation_hash": "71a013ee855ad47fdd78e4cf7acbb6eec967d5753b2f4c17ae20c5b81c12be88",
+  "sources": {
+    "docs/research/main-course-results.json": "ead4febc07010b3a32cf7fb62a227925cf223302f693420080a4f8f6ee9cf960",
+    "docs/research/verified-population-manifest.json": "aba56aba1b7377e573a613168604aa4691647173a22141bf700c7fa21fe04009",
+    "docs/research/timed-d-result.json": "6e158f701d7568f972756afe33e5fbd47664642786de0dd3e7312b815290739a",
+    "docs/research/timed-d-primary-decision.json": "f22cdae880f8dccefa4ebc091befc003f538fcf578c998b95b283369d8bfc1ce",
+    "docs/research/source-e-assessment.json": "30889f6e2820823994f3bc7b82cff453b0c6a56d9d603ae26836203cec683c47",
+    "docs/research/weighted-f-result.json": "4b90310d9ce6b67f30e880574fce6b97cd62ab4be3380c107057252a803d153e",
+    "docs/research/block-g-result.json": "33e6247fd02018b5a8b2eecb21bdf273a999e8a9c8cf038ab71941061273cf76",
+    "docs/research/g2-result.json": "0e7a4da5de0bda1ba93f4a17074566f8221cbca49132ea7227acc629632c415f",
+    "docs/research/l-transfer-result.json": "35d37f00bd2c60c7b8e98812c6363002e150bb95e0875896864091aed74306f0",
+    "docs/research/m-variance-result.json": "040d4e114942a9d42282da09c984e3476d8c929d22a13ceb60125fe4359357eb",
+    "docs/research/q-result.json": "8df5a7b4e807ab007c2642d87800089431c14320cdebf207af771501f2d4df3c",
+    "docs/research/r-result.json": "e54ab9ac1e48a2c32b5c9296db1df32e0d806e68dcc64bf0cfe5edb13052405e",
+    "docs/research/q-independent-validation.json": "61727adc1170ff6eb4ac702ff16a7dfc102af17d7a620f84ee770aa7ad72f0ac",
+    "docs/research/r-independent-validation.json": "f51587fb9b9b26bb89bc188581cedb703e83176002417238ff937647d6ea30f9"
+  },
+  "scientific_outcomes_created": false
+}

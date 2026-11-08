@@ -1,0 +1,43 @@
+{
+  "complete": true,
+  "cases": [
+    {
+      "optimized": false,
+      "case": "intact",
+      "exit_code": 0,
+      "accepted_behavior": true
+    },
+    {
+      "optimized": false,
+      "case": "changed-summary",
+      "exit_code": 1,
+      "accepted_behavior": true
+    },
+    {
+      "optimized": false,
+      "case": "changed-guide",
+      "exit_code": 1,
+      "accepted_behavior": true
+    },
+    {
+      "optimized": true,
+      "case": "intact",
+      "exit_code": 0,
+      "accepted_behavior": true
+    },
+    {
+      "optimized": true,
+      "case": "changed-summary",
+      "exit_code": 1,
+      "accepted_behavior": true
+    },
+    {
+      "optimized": true,
+      "case": "changed-guide",
+      "exit_code": 1,
+      "accepted_behavior": true
+    }
+  ],
+  "live_guide_or_sources_modified": false,
+  "scope": "copied bundle integrity; not adversarial security or fresh installation"
+}

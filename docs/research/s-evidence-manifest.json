@@ -1,0 +1,40 @@
+{
+  "stage": "S reporting and claim traceability; no new science",
+  "hash_convention": "Tracked text CRLF to LF; local logs raw",
+  "files": {
+    "docs/COURSE_PROJECT_GUIDE_S.md": "70180ea15206d6d697fd2744834711da28bf4e6ab0deac56cec338c332f66b53",
+    "docs/COVERAGE_MC_T.md": "735ea8a0b646dc1c9f728fc1e033b05e87f4803f4be1d513328941a4b8e2deaa",
+    "docs/SUBMISSION_SYNTHESIS_S.md": "1d8cb8794dfa9aa2b3f119d78a27959f593073c51aeaf7f1fc9042a2780a18d1",
+    "docs/research/s-claim-map.json": "2c6377f9eb4a37b9be40d5a6d3e394419fe2993fd0969a33f827b1088f4d48b9",
+    "docs/research/s-controls-result.json": "cdee183e83a323a36310748f59aeccd95d8efa953823f41adf2593bb8a1fc96b",
+    "docs/research/s-guide-summary.json": "0349119bdb429b3dae82f443a00e15af2dcdd68920e3d1433b0163a92152ddb8",
+    "docs/research/s-independent-validation.json": "5b62467f160c8ab7c2466b10f38a9ad32e1efbaf00727106af6776a77ceafcb1",
+    "docs/research/s-registration.json": "48833ba130a26397120f0c47429cf4bfc47c8d48374c6c743463aa3f0e8154b2",
+    "docs/research/s-status.json": "e3ec276f496ae6ed3a6ceb6ca03c5a23859c25e3d7af07dfc2d36671a8b0ee21",
+    "docs/research/submission-synthesis-s-controls-v1.log": "cdee183e83a323a36310748f59aeccd95d8efa953823f41adf2593bb8a1fc96b",
+    "docs/research/submission-synthesis-s-v1-build.log": "a224b3543998e74e9502167969f8d7ce92c972f174b6007df831c51bc98f41fa",
+    "docs/research/submission-synthesis-s-v1-check.log": "f20ae40dd91c9548506d4105d4b4fa41cc67f666883c10e0a318301715129925",
+    "docs/templates/course-guide-s.md": "9ce7f033f450cf701b36d0aa86653541f5be54298a4db1532e07d62b38702b78",
+    "scripts/archive_course_synthesis.py": "4b01f5993038801e4341cff8f2dc5b404af9237eb6215bc23c1dcf4e94b7445c",
+    "scripts/build_course_synthesis.py": "71a013ee855ad47fdd78e4cf7acbb6eec967d5753b2f4c17ae20c5b81c12be88",
+    "scripts/check_course_synthesis.py": "49588c2897412e736a3f29d09396e301e2608a0d501df8710adde662f8ed1588",
+    "scripts/check_synthesis_controls.py": "08e40d496e4bf6b54ede94de9f4c712dd209bc748127fcbf9fcb566fbd96e1fc"
+  },
+  "local_files": {
+    "outputs/submission-synthesis-s-controls-v1/normal-changed-guide/stderr.log": "ecfd7fc4f3c67672965e8ccaaf20d221047bae7e892485449e032578ddc482fc",
+    "outputs/submission-synthesis-s-controls-v1/normal-changed-guide/stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/submission-synthesis-s-controls-v1/normal-changed-summary/stderr.log": "ed7eb79bf180e50a78b7f6c1c401eda3f4076e3b00a456059a60b6970a88785b",
+    "outputs/submission-synthesis-s-controls-v1/normal-changed-summary/stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/submission-synthesis-s-controls-v1/normal-intact/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/submission-synthesis-s-controls-v1/normal-intact/stdout.log": "2406cf314aec659ebf287994dd8825f3b8e655f0112fe118e17689da70ed4f6b",
+    "outputs/submission-synthesis-s-controls-v1/optimized-changed-guide/stderr.log": "ecfd7fc4f3c67672965e8ccaaf20d221047bae7e892485449e032578ddc482fc",
+    "outputs/submission-synthesis-s-controls-v1/optimized-changed-guide/stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/submission-synthesis-s-controls-v1/optimized-changed-summary/stderr.log": "ed7eb79bf180e50a78b7f6c1c401eda3f4076e3b00a456059a60b6970a88785b",
+    "outputs/submission-synthesis-s-controls-v1/optimized-changed-summary/stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/submission-synthesis-s-controls-v1/optimized-intact/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/submission-synthesis-s-controls-v1/optimized-intact/stdout.log": "2406cf314aec659ebf287994dd8825f3b8e655f0112fe118e17689da70ed4f6b"
+  },
+  "mutable_exclusions": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md"
+  ]
+}

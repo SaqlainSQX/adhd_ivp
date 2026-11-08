@@ -24,7 +24,14 @@ UCO full-K4 RMSE is1.7985pp/0.8272pp and coverage80.5%/88.5%, respectively.
 The error cases do NOT have equal total corruption counts. No human-error rate,
 new method gain or untouched-test confirmation is claimed. All inputs/main
 evidence remain unchanged. Review branch: `codex/directional-noise-r-v1`.
-No experiment job is pending; S is registered but not started.
+S is complete; see [COURSE_PROJECT_GUIDE_S.md](COURSE_PROJECT_GUIDE_S.md).
+The additive guide contains93 checked numeric claims from14 aggregate sources,
+16 verified local links, the pipeline, contribution, report structure, demo
+commands and viva questions. All341 prior manifest entries/main hashes checked;
+six copied-bundle controls pass under normal and optimized Python. No scientific
+outcomes or new figure were created. Historical reports/demos remain unchanged.
+Review branch: `codex/course-synthesis-s-v1`. No experiment job is pending.
+T is registered but not started.
 
 P is complete; see [AGGREGATE_INTEGRITY_P_RESULTS.md](AGGREGATE_INTEGRITY_P_RESULTS.md).
 The staged baseline showed an optimized-Python assertion bypass. The additive
@@ -44,13 +51,14 @@ actual processes and logs before any new job, never trust historical PIDs alone.
 
 ## Next concrete work
 
-Advance [SUBMISSION_SYNTHESIS_S.md](SUBMISSION_SYNTHESIS_S.md): additive course
-results guide through R plus a checked numeric claim map. Resolve every headline
-metric from accepted aggregate sources with exact selectors/units; preserve all
-losses and held-out/label-error limitations. This is reporting work with no new
-predictions, random draws, tuning or outcomes. Keep historical assessments and
-all sealed delivery files intact. Check process/log state before any computation;
-do not repeat completed Q/R experiments. No GPU/Kaggle work is needed.
+Advance [COVERAGE_MC_T.md](COVERAGE_MC_T.md): bounded Monte Carlo uncertainty
+assessment of existing normal-interval coverage. Before endpoints, pin the four
+source hashes and all74 selectors/counts/alpha in a new config. Validate exact
+binomial endpoints on toy/boundary cases, then calculate individual/family
+intervals and independently check tails/flags/counts. Primary: main M3/M4 at1032;
+preserve all74 cells. This does not create new predictions, query draws or labels,
+or fix the original intervals. Check process/log state first; do not repeat Q/R/S.
+No GPU/Kaggle work is needed. Keep the10-minute continuation active.
 
 ## Completed recent stages
 

@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "stage": "S course guide and checked claim map",
+  "scientific_outcomes_created": false,
+  "claims_checked": 93,
+  "aggregate_sources": 14,
+  "local_links_checked": 16,
+  "prior_manifest_entries_checked": 341,
+  "normal_and_optimized_integrity_controls": 6,
+  "main_evidence_unchanged": true,
+  "new_figure_created": false,
+  "scope": "this PC and accepted saved evidence",
+  "branch": "codex/course-synthesis-s-v1",
+  "next": "docs/COVERAGE_MC_T.md"
+}
