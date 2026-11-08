@@ -1,0 +1,24 @@
+{
+  "stage": "M descriptive interpretation, no new gain claimed",
+  "hash_convention": "Tracked text normalized CRLF to LF; PDF/PNG and local files raw bytes",
+  "files": {
+    "scripts/explain_transfer_variance.py": "829a893c326ba2b3dfc5949e198241c1707c74f1aca8ea1bbd4f545cc7c78f7f",
+    "scripts/report_transfer_variance.py": "ae4aa34be993dd65f4b66c2cf782e993654e2cd2d90dea8b78b9e351f4fbfc62",
+    "docs/VARIANCE_EXPLANATION_M_RESULTS.md": "f33fb9a9e2c90e7b8ac4b0489763ef2108904bc6ea806cc35c00e5971ecfdc8b",
+    "docs/TRANSFER_APPENDIX_N.md": "46c3eb9bffab560b95f881605548ac7f3e36b3c9c5514925bca4d162d251e869",
+    "docs/research/m-variance-result.json": "040d4e114942a9d42282da09c984e3476d8c929d22a13ceb60125fe4359357eb",
+    "docs/research/m-registration.json": "cb2a47706acd4a9fed8d4acdb0eb539463d37ce3721ebdec73c92d9b36a8e3aa",
+    "docs/research/m-independent-validation.json": "b4a5830d462e23dcbe8fd9800628b1d8a7d0d29d71025faad8c0945d717ca9f1",
+    "reports/course-project/variance-explanation-m.png": "08dea291d5df9edf3efc0abfa751c7b574c662f358934bcc63ca190b31a75dc9",
+    "reports/course-project/variance-explanation-m.pdf": "2bc6491e87614ad6528adf111a7e2dd8c59130f6ce72fc004cb39c3bbf84eac8"
+  },
+  "local_files": {
+    "outputs/variance-explanation-m-v1/result.json": "e6e41a4b61a6f02e0e56b3718c964a3e0016bfec09c3550120d819adc1c79195",
+    "outputs/variance-explanation-m-v1/registration.json": "b4fcc17ade56a1c0720a6fa12a9716f7e39cd4a58a2cd44b320c38b61a941a8e",
+    "outputs/variance-explanation-m-v1/independent-validation.json": "1ef76cad8114356cb2cf82fe45c999f96ed1d775f302ebc85b51d7a84d08cb27",
+    "outputs/variance-explanation-m-v1/review-status.json": "d7e2cd0c68be08184796fbdaa22709df2cd1acfa90feb5710c2307df45e3b3bd"
+  },
+  "mutable_exclusions": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md"
+  ]
+}

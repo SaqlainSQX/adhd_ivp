@@ -8,13 +8,13 @@ status changes are intentionally excluded from immutable scientific manifests.
 
 I and J's UCO metadata review are complete. See
 [UCO_CONTRACT_J_STATUS.md](UCO_CONTRACT_J_STATUS.md) and the prior I findings.
-L is complete and independently validated; read
-[UCO_TRANSFER_L_RESULTS.md](UCO_TRANSFER_L_RESULTS.md) and actual result/proof in
-outputs/experiments/uco-transfer-l-v1. Primary half/full RMSE ratio1.26948 is a
-loss; full-weight K4/uniform ratio0.74412 is a secondary gain. All12,000 method
-draws, exact intervals and12 bootstrap comparisons passed independent checks.
-Review branch:`codex/uco-evaluation-l-v1`; main remains59fb784. Earlier evidence
-and every prior loss are unchanged.
+L and M are complete; read [VARIANCE_EXPLANATION_M_RESULTS.md](VARIANCE_EXPLANATION_M_RESULTS.md)
+and the L results. M reproduces16 saved exact variances and96 independent
+stratum checks: primary exact half/full RMSE0.88910 ChildPlay versus1.30375 UCO.
+This is post-hoc explanation, not a new fitted policy/gain. The L primary
+Monte Carlo half/full ratio1.26948 remains a loss; full-weight allocation versus
+uniform0.74412 is a secondary gain. Branch:`codex/variance-explanation-m-v1`;
+main remains59fb784. Earlier evidence and every prior loss are unchanged.
 
 The local research service is available at http://127.0.0.1:8766. Treat recorded
 PIDs as historical; inspect actual process/listener state before reusing or
@@ -24,14 +24,15 @@ actual processes and logs before any new job, never trust historical PIDs alone.
 
 ## Next concrete work
 
-Advance [VARIANCE_DECOMPOSITION_M.md](VARIANCE_DECOMPOSITION_M.md): a descriptive
-post-hoc finite-population variance explanation on the locked ChildPlay D/UCO L
-K4 allocations. Reuse caches, compute A/B/C components and verify the algebra
-against saved exact variances; no fitted/optimal lambda or new stream/search.
-Afterwards integrate accepted UCO findings into an additive course/demo appendix
-without rewriting the original immutable explorer. Do not repeat completed
-inference/evaluation, hide UCO's half-weight loss, or treat inspected test labels
-as fresh confirmation. Keep geometry and backbone-family limitations explicit.
+Implement [TRANSFER_APPENDIX_N.md](TRANSFER_APPENDIX_N.md): a separate local
+aggregate-only course/demo appendix using tracked L/M evidence. Preserve both
+original explorers and all scientific manifests. Include every UCO budget,
+primary half-weight loss, secondary score-allocation gains, interval precision,
+M's post-hoc explanation and all exposure/geometry/indexing limitations. Provide
+a course walkthrough, verify provenance/export and desktop/mobile rendering.
+No raw-media/label access, GPU job, external publication or parameter search is
+needed. Do not repeat completed numerical experiments or call inspected labels
+new confirmation. Keep the standing continuation active across stage boundaries.
 
 ## Completed recent stages
 

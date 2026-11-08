@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "budget_cells_checked": 8,
+  "per_stratum_dot_product_checks": 96,
+  "fixed_weight_variance_checks": 16,
+  "saved_variances_reproduced": true,
+  "independent_centered_dot_product_formula": true,
+  "new_weights_or_queries_selected": false
+}

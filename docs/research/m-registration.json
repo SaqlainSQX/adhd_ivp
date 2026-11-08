@@ -1,0 +1,18 @@
+{
+  "stage": "M-post-hoc-descriptive-no-weight-selection",
+  "protocol_sha256": "b59ae71d402b23671b6a4e29628566d7f64a2c2866bba6d5a9f686e6a6319c4e",
+  "implementation_sha256": "829a893c326ba2b3dfc5949e198241c1707c74f1aca8ea1bbd4f545cc7c78f7f",
+  "input_sha256": {
+    "outputs/experiments/timed-d-20261108-v1/population_index.csv": "5d432dcd9b6e328e91dcb47925593617855b9332d40849ce7ce9718f8b100271",
+    "outputs/experiments/timed-d-20261108-v1/K4-training.json": "c2531d8581b13524444d048816554724bcc14bc70c9909dea87751fb83ba89fe",
+    "outputs/experiments/timed-d-20261108-v1/query-manifest.json": "9cb4303e5ac0ba9f27803d5f5f0db97ee8f44e06976b95ef3c6af2b19ee1e7de",
+    "outputs/experiments/timed-d-20261108-v1/result.json": "620b1555fbfefdd4fbd34cf976d398006ae0fe651e87f5e86600d3c76131ce27",
+    "outputs/experiments/timed-d-20261108-v1/posthoc-exact-design-variance.json": "27414e96a5a9737e287578d2454ad7b8775354ccf011bd48928a344aa53167d7",
+    "outputs/experiments/uco-transfer-l-v1/scores-population-order.csv": "a7dd219c5208f373231e96d030cbbd878d99b6a7a39b35eef80ace992600b944",
+    "outputs/experiments/uco-transfer-l-v1/query-manifest.json": "5e0274f5d0fdfb91059db0f9fa925bfb3ccef7c58a3505b39f87ed6901583206",
+    "outputs/experiments/uco-transfer-l-v1/result.json": "d0e7810888f9b5e264e801772c40c40e87d47651d829da217c96c9aada574000",
+    "data/processed/uco-eligible-k4-v2/oracle.csv": "9332144eee933c3013df9e929edcc6fa25ad133568713edab48756f1e29da520",
+    "data/processed/vsgaze-17357752-v1/oracle/oracle_labels.csv": "7ce136e6ed8f1f2b43f08ff3f3e4d9f0efe0624bdb2c2bfb8a4fbf3be10f182e",
+    "outputs/experiments/course-20261107-v1/features/features-static.csv": "a149f032b9375be4fa562910342b2bec1a334c85ff81496feea33d4ae55aad68"
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "complete": true,
+  "designation": "post-hoc finite-population explanation",
+  "no_new_weight_selected_or_evaluated": true,
+  "no_new_queries_or_inference": true,
+  "budgets_explained": 8,
+  "fixed_weight_checks": 16,
+  "max_saved_vs_algebra_variance_difference": 1.3552527156068805e-19,
+  "rows": [
+    {
+      "dataset": "ChildPlay",
+      "budget": 516,
+      "population_size": 10316,
+      "strata": [
+        {
+          "stratum": 0,
+          "size": 2140,
+          "labels": 20,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 8.619840127284845e-12
+        },
+        {
+          "stratum": 1,
+          "size": 3891,
+          "labels": 52,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 5.319546742270593e-10
+        },
+        {
+          "stratum": 2,
+          "size": 2174,
+          "labels": 40,
+          "A": 5.013162205368894e-07,
+          "B": 6.4386852249730165e-09,
+          "C": 2.7711976995182844e-08
+        },
+        {
+          "stratum": 3,
+          "size": 2111,
+          "labels": 404,
+          "A": 1.1913665816544452e-05,
+          "B": 5.1676712469383666e-06,
+          "C": 1.0396716755854587e-05
+        }
+      ],
+      "A": 1.2414982037081342e-05,
+      "B": 5.1741099321633395e-06,
+      "C": 1.0424969307364124e-05,
+      "half_minus_full_variance": -2.6446170483597536e-06,
+      "B_minus_three_quarters_C": -2.6446170483597536e-06,
+      "fixed_weight_variances": {
+        "K4": 1.2491731480118787e-05,
+        "power-score": 9.847114431759033e-06
+      },
+      "exact_RMSE_ratio_half_over_full": 0.8878573051210343,
+      "exact_MSE_ratio_half_over_full": 0.7882905942567855,
+      "MC_RMSE_ratio_half_over_full": 0.9032193203253793,
+      "MC_MSE_ratio_half_over_full": 0.8158051406090402
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 1032,
+      "population_size": 10316,
+      "strata": [
+        {
+          "stratum": 0,
+          "size": 2140,
+          "labels": 20,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 8.619840127284845e-12
+        },
+        {
+          "stratum": 1,
+          "size": 3891,
+          "labels": 105,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 2.598071934021251e-10
+        },
+        {
+          "stratum": 2,
+          "size": 2174,
+          "labels": 82,
+          "A": 2.397315320737817e-07,
+          "B": 3.0790064440175446e-09,
+          "C": 1.325198433582246e-08
+        },
+        {
+          "stratum": 3,
+          "size": 2111,
+          "labels": 825,
+          "A": 4.3952165542885955e-06,
+          "B": 1.9064689711308849e-06,
+          "C": 3.835580273883805e-06
+        }
+      ],
+      "A": 4.634948086362377e-06,
+      "B": 1.9095479775749024e-06,
+      "C": 3.849100685253157e-06,
+      "half_minus_full_variance": -9.77277536364965e-07,
+      "B_minus_three_quarters_C": -9.77277536364965e-07,
+      "fixed_weight_variances": {
+        "K4": 4.664952816465729e-06,
+        "power-score": 3.6876752801007643e-06
+      },
+      "exact_RMSE_ratio_half_over_full": 0.889104295232226,
+      "exact_MSE_ratio_half_over_full": 0.7905064478003934,
+      "MC_RMSE_ratio_half_over_full": 0.8946773418634837,
+      "MC_MSE_ratio_half_over_full": 0.8004475460439089
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 2063,
+      "population_size": 10316,
+      "strata": [
+        {
+          "stratum": 0,
+          "size": 2140,
+          "labels": 20,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 8.619840127284845e-12
+        },
+        {
+          "stratum": 1,
+          "size": 3891,
+          "labels": 212,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 1.250413885507604e-10
+        },
+        {
+          "stratum": 2,
+          "size": 2174,
+          "labels": 166,
+          "A": 1.1366662197107916e-07,
+          "B": 1.459884139942618e-09,
+          "C": 6.283313174684924e-09
+        },
+        {
+          "stratum": 3,
+          "size": 2111,
+          "labels": 1665,
+          "A": 7.552902503516683e-07,
+          "B": 3.2761467124711446e-07,
+          "C": 6.591202844098591e-07
+        }
+      ],
+      "A": 8.689568723227474e-07,
+      "B": 3.290745553870571e-07,
+      "C": 6.65537258813222e-07,
+      "half_minus_full_variance": -1.7007838872285943e-07,
+      "B_minus_three_quarters_C": -1.7007838872285943e-07,
+      "fixed_weight_variances": {
+        "K4": 8.763450203618553e-07,
+        "power-score": 7.062666316389958e-07
+      },
+      "exact_RMSE_ratio_half_over_full": 0.8977321578017031,
+      "exact_MSE_ratio_half_over_full": 0.805923027151302,
+      "MC_RMSE_ratio_half_over_full": 0.8910397971786643,
+      "MC_MSE_ratio_half_over_full": 0.7939519201561953
+    },
+    {
+      "dataset": "ChildPlay",
+      "budget": 4126,
+      "population_size": 10316,
+      "strata": [
+        {
+          "stratum": 0,
+          "size": 2140,
+          "labels": 97,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 1.71273423264374e-12
+        },
+        {
+          "stratum": 1,
+          "size": 3891,
+          "labels": 1074,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 1.889915672374444e-11
+        },
+        {
+          "stratum": 2,
+          "size": 2174,
+          "labels": 844,
+          "A": 1.4807663185395184e-08,
+          "B": 1.9018311848372577e-10,
+          "C": 8.185444730007327e-10
+        },
+        {
+          "stratum": 3,
+          "size": 2111,
+          "labels": 2111,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 0.0
+        }
+      ],
+      "A": 1.4807663185395184e-08,
+      "B": 1.9018311848372577e-10,
+      "C": 8.391563639571209e-10,
+      "half_minus_full_variance": -4.391841544841161e-10,
+      "B_minus_three_quarters_C": -4.3918415448411493e-10,
+      "fixed_weight_variances": {
+        "K4": 1.5266453312384856e-08,
+        "power-score": 1.482726915790074e-08
+      },
+      "exact_RMSE_ratio_half_over_full": 0.9855110739749553,
+      "exact_MSE_ratio_half_over_full": 0.9712320769272698,
+      "MC_RMSE_ratio_half_over_full": 0.9853201298476075,
+      "MC_MSE_ratio_half_over_full": 0.9708557582829062
+    },
+    {
+      "dataset": "UCO",
+      "budget": 260,
+      "population_size": 5219,
+      "strata": [
+        {
+          "stratum": 0,
+          "size": 376,
+          "labels": 20,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 9.385880213403842e-13
+        },
+        {
+          "stratum": 1,
+          "size": 835,
+          "labels": 20,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 2.740891393996086e-10
+        },
+        {
+          "stratum": 2,
+          "size": 1218,
+          "labels": 20,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 8.167973318611691e-08
+        },
+        {
+          "stratum": 3,
+          "size": 2790,
+          "labels": 200,
+          "A": 0.00033154082546272824,
+          "B": 0.00022565699817855015,
+          "C": 0.00021325139225370307
+        }
+      ],
+      "A": 0.00033154082546272824,
+      "B": 0.00022565699817855015,
+      "C": 0.0002133333470146166,
+      "half_minus_full_variance": 6.56569879175877e-05,
+      "B_minus_three_quarters_C": 6.56569879175877e-05,
+      "fixed_weight_variances": {
+        "K4": 9.356017612024455e-05,
+        "power-score": 0.00015921716403783224
+      },
+      "exact_RMSE_ratio_half_over_full": 1.3045160497354682,
+      "exact_MSE_ratio_half_over_full": 1.7017621240174305,
+      "MC_RMSE_ratio_half_over_full": 1.3513970665145858,
+      "MC_MSE_ratio_half_over_full": 1.8262740313842278
+    },
+    {
+      "dataset": "UCO",
+      "budget": 521,
+      "population_size": 5219,
+      "strata": [
+        {
+          "stratum": 0,
+          "size": 376,
+          "labels": 20,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 9.385880213403842e-13
+        },
+        {
+          "stratum": 1,
+          "size": 835,
+          "labels": 20,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 2.740891393996086e-10
+        },
+        {
+          "stratum": 2,
+          "size": 1218,
+          "labels": 20,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 8.167973318611691e-08
+        },
+        {
+          "stratum": 3,
+          "size": 2790,
+          "labels": 461,
+          "A": 0.0001293408793210486,
+          "B": 8.80334255325159e-05,
+          "C": 8.319374409482063e-05
+        }
+      ],
+      "A": 0.0001293408793210486,
+      "B": 8.80334255325159e-05,
+      "C": 8.327569885573417e-05,
+      "half_minus_full_variance": 2.5576651390715266e-05,
+      "B_minus_three_quarters_C": 2.557665139071528e-05,
+      "fixed_weight_variances": {
+        "K4": 3.654972711175097e-05,
+        "power-score": 6.212637850246623e-05
+      },
+      "exact_RMSE_ratio_half_over_full": 1.3037548882074612,
+      "exact_MSE_ratio_half_over_full": 1.6997768085248497,
+      "MC_RMSE_ratio_half_over_full": 1.269481241216139,
+      "MC_MSE_ratio_half_over_full": 1.6115826217996687
+    },
+    {
+      "dataset": "UCO",
+      "budget": 1043,
+      "population_size": 5219,
+      "strata": [
+        {
+          "stratum": 0,
+          "size": 376,
+          "labels": 20,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 9.385880213403842e-13
+        },
+        {
+          "stratum": 1,
+          "size": 835,
+          "labels": 20,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 2.740891393996086e-10
+        },
+        {
+          "stratum": 2,
+          "size": 1218,
+          "labels": 41,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 3.914534222079873e-08
+        },
+        {
+          "stratum": 3,
+          "size": 2790,
+          "labels": 962,
+          "A": 4.864837805295171e-05,
+          "B": 3.311159928000623e-05,
+          "C": 3.129127260932975e-05
+        }
+      ],
+      "A": 4.864837805295171e-05,
+      "B": 3.311159928000623e-05,
+      "C": 3.133069297927797e-05,
+      "half_minus_full_variance": 9.613579545547753e-06,
+      "B_minus_three_quarters_C": 9.613579545547753e-06,
+      "fixed_weight_variances": {
+        "K4": 1.375587247221722e-05,
+        "power-score": 2.3369452017764974e-05
+      },
+      "exact_RMSE_ratio_half_over_full": 1.3034074349491653,
+      "exact_MSE_ratio_half_over_full": 1.6988709414807626,
+      "MC_RMSE_ratio_half_over_full": 1.3387609940989382,
+      "MC_MSE_ratio_half_over_full": 1.7922809993207773
+    },
+    {
+      "dataset": "UCO",
+      "budget": 2087,
+      "population_size": 5219,
+      "strata": [
+        {
+          "stratum": 0,
+          "size": 376,
+          "labels": 20,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 9.385880213403842e-13
+        },
+        {
+          "stratum": 1,
+          "size": 835,
+          "labels": 40,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 1.3368151277465572e-10
+        },
+        {
+          "stratum": 2,
+          "size": 1218,
+          "labels": 83,
+          "A": 0.0,
+          "B": 0.0,
+          "C": 1.8646840550765873e-08
+        },
+        {
+          "stratum": 3,
+          "size": 2790,
+          "labels": 1944,
+          "A": 1.1141440581115564e-05,
+          "B": 7.5832110070011845e-06,
+          "C": 7.166320203005894e-06
+        }
+      ],
+      "A": 1.1141440581115564e-05,
+      "B": 7.5832110070011845e-06,
+      "C": 7.185101663657456e-06,
+      "half_minus_full_variance": 2.1943847592580926e-06,
+      "B_minus_three_quarters_C": 2.1943847592580926e-06,
+      "fixed_weight_variances": {
+        "K4": 3.1601202307706504e-06,
+        "power-score": 5.354504990028743e-06
+      },
+      "exact_RMSE_ratio_half_over_full": 1.3016908759105321,
+      "exact_MSE_ratio_half_over_full": 1.694399136428728,
+      "MC_RMSE_ratio_half_over_full": 1.2995673411595927,
+      "MC_MSE_ratio_half_over_full": 1.6888752742086133
+    }
+  ]
+}
