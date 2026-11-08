@@ -1,0 +1,17 @@
+{
+  "designation": "exploratory uniform block pilot after repeated test inspection",
+  "main": "outputs/experiments/course-20261107-v1",
+  "processed": "data/processed/vsgaze-17357752-v1",
+  "output": "outputs/experiments/block-g-20261108-v1",
+  "protocol": "docs/X01_BLOCK_PILOT_G.md",
+  "main_result_sha256": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9",
+  "lengths": [1, 2, 5, 10],
+  "weights": [1, 0.5],
+  "budgets": [516, 1032, 2063, 4126],
+  "draws": 1000,
+  "seed_start": 200000,
+  "bootstrap_seed": 400007,
+  "bootstrap_resamples": 2000,
+  "budget_contract": "equal expected unique-frame label cost; variable realized cost",
+  "replace_main": false
+}
