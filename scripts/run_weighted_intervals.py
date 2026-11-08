@@ -1,5 +1,6 @@
 """Run the registered F interval extension on immutable saved query streams."""
 
+import argparse
 import json
 import time
 from datetime import datetime, timezone
@@ -14,7 +15,9 @@ from gaze_audit.strengthening import write_json
 from gaze_audit.weighted_intervals import public_error_allocation, weighted_binary_totals
 
 started = time.monotonic()
-config_path = Path("configs/weighted-intervals-f-v1.json")
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--config", type=Path, default=Path("configs/weighted-intervals-f-v2.json"))
+config_path = parser.parse_args().config
 cfg = json.loads(config_path.read_text())
 main, previous, out = [Path(cfg[k]) for k in ["main", "input", "output"]]
 if out.exists():
@@ -74,7 +77,7 @@ point_d = pd.read_csv(previous / "draw-results.csv")
 exact_main = pd.read_csv(
     "outputs/experiments/strengthening-20261107-v1/B2b-exact-reference-v2/interval-draws.csv"
 )
-summaries, rows, primary = {}, {}, {}
+summaries, rows, primary = {}, [], {}
 for entry in designs:
     name, budget = entry["design"], entry["budget"]
     saved = np.load(entry["file"])
