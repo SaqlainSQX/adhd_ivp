@@ -1,0 +1,1185 @@
+{
+  "status": "passed",
+  "domain_method_draws": 168000,
+  "saved_summary_checks": [
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "all",
+      "source": "all",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "source",
+      "source": "S01",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S01",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "source",
+      "source": "S02",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S02",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "source",
+      "source": "S03",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S03",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "source",
+      "source": "S04",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S04",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "source",
+      "source": "S05",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S05",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "source",
+      "source": "S06",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S06",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "source",
+      "source": "S07",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S07",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "source",
+      "source": "S08",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S08",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "source",
+      "source": "S09",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S09",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "source",
+      "source": "S10",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S10",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "all",
+      "source": "all",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "source",
+      "source": "S01",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S01",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "source",
+      "source": "S02",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S02",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "source",
+      "source": "S03",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S03",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "source",
+      "source": "S04",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S04",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "source",
+      "source": "S05",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S05",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "source",
+      "source": "S06",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S06",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "source",
+      "source": "S07",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S07",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "source",
+      "source": "S08",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S08",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "source",
+      "source": "S09",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S09",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "source",
+      "source": "S10",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 516,
+      "kind": "leave-out",
+      "source": "S10",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "all",
+      "source": "all",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S01",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S01",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S02",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S02",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S03",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S03",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S04",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S04",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S05",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S05",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S06",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S06",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S07",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S07",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S08",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S08",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S09",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S09",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S10",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S10",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "all",
+      "source": "all",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S01",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S01",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S02",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S02",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S03",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S03",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S04",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S04",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S05",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S05",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S06",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S06",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S07",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S07",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S08",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S08",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S09",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S09",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "source",
+      "source": "S10",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 1032,
+      "kind": "leave-out",
+      "source": "S10",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "all",
+      "source": "all",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S01",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S01",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S02",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S02",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S03",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S03",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S04",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S04",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S05",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S05",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S06",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S06",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S07",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S07",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S08",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S08",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S09",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S09",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S10",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S10",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "all",
+      "source": "all",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S01",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S01",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S02",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S02",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S03",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S03",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S04",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S04",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S05",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S05",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S06",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S06",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S07",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S07",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S08",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S08",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S09",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S09",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "source",
+      "source": "S10",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 2063,
+      "kind": "leave-out",
+      "source": "S10",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "all",
+      "source": "all",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S01",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S01",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S02",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S02",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S03",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S03",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S04",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S04",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S05",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S05",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S06",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S06",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S07",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S07",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S08",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S08",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S09",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S09",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S10",
+      "status": "passed"
+    },
+    {
+      "policy": "K4",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S10",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "all",
+      "source": "all",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S01",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S01",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S02",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S02",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S03",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S03",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S04",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S04",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S05",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S05",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S06",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S06",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S07",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S07",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S08",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S08",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S09",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S09",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "source",
+      "source": "S10",
+      "status": "passed"
+    },
+    {
+      "policy": "power-score",
+      "budget": 4126,
+      "kind": "leave-out",
+      "source": "S10",
+      "status": "passed"
+    }
+  ],
+  "source_complements": "all8000 full-population draw totals passed",
+  "runner_independent_points_and_variances": "all168000 cases passed",
+  "result_sha256": "ed14b7e21cda2ad42a919117833f0dee55910059706c6eb894fda534233a0d0d"
+}

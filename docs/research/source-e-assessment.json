@@ -1,0 +1,15 @@
+{
+  "leave_out_b1032": {
+    "improved": 10,
+    "gain_at_least_10pct": 8,
+    "total": 10,
+    "mean_ratio": 0.8922869400976845,
+    "worst_ratio": 0.9876369113433361,
+    "best_ratio": 0.8559698896445251
+  },
+  "scope": "Frozen-corpus source sensitivity; not unseen-source generalization or cross-validation",
+  "positive_sources": {
+    "total": 6,
+    "improved": 3
+  }
+}

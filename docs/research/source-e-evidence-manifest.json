@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "checked_utc": "2026-11-08T05:50:30.447305+00:00",
+  "hash_convention": "Tracked text normalized CRLF to LF; PNG and raw files use original bytes",
+  "files": {
+    "docs/SOURCE_STRESS_E.md": "79ee7ece1fcb4fd693c3fd9fb95e8fa49d3949e7cd0df46f24c1730ecbb15670",
+    "docs/SOURCE_STRESS_E_STATUS.md": "90f7187673c2b0d7f732267ca3e6aee4f59d6a2aab618cfabf79dcf944983646",
+    "configs/source-stress-e-v1.json": "6c8c9074bd910bfdb42f226c8fba781d51fdeb8c9cad42d6d09ee2436d65fe83",
+    "src/gaze_audit/source_stress.py": "89146ccf0f216527012051b225bfbb81d52427a15741b307d709de38dfa91875",
+    "scripts/run_source_stress.py": "d6ef5b889e51353581984e73afa53cd338ca0cadc9e79f8a65f510e295bf0316",
+    "scripts/report_source_stress.py": "a00e651c5cd86951729f6bcb4a90392634ef92048e3c8f8b695ee3a2888105ef",
+    "tests/test_source_domains.py": "d776b2ca42f2325f01581438428627ea42ecb7bf53257bdd8e7376bb8474239d",
+    "docs/research/source-e-assessment.json": "30889f6e2820823994f3bc7b82cff453b0c6a56d9d603ae26836203cec683c47",
+    "docs/research/source-e-registration.json": "4c5e2412f848217d21de84b64a29f4ade3011d2de87ca427e45da70e0d9f47b8",
+    "docs/research/source-e-result.json": "a7ff0469af59cdf9e6b499f9c84da1342406dc336a2abd2752d33e204a18e6e9",
+    "docs/research/source-e-saved-output-validation-v2.json": "343dd6cb387b622041d7074a971cef8e0551f2129519d21b290953fa11ecf02c",
+    "docs/research/source-e-saved-output-validation.json": "343dd6cb387b622041d7074a971cef8e0551f2129519d21b290953fa11ecf02c",
+    "reports/course-project/source-e/results.md": "3a949b83c38c88a8b5d65f35fb2d0a2c381e2995c31214e356049813dd164cd6",
+    "reports/course-project/source-e/source-sensitivity.png": "e971939c17b151e23de55e39fa8d5280d13c742a206c2390a0743960fe8d7062",
+    "reports/course-project/source-e/source-sensitivity.svg": "c15b7ba0e33fe607aa71a15fef56727fee3cbd91464d19217176e343b15b90fa"
+  },
+  "raw_files": {
+    "outputs/experiments/source-stress-e-20261108-v1/domain-draw-results.csv": "367e813d70e35f8fa405e725088960773bef4a59d98ea05e29e54ee224333d4b",
+    "outputs/experiments/source-stress-e-20261108-v1/registration.json": "bd1eab2c650d4abf3b84027e1469b6794f00142d8a733bab77ca5890a4641082",
+    "outputs/experiments/source-stress-e-20261108-v1/result.json": "ed14b7e21cda2ad42a919117833f0dee55910059706c6eb894fda534233a0d0d",
+    "outputs/experiments/source-stress-e-20261108-v1/saved-output-validation-v2.json": "dae1cc4b2b9e25717e13b9f29145e962561a57f8225818223464b690850d53e0",
+    "outputs/experiments/source-stress-e-20261108-v1/saved-output-validation.json": "dae1cc4b2b9e25717e13b9f29145e962561a57f8225818223464b690850d53e0",
+    "outputs/experiments/source-stress-e-20261108-v1/source-alias-map.json": "1bcf8c79c850873d90e9788c565fb763836f714d2c34019297ab9776c3f53e16",
+    "outputs/experiments/source-stress-e-20261108-v1/status.json": "61c4ec3fe1c8434e15b9870f70894f1f897028994e91354e8887ef6661357f89",
+    "outputs/experiments/source-stress-e-20261108-v1/logs/source-e-report-v1.log": "ac34caa19cfe28d4d07c7da644fb857bcf2a3792c26d9d96c27b9a7afa0105b5",
+    "outputs/experiments/source-stress-e-20261108-v1/logs/source-e-report-v2.log": "d265b6e8e2dc3dba35dbecbe2b062d732beff39abaa83a8d6e3053460109cc2a",
+    "outputs/experiments/source-stress-e-20261108-v1/logs/source-e-run-v1.log": "a5bd259ca96d7ff7d6a64eb7751ccd9639a9fbab0a9c650c18c5d45547662dcf",
+    "outputs/experiments/source-stress-e-20261108-v1/logs/source-e-tests.log": "e3fe7a01a8632d61ff83bec460cdef05c9e661f4c571cb6a5e7b93cb5a71b329"
+  },
+  "prior_D_delivery_files_checked": 24,
+  "figure_visual_review": "passed",
+  "tests": 50
+}
