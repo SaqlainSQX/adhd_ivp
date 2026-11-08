@@ -1,0 +1,133 @@
+{
+  "protocol": "docs/ASYMMETRIC_NOISE_R.md",
+  "datasets": {
+    "ChildPlay": 1,
+    "UCO": 2
+  },
+  "draws": 1000,
+  "cases": [
+    {
+      "name": "clean",
+      "a": 0,
+      "b": 0
+    },
+    {
+      "name": "false-positive",
+      "a": 0.02,
+      "b": 0
+    },
+    {
+      "name": "false-negative",
+      "a": 0,
+      "b": 0.02
+    }
+  ],
+  "weights": {
+    "uniform": 1.0,
+    "K4": 1.0,
+    "power-score": 0.5
+  },
+  "noise_seed_definition": "default_rng(SeedSequence([810000+draw,1,dataset_code,92])).random(N)",
+  "primary": "full K4 signed bias versus clean reference for both directional cases/corpora",
+  "secondary": "all RMSE/normal coverage-width/naive binary clean-target coverage-width/flips",
+  "expected_method_case_draws": 18000,
+  "budgets": {
+    "ChildPlay": 1032,
+    "UCO": 521
+  },
+  "input_sha256": {
+    "outputs/experiments/timed-d-20261108-v1/population_index.csv": "5d432dcd9b6e328e91dcb47925593617855b9332d40849ce7ce9718f8b100271",
+    "outputs/experiments/timed-d-20261108-v1/K4-training.json": "c2531d8581b13524444d048816554724bcc14bc70c9909dea87751fb83ba89fe",
+    "outputs/experiments/timed-d-20261108-v1/query-manifest.json": "9cb4303e5ac0ba9f27803d5f5f0db97ee8f44e06976b95ef3c6af2b19ee1e7de",
+    "outputs/experiments/timed-d-20261108-v1/draw-results.csv": "222112a3e5ea1f8204abab65f7803b7b243130d1e52f3e865318a45b1282e820",
+    "outputs/experiments/course-20261107-v1/features/features-static.csv": "a149f032b9375be4fa562910342b2bec1a334c85ff81496feea33d4ae55aad68",
+    "outputs/experiments/course-20261107-v1/evaluation/draw-results.csv": "0138e13432f6ae91128ed6cfd079ed7722d27f465d5f3784d1a506d17385a1f9",
+    "data/processed/vsgaze-17357752-v1/oracle/oracle_labels.csv": "7ce136e6ed8f1f2b43f08ff3f3e4d9f0efe0624bdb2c2bfb8a4fbf3be10f182e",
+    "outputs/experiments/uco-transfer-l-v1/scores-population-order.csv": "a7dd219c5208f373231e96d030cbbd878d99b6a7a39b35eef80ace992600b944",
+    "outputs/experiments/uco-transfer-l-v1/query-manifest.json": "5e0274f5d0fdfb91059db0f9fa925bfb3ccef7c58a3505b39f87ed6901583206",
+    "outputs/experiments/uco-transfer-l-v1/draw-results.csv": "9706d418b9aa44f883b68d62bf64e8091b7ee766790b527d8c76de563c081dc5",
+    "data/processed/uco-eligible-k4-v2/oracle.csv": "9332144eee933c3013df9e929edcc6fa25ad133568713edab48756f1e29da520",
+    "outputs/experiments/timed-d-20261108-v1/queries-K4-b1032.npz": "ef3c36d426019892f5b9e8da40f3be3b41445c27342ed291b90f7579fcdcd2e9",
+    "outputs/experiments/timed-d-20261108-v1/queries-power-uniform-b1032.npz": "8b0082959b8da96165e1b108e1c11eb29be5bb59e120e5ae4c56c7512925323e",
+    "outputs/experiments/uco-transfer-l-v1/queries-K4-b521.npz": "682d682bf7d6609c852c74647cef027362047950c57e6bfe547f98c7a6045e82",
+    "outputs/experiments/uco-transfer-l-v1/queries-uniform-b521.npz": "22d90717614168cac1593a21d3344e236309a74be5032ef3f2d3b081f8326b2b",
+    "outputs/experiments/course-20261107-v1/evaluation/query-manifest.json": "eb5c84ee677518b73d3599b9bc56fa48a7104e6250722b57aab39f639218be3d",
+    "outputs/experiments/course-20261107-v1/evaluation/queries-uniform-b1032.npz": "8b0082959b8da96165e1b108e1c11eb29be5bb59e120e5ae4c56c7512925323e",
+    "configs/query-noise-q-v2.json": "30fca6b52a4f7a4288a17a2c5142d895660aef5074bab678358e46fa7023336e",
+    "docs/ASYMMETRIC_NOISE_R.md": "880eeeccd69e206617541a651ab8f23329e5dbb2a2c6b541c012fada859583d4",
+    "outputs/query-noise-q-v2/result.json": "a942fc3dba219d50affb6dc8f39dbe96cfeb97d7b0bb0cb314039238abd40d58",
+    "outputs/query-noise-q-v2/draw-results.csv": "34b4927c6fcd3432bb33c6296cfc42d08f5f9b52f91ce95b64ddc1780c97f0f6",
+    "outputs/query-noise-q-v2/independent-validation.json": "c291bf9f03ad8c6945440c61e122ac388d28eca83616559c9a4faa304b223ad6",
+    "scripts/run_query_noise_v2.py": "208dfb2de8330b8e73e6a242951744f18566a51b8e8969531ea4bb6a411dd088",
+    "src/gaze_audit/exact_intervals.py": "58f9994e1ec7841de2c8aa6d3c324702864096395beedbec425b528eeca58017",
+    "src/gaze_audit/strengthening.py": "1fb6dbfacacbb2aa1881792127b2679bd49034051bcf9db1bcf1b7ce6b37316b"
+  },
+  "toy": {
+    "y": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "q": [
+      0.1,
+      0.2,
+      0.3,
+      0.7
+    ],
+    "etas": [
+      0,
+      0.01,
+      0.02,
+      0.05
+    ],
+    "weights": [
+      1.0,
+      0.5
+    ],
+    "designs": [
+      {
+        "populations": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "counts": [
+          2
+        ]
+      },
+      {
+        "populations": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "counts": [
+          1,
+          1
+        ]
+      },
+      {
+        "populations": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "counts": [
+          4
+        ]
+      }
+    ]
+  }
+}
