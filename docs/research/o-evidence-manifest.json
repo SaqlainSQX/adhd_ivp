@@ -1,0 +1,28 @@
+{
+  "stage": "O scoped source-only reproduction",
+  "hash_convention": "Tracked text normalized CRLF to LF; local evidence raw bytes",
+  "files": {
+    "scripts/reproduce_transfer_appendix.py": "04599e7695287a1afda8e79c7dac5cbb21d5cb7294f9cf64bcf0dbfe2bd52111",
+    "docs/TEAM_QUICKSTART.md": "3a4c9e440f6664af26e20c213c111d9a7088b4d57e9e073d4282a018b67bc569",
+    "docs/TEAM_REPRODUCTION_O_STATUS.md": "09b19d275c4db10ab59b630f91127045da19c7ec47967b740390c0187b4d53c2",
+    "docs/AGGREGATE_INTEGRITY_P.md": "778cfa2709f65199a3659021ba12b65e671586c2a95edbf8ddd1e0ef5b09e616",
+    "docs/research/o-registration.json": "ebe0ccf4298f814e450bea8ce045a8d0cd9a0da405071c8d7a627ae349aac5f6",
+    "docs/research/o-reproduction-result.json": "2bda494cf77a7f23f8caafef469acf1fc13cbe3d1c06d47aaa5b8874a622d3ce",
+    "docs/research/o-independent-validation.json": "fa557f98c0be252f9d598fd81f0ef97a7b0ad67d7a7297cdcd5b4f3d9c677c0b"
+  },
+  "local_files": {
+    "outputs/team-reproduction-o-v1/registration.json": "a8847408d32ba1bbb25dd3230f3931f727cfd156249ffbb1eb632702993b494b",
+    "outputs/team-reproduction-o-v1/result.json": "f221d7ec52cbd4924c3f7a930f91058f4aac7cb158e7ff102699940e2ae31388",
+    "outputs/team-reproduction-o-v1/independent-validation.json": "7f99a3c86fa70ebafe91080c3f9b32f77ccf5808529e86d2c9b663b55bd36acd",
+    "outputs/team-reproduction-o-v1/success-stdout.log": "732f0d9b85c8d09d3524ba3dc1f7dc72ed67a3a7a4c797fa022618ba62e37b58",
+    "outputs/team-reproduction-o-v1/success-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/team-reproduction-o-v1/tampered-stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/team-reproduction-o-v1/tampered-stderr.log": "3774e2adc1d7d4d8fc4503375ac8d1006daa72bcf55de6d33af7f9eae6095e66",
+    "outputs/team-reproduction-o-v1/missing-stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/team-reproduction-o-v1/missing-stderr.log": "2a145da2d755975efbe933bdc6219493d7d5fd6083a65fe7bdd468f237ecf03a",
+    "outputs/team-reproduction-o-v1/success-tree/child-proof.json": "846cc802a638849924332b4323295dd99a21174242127201254147deb97e86df"
+  },
+  "mutable_exclusions": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md"
+  ]
+}

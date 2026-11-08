@@ -8,13 +8,15 @@ status changes are intentionally excluded from immutable scientific manifests.
 
 I and J's UCO metadata review are complete. See
 [UCO_CONTRACT_J_STATUS.md](UCO_CONTRACT_J_STATUS.md) and the prior I findings.
-N's separate transfer appendix is delivered at http://127.0.0.1:8768; see
-[TRANSFER_APPENDIX_N_STATUS.md](TRANSFER_APPENDIX_N_STATUS.md) and guide.83 tests
-passed; desktop/mobile views and11 live HTTP cases were checked. The JSON
-endpoint/export payload is verified, but the in-app browser's physical download
-capture timed out and is not claimed as passed. Do not repeat its downloadMedia
-or waitForEvent(download) helpers. Branch:`codex/transfer-appendix-n-v1`;
-main remains59fb784. L/M results and every prior loss remain unchanged.
+O source-only reproduction is accepted; see
+[TEAM_REPRODUCTION_O_STATUS.md](TEAM_REPRODUCTION_O_STATUS.md) and TEAM_QUICKSTART.md.
+The appendix JSON/JS rebuilt identically from13 tracked inputs with Python-I-S,
+no raw/model directories or scientific packages. Missing/changed sources failed
+as registered. This is scoped Windows/Python3.13 evidence, not a fresh-runtime
+or cross-platform claim. Branch:`codex/team-repro-o-v1`; main remains59fb784.
+N's appendix remains at8768 and its physical in-app download capture remains
+unverified. Do not repeat downloadMedia/waitForEvent(download). L/M outcomes,
+old explorers and every prior loss remain unchanged.
 
 The original research service is available at http://127.0.0.1:8766 and the new
 aggregate appendix at http://127.0.0.1:8768. Treat recorded
@@ -25,14 +27,14 @@ actual processes and logs before any new job, never trust historical PIDs alone.
 
 ## Next concrete work
 
-Advance [TEAM_REPRODUCIBILITY_O.md](TEAM_REPRODUCIBILITY_O.md): verify the aggregate
-appendix can rebuild from a staged tracked-file allowlist with no raw data,
-models, credentials, GPU stack or old local outputs. Preserve failed attempts,
-record hashes/source commit and scope the claim honestly. Keep N's known in-app
-download-capture limitation visible; use the verified JSON endpoint for export,
-not another long download-helper attempt. Do not repeat completed numerical
-experiments or retune on inspected test labels. Preserve both original explorers,
-their active services, all scientific manifests and the standing continuation.
+Advance [AGGREGATE_INTEGRITY_P.md](AGGREGATE_INTEGRITY_P.md): six fixed source-only
+checks of intact/missing/numerically altered aggregates under normal versus
+optimized Python. Register commands/hashes first; never change live source data.
+If demonstrated validation bypasses exist, preserve them and implement only an
+additive explicit-exception guard with a registered versioned repair. No raw
+labels/models, GPU/Kaggle work or new statistical comparison. Preserve original
+N/O implementations, active services and scientific manifests. Continue using
+the verified JSON endpoint rather than known-hanging browser download helpers.
 
 ## Completed recent stages
 

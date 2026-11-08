@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "registered_input_hashes_checked": 13,
+  "output_hashes_checked": 2,
+  "staged_child_isolated_and_no_site": true,
+  "raw_or_model_directories_absent": true,
+  "both_negative_controls_rejected_without_exports": true,
+  "new_performance_experiment": false
+}

@@ -1,0 +1,58 @@
+{
+  "complete": true,
+  "source_commit": "b8a08212b477f75da625f8364f55a341f6ba80d2",
+  "tracked_input_files": 13,
+  "cases": [
+    {
+      "case": "success",
+      "exit_code": 0,
+      "no_raw_model_or_environment_directories": true,
+      "outputs_match_registered_hashes": true,
+      "staged_module_used": true,
+      "site_or_scientific_packages_loaded": [],
+      "staged_files_opened": [
+        "demo\\research\\data.json",
+        "demo\\transfer\\data.js",
+        "demo\\transfer\\data.json",
+        "docs\\research\\h-evidence-manifest.json",
+        "docs\\research\\l-transfer-evidence-manifest.json",
+        "docs\\research\\l-transfer-result.json",
+        "docs\\research\\m-evidence-manifest.json",
+        "docs\\research\\m-variance-result.json",
+        "scripts\\build_transfer_appendix.py",
+        "src\\gaze_audit\\__init__.py",
+        "src\\gaze_audit\\__pycache__\\__init__.cpython-313.pyc",
+        "src\\gaze_audit\\__pycache__\\__init__.cpython-313.pyc.1545728425488",
+        "src\\gaze_audit\\__pycache__\\transfer_appendix.cpython-313.pyc",
+        "src\\gaze_audit\\__pycache__\\transfer_appendix.cpython-313.pyc.1545734703184",
+        "src\\gaze_audit\\transfer_appendix.py"
+      ],
+      "interpreter_flags": {
+        "isolated": 1,
+        "no_site": 1
+      }
+    },
+    {
+      "case": "tampered",
+      "exit_code": 1,
+      "no_raw_model_or_environment_directories": true,
+      "failure_detected_as_registered": "AssertionError",
+      "no_export_generated": true
+    },
+    {
+      "case": "missing",
+      "exit_code": 1,
+      "no_raw_model_or_environment_directories": true,
+      "failure_detected_as_registered": "FileNotFoundError",
+      "no_export_generated": true
+    }
+  ],
+  "output_hashes": {
+    "demo/transfer/data.json": "79551273633b365c28714493d0270b8a305cd387f5d7e9576bc20e008aef9dac",
+    "demo/transfer/data.js": "4708088df448a86a30f90b6a3ed9605437bd0ad449261aafcef643cb17b71bd2"
+  },
+  "new_dependency_installation_claimed": false,
+  "cross_platform_claimed": false,
+  "raw_data_models_GPU_packages_needed": false,
+  "browser_download_capture_limitation_unchanged": true
+}
