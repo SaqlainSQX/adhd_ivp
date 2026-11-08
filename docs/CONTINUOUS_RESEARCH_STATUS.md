@@ -8,29 +8,31 @@ status changes are intentionally excluded from immutable scientific manifests.
 
 I and J's UCO metadata review are complete. See
 [UCO_CONTRACT_J_STATUS.md](UCO_CONTRACT_J_STATUS.md) and the prior I findings.
-K1's registered supplied-frame acquisition has started; read its live
-`outputs/uco-acquisition-k-v1/status.json`, logs and actual processes before
-acting. No external label outcomes have been read. Review branch:
-`codex/uco-contract-j-v1`; main remains59fb784. All earlier evidence is unchanged.
+K1 acquisition/integrity and K2 public mapping are complete; see
+[UCO_K2_STATUS.md](UCO_K2_STATUS.md). All2,366 annotation paths map, but360 rows
+have border-extending boxes requiring review. No reference-field readout or
+performance evaluation has occurred. Review branch:
+`codex/uco-archive-k2-v1`; main remains59fb784. All earlier evidence is unchanged.
 
 The local research service is available at http://127.0.0.1:8766. Treat recorded
 PIDs as historical; inspect actual process/listener state before reusing or
 restarting a service. Do not duplicate jobs or kill another agent's workload.
-No performance experiment or GPU/Kaggle job was launched for I/J/K1. A CPU-only
-HTTP media download is in progress; do not start another while it is active.
+No performance experiment or GPU/Kaggle job was launched. Download and public
+mapping processes have finished; inspect actual processes before any new job.
 
 ## Next concrete work
 
-Continue [UCO_ACQUISITION_K.md](UCO_ACQUISITION_K.md). First check the downloader's
-actual process, logs and growing partial file. Do not duplicate an active job.
-On failure, preserve its attempt logs and safely resume only after verifying
-no matching process remains. On completion, verify recorded byte count/SHA256,
-safely inspect archive members and package terms, then register public-input
-mapping/geometry checks before extracting selected test/context frames. The
-existing ChildPlay parser cannot parse UCO paths unchanged. No label-based
-analysis, external-label tuning or GPU inference until the next gates and an
-exact evaluation protocol are registered. UCO is downstream transfer with
-VSGaze backbone-family exposure, not a wholly unseen pretraining dataset.
+Continue the visual/temporal gates in [UCO_PUBLIC_INPUTS_K2.md](UCO_PUBLIC_INPUTS_K2.md).
+Read actual public mapping/geometry outputs. Preserve the360 strict-bounds
+flags; compare border-extending boxes with pinned runtime square/crop semantics
+before accepting a geometry convention. Generate first/last plus three evenly
+spaced frame contact sheets in each of15 clips and inspect them visually; verify
+person-ID correspondence across temporal neighbors. Register any repair in a
+new output version, never silently clamp/drop rows. The supplied-frame package
+README's ambiguous frame9 rule must later be reconciled with the unified
+unknown mask before an exact performance protocol. No label analysis/tuning,
+GPU inference or change to the locked main population at this gate. UCO remains
+downstream transfer with backbone-family exposure disclosed.
 
 ## Completed recent stages
 
@@ -45,6 +47,9 @@ VSGaze backbone-family exposure, not a wholly unseen pretraining dataset.
   label outcomes unopened, head/scene input mapping remains to establish.
 - J/UCO:official split and loader reviewed,2,366 test-frame table entries;
   HDF object values were not loaded. K1:bounded4.07 GB frame download started.
+- K1/K2:download SHA independently verified,22,879 safe archive members;
+  3,009 test/context images extracted,2,366 paths mapped,360 bounds flags pending.
+  K2 deserialized the mixed object container but accessed only public fields.
 
 ## Timer state
 

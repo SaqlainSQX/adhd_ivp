@@ -1,0 +1,12 @@
+{
+  "public_geometry_only": true,
+  "checks": {
+    "nonfinite_rows": 0,
+    "below_zero_rows": 179,
+    "above_one_rows": 193,
+    "degenerate_rows": 0
+  },
+  "min_normalized_coordinate": -0.09455077350139618,
+  "max_normalized_coordinate": 1.0649101734161377,
+  "geometry_repaired": false
+}

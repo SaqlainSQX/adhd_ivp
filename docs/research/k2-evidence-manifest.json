@@ -1,0 +1,19 @@
+{
+  "stage": "K1 integrity and K2 public preparation",
+  "hash_convention": "Tracked text normalized CRLF to LF",
+  "files": {
+    "docs/UCO_PUBLIC_INPUTS_K2.md": "f2304862fdc784211a055336def79712d22f04c50d2b11603fbb4dd01db3729f",
+    "docs/UCO_K2_STATUS.md": "f6f4503226139e12fc5fa2e717eed6327fcce67e08e3804946658b7881c36040",
+    "scripts/inspect_uco_archive.py": "53eac0e631115bd37dd87a96a8dc794e2335dda669c935ff49c507ebed26a1e4",
+    "scripts/prepare_uco_public.py": "31ab9edf319bc1a76d4dcb93f7e7d1f001d53882a13295e455363f234a690b89",
+    "docs/research/k1-download.json": "f4165ef2fe9b4b0e2a266ba1f2721968d34152737891df45e78418b46f70c679",
+    "docs/research/k1-archive.json": "24c1f8eebbc12decda4fb63b48da026530d0c7f3007589658cd7d84db32f102a",
+    "docs/research/k2-public-mapping.json": "913ab9ca7a925a56ba628d2d8cb7b9a9a0946aef3cee3d37a37d2d2f6690b126",
+    "docs/research/k2-geometry-diagnosis.json": "ec6d31b4d8a19b663558947bbed89a1b93df8c9ba5a73335e33413b0894291a1",
+    "docs/research/k2-independent-validation.json": "f8c01209a01a31b0d3a2646d5d4dfad055de7a82133547efa9a1766b0401c576"
+  },
+  "mutable_exclusions": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md"
+  ],
+  "local_public_table_sha256": "7d5aba5fc7ef73b83dfe31f99a3094525c75645ef3ccaf9e12c3e37d1418281e"
+}

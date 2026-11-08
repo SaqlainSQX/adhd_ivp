@@ -1,0 +1,26 @@
+{
+  "stage": "K1-archive-integrity-members",
+  "archive_sha256": "a34f65a1f2d836bac8b748fcb458c6fe735f166128cd46248bd148bbf94611b2",
+  "archive_bytes": 4066161261,
+  "members": 22879,
+  "unsafe_members": [],
+  "documents": [
+    {
+      "member": "ucolaeodb/README.txt",
+      "local": "outputs\\uco-archive-k2-v1\\document-0.txt",
+      "sha256": "f118a6d0856a06f49edb8a7022b7f27a826526d4f48e0dc160503e3770950135"
+    },
+    {
+      "member": "ucolaeodb/annotations/README.txt",
+      "local": "outputs\\uco-archive-k2-v1\\document-1.txt",
+      "sha256": "325a8cb0e44c9f7fa190c692ff11864c3c0826cc3c29addaf22745f7244f7877"
+    }
+  ],
+  "regular_files": 22741,
+  "total_regular_bytes": 4077119155,
+  "jpeg_count": 22436,
+  "jpeg_bytes": 4075868367,
+  "labels_read": false,
+  "media_extracted": false,
+  "inference_started": false
+}

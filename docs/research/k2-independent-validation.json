@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "selected_archive_files_size_checked": 3009,
+  "unique_public_paths_checked": 2366,
+  "all_test_clips_present": true,
+  "geometry_gate": "pending;360 strict-bounds flags retained",
+  "visual_identity_gates": "pending",
+  "reference_fields_accessed": false,
+  "performance_evaluated": false
+}

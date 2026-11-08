@@ -1,0 +1,32 @@
+{
+  "stage": "K2-public-mapping",
+  "source_rows": 2366,
+  "mapped_rows": 2366,
+  "missing_rows": 0,
+  "geometry_issue_rows": 360,
+  "test_clips": 15,
+  "extracted_images": 3009,
+  "extracted_bytes": 646552910,
+  "images_by_clip": {
+    "sv06": 219,
+    "twd05": 206,
+    "mr06": 96,
+    "twd07": 200,
+    "sv03": 93,
+    "mr04": 258,
+    "got08": 206,
+    "mr05": 106,
+    "got05": 212,
+    "twd06": 168,
+    "sv10": 177,
+    "got06": 261,
+    "mr10": 241,
+    "twd04": 290,
+    "twd03": 276
+  },
+  "public_table_sha256": "7d5aba5fc7ef73b83dfe31f99a3094525c75645ef3ccaf9e12c3e37d1418281e",
+  "mixed_container_deserialized": true,
+  "reference_fields_accessed": false,
+  "performance_evaluated": false,
+  "visual_and_temporal_identity_gates": "pending"
+}
