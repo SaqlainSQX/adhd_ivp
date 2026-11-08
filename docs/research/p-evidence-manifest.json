@@ -1,0 +1,52 @@
+{
+  "stage": "P demonstrated baseline issue and additive repair",
+  "hash_convention": "Tracked text normalized CRLF to LF; local evidence raw bytes",
+  "files": {
+    "scripts/check_aggregate_integrity.py": "390400b3d87bc48fa4faecffdbe2aa27560c8866b636a0d07c01464a3724fdf0",
+    "scripts/build_verified_transfer_appendix.py": "d30b7bb027fa99ba6eadc075c216b403eceb27999126a9821ddb1fcc3d3ebdb3",
+    "src/gaze_audit/verified_transfer_appendix.py": "efc7d6b9548550a309049433d80da23fd6421bed6c72a52f1403b0c42c6d1cd3",
+    "docs/AGGREGATE_INTEGRITY_P_REPAIR.md": "d353f2310e0e8910284d11a9dbd48b44cbb05d098666c474fc96cb8780265165",
+    "docs/AGGREGATE_INTEGRITY_P_RESULTS.md": "f8a5c4b8bfae6263de8853d66aad5d8fc3e63a4f1cbca87f527b2407801b2b3e",
+    "docs/TEAM_VERIFIED_BUILD_P.md": "162db80027c0f1a6f006b7a589999af6f4a9adc83ab32e6315fafe1593fd3032",
+    "docs/QUERY_NOISE_Q.md": "8460e844abd8d96ab31f61b74a4422259e4630f1a9c8f8166091347aad5e263f",
+    "docs/research/p-baseline-result.json": "d60392f24e83ceaf664c08479d4827bc6e35acbbbda73c7660d1fc0c6394a7e2",
+    "docs/research/p-baseline-registration.json": "d9ac7c41c52c2265e4a69f99488277cf31ca4f3fc231c09be8aff2d182f0810a",
+    "docs/research/p-verified-result.json": "88626d61b2e9ac43d3b03450210132940f732ddae1eeddfb171e9221bb1f27f7",
+    "docs/research/p-verified-registration.json": "d1f2c58a023e4c884ddccf817a36371262e7febfd8b8c1ec92924eb8b55a875e",
+    "docs/research/p-independent-validation.json": "c62a6950ebf05a982a20dba8a524ee99b56b545ca8168d8d6a50c2a01e185b14"
+  },
+  "local_files": {
+    "outputs/aggregate-integrity-p-v1/registration.json": "309e749f1a41df396defccb9a3eb3b0b14e2969e48c569b3279e47587e87659d",
+    "outputs/aggregate-integrity-p-v1/result.json": "c0f480c317cf6d3752ff4cb42bacb50f1936ada6458e3d0554b45788c3793a0c",
+    "outputs/aggregate-integrity-p-v1/normal-intact.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/aggregate-integrity-p-v1/normal-intact.stdout.log": "732f0d9b85c8d09d3524ba3dc1f7dc72ed67a3a7a4c797fa022618ba62e37b58",
+    "outputs/aggregate-integrity-p-v1/normal-missing.stderr.log": "b5638746b400500abdd7339c6e1cb99d1be37831698641d3ecd0256976581abe",
+    "outputs/aggregate-integrity-p-v1/normal-missing.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/aggregate-integrity-p-v1/normal-numerically_changed.stderr.log": "76398907dd1663fbbbfc9b2ef866603181995f958c12cfdb622f49e1cd31615f",
+    "outputs/aggregate-integrity-p-v1/normal-numerically_changed.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/aggregate-integrity-p-v1/optimized-intact.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/aggregate-integrity-p-v1/optimized-intact.stdout.log": "732f0d9b85c8d09d3524ba3dc1f7dc72ed67a3a7a4c797fa022618ba62e37b58",
+    "outputs/aggregate-integrity-p-v1/optimized-missing.stderr.log": "6db4211763ba9195dc9cbc8f1bd572084920b8e872b77075f0ba1db811e56714",
+    "outputs/aggregate-integrity-p-v1/optimized-missing.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/aggregate-integrity-p-v1/optimized-numerically_changed.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/aggregate-integrity-p-v1/optimized-numerically_changed.stdout.log": "732f0d9b85c8d09d3524ba3dc1f7dc72ed67a3a7a4c797fa022618ba62e37b58",
+    "outputs/aggregate-integrity-p-v2/independent-validation.json": "e195967a8f29bf490f6f819f2128e06d8847a3100f3dbeb30cfa715de5308216",
+    "outputs/aggregate-integrity-p-v2/registration.json": "ab73cb9d03d8ca43163e3160d20699e1e20989bd0f2e6d934b79a1948fffb47a",
+    "outputs/aggregate-integrity-p-v2/result.json": "441aa1a35087fa004b826bebadf6f8512c69517b43b268b08c634e196a46f2d7",
+    "outputs/aggregate-integrity-p-v2/normal-intact.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/aggregate-integrity-p-v2/normal-intact.stdout.log": "35177d1c047f2579e4f0b43335e74cf33189e668b28e89989cf03b5301f0d71d",
+    "outputs/aggregate-integrity-p-v2/normal-missing.stderr.log": "39e8852143ce410fdae484c8fd6e7ba577dc3df9b08d298759af39fc24793624",
+    "outputs/aggregate-integrity-p-v2/normal-missing.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/aggregate-integrity-p-v2/normal-numerically_changed.stderr.log": "e2ba1494261f072f59cd5808793c67144a3dc29ae9176f999051e7af4731e68a",
+    "outputs/aggregate-integrity-p-v2/normal-numerically_changed.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/aggregate-integrity-p-v2/optimized-intact.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/aggregate-integrity-p-v2/optimized-intact.stdout.log": "35177d1c047f2579e4f0b43335e74cf33189e668b28e89989cf03b5301f0d71d",
+    "outputs/aggregate-integrity-p-v2/optimized-missing.stderr.log": "e390cc467aa8f8ff4595209bdaa57cae4163bb5b32aa3aa70744dcdb2d057118",
+    "outputs/aggregate-integrity-p-v2/optimized-missing.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "outputs/aggregate-integrity-p-v2/optimized-numerically_changed.stderr.log": "bc5eea856d707ac551bf974b2f45032edb9e14a5ed59402a93331a492e1c6471",
+    "outputs/aggregate-integrity-p-v2/optimized-numerically_changed.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "mutable_exclusions": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md"
+  ]
+}

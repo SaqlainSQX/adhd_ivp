@@ -8,15 +8,14 @@ status changes are intentionally excluded from immutable scientific manifests.
 
 I and J's UCO metadata review are complete. See
 [UCO_CONTRACT_J_STATUS.md](UCO_CONTRACT_J_STATUS.md) and the prior I findings.
-O source-only reproduction is accepted; see
-[TEAM_REPRODUCTION_O_STATUS.md](TEAM_REPRODUCTION_O_STATUS.md) and TEAM_QUICKSTART.md.
-The appendix JSON/JS rebuilt identically from13 tracked inputs with Python-I-S,
-no raw/model directories or scientific packages. Missing/changed sources failed
-as registered. This is scoped Windows/Python3.13 evidence, not a fresh-runtime
-or cross-platform claim. Branch:`codex/team-repro-o-v1`; main remains59fb784.
-N's appendix remains at8768 and its physical in-app download capture remains
-unverified. Do not repeat downloadMedia/waitForEvent(download). L/M outcomes,
-old explorers and every prior loss remain unchanged.
+P is complete; see [AGGREGATE_INTEGRITY_P_RESULTS.md](AGGREGATE_INTEGRITY_P_RESULTS.md).
+The staged baseline showed an optimized-Python assertion bypass. The additive
+explicit-exception builder passed all six repaired controls with unchanged
+accepted outputs; original N/O sources, live data and scientific evidence remain
+unchanged. Preferred command is in TEAM_VERIFIED_BUILD_P.md. Review branch:
+`codex/aggregate-integrity-p-v1`; main remains59fb784. The8768 appendix and its
+known physical in-app download-capture limitation are unchanged. Do not repeat
+downloadMedia/waitForEvent(download).
 
 The original research service is available at http://127.0.0.1:8766 and the new
 aggregate appendix at http://127.0.0.1:8768. Treat recorded
@@ -27,14 +26,14 @@ actual processes and logs before any new job, never trust historical PIDs alone.
 
 ## Next concrete work
 
-Advance [AGGREGATE_INTEGRITY_P.md](AGGREGATE_INTEGRITY_P.md): six fixed source-only
-checks of intact/missing/numerically altered aggregates under normal versus
-optimized Python. Register commands/hashes first; never change live source data.
-If demonstrated validation bypasses exist, preserve them and implement only an
-additive explicit-exception guard with a registered versioned repair. No raw
-labels/models, GPU/Kaggle work or new statistical comparison. Preserve original
-N/O implementations, active services and scientific manifests. Continue using
-the verified JSON endpoint rather than known-hanging browser download helpers.
+Advance [QUERY_NOISE_Q.md](QUERY_NOISE_Q.md): fixed synthetic symmetric query-label
+error stress test, not new held-out or real-annotator evidence. First validate
+the analytical bias/variance identity by small exhaustive enumeration and verify
+all eta0 cases against saved clean outcomes. Register noise seeds and source/query
+hashes before noisy readout. Reuse old primary budgets and queries; no weights,
+models, subsets or rates are selected using outcomes. Preserve all cells/losses
+and independently replay the24,000 method/rate cases. No GPU/Kaggle work or
+modification to saved reference tables. Keep all prior evidence/services intact.
 
 ## Completed recent stages
 

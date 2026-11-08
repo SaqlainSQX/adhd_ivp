@@ -1,0 +1,46 @@
+{
+  "phase": "verified",
+  "source_commit": "95b71541f3814aaebc89adf32cccb6cfcd23a746",
+  "protocol_sha256": "778cfa2709f65199a3659021ba12b65e671586c2a95edbf8ddd1e0ef5b09e616",
+  "implementation_sha256": "390400b3d87bc48fa4faecffdbe2aa27560c8866b636a0d07c01464a3724fdf0",
+  "input_sha256": {
+    "src/gaze_audit/__init__.py": "7260838a56fb07837b648dbca32a75141eb18d746130bcaa671e52f7729f1135",
+    "src/gaze_audit/transfer_appendix.py": "fd5a977c0aea65b2a158047468b33b6e51fd4b60e2dc8390eb0c0b6f73fe1335",
+    "scripts/build_transfer_appendix.py": "3dbf504378e0e0bc299b166d4543d2db9c9dbc320ad8ac950d25df515e2a57a8",
+    "scripts/serve_transfer_appendix.py": "994359b514af6d62ff86ba6fed7ee2c31d3ced5d88fbe3e14b55db8a98fbc5a2",
+    "demo/transfer/index.html": "06206cefdc8359518f35f17544632e0521d759fc4dd07b20cf9707d5e6e4c60b",
+    "demo/transfer/style.css": "1064f4752c5aebd4a0085efd6dcccf2f9a63e8d0ae8eac4ebb2719ee83a6efad",
+    "demo/transfer/app.js": "220001ea06e1c6756257773393e6767c9c6246424ffa5618c0fc9eb0aaf0d9d5",
+    "demo/research/data.json": "fbfbeb2855ff21f6a92296bd4dbc4547f93ecc29fb2b29d7609d4df6e30329b0",
+    "docs/research/l-transfer-result.json": "35d37f00bd2c60c7b8e98812c6363002e150bb95e0875896864091aed74306f0",
+    "docs/research/m-variance-result.json": "040d4e114942a9d42282da09c984e3476d8c929d22a13ceb60125fe4359357eb",
+    "docs/research/h-evidence-manifest.json": "2ea0609ba4680971ebf3290035362c3afc1543abfc799cba71ee0028a6c3cb20",
+    "docs/research/l-transfer-evidence-manifest.json": "9144ca7fd1bae1eba7697a25569ba106cdf1a81cbf30c760a5a78153570ba020",
+    "docs/research/m-evidence-manifest.json": "9bd61a565f343d6384ae693dd16e737bf639bb0fd4254fc6f1b72b622d5d618d",
+    "src/gaze_audit/verified_transfer_appendix.py": "efc7d6b9548550a309049433d80da23fd6421bed6c72a52f1403b0c42c6d1cd3",
+    "scripts/build_verified_transfer_appendix.py": "d30b7bb027fa99ba6eadc075c216b403eceb27999126a9821ddb1fcc3d3ebdb3"
+  },
+  "expected_output_sha256": {
+    "demo/transfer/data.json": "79551273633b365c28714493d0270b8a305cd387f5d7e9576bc20e008aef9dac",
+    "demo/transfer/data.js": "4708088df448a86a30f90b6a3ed9605437bd0ad449261aafcef643cb17b71bd2"
+  },
+  "registered_modes": [
+    [
+      "-I",
+      "-S"
+    ],
+    [
+      "-I",
+      "-S",
+      "-O"
+    ]
+  ],
+  "registered_cases": [
+    "intact",
+    "missing",
+    "numerically_changed"
+  ],
+  "numeric_change": "double copied UCO K4-b521 rmse_pp only",
+  "program": "import sys,runpy;from pathlib import Path;sys.path.insert(0,str(Path.cwd()/'src'));runpy.run_path('scripts/build_verified_transfer_appendix.py',run_name='__main__')",
+  "repair_protocol_sha256": "d353f2310e0e8910284d11a9dbd48b44cbb05d098666c474fc96cb8780265165"
+}

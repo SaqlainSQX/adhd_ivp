@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "baseline_bypass_preserved": true,
+  "all_six_repair_controls_passed": true,
+  "intact_export_hash_checks": 8,
+  "repaired_invalid_cases_without_exports": 4,
+  "live_source_inputs_unchanged": true,
+  "no_scientific_outcome_changes": true,
+  "no_raw_data_or_model_work": true
+}

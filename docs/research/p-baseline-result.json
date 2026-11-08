@@ -1,0 +1,58 @@
+{
+  "complete": true,
+  "phase": "baseline",
+  "cases": [
+    {
+      "mode": "normal",
+      "case": "intact",
+      "exit_code": 0,
+      "generated_exports": 2,
+      "outputs_match_baseline": true,
+      "accepted_behavior": true
+    },
+    {
+      "mode": "normal",
+      "case": "missing",
+      "exit_code": 1,
+      "generated_exports": 0,
+      "changed_or_missing_input_rejected_before_export": true,
+      "accepted_behavior": true
+    },
+    {
+      "mode": "normal",
+      "case": "numerically_changed",
+      "exit_code": 1,
+      "generated_exports": 0,
+      "changed_or_missing_input_rejected_before_export": true,
+      "accepted_behavior": true
+    },
+    {
+      "mode": "optimized",
+      "case": "intact",
+      "exit_code": 0,
+      "generated_exports": 2,
+      "outputs_match_baseline": true,
+      "accepted_behavior": true
+    },
+    {
+      "mode": "optimized",
+      "case": "missing",
+      "exit_code": 1,
+      "generated_exports": 0,
+      "changed_or_missing_input_rejected_before_export": true,
+      "accepted_behavior": true
+    },
+    {
+      "mode": "optimized",
+      "case": "numerically_changed",
+      "exit_code": 0,
+      "generated_exports": 2,
+      "changed_or_missing_input_rejected_before_export": false,
+      "copied_numeric_change_reached_export": true,
+      "accepted_behavior": false
+    }
+  ],
+  "all_six_cases_accepted": false,
+  "live_source_data_changed": false,
+  "new_scientific_outcomes": false
+}
