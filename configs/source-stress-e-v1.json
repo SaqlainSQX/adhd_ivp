@@ -1,0 +1,17 @@
+{
+  "designation": "exploratory frozen-policy source sensitivity after D outcomes",
+  "input": "outputs/experiments/timed-d-20261108-v1",
+  "input_result_sha256": "620b1555fbfefdd4fbd34cf976d398006ae0fe651e87f5e86600d3c76131ce27",
+  "main": "outputs/experiments/course-20261107-v1",
+  "processed": "data/processed/vsgaze-17357752-v1",
+  "output": "outputs/experiments/source-stress-e-20261108-v1",
+  "protocol": "docs/SOURCE_STRESS_E.md",
+  "policies": ["K4", "power-score"],
+  "budgets": [516, 1032, 2063, 4126],
+  "primary_budget": 1032,
+  "draws": 1000,
+  "bootstrap_seed": 400005,
+  "bootstrap_resamples": 2000,
+  "new_queries": 0,
+  "policy_changes": false
+}
