@@ -1,0 +1,41 @@
+{
+  "complete": true,
+  "checks": [
+    {
+      "dataset": "ChildPlay",
+      "method": "K4",
+      "draws": 1000,
+      "passed": true
+    },
+    {
+      "dataset": "ChildPlay",
+      "method": "power-score",
+      "draws": 1000,
+      "passed": true
+    },
+    {
+      "dataset": "ChildPlay",
+      "method": "uniform",
+      "draws": 1000,
+      "passed": true
+    },
+    {
+      "dataset": "UCO",
+      "method": "K4",
+      "draws": 1000,
+      "passed": true
+    },
+    {
+      "dataset": "UCO",
+      "method": "power-score",
+      "draws": 1000,
+      "passed": true
+    },
+    {
+      "dataset": "UCO",
+      "method": "uniform",
+      "draws": 1000,
+      "passed": true
+    }
+  ]
+}

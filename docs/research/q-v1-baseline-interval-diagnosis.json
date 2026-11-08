@@ -1,0 +1,50 @@
+[
+  {
+    "dataset": "ChildPlay",
+    "method": "K4",
+    "endpoint_mismatch_draws": 0,
+    "old_has_missing_endpoints": false,
+    "max_lower_total_difference": 0.0,
+    "max_upper_total_difference": 0.0
+  },
+  {
+    "dataset": "ChildPlay",
+    "method": "power-score",
+    "endpoint_mismatch_draws": 0,
+    "old_has_missing_endpoints": false,
+    "max_lower_total_difference": 0.0,
+    "max_upper_total_difference": 0.0
+  },
+  {
+    "dataset": "ChildPlay",
+    "method": "uniform",
+    "endpoint_mismatch_draws": 1000,
+    "old_has_missing_endpoints": true,
+    "max_lower_total_difference": null,
+    "max_upper_total_difference": null
+  },
+  {
+    "dataset": "UCO",
+    "method": "K4",
+    "endpoint_mismatch_draws": 0,
+    "old_has_missing_endpoints": false,
+    "max_lower_total_difference": 0.0,
+    "max_upper_total_difference": 0.0
+  },
+  {
+    "dataset": "UCO",
+    "method": "power-score",
+    "endpoint_mismatch_draws": 0,
+    "old_has_missing_endpoints": false,
+    "max_lower_total_difference": 0.0,
+    "max_upper_total_difference": 0.0
+  },
+  {
+    "dataset": "UCO",
+    "method": "uniform",
+    "endpoint_mismatch_draws": 0,
+    "old_has_missing_endpoints": false,
+    "max_lower_total_difference": 0.0,
+    "max_upper_total_difference": 0.0
+  }
+]

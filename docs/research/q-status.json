@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "draws_independently_verified": 24000,
+  "toy_moment_cases": 24,
+  "frozen_inputs_and_main_result_lock_verified": true,
+  "figure_visually_reviewed": true,
+  "cpu_only": true,
+  "next_protocol": "docs/ASYMMETRIC_NOISE_R.md"
+}

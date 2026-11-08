@@ -1,0 +1,42 @@
+{
+  "stage": "Q synthetic symmetric query-label error sensitivity",
+  "hash_convention": "Tracked text normalized CRLF to LF; binaries/local files raw",
+  "files": {
+    "configs/query-noise-q-v1.json": "45261d3183e4c0a0cd5eee8f9b15c059b7e56ee611a0a6df451fb43c9680aab0",
+    "configs/query-noise-q-v2.json": "55fa5e46e402ed2e7df0e05e039a6d8da812eff9eda83fb8a95c3feb87e0ded5",
+    "docs/ASYMMETRIC_NOISE_R.md": "880eeeccd69e206617541a651ab8f23329e5dbb2a2c6b541c012fada859583d4",
+    "docs/QUERY_NOISE_Q_REPAIR.md": "90274e9d5a84c1384aec1108030e52d35866aec4643c7696fc3cfc6b5b18ba23",
+    "docs/QUERY_NOISE_Q_RESULTS.md": "440e46320253f9bfe28b13106342f432bc714fbc0ac48a42ba3eedddc01877eb",
+    "docs/research/q-clean-baseline-validation.json": "c69b41c3e68c0a0b3f2fd0c755ce3ce0604e9f098ac9a0c3f1333d0e02ca5029",
+    "docs/research/q-independent-validation.json": "61727adc1170ff6eb4ac702ff16a7dfc102af17d7a620f84ee770aa7ad72f0ac",
+    "docs/research/q-registration.json": "51f542d5539b3bde8c19e6c14989b036d0bea6138cc9e1a32299a66936a8462c",
+    "docs/research/q-result.json": "8df5a7b4e807ab007c2642d87800089431c14320cdebf207af771501f2d4df3c",
+    "docs/research/q-status.json": "97416b641a534e4aff9f5cc52c1a3475d923785b4fffe3b671765e41917bb1e0",
+    "docs/research/q-toy-validation.json": "c8f8b1a39750445c30562d06bb928fdac5e4639d5d56259b7749a6d422ba2efd",
+    "docs/research/q-v1-baseline-interval-diagnosis.json": "12e65b37627482da0addba43c777b85b9213d833ea217d0beee8ffb314d8cf9a",
+    "docs/research/q-v1-failure.json": "1b70bba6d7477fafd78d9ae557731ef2f202aaa263f193aba2e329c136bb1555",
+    "docs/research/q-v1-registration.json": "8bda26fe88c97797c525f32b817644e8218f4665d946846e5f00ae81bca2610c",
+    "docs/research/q-v1-repair-setup-failure.txt": "b8730e2a3bd120a81abfe76730cec1303d675cfd0f8fd6dfa4e42d1ee0376819",
+    "docs/research/query-noise-q-v1.log": "a7b6bffe4b7a953ec20459dcf31c055e2a455794cabf38d9416842fbce88427b",
+    "docs/research/query-noise-q-v2-validation.log": "61727adc1170ff6eb4ac702ff16a7dfc102af17d7a620f84ee770aa7ad72f0ac",
+    "docs/research/query-noise-q-v2.log": "afb7cc0d21609ff49da9e4c7a98f249be3499a9125eb815772237a478180358c",
+    "reports/course-project/query-noise-q.pdf": "2b54e17ae675194bd1d4759942039e01faee07cb5efd2d87ba62395e65769a67",
+    "reports/course-project/query-noise-q.png": "82be52dfccd9199a17b9fca898aaad561256848630619ee5f9a659d67fb9f323",
+    "scripts/archive_query_noise.py": "77143b2a1ef91b9c246391098bf911debb32c2c24ecb375ea024dc5bcaf831f9",
+    "scripts/report_query_noise.py": "db5cd3ff31106541da65fa29d96039b7079da9e38c4594af223e48dd93421900",
+    "scripts/run_query_noise.py": "d8b0bc008a0b924630577c50dc85075e3974038e051ce8c179cf233727e35c04",
+    "scripts/run_query_noise_v2.py": "16b0dbd83addd52e0600b2dc82503bb9b8ea3eca0205f9907c45a6fbd5f91b29",
+    "scripts/seal_query_noise.py": "6f6948142bbb38a7aa005fe0d49cd30425c4786ce32c1a256d3f51103648a6d7",
+    "scripts/validate_query_noise.py": "007a4db594422afe002c6a5176ce41d5998a6f8e9ee5741679367344bd029c78",
+    "src/gaze_audit/query_noise.py": "85289fe31378bbbe9d11295d3a09a2f50e2b3b6849617d8f8a5486b69ae51aa4"
+  },
+  "local_files": {
+    "outputs/query-noise-q-v1/implementation.py": "a042179d30542053ad74aa9cb0fb5b80df85cb61d570ce04ef4ffb3dea5ed683",
+    "outputs/query-noise-q-v2/draw-results.csv": "34b4927c6fcd3432bb33c6296cfc42d08f5f9b52f91ce95b64ddc1780c97f0f6",
+    "outputs/query-noise-q-v2-validation-formatted.log": "c291bf9f03ad8c6945440c61e122ac388d28eca83616559c9a4faa304b223ad6"
+  },
+  "prior_manifest_file_checks": 293,
+  "mutable_exclusions": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md"
+  ]
+}

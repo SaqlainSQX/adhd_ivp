@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "method_rate_draws_checked": 24000,
+  "max_point_difference": 1.1796119636642288e-16,
+  "max_variance_difference": 1.0001765041178778e-16,
+  "noise_uniform_hashes_reproduced": true,
+  "label_flip_counts_reproduced": true,
+  "exact_integer_interval_cases": 358,
+  "integer_interval_method": "exhaustive feasible totals; independent of primary binary search",
+  "analytic_bias_variance_and_all_coverage_cells_checked": true,
+  "saved_reference_tables_changed": false
+}

@@ -8,6 +8,14 @@ status changes are intentionally excluded from immutable scientific manifests.
 
 I and J's UCO metadata review are complete. See
 [UCO_CONTRACT_J_STATUS.md](UCO_CONTRACT_J_STATUS.md) and the prior I findings.
+Q is complete; see [QUERY_NOISE_Q_RESULTS.md](QUERY_NOISE_Q_RESULTS.md).
+All24000 independent replays and24 exhaustive toy cases passed. At synthetic2%
+flips, full-K4 RMSE is1.9959pp on ChildPlay and1.5334pp on UCO; normal clean-target
+coverage33.9% and93.6%. This is an accuracy-assumption limitation, not a win or a
+human-error estimate. V1's missing M2 interval-reference failure and registered
+v2 repair are preserved. All frozen inputs/main evidence remain unchanged.
+Review branch: `codex/query-noise-q-v1`. R is registered but not started.
+
 P is complete; see [AGGREGATE_INTEGRITY_P_RESULTS.md](AGGREGATE_INTEGRITY_P_RESULTS.md).
 The staged baseline showed an optimized-Python assertion bypass. The additive
 explicit-exception builder passed all six repaired controls with unchanged
@@ -26,14 +34,14 @@ actual processes and logs before any new job, never trust historical PIDs alone.
 
 ## Next concrete work
 
-Advance [QUERY_NOISE_Q.md](QUERY_NOISE_Q.md): fixed synthetic symmetric query-label
-error stress test, not new held-out or real-annotator evidence. First validate
-the analytical bias/variance identity by small exhaustive enumeration and verify
-all eta0 cases against saved clean outcomes. Register noise seeds and source/query
-hashes before noisy readout. Reuse old primary budgets and queries; no weights,
-models, subsets or rates are selected using outcomes. Preserve all cells/losses
-and independently replay the24,000 method/rate cases. No GPU/Kaggle work or
-modification to saved reference tables. Keep all prior evidence/services intact.
+Advance [ASYMMETRIC_NOISE_R.md](ASYMMETRIC_NOISE_R.md): bounded directional-error
+decomposition. Before outcomes, pin the exact Q config/source/query/result hashes
+in a new R config; validate the class-conditional analytical moments exhaustively.
+Use only the three registered settings, unchanged queries/budgets/weights and
+fixed new noise RNG. Reproduce clean controls, then independently replay all18000
+cases. Report false-positive/negative sensitivity, not real annotator accuracy or
+a new performance win. No GPU/Kaggle work, tuning or changed main/reference tables.
+Check actual process/log state before running; do not repeat completed Q work.
 
 ## Completed recent stages
 

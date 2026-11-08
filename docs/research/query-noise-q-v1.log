@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "G:\ivp\scripts\run_query_noise.py", line 248, in <module>
+    run()
+    ~~~^^
+  File "G:\ivp\scripts\run_query_noise.py", line 153, in run
+    raise ArithmeticError("Q eta0 exact interval mismatch")
+ArithmeticError: Q eta0 exact interval mismatch
