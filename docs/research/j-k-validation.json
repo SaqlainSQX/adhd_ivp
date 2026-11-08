@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "author_source_hashes_checked": 4,
+  "official_test_clips": 15,
+  "official_validation_clips": 8,
+  "duplicate_download_lock_verified": true,
+  "automation_active": true,
+  "automation_interval_minutes": 10,
+  "new_reference_values_read": false,
+  "model_or_gpu_job_started": false,
+  "download_observation": {
+    "stage": "K1-download",
+    "status": "running",
+    "attempt": 1,
+    "wrapper_pid": 30268,
+    "started_utc": "2026-11-08T14:05:35.689802+00:00",
+    "url": "http://rabinf24.uco.es/ucolaeo/ucolaeodb_v1.1.tgz",
+    "expected_bytes": 4066161261,
+    "starting_bytes": 0,
+    "protocol": "docs/UCO_ACQUISITION_K.md",
+    "media_extracted": false,
+    "inference_started": false,
+    "label_values_read": false,
+    "curl_pid": 27456,
+    "updated_utc": "2026-11-08T14:06:25.708018+00:00",
+    "bytes": 211435520
+  },
+  "observed_file_bytes": 215089152
+}

@@ -1,0 +1,17 @@
+{
+  "stage": "J UCO metadata and K1 acquisition registration",
+  "files": {
+    "docs/UCO_ACQUISITION_K.md": "ef41ea18d12c6c227821fa1cb624f4f1dd844534eaf801d24b382fa44ae2a48a",
+    "docs/UCO_CONTRACT_J_STATUS.md": "db1500af41a9aa4f97adf2f1fdee5bf7b3e6c86467499503789b0e1a81e42a2f",
+    "docs/research/j-uco-contract.json": "04047da666294d14f287d3dafa8ae6a09ee19948feac7f06bd3a8e029333da7a",
+    "docs/research/j-k-validation.json": "946c5ca8dfedaa72e7209696c341f0a2d6b3961f6219e269a5bba61b888342a1",
+    "scripts/acquire_uco_frames.py": "4719f94669c2144a73f414f40db7277dd98ecf60cfc8b8d65ba85c977a0d8f83",
+    "scripts/inspect_uco_contract.py": "c74dc58699828359a62497f568db0ae20bbb541c3b49178c3ab624052b657780"
+  },
+  "hash_convention": "Tracked text normalized CRLF to LF",
+  "mutable_exclusions": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md",
+    "outputs/uco-acquisition-k-v1/status.json"
+  ],
+  "download_status_is_snapshot": true
+}
