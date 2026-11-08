@@ -1,0 +1,45 @@
+{
+  "config": {
+    "designation": "exploratory public-weight exact reference intervals after repeated test inspection",
+    "main": "outputs/experiments/course-20261107-v1",
+    "input": "outputs/experiments/timed-d-20261108-v1",
+    "processed": "data/processed/vsgaze-17357752-v1",
+    "output": "outputs/experiments/weighted-f-20261108-v2",
+    "protocol": "docs/WEIGHTED_INTERVALS_F.md",
+    "input_result_sha256": "620b1555fbfefdd4fbd34cf976d398006ae0fe651e87f5e86600d3c76131ce27",
+    "main_result_sha256": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9",
+    "recipes": [
+      "equal",
+      "inverse-fraction",
+      "inverse-sqrt-count"
+    ],
+    "designs": [
+      "M3",
+      "M4",
+      "K4",
+      "power-uniform"
+    ],
+    "budgets": [
+      516,
+      1032,
+      2063,
+      4126
+    ],
+    "draws": 1000,
+    "alpha": 0.05,
+    "bootstrap_seed": 400006,
+    "bootstrap_resamples": 2000,
+    "new_queries": 0,
+    "replace_main": false
+  },
+  "config_sha256": "b2bb53809a01c3baa392f087a917950a7f38331ad29ef0b7e39da72e2fce0d34",
+  "protocol_sha256": "d2b7b72d5df21993c8505da89d977373a187fa81e44bd9288205f4f1d2a71484",
+  "implementation_sha256": "fd9431d570711054c2711487c2e19c7913688e373d92264ba9cea5a4c23e7436",
+  "runner_sha256": "7c411c6b4183279f3e9aa9ea2ba3f30e674261828d4f4e1ff60a0b7daab7db39",
+  "feature_hashes": {
+    "static": "a149f032b9375be4fa562910342b2bec1a334c85ff81496feea33d4ae55aad68",
+    "temporal-w5": "d299252adbd1524c505b73e2ebe46ff6fd650bde049ecf7d978f05b3aabe25a6",
+    "temporal-w11": "1594d838704b41ee175d33e2f1ee922f98e777c9efe278306a65c0033da80981"
+  },
+  "started_utc": "2026-11-08T06:08:27.784784+00:00"
+}

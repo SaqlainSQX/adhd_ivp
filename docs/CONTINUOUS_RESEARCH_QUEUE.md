@@ -16,12 +16,12 @@ CPU caches and existing immutable query streams suffice for the next work.
 
 ## Current ordered queue
 
-1. F: investigate tighter conservative interval reporting on the same frozen
+1. F (complete, see WEIGHTED_INTERVALS_F_STATUS.md): investigate tighter conservative interval reporting on the same frozen
    queries using publicly weighted Bonferroni error allocation. Register exact
    recipes/endpoints before outcomes. Equal-error exact intervals stay intact;
    no normal interval or point estimate is replaced. This addresses the unresolved
    precision/coverage tradeoff without retuning a gaze model on test labels.
-2. X01: implement registered contiguous-query block comparison only after F is
+2. X01 (next): implement registered contiguous-query block comparison only after F is
    evaluated and reported. First inspect existing block pipeline contracts.
    Lengths2,5,10, break at missing/unknown/nonconsecutive pair frames. Match
    expected unique-label costs with positive inclusion; report realized cost

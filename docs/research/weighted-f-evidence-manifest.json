@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "hash_convention": "Tracked text normalized CRLF to LF; PNG and raw files use original bytes",
+  "files": {
+    "docs/CONTINUOUS_RESEARCH_QUEUE.md": "b427880fcf85763fe6fd61e5b59251d29da4f59128520e1bf06dc0ddfedf505d",
+    "docs/WEIGHTED_INTERVALS_F.md": "d2b7b72d5df21993c8505da89d977373a187fa81e44bd9288205f4f1d2a71484",
+    "docs/WEIGHTED_INTERVALS_F_STATUS.md": "42fbd4256e33781428e943a2fbbe58f5af059fe8cdf9f263f589db84fb620fe9",
+    "src/gaze_audit/weighted_intervals.py": "fd9431d570711054c2711487c2e19c7913688e373d92264ba9cea5a4c23e7436",
+    "tests/test_weighted_intervals.py": "374d5e3f65412b5b0b1eec36454d6e3a548949e5ea93119c515a7bee97b239d5",
+    "configs/weighted-intervals-f-v1.json": "fa42c193353cd040f7f51ac668962e7ff738589d2a1b10bf4da4c9fbb873307a",
+    "configs/weighted-intervals-f-v2.json": "c397e8d041592e67af4330dffa916a0fabd1e8b1419d21770770c61fd8e9d49d",
+    "scripts/report_weighted_intervals.py": "c5478ed42914fc0499d71cdd61aced882f2a17a39acd89534eaee50e2479d385",
+    "scripts/run_weighted_intervals.py": "7c411c6b4183279f3e9aa9ea2ba3f30e674261828d4f4e1ff60a0b7daab7db39",
+    "scripts/validate_weighted_intervals.py": "a3d9268ba851cbb78eca375aca055ac3bf614cb0c66d4378ca4a6b8ad6784c65",
+    "docs/research/weighted-f-independent-validation.json": "edc8b870c067edf647625ffb81920be031bf919031b10e3dc9f83b3746e8b937",
+    "docs/research/weighted-f-public-allocation-lock.json": "80aba8366b0f1e76b9fce8fda44f944af5c9e5dbbe6a12d7967d2036da717d0f",
+    "docs/research/weighted-f-registration.json": "e0c35224d6a53ead1ac33818972d6af163db01dfadf0b1bf3539d85a31629db8",
+    "docs/research/weighted-f-result.json": "4b90310d9ce6b67f30e880574fce6b97cd62ab4be3380c107057252a803d153e",
+    "reports/course-project/weighted-f/results.md": "0ebb8de3179954d99d9148599a5a740fbefbf25c039908fc94303893430ea333",
+    "reports/course-project/weighted-f/weighted-reference-width.png": "c4987a5100f9d0b8a3ae98528bbbff9e6e5b095e9e7b55f65558c551a04382e0",
+    "reports/course-project/weighted-f/weighted-reference-width.svg": "584d8462ff8d10d88df40ac14357918ca3f99e7ff770052a8f389ed52ad0e30c"
+  },
+  "raw_files": {
+    "outputs/experiments/weighted-f-20261108-v2/independent-validation.json": "226afd34fa81d1ec7ab68e6b7628d30754ca812cc0bcf99c5235e2e04c030702",
+    "outputs/experiments/weighted-f-20261108-v2/interval-results.csv": "333aeaf3f7090dc044ea407d183156644b8110ccae988f237e2c977708b4d01e",
+    "outputs/experiments/weighted-f-20261108-v2/public-allocation-lock.json": "b47497a451f9fe41b68ce41679ad3b419f2c092a489762661726ead9e4146594",
+    "outputs/experiments/weighted-f-20261108-v2/registration.json": "68c1ff526e9b4d8df5a5ad4bcc1fd1076577219da00308768bee9212bbad1745",
+    "outputs/experiments/weighted-f-20261108-v2/result.json": "6c3f291b8aeef955da127c59a80139070e5fb261471a5b16c77ee511e547acdb",
+    "outputs/experiments/weighted-f-20261108-v2/status.json": "5f50bbbdeffc16628a0217fb861e0891dd71fd2fb3ccdb98d1fc09e7e8b08269",
+    "outputs/experiments/weighted-f-20261108-v2/logs/weighted-f-report-v2.log": "78864ff0d082ec70e90dff0d0cdb615a37248c27f0133d28245d232af8c29a00",
+    "outputs/experiments/weighted-f-20261108-v2/logs/weighted-f-run-v1.log": "94ef918a6b918d0d9b7f1e2f263e586307be51a0ec6ca7634418a352cee1ed9f",
+    "outputs/experiments/weighted-f-20261108-v2/logs/weighted-f-run-v2.log": "e65a3b48c35530ca612f14b1a2607d6a9d57fe471004c0c659cd1dcafffa2f3d",
+    "outputs/experiments/weighted-f-20261108-v2/logs/weighted-f-tests.log": "7954bcdccf7ae5b7266c0d87091a632f0fbc75b4ba57ec69a618a136c286bfcd",
+    "outputs/experiments/weighted-f-20261108-v2/logs/weighted-f-validation-v2.log": "4e7e1bd96f2584904b427fbfe4f1702ea2f766b8ab5f9966b3f60cc67a0b3f0c"
+  },
+  "visual_review": "passed",
+  "tests": 54
+}

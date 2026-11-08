@@ -1,0 +1,553 @@
+{
+  "designs": [
+    {
+      "design": "M3",
+      "budget": 516,
+      "file": "outputs\\experiments\\course-20261107-v1\\evaluation\\queries-M3-b516.npz",
+      "sha256": "7427dd893299f8905df06686c5692ddb6ca0c9aa9bda747ccf12cea48dcd7131",
+      "sizes": [
+        1938,
+        1401,
+        6960,
+        17
+      ],
+      "counts": [
+        436,
+        43,
+        20,
+        17
+      ],
+      "allocations": {
+        "equal": [
+          0.016666666666666666,
+          0.016666666666666666,
+          0.016666666666666666,
+          0.0
+        ],
+        "inverse-fraction": [
+          0.0005772272643774848,
+          0.004231060470675658,
+          0.045191712264946865,
+          0.0
+        ],
+        "inverse-sqrt-count": [
+          0.0024912766397520427,
+          0.005734761159129492,
+          0.04177396220111847,
+          0.0
+        ]
+      }
+    },
+    {
+      "design": "M4",
+      "budget": 516,
+      "file": "outputs\\experiments\\course-20261107-v1\\evaluation\\queries-M4-b516.npz",
+      "sha256": "306464034e48107863a171fada1e691b209416e38c10097f01bd24c3de0b0693",
+      "sizes": [
+        2148,
+        1650,
+        6483,
+        35
+      ],
+      "counts": [
+        429,
+        47,
+        20,
+        20
+      ],
+      "allocations": {
+        "equal": [
+          0.0125,
+          0.0125,
+          0.0125,
+          0.0125
+        ],
+        "inverse-fraction": [
+          0.0006839904407193583,
+          0.004795778690352211,
+          0.04428116856754573,
+          0.0002390623013827087
+        ],
+        "inverse-sqrt-count": [
+          0.0028777716886213885,
+          0.006678604411709082,
+          0.04022645193948413,
+          0.00021717196018539948
+        ]
+      }
+    },
+    {
+      "design": "M3",
+      "budget": 1032,
+      "file": "outputs\\experiments\\course-20261107-v1\\evaluation\\queries-M3-b1032.npz",
+      "sha256": "ec1cfaf10fcaf094b43020f2b767e4c814423bf39b26e376f1dbf35957afc1a9",
+      "sizes": [
+        1938,
+        1401,
+        6960,
+        17
+      ],
+      "counts": [
+        890,
+        87,
+        38,
+        17
+      ],
+      "allocations": {
+        "equal": [
+          0.016666666666666666,
+          0.016666666666666666,
+          0.016666666666666666,
+          0.0
+        ],
+        "inverse-fraction": [
+          0.0005404935199370325,
+          0.003997105471183033,
+          0.045462401008879945,
+          0.0
+        ],
+        "inverse-sqrt-count": [
+          0.0024163313793582556,
+          0.005586968637141935,
+          0.041996699983499815,
+          0.0
+        ]
+      }
+    },
+    {
+      "design": "M4",
+      "budget": 1032,
+      "file": "outputs\\experiments\\course-20261107-v1\\evaluation\\queries-M4-b1032.npz",
+      "sha256": "60045839d770701625beda6e97375e7f81718ce0edf9d504ab74a01413f860a2",
+      "sizes": [
+        2148,
+        1650,
+        6483,
+        35
+      ],
+      "counts": [
+        877,
+        95,
+        40,
+        20
+      ],
+      "allocations": {
+        "equal": [
+          0.0125,
+          0.0125,
+          0.0125,
+          0.0125
+        ],
+        "inverse-fraction": [
+          0.0006668544693469042,
+          0.0047288628828209235,
+          0.044127813887669155,
+          0.0004764687601630173
+        ],
+        "inverse-sqrt-count": [
+          0.00284509817235446,
+          0.006640257451901028,
+          0.04020766031764829,
+          0.0003069840580962217
+        ]
+      }
+    },
+    {
+      "design": "M3",
+      "budget": 2063,
+      "file": "outputs\\experiments\\course-20261107-v1\\evaluation\\queries-M3-b2063.npz",
+      "sha256": "d38053b238dff67496417af93ee5681ae71276bfed58f2ef6ec1fb62d3fd977c",
+      "sizes": [
+        1938,
+        1401,
+        6960,
+        17
+      ],
+      "counts": [
+        1793,
+        176,
+        77,
+        17
+      ],
+      "allocations": {
+        "equal": [
+          0.016666666666666666,
+          0.016666666666666666,
+          0.016666666666666666,
+          0.0
+        ],
+        "inverse-fraction": [
+          0.0005435292954567615,
+          0.0040029018478583735,
+          0.04545356885668487,
+          0.0
+        ],
+        "inverse-sqrt-count": [
+          0.0024227808567949785,
+          0.005590263858827079,
+          0.041986955284377944,
+          0.0
+        ]
+      }
+    },
+    {
+      "design": "M4",
+      "budget": 2063,
+      "file": "outputs\\experiments\\course-20261107-v1\\evaluation\\queries-M4-b2063.npz",
+      "sha256": "c5118e52cc94f0444300f9a929da7f5577815624b2b55170381ad09d35ae8fb5",
+      "sizes": [
+        2148,
+        1650,
+        6483,
+        35
+      ],
+      "counts": [
+        1770,
+        192,
+        81,
+        20
+      ],
+      "allocations": {
+        "equal": [
+          0.0125,
+          0.0125,
+          0.0125,
+          0.0125
+        ],
+        "inverse-fraction": [
+          0.0006624640986445092,
+          0.004691201117539788,
+          0.043691035647153056,
+          0.0009552991366626478
+        ],
+        "inverse-sqrt-count": [
+          0.002841836379287783,
+          0.0066280344266256425,
+          0.04009451254277295,
+          0.0004356166513136333
+        ]
+      }
+    },
+    {
+      "design": "M3",
+      "budget": 4126,
+      "file": "outputs\\experiments\\course-20261107-v1\\evaluation\\queries-M3-b4126.npz",
+      "sha256": "c86d6803df75fe5385b8b76f4489bed8ad9e58cd16af4298e8e81483cb16e63e",
+      "sizes": [
+        1938,
+        1401,
+        6960,
+        17
+      ],
+      "counts": [
+        1938,
+        1401,
+        770,
+        17
+      ],
+      "allocations": {
+        "equal": [
+          0.0,
+          0.0,
+          0.05,
+          0.0
+        ],
+        "inverse-fraction": [
+          0.0,
+          0.0,
+          0.05,
+          0.0
+        ],
+        "inverse-sqrt-count": [
+          0.0,
+          0.0,
+          0.05,
+          0.0
+        ]
+      }
+    },
+    {
+      "design": "M4",
+      "budget": 4126,
+      "file": "outputs\\experiments\\course-20261107-v1\\evaluation\\queries-M4-b4126.npz",
+      "sha256": "ffd99db62fbccf671966710b140bc5b87ecec164b6ae60d646e50cfa8193138d",
+      "sizes": [
+        2148,
+        1650,
+        6483,
+        35
+      ],
+      "counts": [
+        2148,
+        1365,
+        580,
+        33
+      ],
+      "allocations": {
+        "equal": [
+          0.0,
+          0.016666666666666666,
+          0.016666666666666666,
+          0.016666666666666666
+        ],
+        "inverse-fraction": [
+          0.0,
+          0.004494655663562877,
+          0.041561686405735265,
+          0.003943657930701863
+        ],
+        "inverse-sqrt-count": [
+          0.0,
+          0.006979317191886931,
+          0.04206853057081908,
+          0.0009521522372939892
+        ]
+      }
+    },
+    {
+      "design": "K4",
+      "budget": 516,
+      "file": "outputs\\experiments\\timed-d-20261108-v1\\queries-K4-b516.npz",
+      "sha256": "3fdadba1a5618492bfd5a8b74a324aa5b66635ed44bcffaac3cf30e30c56ac55",
+      "sizes": [
+        2140,
+        3891,
+        2174,
+        2111
+      ],
+      "counts": [
+        20,
+        52,
+        40,
+        404
+      ],
+      "allocations": {
+        "equal": [
+          0.0125,
+          0.0125,
+          0.0125,
+          0.0125
+        ],
+        "inverse-fraction": [
+          0.02216218680497178,
+          0.015498394834317971,
+          0.011257148157478657,
+          0.0010822702032315958
+        ],
+        "inverse-sqrt-count": [
+          0.016310883017959705,
+          0.01839239377377051,
+          0.011716779084294365,
+          0.0035799441239754244
+        ]
+      }
+    },
+    {
+      "design": "power-uniform",
+      "budget": 516,
+      "file": "outputs\\experiments\\timed-d-20261108-v1\\queries-power-uniform-b516.npz",
+      "sha256": "67660daf5f4b6e9bfcc8bd9fefb53ede784d925d3ed028deab28b93b1d6ec1b0",
+      "sizes": [
+        10316
+      ],
+      "counts": [
+        516
+      ],
+      "allocations": {
+        "equal": [
+          0.05
+        ],
+        "inverse-fraction": [
+          0.05
+        ],
+        "inverse-sqrt-count": [
+          0.05000000000000001
+        ]
+      }
+    },
+    {
+      "design": "K4",
+      "budget": 1032,
+      "file": "outputs\\experiments\\timed-d-20261108-v1\\queries-K4-b1032.npz",
+      "sha256": "ef3c36d426019892f5b9e8da40f3be3b41445c27342ed291b90f7579fcdcd2e9",
+      "sizes": [
+        2140,
+        3891,
+        2174,
+        2111
+      ],
+      "counts": [
+        20,
+        105,
+        82,
+        825
+      ],
+      "allocations": {
+        "equal": [
+          0.0125,
+          0.0125,
+          0.0125,
+          0.0125
+        ],
+        "inverse-fraction": [
+          0.030901969125407897,
+          0.010702230695768769,
+          0.007656813412199312,
+          0.0007389867666240279
+        ],
+        "inverse-sqrt-count": [
+          0.020417836921002245,
+          0.016202332354263105,
+          0.0102438584510929,
+          0.0031359722736417515
+        ]
+      }
+    },
+    {
+      "design": "power-uniform",
+      "budget": 1032,
+      "file": "outputs\\experiments\\timed-d-20261108-v1\\queries-power-uniform-b1032.npz",
+      "sha256": "8b0082959b8da96165e1b108e1c11eb29be5bb59e120e5ae4c56c7512925323e",
+      "sizes": [
+        10316
+      ],
+      "counts": [
+        1032
+      ],
+      "allocations": {
+        "equal": [
+          0.05
+        ],
+        "inverse-fraction": [
+          0.05
+        ],
+        "inverse-sqrt-count": [
+          0.05
+        ]
+      }
+    },
+    {
+      "design": "K4",
+      "budget": 2063,
+      "file": "outputs\\experiments\\timed-d-20261108-v1\\queries-K4-b2063.npz",
+      "sha256": "fb65587c1a8ab50e996fd21256af5b15ee97ee3cf4fcfd5624b8158c0293aedc",
+      "sizes": [
+        2140,
+        3891,
+        2174,
+        2111
+      ],
+      "counts": [
+        20,
+        212,
+        166,
+        1665
+      ],
+      "allocations": {
+        "equal": [
+          0.0125,
+          0.0125,
+          0.0125,
+          0.0125
+        ],
+        "inverse-fraction": [
+          0.03829140816734888,
+          0.006568147997670361,
+          0.004686720040300443,
+          0.000453723794680326
+        ],
+        "inverse-sqrt-count": [
+          0.024762317960710104,
+          0.013828842191471326,
+          0.008731684118313206,
+          0.0026771557295053633
+        ]
+      }
+    },
+    {
+      "design": "power-uniform",
+      "budget": 2063,
+      "file": "outputs\\experiments\\timed-d-20261108-v1\\queries-power-uniform-b2063.npz",
+      "sha256": "4b14df2cd4e6f7e9f795bad8141c9ea53f0674db13d680d47b92b5111bfed94c",
+      "sizes": [
+        10316
+      ],
+      "counts": [
+        2063
+      ],
+      "allocations": {
+        "equal": [
+          0.05
+        ],
+        "inverse-fraction": [
+          0.049999999999999996
+        ],
+        "inverse-sqrt-count": [
+          0.05
+        ]
+      }
+    },
+    {
+      "design": "K4",
+      "budget": 4126,
+      "file": "outputs\\experiments\\timed-d-20261108-v1\\queries-K4-b4126.npz",
+      "sha256": "a720ef465f4d212f67be3643cfe540df9c1b8933c935998eadb033be99aa004a",
+      "sizes": [
+        2140,
+        3891,
+        2174,
+        2111
+      ],
+      "counts": [
+        97,
+        1074,
+        844,
+        2111
+      ],
+      "allocations": {
+        "equal": [
+          0.016666666666666666,
+          0.016666666666666666,
+          0.016666666666666666,
+          0.0
+        ],
+        "inverse-fraction": [
+          0.03903289989018238,
+          0.006409818438735389,
+          0.00455728167108223,
+          0.0
+        ],
+        "inverse-sqrt-count": [
+          0.026443503007864636,
+          0.01444941185775384,
+          0.00910708513438152,
+          0.0
+        ]
+      }
+    },
+    {
+      "design": "power-uniform",
+      "budget": 4126,
+      "file": "outputs\\experiments\\timed-d-20261108-v1\\queries-power-uniform-b4126.npz",
+      "sha256": "8c50e8929307b5660902e06a53c6003ea8dd01843f7791b2ab5d3293e16625d5",
+      "sizes": [
+        10316
+      ],
+      "counts": [
+        4126
+      ],
+      "allocations": {
+        "equal": [
+          0.05
+        ],
+        "inverse-fraction": [
+          0.049999999999999996
+        ],
+        "inverse-sqrt-count": [
+          0.05
+        ]
+      }
+    }
+  ],
+  "labels_used": false
+}

@@ -1,0 +1,346 @@
+{
+  "status": "passed",
+  "interval_cases": 48000,
+  "checks": [
+    {
+      "design": "M3",
+      "budget": 516,
+      "recipe": "equal",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M3",
+      "budget": 516,
+      "recipe": "inverse-fraction",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M3",
+      "budget": 516,
+      "recipe": "inverse-sqrt-count",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M4",
+      "budget": 516,
+      "recipe": "equal",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M4",
+      "budget": 516,
+      "recipe": "inverse-fraction",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M4",
+      "budget": 516,
+      "recipe": "inverse-sqrt-count",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M3",
+      "budget": 1032,
+      "recipe": "equal",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M3",
+      "budget": 1032,
+      "recipe": "inverse-fraction",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M3",
+      "budget": 1032,
+      "recipe": "inverse-sqrt-count",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M4",
+      "budget": 1032,
+      "recipe": "equal",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M4",
+      "budget": 1032,
+      "recipe": "inverse-fraction",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M4",
+      "budget": 1032,
+      "recipe": "inverse-sqrt-count",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M3",
+      "budget": 2063,
+      "recipe": "equal",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M3",
+      "budget": 2063,
+      "recipe": "inverse-fraction",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M3",
+      "budget": 2063,
+      "recipe": "inverse-sqrt-count",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M4",
+      "budget": 2063,
+      "recipe": "equal",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M4",
+      "budget": 2063,
+      "recipe": "inverse-fraction",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M4",
+      "budget": 2063,
+      "recipe": "inverse-sqrt-count",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M3",
+      "budget": 4126,
+      "recipe": "equal",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M3",
+      "budget": 4126,
+      "recipe": "inverse-fraction",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M3",
+      "budget": 4126,
+      "recipe": "inverse-sqrt-count",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M4",
+      "budget": 4126,
+      "recipe": "equal",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M4",
+      "budget": 4126,
+      "recipe": "inverse-fraction",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "M4",
+      "budget": 4126,
+      "recipe": "inverse-sqrt-count",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "K4",
+      "budget": 516,
+      "recipe": "equal",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "K4",
+      "budget": 516,
+      "recipe": "inverse-fraction",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "K4",
+      "budget": 516,
+      "recipe": "inverse-sqrt-count",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "power-uniform",
+      "budget": 516,
+      "recipe": "equal",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "power-uniform",
+      "budget": 516,
+      "recipe": "inverse-fraction",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "power-uniform",
+      "budget": 516,
+      "recipe": "inverse-sqrt-count",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "K4",
+      "budget": 1032,
+      "recipe": "equal",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "K4",
+      "budget": 1032,
+      "recipe": "inverse-fraction",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "K4",
+      "budget": 1032,
+      "recipe": "inverse-sqrt-count",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "power-uniform",
+      "budget": 1032,
+      "recipe": "equal",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "power-uniform",
+      "budget": 1032,
+      "recipe": "inverse-fraction",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "power-uniform",
+      "budget": 1032,
+      "recipe": "inverse-sqrt-count",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "K4",
+      "budget": 2063,
+      "recipe": "equal",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "K4",
+      "budget": 2063,
+      "recipe": "inverse-fraction",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "K4",
+      "budget": 2063,
+      "recipe": "inverse-sqrt-count",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "power-uniform",
+      "budget": 2063,
+      "recipe": "equal",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "power-uniform",
+      "budget": 2063,
+      "recipe": "inverse-fraction",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "power-uniform",
+      "budget": 2063,
+      "recipe": "inverse-sqrt-count",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "K4",
+      "budget": 4126,
+      "recipe": "equal",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "K4",
+      "budget": 4126,
+      "recipe": "inverse-fraction",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "K4",
+      "budget": 4126,
+      "recipe": "inverse-sqrt-count",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "power-uniform",
+      "budget": 4126,
+      "recipe": "equal",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "power-uniform",
+      "budget": 4126,
+      "recipe": "inverse-fraction",
+      "cases": 1000,
+      "status": "passed"
+    },
+    {
+      "design": "power-uniform",
+      "budget": 4126,
+      "recipe": "inverse-sqrt-count",
+      "cases": 1000,
+      "status": "passed"
+    }
+  ],
+  "result_sha256": "6c3f291b8aeef955da127c59a80139070e5fb261471a5b16c77ee511e547acdb",
+  "allocation_lock_sha256": "b47497a451f9fe41b68ce41679ad3b419f2c092a489762661726ead9e4146594",
+  "exact_endpoint_checks": "Every distinct stratum success count checked against CDF/SF acceptance and adjacent integer tails",
+  "primary_bootstrap": "reproduced"
+}
