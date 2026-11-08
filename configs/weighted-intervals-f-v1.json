@@ -1,0 +1,19 @@
+{
+  "designation": "exploratory public-weight exact reference intervals after repeated test inspection",
+  "main": "outputs/experiments/course-20261107-v1",
+  "input": "outputs/experiments/timed-d-20261108-v1",
+  "processed": "data/processed/vsgaze-17357752-v1",
+  "output": "outputs/experiments/weighted-f-20261108-v1",
+  "protocol": "docs/WEIGHTED_INTERVALS_F.md",
+  "input_result_sha256": "620b1555fbfefdd4fbd34cf976d398006ae0fe651e87f5e86600d3c76131ce27",
+  "main_result_sha256": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9",
+  "recipes": ["equal", "inverse-fraction", "inverse-sqrt-count"],
+  "designs": ["M3", "M4", "K4", "power-uniform"],
+  "budgets": [516, 1032, 2063, 4126],
+  "draws": 1000,
+  "alpha": 0.05,
+  "bootstrap_seed": 400006,
+  "bootstrap_resamples": 2000,
+  "new_queries": 0,
+  "replace_main": false
+}
