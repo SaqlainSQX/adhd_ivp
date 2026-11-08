@@ -1,0 +1,15 @@
+{
+  "stage": "K3-public-visual-and-identity-screen",
+  "clips": 15,
+  "contact_sheets": 3,
+  "same_id_comparisons": 10757,
+  "alternative_id_iou_flags": 0,
+  "missing_positive_offset_neighbors": 456,
+  "iou_screen_rule": "offset3/6; alternative IoU>.5 and>.2 above same ID",
+  "iou_screen_is_not_identity_ground_truth": true,
+  "out_of_frame_padding_synthetic_check": true,
+  "geometry_altered": false,
+  "reference_fields_accessed": false,
+  "visual_review": "pending",
+  "inference_started": false
+}

@@ -1,0 +1,24 @@
+{
+  "stage": "K3-visual-review-decision",
+  "reviewer": "assistant visual inspection of three displayed sheets",
+  "panels_inspected": 75,
+  "clips_inspected": 15,
+  "public_head_alignment": "accepted_sampled",
+  "main_id_consistency": "accepted_sampled_with_heuristic_limitations",
+  "strict_bounds_flag_rows_retained": 360,
+  "raw_coordinates_changed": false,
+  "same_id_iou_comparisons": 10757,
+  "strong_alternative_id_flags": 0,
+  "missing_positive_offset_neighbors": 456,
+  "duplicate_valid_ids_in_any_public_row": false,
+  "reference_fields_accessed": false,
+  "inference_started": false,
+  "next": "Registered K4 ambiguity/eligibility gate before any performance protocol",
+  "sheet_sha256": {
+    "outputs/uco-visual-k3-v1/contact-1.jpg": "0638a88b911d13ffe29067fe016525a2f80d9acd267172b87c9cc29237a6b73c",
+    "outputs/uco-visual-k3-v1/contact-2.jpg": "1cea2fcf1307d4e2ef0cbf98964f4e38636d1b88a671758097da265081a50d4d",
+    "outputs/uco-visual-k3-v1/contact-3.jpg": "3ff5406f7625fab42acc41daa8241d0f3118451dfe4f309491ff470835be06dd"
+  },
+  "runtime_sha256": "ecd6cfc2380f53710f5e495bf50371a94784a72a435748e704895c462e0e2f1c",
+  "pinned_crop_utility_sha256": "1e3e568d015252053bffdc86191459a2424d3c0cdb2404c80baddf421d108b00"
+}

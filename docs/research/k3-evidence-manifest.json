@@ -1,0 +1,19 @@
+{
+  "stage": "K3 visual and public temporal screen",
+  "hash_convention": "Tracked text normalized CRLF to LF; local images raw bytes",
+  "files": {
+    "scripts/review_uco_geometry.py": "e86e3ec150a9e93324e55930d28988245b9eba58d2fad1ceb7e223ea8235da13",
+    "docs/UCO_VISUAL_K3_STATUS.md": "edb579ad0ecec24bd93c73f79ab8173b17c7afb89ceacc6a10c9005b271e9943",
+    "docs/UCO_ELIGIBILITY_K4.md": "e3f39d2103369c2cf937cbf03cd58b9ec279853d52a0fd839d6b61c81b2f5baa",
+    "docs/research/k3-review-decision.json": "3874a8b43935004e3472c43121ec47385c8cebea155de52df211d8c12ae34ce3",
+    "docs/research/k3-screen-result.json": "122f478b6fb97379348ee69644180ad0a8da930208bc35e768fe90e6e9b9fd29"
+  },
+  "local_files": {
+    "outputs/uco-visual-k3-v1/contact-1.jpg": "0638a88b911d13ffe29067fe016525a2f80d9acd267172b87c9cc29237a6b73c",
+    "outputs/uco-visual-k3-v1/contact-2.jpg": "1cea2fcf1307d4e2ef0cbf98964f4e38636d1b88a671758097da265081a50d4d",
+    "outputs/uco-visual-k3-v1/contact-3.jpg": "3ff5406f7625fab42acc41daa8241d0f3118451dfe4f309491ff470835be06dd"
+  },
+  "mutable_exclusions": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md"
+  ]
+}
