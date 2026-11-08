@@ -1,0 +1,29 @@
+{
+  "stage": "I and initial J gates",
+  "hash_convention": "Tracked text normalized CRLF to LF; local files raw bytes",
+  "files": {
+    "scripts/audit_unseen_sources.py": "d065dc271860f05e8acdfaa02561b4aebaba2d338e38a345b33b7131f87c1a9d",
+    "scripts/probe_external_metadata.py": "d460abfea62224e68a08fffb457af131bfb0c1f1835d39c1b4acb322714c1279",
+    "scripts/inspect_ava_archive.py": "4d9350178258f1e972e78633719747952faf0cf004a9dd5c221944d05df102f3",
+    "docs/EXTERNAL_VALIDATION_I_FINDINGS.md": "d82961280593a592b0ce32c5b403d1d8488787c8984942e86db22e6261836c9c",
+    "docs/EXTERNAL_VALIDATION_I_STATUS.md": "2def7d84ecadad681b9bd07bbd7b20bf48da338b08020af95fdb28d934c2c898",
+    "docs/EXTERNAL_METADATA_J.md": "e313783acd0db239843d0225732cb323a34e9a30e49c82ba8f10d9b07b9fe745",
+    "docs/research/i-local-feasibility.json": "37bf57ef74ab8b42f3fa82b3036d24bebcead8cfca99ea6b37fe143f6b92d8a7",
+    "docs/research/i-independent-validation.json": "5f83527c5caaff3d4cf79c47c02c7f574db27b0f8e15386f6a70cedaa8ec8b63",
+    "docs/research/j-access-probes.json": "917bade34e2ba83595ef79e3439b6309423ea254ef1e27eea61aa49b4593240d",
+    "docs/research/j-archive-metadata.json": "cc1252fb0d4c2a19372ea790e9414cc832aec61413b11862829c701f366dc948",
+    "docs/research/i-j-action-log.json": "24247b16de0581b4c0aace7b055169e2d14618eaecc37d381fe8aaab16bbbace"
+  },
+  "local_files": {
+    "outputs/external-review-i-v1/source-ledger.json": "8eae9eb9679c9d4698d14a43f905f8e40e46aca5be3df27cc977f7c9837edb51",
+    "outputs/external-review-i-v1/result.json": "f1dd3accc24be84877b66791a45176882c60e288fb9cf48b270778a9ab1242ea",
+    "outputs/external-review-i-v1/independent-validation.json": "8223ec4728ff9757ff75074479435198fb5c833cdd0a15b647eccc7eca98fe9f",
+    "outputs/external-metadata-j-v1/access-probes.json": "5181cca042716eb65f9014e1772e1605451583f8ffe2a9bb9afdb605c0e47e34",
+    "outputs/external-metadata-j-v1/archive-members.json": "3344aced22efd37c6683318c7d9294f48cf3cc2c7c4815da8fc63b6eede04374",
+    "outputs/external-metadata-j-v1/archive-metadata.json": "be6ebfcdbce807212327dc92fdad0a5d779792ebd715a8643e239f1415696870",
+    "outputs/external-metadata-j-v1/author-parser.txt": "4bda23b762c91668f3a87abf6a2a5d65976ccc88fe782316eefb96270a5887ad"
+  },
+  "mutable_exclusions": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md"
+  ]
+}

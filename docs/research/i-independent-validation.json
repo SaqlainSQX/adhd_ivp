@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "local_source_rows_checked": 95,
+  "input_hashes_checked": 9,
+  "prior_tracked_hashes_checked": 162,
+  "new_label_values_read": false,
+  "new_performance_evaluation": false,
+  "protected_main_hashes_checked": {
+    "outputs/experiments/course-20261107-v1/evaluation/result.json": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9",
+    "outputs/experiments/course-20261107-v1/development/policy-lock.json": "15dacc805bd3f1e525ac32ace89578d51c44016ead2e4b986ceafe06cc074c4e"
+  }
+}

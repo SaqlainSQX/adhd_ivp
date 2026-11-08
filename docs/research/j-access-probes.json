@@ -1,0 +1,41 @@
+{
+  "stage": "J-HEAD-only",
+  "complete": true,
+  "label_values_read": false,
+  "media_downloaded": false,
+  "requests": [
+    {
+      "candidate": "ava_annotations",
+      "requested_url": "https://www.robots.ox.ac.uk/~vgg/research/laeonet/downloads/ava_laeo.tar.gz",
+      "method": "HEAD",
+      "utc": "2026-11-08T10:33:10.491700+00:00",
+      "status": 200,
+      "final_host": "www.robots.ox.ac.uk",
+      "content_type": "application/x-gzip",
+      "content_length": "1351919",
+      "last_modified": "Thu, 09 Jan 2020 20:53:06 GMT"
+    },
+    {
+      "candidate": "uco_frames_v1_1",
+      "requested_url": "http://rabinf24.uco.es/ucolaeo/ucolaeodb_v1.1.tgz",
+      "method": "HEAD",
+      "utc": "2026-11-08T10:33:11.692437+00:00",
+      "status": 200,
+      "final_host": "rabinf24.uco.es",
+      "content_type": "application/x-gzip",
+      "content_length": "4066161261",
+      "last_modified": "Tue, 06 Apr 2021 14:59:08 GMT"
+    },
+    {
+      "candidate": "uco_frames_v1_0",
+      "requested_url": "https://www.robots.ox.ac.uk/~vgg/research/laeonet/downloads/UCOLAEO_v1.0_frames.tar.gz",
+      "method": "HEAD",
+      "utc": "2026-11-08T10:33:12.312702+00:00",
+      "status": 200,
+      "final_host": "www.robots.ox.ac.uk",
+      "content_type": "application/x-gzip",
+      "content_length": "4045420754",
+      "last_modified": "Wed, 15 May 2019 15:02:07 GMT"
+    }
+  ]
+}

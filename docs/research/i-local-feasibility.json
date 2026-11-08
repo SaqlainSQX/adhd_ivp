@@ -1,0 +1,65 @@
+{
+  "stage": "I-metadata-only-feasibility",
+  "complete": true,
+  "created_utc": "2026-11-08T07:23:53.271448+00:00",
+  "new_reference_label_values_read": false,
+  "performance_evaluation_run": false,
+  "archive_contents_opened": false,
+  "main_population_changed": false,
+  "input_sha256": {
+    "data/raw/childplay/verified-population-v2/population-manifest.json": "f656637160d3139e232d7526d7b1942f6b4a66fcc872f6220fc0b470b8a775d7",
+    "data/raw/childplay/verified-population-v2/retained-sources.csv": "46ba593294aabf513750dfbf1691975b3096184250a3ca63f39ddbd1e9bccdff",
+    "data/processed/vsgaze-17357752-v1/public/frames.csv": "a00748b2da3d62de12ad37536e0ec9dba5793502318373f6285ee90e9f92a281",
+    "data/raw/childplay/acquisition-full-v1/acquisition.json": "044c9f071e7746701e3cbb8cef5b1432a0b433df60e5879b22834014cf5818c9",
+    "data/raw/childplay/acquisition-framecount-review-v1/acquisition.json": "dbbbdf4dac6ef621792e58f26b9b334e12ac088483b8eff7785adde1146a03e1",
+    "docs/research/annotation-inventory.json": "cffa0a09e51904807a87c87032c03d87d03d6eccbe236887c8b9b7619d55012a",
+    "outputs/inference/mtgs-strict-shard-v1/inference-provenance.json": "a5115788decab82af989522d74aaddc71b30ba4549aa466072cce127c88d2e07",
+    "outputs/inference/mtgs-remaining-shard-v1/inference-provenance.json": "2fc12b6af6673723380c713a62145f5c21e3dc7ba6b391840f26515b2d7ab20a",
+    "scripts/audit_unseen_sources.py": "d065dc271860f05e8acdfaa02561b4aebaba2d338e38a345b33b7131f87c1a9d"
+  },
+  "original_sources": 95,
+  "retained_sources": 53,
+  "excluded_sources": 42,
+  "original_splits": {
+    "train": 68,
+    "validation": 6,
+    "test": 21
+  },
+  "retained_splits": {
+    "test": 10,
+    "train": 40,
+    "validation": 3
+  },
+  "excluded_splits": {
+    "train": 28,
+    "test": 11,
+    "validation": 3
+  },
+  "exclusion_categories": {
+    "frame_count_alignment": 20,
+    "unavailable": 17,
+    "http_403": 2,
+    "sign_in_required": 1,
+    "visual_alignment": 1,
+    "cadence_alignment": 1
+  },
+  "full_complete": 54,
+  "review_complete": 14,
+  "existing_archives_by_pool": {
+    "full": 54,
+    "review": 14
+  },
+  "excluded_with_existing_archive": 15,
+  "cached_sources": 54,
+  "cached_excluded_sources": 1,
+  "qualifying_local_unseen_sources": 0,
+  "prior_inspection_evidence": "Annotation-only exploratory constant-score checks; no MTGS prediction results",
+  "interpretation": "No local source is presently accepted as independent unseen evidence. Broad label-summary exposure is known; individual exposure for exclusions is not proven.",
+  "checks": {
+    "source_partition": true,
+    "cache_membership": true,
+    "original_inventory_count": true,
+    "present_archive_sizes": true
+  },
+  "local_ledger_sha256": "8eae9eb9679c9d4698d14a43f905f8e40e46aca5be3df27cc977f7c9837edb51"
+}

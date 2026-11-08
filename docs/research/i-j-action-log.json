@@ -1,0 +1,44 @@
+{
+  "stage": "I and initial J metadata gates",
+  "date": "2026-11-08",
+  "branch": "codex/external-validation-i-v1",
+  "commands": [
+    ".venv/Scripts/python.exe scripts/audit_unseen_sources.py",
+    ".venv/Scripts/python.exe -m ruff check scripts/audit_unseen_sources.py scripts/probe_external_metadata.py scripts/inspect_ava_archive.py",
+    ".venv/Scripts/python.exe scripts/probe_external_metadata.py",
+    ".venv/Scripts/python.exe scripts/inspect_ava_archive.py"
+  ],
+  "checks": "Separate metadata/hash cross-check:95 rows,9 input hashes,162 prior tracked hashes.",
+  "download": {
+    "file": "data/research/ava-laeo-metadata-j-v1/ava_laeo.tar.gz",
+    "bytes": 1351919,
+    "sha256": "6de0e373bd92d676de259430fb376e384fff800d18a6f94a188a95a38c921881"
+  },
+  "failed_actions": [
+    {
+      "action": "earlier unregistered HEAD batch",
+      "executed": false,
+      "reason": "automatic approval review usage limit",
+      "resolution": "resumed registered HEAD checks later approved and succeeded"
+    },
+    {
+      "action": "web fetch preprocessed AVA validation SharePoint",
+      "result": "redirect to Microsoft sign-in; no acquisition attempted"
+    },
+    {
+      "action": "initial unprivileged process query",
+      "result": "CIM unavailable; authorized read-only process inspection later succeeded"
+    }
+  ],
+  "no_gpu_or_kaggle_work": true,
+  "process_observation": {
+    "research_demo_pids": [
+      30660,
+      30428
+    ],
+    "another_project_supervisor_present": true,
+    "processes_altered": false
+  },
+  "git_sync": "Commit and push are operationally recorded in Git and local sync log; manifest has no circular commit dependency.",
+  "no_new_reference_labels_or_media_opened": true
+}

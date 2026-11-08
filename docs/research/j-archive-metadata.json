@@ -1,0 +1,17 @@
+{
+  "stage": "J-annotation-archive-members-only",
+  "created_utc": "2026-11-08T10:33:48.621830+00:00",
+  "url": "https://www.robots.ox.ac.uk/~vgg/research/laeonet/downloads/ava_laeo.tar.gz",
+  "bytes": 1351919,
+  "sha256": "6de0e373bd92d676de259430fb376e384fff800d18a6f94a188a95a38c921881",
+  "member_count": 4,
+  "file_count": 3,
+  "suffix_counts": {
+    ".csv": 2,
+    ".py": 1
+  },
+  "annotation_values_read": false,
+  "archive_extracted": false,
+  "media_downloaded": false,
+  "performance_evaluated": false
+}
