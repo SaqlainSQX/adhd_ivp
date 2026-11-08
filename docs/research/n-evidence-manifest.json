@@ -1,0 +1,33 @@
+{
+  "stage": "N aggregate transfer appendix",
+  "delivery": "with explicit browser download-capture limitation",
+  "hash_convention": "Tracked text normalized CRLF to LF; PNG and local files raw bytes",
+  "files": {
+    "src/gaze_audit/transfer_appendix.py": "fd5a977c0aea65b2a158047468b33b6e51fd4b60e2dc8390eb0c0b6f73fe1335",
+    "scripts/build_transfer_appendix.py": "3dbf504378e0e0bc299b166d4543d2db9c9dbc320ad8ac950d25df515e2a57a8",
+    "scripts/serve_transfer_appendix.py": "994359b514af6d62ff86ba6fed7ee2c31d3ced5d88fbe3e14b55db8a98fbc5a2",
+    "tests/test_transfer_appendix.py": "c1122ef673290548147e18269e47aa0a673795a160698fc0fc3d7536c3fc6b74",
+    "demo/transfer/index.html": "06206cefdc8359518f35f17544632e0521d759fc4dd07b20cf9707d5e6e4c60b",
+    "demo/transfer/style.css": "1064f4752c5aebd4a0085efd6dcccf2f9a63e8d0ae8eac4ebb2719ee83a6efad",
+    "demo/transfer/app.js": "220001ea06e1c6756257773393e6767c9c6246424ffa5618c0fc9eb0aaf0d9d5",
+    "demo/transfer/data.js": "4708088df448a86a30f90b6a3ed9605437bd0ad449261aafcef643cb17b71bd2",
+    "demo/transfer/data.json": "79551273633b365c28714493d0270b8a305cd387f5d7e9576bc20e008aef9dac",
+    "docs/TRANSFER_APPENDIX_N_GUIDE.md": "7408c82e789bc1b88ced9503dffbbb061850beb1564d4ef149274e516fa204d3",
+    "docs/TRANSFER_APPENDIX_N_STATUS.md": "a71c41bd5a5f7d42bbf80bfed9b1cb7e41db9c3ec408084dcf1a95a5d14b89ba",
+    "docs/TEAM_REPRODUCIBILITY_O.md": "76165d952c7886a9a933eadcc3f99797a92ace5ac8cc784896a06f61b3be308f",
+    "docs/research/n-qa-result.json": "7658211e6d8fea8242f82f486e474815b59fe5ab06522d0252644f6de453b91b",
+    "reports/course-project/transfer-appendix-preview.png": "8d4ed950629cd26fa2ecc750f43fffd05fb46fc8eb7303cbb128f37f9f6da147"
+  },
+  "local_files": {
+    "outputs/transfer-appendix-n-v1/qa/full-tests.log": "c557a8f68d3e05a1a56340e0e6da7dbf6851496540188d3106c9da6aa26b3420",
+    "outputs/transfer-appendix-n-v1/qa/server-stderr-snapshot.log": "be60a627043c038b63eb071fe146413b8f9f09f34f7650f9a2c9087881be07ae",
+    "outputs/transfer-appendix-n-v1/qa/server-stdout-snapshot.log": "f9d0d4fb0593270e5786420d00c6673c81fee69c873e3b65b4a5a02019cc05a9",
+    "outputs/transfer-appendix-n-v1/http-export-qa.json": "083e9fe759488707e6bd911a87e416fb5234b5b784d2ac1d769e6e009bc9b391",
+    "outputs/transfer-appendix-n-v1/transfer-evidence-summary.json": "e7a31dd8a17a3b4e666d914673b951ce9be3b309771111f4d6154c2cc27d0892"
+  },
+  "mutable_exclusions": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md",
+    "outputs/transfer-appendix-n-v1/server.stdout.log",
+    "outputs/transfer-appendix-n-v1/server.stderr.log"
+  ]
+}

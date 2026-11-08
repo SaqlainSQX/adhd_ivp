@@ -1,0 +1,92 @@
+{
+  "delivery": "complete with known in-app-browser download-capture limitation",
+  "tests_passed": 83,
+  "test_seconds": 18.88,
+  "new_tests": 2,
+  "desktop_viewport_observed": [
+    1265,
+    712
+  ],
+  "mobile_viewport_tested": [
+    390,
+    844
+  ],
+  "mobile_document_width": 375,
+  "mobile_scroll_width": 375,
+  "all_budget_controls_checked": [
+    260,
+    521,
+    1043,
+    2087
+  ],
+  "views_checked": [
+    "results",
+    "explanation",
+    "limits"
+  ],
+  "app_console_errors_final": 0,
+  "viewport_override_reset": true,
+  "browser_tab_marked_deliverable": true,
+  "projection_sources_pinned": true,
+  "HTTP_and_export_checks": {
+    "complete": true,
+    "http_cases": [
+      {
+        "path": "/",
+        "status": 200
+      },
+      {
+        "path": "/index.html",
+        "status": 200
+      },
+      {
+        "path": "/app.js",
+        "status": 200
+      },
+      {
+        "path": "/style.css",
+        "status": 200
+      },
+      {
+        "path": "/data.js",
+        "status": 200
+      },
+      {
+        "path": "/data.json",
+        "status": 200
+      },
+      {
+        "path": "/data/raw/childplay",
+        "status": 404
+      },
+      {
+        "path": "/api/frame?id=test",
+        "status": 404
+      },
+      {
+        "path": "/api/replay",
+        "status": 404
+      },
+      {
+        "path": "/%2e%2e/data.json",
+        "status": 404
+      },
+      {
+        "path": "/data.json?file=oracle.csv",
+        "status": 404
+      }
+    ],
+    "served_export_matches_static_asset": true,
+    "export_sha256": "e7a31dd8a17a3b4e666d914673b951ce9be3b309771111f4d6154c2cc27d0892",
+    "export_has_individual_reference_or_query_records": false,
+    "in_app_browser_download_capture": "timed out; physical browser download not claimed",
+    "download_capture_tools_not_to_repeat": [
+      "downloadMedia",
+      "waitForEvent(download)"
+    ]
+  },
+  "browser_download_capture_passed": false,
+  "known_failure": "downloadMedia timed out despite requested timeout; do not repeat this or download wait helpers",
+  "old_services_and_evidence_preserved": true,
+  "new_GPU_or_model_work": false
+}

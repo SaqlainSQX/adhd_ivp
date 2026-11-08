@@ -8,15 +8,16 @@ status changes are intentionally excluded from immutable scientific manifests.
 
 I and J's UCO metadata review are complete. See
 [UCO_CONTRACT_J_STATUS.md](UCO_CONTRACT_J_STATUS.md) and the prior I findings.
-L and M are complete; read [VARIANCE_EXPLANATION_M_RESULTS.md](VARIANCE_EXPLANATION_M_RESULTS.md)
-and the L results. M reproduces16 saved exact variances and96 independent
-stratum checks: primary exact half/full RMSE0.88910 ChildPlay versus1.30375 UCO.
-This is post-hoc explanation, not a new fitted policy/gain. The L primary
-Monte Carlo half/full ratio1.26948 remains a loss; full-weight allocation versus
-uniform0.74412 is a secondary gain. Branch:`codex/variance-explanation-m-v1`;
-main remains59fb784. Earlier evidence and every prior loss are unchanged.
+N's separate transfer appendix is delivered at http://127.0.0.1:8768; see
+[TRANSFER_APPENDIX_N_STATUS.md](TRANSFER_APPENDIX_N_STATUS.md) and guide.83 tests
+passed; desktop/mobile views and11 live HTTP cases were checked. The JSON
+endpoint/export payload is verified, but the in-app browser's physical download
+capture timed out and is not claimed as passed. Do not repeat its downloadMedia
+or waitForEvent(download) helpers. Branch:`codex/transfer-appendix-n-v1`;
+main remains59fb784. L/M results and every prior loss remain unchanged.
 
-The local research service is available at http://127.0.0.1:8766. Treat recorded
+The original research service is available at http://127.0.0.1:8766 and the new
+aggregate appendix at http://127.0.0.1:8768. Treat recorded
 PIDs as historical; inspect actual process/listener state before reusing or
 restarting a service. Do not duplicate jobs or kill another agent's workload.
 The local inference and evaluation jobs finished; no Kaggle job was used. Inspect
@@ -24,15 +25,14 @@ actual processes and logs before any new job, never trust historical PIDs alone.
 
 ## Next concrete work
 
-Implement [TRANSFER_APPENDIX_N.md](TRANSFER_APPENDIX_N.md): a separate local
-aggregate-only course/demo appendix using tracked L/M evidence. Preserve both
-original explorers and all scientific manifests. Include every UCO budget,
-primary half-weight loss, secondary score-allocation gains, interval precision,
-M's post-hoc explanation and all exposure/geometry/indexing limitations. Provide
-a course walkthrough, verify provenance/export and desktop/mobile rendering.
-No raw-media/label access, GPU job, external publication or parameter search is
-needed. Do not repeat completed numerical experiments or call inspected labels
-new confirmation. Keep the standing continuation active across stage boundaries.
+Advance [TEAM_REPRODUCIBILITY_O.md](TEAM_REPRODUCIBILITY_O.md): verify the aggregate
+appendix can rebuild from a staged tracked-file allowlist with no raw data,
+models, credentials, GPU stack or old local outputs. Preserve failed attempts,
+record hashes/source commit and scope the claim honestly. Keep N's known in-app
+download-capture limitation visible; use the verified JSON endpoint for export,
+not another long download-helper attempt. Do not repeat completed numerical
+experiments or retune on inspected test labels. Preserve both original explorers,
+their active services, all scientific manifests and the standing continuation.
 
 ## Completed recent stages
 
