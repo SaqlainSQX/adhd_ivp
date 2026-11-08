@@ -1,0 +1,487 @@
+{
+  "complete": true,
+  "comparisons": {
+    "L1-Q-b516/uniform": {
+      "rmse_ratio": 0.46992697132554034,
+      "draw_bootstrap_95pct": [
+        0.4436367231849606,
+        0.49854286933519937
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L1-S-b516/uniform": {
+      "rmse_ratio": 0.5221763547624179,
+      "draw_bootstrap_95pct": [
+        0.4919496975703955,
+        0.554550932355263
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L1-T-b516/uniform": {
+      "rmse_ratio": 0.5580545808745766,
+      "draw_bootstrap_95pct": [
+        0.5265103030561427,
+        0.5920049086485201
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L1-Q-b1032/uniform": {
+      "rmse_ratio": 0.3902263719322469,
+      "draw_bootstrap_95pct": [
+        0.3674839448170897,
+        0.41651766788687017
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L1-S-b1032/uniform": {
+      "rmse_ratio": 0.46293695972229465,
+      "draw_bootstrap_95pct": [
+        0.43527029392469546,
+        0.495176312859316
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L1-T-b1032/uniform": {
+      "rmse_ratio": 0.49767894026375487,
+      "draw_bootstrap_95pct": [
+        0.46733670467317334,
+        0.5324692302594829
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L1-Q-b2063/uniform": {
+      "rmse_ratio": 0.2622050950066374,
+      "draw_bootstrap_95pct": [
+        0.24794852893431174,
+        0.27878930519253486
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L1-S-b2063/uniform": {
+      "rmse_ratio": 0.36637983228695137,
+      "draw_bootstrap_95pct": [
+        0.3424411048025776,
+        0.38838783975208124
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L1-T-b2063/uniform": {
+      "rmse_ratio": 0.42473496287512036,
+      "draw_bootstrap_95pct": [
+        0.4004935270612596,
+        0.4499461451094146
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L1-Q-b4126/uniform": {
+      "rmse_ratio": 0.055032804922239664,
+      "draw_bootstrap_95pct": [
+        0.05265038509917858,
+        0.057714964002722455
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L1-S-b4126/uniform": {
+      "rmse_ratio": 0.0083945761163511,
+      "draw_bootstrap_95pct": [
+        0.007922602691226691,
+        0.008917027178527525
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L1-T-b4126/uniform": {
+      "rmse_ratio": 0.09768981515217709,
+      "draw_bootstrap_95pct": [
+        0.09220055578670071,
+        0.10358257114467394
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L2-Q-b516/uniform": {
+      "rmse_ratio": 0.4066797836435441,
+      "draw_bootstrap_95pct": [
+        0.38182682724621336,
+        0.43267453086779717
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L2-S-b516/uniform": {
+      "rmse_ratio": 0.5282090812215029,
+      "draw_bootstrap_95pct": [
+        0.49122373859256907,
+        0.566937092512748
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L2-T-b516/uniform": {
+      "rmse_ratio": 0.5838404534441574,
+      "draw_bootstrap_95pct": [
+        0.5473983818904377,
+        0.6222034472261057
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L2-Q-b1032/uniform": {
+      "rmse_ratio": 0.3849002077482823,
+      "draw_bootstrap_95pct": [
+        0.3616716818767497,
+        0.4107229598206355
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L2-S-b1032/uniform": {
+      "rmse_ratio": 0.5214633405844298,
+      "draw_bootstrap_95pct": [
+        0.48899439558979124,
+        0.5571663579310234
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L2-T-b1032/uniform": {
+      "rmse_ratio": 0.5404898210936222,
+      "draw_bootstrap_95pct": [
+        0.5063027078106302,
+        0.575513013833117
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L2-Q-b2063/uniform": {
+      "rmse_ratio": 0.25774367777361745,
+      "draw_bootstrap_95pct": [
+        0.242315234142923,
+        0.27582322901972534
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L2-S-b2063/uniform": {
+      "rmse_ratio": 0.42786932935196503,
+      "draw_bootstrap_95pct": [
+        0.40246094433702945,
+        0.45746214399698976
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L2-T-b2063/uniform": {
+      "rmse_ratio": 0.4390500801027984,
+      "draw_bootstrap_95pct": [
+        0.41271177601428755,
+        0.46923644612089976
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L2-Q-b4126/uniform": {
+      "rmse_ratio": 0.04701375435925958,
+      "draw_bootstrap_95pct": [
+        0.04454991401833218,
+        0.04957677865603905
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L2-S-b4126/uniform": {
+      "rmse_ratio": 0.0778147033960185,
+      "draw_bootstrap_95pct": [
+        0.07307556362590491,
+        0.08265178165183618
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L2-T-b4126/uniform": {
+      "rmse_ratio": 0.14973187872191424,
+      "draw_bootstrap_95pct": [
+        0.14050335989858337,
+        0.15961276157368726
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L5-Q-b516/uniform": {
+      "rmse_ratio": 0.4587907511228269,
+      "draw_bootstrap_95pct": [
+        0.4297417349921422,
+        0.4886185499554213
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L5-S-b516/uniform": {
+      "rmse_ratio": 0.5479698983263428,
+      "draw_bootstrap_95pct": [
+        0.5082112104524824,
+        0.5896589765553312
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L5-T-b516/uniform": {
+      "rmse_ratio": 0.5266768898797728,
+      "draw_bootstrap_95pct": [
+        0.49057537797703166,
+        0.5713043446188578
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L5-Q-b1032/uniform": {
+      "rmse_ratio": 0.4065661164053729,
+      "draw_bootstrap_95pct": [
+        0.3834497204637308,
+        0.4317144609196979
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L5-S-b1032/uniform": {
+      "rmse_ratio": 0.4605165003108661,
+      "draw_bootstrap_95pct": [
+        0.42855560647851487,
+        0.4904141222888773
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L5-T-b1032/uniform": {
+      "rmse_ratio": 0.512948739527397,
+      "draw_bootstrap_95pct": [
+        0.47588067847420845,
+        0.5489280854130272
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L5-Q-b2063/uniform": {
+      "rmse_ratio": 0.2845087954526222,
+      "draw_bootstrap_95pct": [
+        0.26773021970007127,
+        0.30300580296502416
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L5-S-b2063/uniform": {
+      "rmse_ratio": 0.4101838081982239,
+      "draw_bootstrap_95pct": [
+        0.38316508637067137,
+        0.4383865432427739
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L5-T-b2063/uniform": {
+      "rmse_ratio": 0.4110523940805603,
+      "draw_bootstrap_95pct": [
+        0.3852077791773005,
+        0.4394094725874075
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L5-Q-b4126/uniform": {
+      "rmse_ratio": 0.056311712765912965,
+      "draw_bootstrap_95pct": [
+        0.05348223008439916,
+        0.059368095426850974
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L5-S-b4126/uniform": {
+      "rmse_ratio": 0.1335993498242743,
+      "draw_bootstrap_95pct": [
+        0.12577260001828436,
+        0.1423083305094406
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L5-T-b4126/uniform": {
+      "rmse_ratio": 0.16706090294719708,
+      "draw_bootstrap_95pct": [
+        0.15807696694466863,
+        0.17713231825860654
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L10-Q-b516/uniform": {
+      "rmse_ratio": 0.45488999897882404,
+      "draw_bootstrap_95pct": [
+        0.4284320416707755,
+        0.4831785697347298
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L10-S-b516/uniform": {
+      "rmse_ratio": 0.5363384418160583,
+      "draw_bootstrap_95pct": [
+        0.49065910264576856,
+        0.5821121694195579
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L10-T-b516/uniform": {
+      "rmse_ratio": 0.5387343909012751,
+      "draw_bootstrap_95pct": [
+        0.4970720431014751,
+        0.5836328700151505
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L10-Q-b1032/uniform": {
+      "rmse_ratio": 0.4093001198039033,
+      "draw_bootstrap_95pct": [
+        0.38598460786047856,
+        0.4314983231072202
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L10-S-b1032/uniform": {
+      "rmse_ratio": 0.4793662382533487,
+      "draw_bootstrap_95pct": [
+        0.4418915889109886,
+        0.5203977370806825
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L10-T-b1032/uniform": {
+      "rmse_ratio": 0.5140740361116406,
+      "draw_bootstrap_95pct": [
+        0.4768766203849105,
+        0.5524880727535785
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L10-Q-b2063/uniform": {
+      "rmse_ratio": 0.294344515864883,
+      "draw_bootstrap_95pct": [
+        0.2769718038921413,
+        0.3132860718464801
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L10-S-b2063/uniform": {
+      "rmse_ratio": 0.40019902844538585,
+      "draw_bootstrap_95pct": [
+        0.3715372149216506,
+        0.43255999329206607
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L10-T-b2063/uniform": {
+      "rmse_ratio": 0.3811949176244083,
+      "draw_bootstrap_95pct": [
+        0.3560002689927293,
+        0.40874025096519373
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L10-Q-b4126/uniform": {
+      "rmse_ratio": 0.046723019046611546,
+      "draw_bootstrap_95pct": [
+        0.04446393976373048,
+        0.049294686907099504
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L10-S-b4126/uniform": {
+      "rmse_ratio": 0.15686684935487916,
+      "draw_bootstrap_95pct": [
+        0.14988715811377465,
+        0.1643115627238759
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    },
+    "L10-T-b4126/uniform": {
+      "rmse_ratio": 0.17267636063145633,
+      "draw_bootstrap_95pct": [
+        0.16524318844192373,
+        0.18094599124855854
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Aligned draw IDs with different registered streams; fixed corpus, not source resampling"
+    }
+  },
+  "pilot_result_sha256": "0934b365ce20f843d021f9813bc4750eafc19c3bdfca279e9af3b5520a8cd940",
+  "result_sha256": "a0bf345acb4446bd215b0f2b1ff2b1feaef4df1dd2b3d8f683fbf1a1dcf7c4b9"
+}

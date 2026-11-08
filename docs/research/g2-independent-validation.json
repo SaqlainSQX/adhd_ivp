@@ -1,0 +1,626 @@
+{
+  "status": "passed",
+  "method_draws": 48000,
+  "validation_candidate_draws": 3600,
+  "public_checks": [
+    {
+      "split": "train",
+      "length": 1,
+      "status": "passed"
+    },
+    {
+      "split": "train",
+      "length": 2,
+      "status": "passed"
+    },
+    {
+      "split": "train",
+      "length": 5,
+      "status": "passed"
+    },
+    {
+      "split": "train",
+      "length": 10,
+      "status": "passed"
+    },
+    {
+      "split": "validation",
+      "length": 1,
+      "status": "passed"
+    },
+    {
+      "split": "validation",
+      "length": 2,
+      "status": "passed"
+    },
+    {
+      "split": "validation",
+      "length": 5,
+      "status": "passed"
+    },
+    {
+      "split": "validation",
+      "length": 10,
+      "status": "passed"
+    },
+    {
+      "split": "test",
+      "length": 1,
+      "status": "passed"
+    },
+    {
+      "split": "test",
+      "length": 2,
+      "status": "passed"
+    },
+    {
+      "split": "test",
+      "length": 5,
+      "status": "passed"
+    },
+    {
+      "split": "test",
+      "length": 10,
+      "status": "passed"
+    }
+  ],
+  "validation_checks": [
+    {
+      "length": 1,
+      "policy": "Q",
+      "alpha": 0.0,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "Q",
+      "alpha": 0.5,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "Q",
+      "alpha": 1.0,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "S",
+      "alpha": 0.0,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "S",
+      "alpha": 0.5,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "S",
+      "alpha": 1.0,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "T",
+      "alpha": 0.0,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "T",
+      "alpha": 0.5,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "T",
+      "alpha": 1.0,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "Q",
+      "alpha": 0.0,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "Q",
+      "alpha": 0.5,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "Q",
+      "alpha": 1.0,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "S",
+      "alpha": 0.0,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "S",
+      "alpha": 0.5,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "S",
+      "alpha": 1.0,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "T",
+      "alpha": 0.0,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "T",
+      "alpha": 0.5,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "T",
+      "alpha": 1.0,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "Q",
+      "alpha": 0.0,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "Q",
+      "alpha": 0.5,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "Q",
+      "alpha": 1.0,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "S",
+      "alpha": 0.0,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "S",
+      "alpha": 0.5,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "S",
+      "alpha": 1.0,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "T",
+      "alpha": 0.0,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "T",
+      "alpha": 0.5,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "T",
+      "alpha": 1.0,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "Q",
+      "alpha": 0.0,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "Q",
+      "alpha": 0.5,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "Q",
+      "alpha": 1.0,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "S",
+      "alpha": 0.0,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "S",
+      "alpha": 0.5,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "S",
+      "alpha": 1.0,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "T",
+      "alpha": 0.0,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "T",
+      "alpha": 0.5,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "T",
+      "alpha": 1.0,
+      "status": "passed"
+    }
+  ],
+  "checks": [
+    {
+      "length": 1,
+      "policy": "Q",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "S",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "T",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "Q",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "S",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "T",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "Q",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "S",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "T",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "Q",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "S",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "T",
+      "budget": 516,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "Q",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "S",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "T",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "Q",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "S",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "T",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "Q",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "S",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "T",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "Q",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "S",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "T",
+      "budget": 1032,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "Q",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "S",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "T",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "Q",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "S",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "T",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "Q",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "S",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "T",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "Q",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "S",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "T",
+      "budget": 2063,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "Q",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "S",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 1,
+      "policy": "T",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "Q",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "S",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 2,
+      "policy": "T",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "Q",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "S",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 5,
+      "policy": "T",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "Q",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "S",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed"
+    },
+    {
+      "length": 10,
+      "policy": "T",
+      "budget": 4126,
+      "draws": 1000,
+      "status": "passed"
+    }
+  ],
+  "bootstrap_comparisons": 112,
+  "result_sha256": "a0bf345acb4446bd215b0f2b1ff2b1feaef4df1dd2b3d8f683fbf1a1dcf7c4b9",
+  "policy_lock_sha256": "a0a2780bd3fd73ed39bcffeadb6a4d5e84af0df72f82af826f821aaac36f25d1"
+}

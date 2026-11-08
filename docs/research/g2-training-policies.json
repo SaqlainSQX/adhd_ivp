@@ -1,0 +1,470 @@
+{
+  "L1-Q": {
+    "cuts": [
+      0.0002199533773818,
+      0.0018386652227491,
+      0.0208842158317565
+    ],
+    "sd": [
+      0.002742326941776911,
+      0.016706889852590456,
+      0.023491902090571927,
+      0.2419065870874992
+    ],
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 48118,
+        "centered_signed_residual_variance": 3.992896563956551e-09,
+        "shrunk_sd": 0.002742326941776911
+      },
+      {
+        "stratum": 1,
+        "training_labels": 47883,
+        "centered_signed_residual_variance": 0.00027168036030945914,
+        "shrunk_sd": 0.016706889852590456
+      },
+      {
+        "stratum": 2,
+        "training_labels": 47977,
+        "centered_signed_residual_variance": 0.0005445579348997057,
+        "shrunk_sd": 0.023491902090571927
+      },
+      {
+        "stratum": 3,
+        "training_labels": 47978,
+        "centered_signed_residual_variance": 0.05853564996501319,
+        "shrunk_sd": 0.2419065870874992
+      }
+    ]
+  },
+  "L1-S": {
+    "cuts": [
+      -0.021585712092840922,
+      -0.0008239895094035519,
+      -0.0006077830841728156
+    ],
+    "sd": [
+      0.23803557572966247,
+      0.03229134851285765,
+      0.0028294222631487487,
+      0.05534875042937906
+    ],
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 48008,
+        "centered_signed_residual_variance": 0.05667700387388836,
+        "shrunk_sd": 0.23803557572966247
+      },
+      {
+        "stratum": 1,
+        "training_labels": 68962,
+        "centered_signed_residual_variance": 0.0010377869351049366,
+        "shrunk_sd": 0.03229134851285765
+      },
+      {
+        "stratum": 2,
+        "training_labels": 49717,
+        "centered_signed_residual_variance": 7.312078479413297e-07,
+        "shrunk_sd": 0.0028294222631487487
+      },
+      {
+        "stratum": 3,
+        "training_labels": 25269,
+        "centered_signed_residual_variance": 0.003051589856462719,
+        "shrunk_sd": 0.05534875042937906
+      }
+    ]
+  },
+  "L1-T": {
+    "cuts": [
+      -0.020685898978111347,
+      -0.0008469095516184952,
+      -0.0005890215667241444
+    ],
+    "sd": [
+      0.2365470761805587,
+      0.03336743516777164,
+      0.003604500844502523,
+      0.03835415860693929
+    ],
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 48723,
+        "centered_signed_residual_variance": 0.05597006202457227,
+        "shrunk_sd": 0.2365470761805587
+      },
+      {
+        "stratum": 1,
+        "training_labels": 73680,
+        "centered_signed_residual_variance": 0.0011087772579699681,
+        "shrunk_sd": 0.03336743516777164
+      },
+      {
+        "stratum": 2,
+        "training_labels": 29133,
+        "centered_signed_residual_variance": 5.814880964131743e-07,
+        "shrunk_sd": 0.003604500844502523
+      },
+      {
+        "stratum": 3,
+        "training_labels": 40420,
+        "centered_signed_residual_variance": 0.001462817764102597,
+        "shrunk_sd": 0.03835415860693929
+      }
+    ]
+  },
+  "L2-Q": {
+    "cuts": [
+      0.00043977390305365,
+      0.0036852125194854002,
+      0.04190955916419612
+    ],
+    "sd": [
+      0.007559725238188744,
+      0.03478092681701178,
+      0.040442487805966286,
+      0.47351966601595363
+    ],
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 24286,
+        "centered_signed_residual_variance": 1.5862642355856338e-08,
+        "shrunk_sd": 0.007559725238188744
+      },
+      {
+        "stratum": 1,
+        "training_labels": 24285,
+        "centered_signed_residual_variance": 0.0011535261713744181,
+        "shrunk_sd": 0.03478092681701178
+      },
+      {
+        "stratum": 2,
+        "training_labels": 24285,
+        "centered_signed_residual_variance": 0.0015797588721302254,
+        "shrunk_sd": 0.040442487805966286
+      },
+      {
+        "stratum": 3,
+        "training_labels": 24286,
+        "centered_signed_residual_variance": 0.22434835137086337,
+        "shrunk_sd": 0.47351966601595363
+      }
+    ]
+  },
+  "L2-S": {
+    "cuts": [
+      -0.04139249041462706,
+      -0.0016479790188071038,
+      -0.0012155661683456312
+    ],
+    "sd": [
+      0.46736467899828926,
+      0.05755461736644528,
+      0.0077608355193169165,
+      0.0995641016189676
+    ],
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 24286,
+        "centered_signed_residual_variance": 0.21855245113525618,
+        "shrunk_sd": 0.46736467899828926
+      },
+      {
+        "stratum": 1,
+        "training_labels": 35344,
+        "centered_signed_residual_variance": 0.0032751183286317395,
+        "shrunk_sd": 0.05755461736644528
+      },
+      {
+        "stratum": 2,
+        "training_labels": 24158,
+        "centered_signed_residual_variance": 2.7968037674503978e-06,
+        "shrunk_sd": 0.0077608355193169165
+      },
+      {
+        "stratum": 3,
+        "training_labels": 13354,
+        "centered_signed_residual_variance": 0.009823863933657187,
+        "shrunk_sd": 0.0995641016189676
+      }
+    ]
+  },
+  "L2-T": {
+    "cuts": [
+      -0.04137179795622269,
+      -0.0016938191032369904,
+      -0.0011780431334482888
+    ],
+    "sd": [
+      0.4663441857263391,
+      0.06468369314415848,
+      0.009901383776100312,
+      0.06588587157345463
+    ],
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 24318,
+        "centered_signed_residual_variance": 0.21759866235791275,
+        "shrunk_sd": 0.4663441857263391
+      },
+      {
+        "stratum": 1,
+        "training_labels": 37426,
+        "centered_signed_residual_variance": 0.004149111689836932,
+        "shrunk_sd": 0.06468369314415848
+      },
+      {
+        "stratum": 2,
+        "training_labels": 14471,
+        "centered_signed_residual_variance": 2.206626328201569e-06,
+        "shrunk_sd": 0.009901383776100312
+      },
+      {
+        "stratum": 3,
+        "training_labels": 20927,
+        "centered_signed_residual_variance": 0.0042787377560938354,
+        "shrunk_sd": 0.06588587157345463
+      }
+    ]
+  },
+  "L5-Q": {
+    "cuts": [
+      0.0010756350748122,
+      0.0090843078214672,
+      0.10297818109393095
+    ],
+    "sd": [
+      0.028005436093175774,
+      0.07574879526028147,
+      0.09851606160888157,
+      1.1300847089915185
+    ],
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 10087,
+        "centered_signed_residual_variance": 9.521745600223295e-08,
+        "shrunk_sd": 0.028005436093175774
+      },
+      {
+        "stratum": 1,
+        "training_labels": 10087,
+        "centered_signed_residual_variance": 0.004963493426122282,
+        "shrunk_sd": 0.07574879526028147
+      },
+      {
+        "stratum": 2,
+        "training_labels": 10086,
+        "centered_signed_residual_variance": 0.008938819240903007,
+        "shrunk_sd": 0.09851606160888157
+      },
+      {
+        "stratum": 3,
+        "training_labels": 10087,
+        "centered_signed_residual_variance": 1.2788380892519198,
+        "shrunk_sd": 1.1300847089915185
+      }
+    ]
+  },
+  "L5-S": {
+    "cuts": [
+      -0.09767457348831521,
+      -0.00411994754701776,
+      -0.003038915420864078
+    ],
+    "sd": [
+      1.1184695642013012,
+      0.12892921685944517,
+      0.029669377711842863,
+      0.20045250805759013
+    ],
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 10087,
+        "centered_signed_residual_variance": 1.2526690166201675,
+        "shrunk_sd": 1.1184695642013012
+      },
+      {
+        "stratum": 1,
+        "training_labels": 14946,
+        "centered_signed_residual_variance": 0.01611469574975163,
+        "shrunk_sd": 0.12892921685944517
+      },
+      {
+        "stratum": 2,
+        "training_labels": 9131,
+        "centered_signed_residual_variance": 1.415861381526704e-05,
+        "shrunk_sd": 0.029669377711842863
+      },
+      {
+        "stratum": 3,
+        "training_labels": 6183,
+        "centered_signed_residual_variance": 0.03902921894476682,
+        "shrunk_sd": 0.20045250805759013
+      }
+    ]
+  },
+  "L5-T": {
+    "cuts": [
+      -0.09651834399023629,
+      -0.004234547758092476,
+      -0.002945107833620722
+    ],
+    "sd": [
+      1.1188397798377427,
+      0.1259953920736692,
+      0.0369716631361737,
+      0.14245710215492013
+    ],
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 10087,
+        "centered_signed_residual_variance": 1.253498945971634,
+        "shrunk_sd": 1.1188397798377427
+      },
+      {
+        "stratum": 1,
+        "training_labels": 15342,
+        "centered_signed_residual_variance": 0.015378930888217556,
+        "shrunk_sd": 0.1259953920736692
+      },
+      {
+        "stratum": 2,
+        "training_labels": 5833,
+        "centered_signed_residual_variance": 1.2671649624544138e-05,
+        "shrunk_sd": 0.0369716631361737
+      },
+      {
+        "stratum": 3,
+        "training_labels": 9085,
+        "centered_signed_residual_variance": 0.01946626947076636,
+        "shrunk_sd": 0.14245710215492013
+      }
+    ]
+  },
+  "L10-Q": {
+    "cuts": [
+      0.0020589287523756503,
+      0.01768972675199595,
+      0.19355705656926087
+    ],
+    "sd": [
+      0.07132805835276848,
+      0.15364554722739163,
+      0.17673102422051548,
+      2.1016998296078806
+    ],
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 5381,
+        "centered_signed_residual_variance": 3.4715322732249063e-07,
+        "shrunk_sd": 0.07132805835276848
+      },
+      {
+        "stratum": 1,
+        "training_labels": 5381,
+        "centered_signed_residual_variance": 0.018588454268824883,
+        "shrunk_sd": 0.15364554722739163
+      },
+      {
+        "stratum": 2,
+        "training_labels": 5381,
+        "centered_signed_residual_variance": 0.02624370779890483,
+        "shrunk_sd": 0.17673102422051548
+      },
+      {
+        "stratum": 3,
+        "training_labels": 5381,
+        "centered_signed_residual_variance": 4.428456518542309,
+        "shrunk_sd": 2.1016998296078806
+      }
+    ]
+  },
+  "L10-S": {
+    "cuts": [
+      -0.1821964040786051,
+      -0.00823989509403552,
+      -0.006077830841728155
+    ],
+    "sd": [
+      2.081915153700579,
+      0.23177754613905951,
+      0.07955249233906725,
+      0.32955800490839543
+    ],
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 5381,
+        "centered_signed_residual_variance": 4.345377351357417,
+        "shrunk_sd": 2.081915153700579
+      },
+      {
+        "stratum": 1,
+        "training_labels": 7821,
+        "centered_signed_residual_variance": 0.05034522322122824,
+        "shrunk_sd": 0.23177754613905951
+      },
+      {
+        "stratum": 2,
+        "training_labels": 4362,
+        "centered_signed_residual_variance": 5.822604031081128e-05,
+        "shrunk_sd": 0.07955249233906725
+      },
+      {
+        "stratum": 3,
+        "training_labels": 3960,
+        "centered_signed_residual_variance": 0.10221810248177762,
+        "shrunk_sd": 0.32955800490839543
+      }
+    ]
+  },
+  "L10-T": {
+    "cuts": [
+      -0.17691751041136372,
+      -0.008469095516184954,
+      -0.005890215667241444
+    ],
+    "sd": [
+      2.0801180499993164,
+      0.25510223359302514,
+      0.10231818967945347,
+      0.2312543075956834
+    ],
+    "moments": [
+      {
+        "stratum": 0,
+        "training_labels": 5381,
+        "centered_signed_residual_variance": 4.337869940858198,
+        "shrunk_sd": 2.0801180499993164
+      },
+      {
+        "stratum": 1,
+        "training_labels": 7991,
+        "centered_signed_residual_variance": 0.06180178968062293,
+        "shrunk_sd": 0.25510223359302514
+      },
+      {
+        "stratum": 2,
+        "training_labels": 2899,
+        "centered_signed_residual_variance": 0.0010617350648563601,
+        "shrunk_sd": 0.10231818967945347
+      },
+      {
+        "stratum": 3,
+        "training_labels": 5253,
+        "centered_signed_residual_variance": 0.048451498893280986,
+        "shrunk_sd": 0.2312543075956834
+      }
+    ]
+  }
+}

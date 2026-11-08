@@ -1,0 +1,70 @@
+{
+  "config": {
+    "designation": "exploratory frozen-score block guidance after G1 results",
+    "main": "outputs/experiments/course-20261107-v1",
+    "processed": "data/processed/vsgaze-17357752-v1",
+    "pilot": "outputs/experiments/block-g-20261108-v1",
+    "output": "outputs/experiments/block-guidance-g2-20261108-v1",
+    "protocol": "docs/X01_BLOCK_GUIDANCE_G2.md",
+    "main_result_sha256": "b7dba06392233572b3d1a40a96d0c260f0a42d18d5827cbab35666e46a3aead9",
+    "main_policy_lock_sha256": "15dacc805bd3f1e525ac32ace89578d51c44016ead2e4b986ceafe06cc074c4e",
+    "lengths": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "policies": {
+      "Q": 1,
+      "S": 2,
+      "T": 3
+    },
+    "prediction_weight": 1,
+    "alphas": [
+      0,
+      0.5,
+      1
+    ],
+    "relative_tie_tolerance": 0.01,
+    "budgets": [
+      516,
+      1032,
+      2063,
+      4126
+    ],
+    "validation_budget": 2514,
+    "validation_draws": 100,
+    "test_draws": 1000,
+    "validation_seed_start": 100000,
+    "test_seed_start": 200000,
+    "stream_base": 700,
+    "bootstrap_seed": 400008,
+    "bootstrap_resamples": 2000,
+    "variance_prior": 20,
+    "sd_floor": 1e-06,
+    "minimum_noncensus_blocks": 2,
+    "alpha": 0.05,
+    "budget_contract": "equal expected unique-frame labels; variable realized cost",
+    "replace_main": false
+  },
+  "config_sha256": "4b268d2cfb08fe967caf66c67ff6c06327946d234657d781ba3486eceb0369b3",
+  "protocol_sha256": "3ce7d45f6b1c02e40117bd3f7c4d3378723bf85255c10d37a8b58c4c48c4e810",
+  "implementation_sha256": "03291989f13e1787ebf4f4ea679b21b014bcc12be3867da61459c35576a7386a",
+  "feature_hashes": {
+    "static": "a149f032b9375be4fa562910342b2bec1a334c85ff81496feea33d4ae55aad68",
+    "temporal-w5": "d299252adbd1524c505b73e2ebe46ff6fd650bde049ecf7d978f05b3aabe25a6",
+    "temporal-w11": "1594d838704b41ee175d33e2f1ee922f98e777c9efe278306a65c0033da80981"
+  },
+  "model_hashes": {
+    "static": "4052ebc19b653e9e17dad0346559302da6cba9ddc4180836fcb0c464fdee0f7d",
+    "temporal-w5": "c63c5d0f530c10562641cbb56166f66cd6d1288e749e6cf35202a7143665f677",
+    "temporal-w11": "8fde8b324a87e5d5c8f9b09f4afa59ff202f88b3bd7814279391ebeb06aad3a6"
+  },
+  "oof_files": {
+    "outputs\\experiments\\course-20261107-v1\\development\\static-oof-scores.npy": "de2455e7a32e96b6a9bb6a0000681c4f16cd1e9d207d2b7c46fb4f66be0ca6fb",
+    "outputs\\experiments\\course-20261107-v1\\development\\temporal-w11-oof-scores.npy": "291831a22223ad641e82d872575c6e3e76bc584674604a86fe4275e9b0772140"
+  },
+  "source_folds_sha256": "68b0f7db3b0ec3fa0069d11a4ca4554031c40e0c48f3c57896e252bd1c566029",
+  "pilot_result_sha256": "0934b365ce20f843d021f9813bc4750eafc19c3bdfca279e9af3b5520a8cd940",
+  "started_utc": "2026-11-08T06:29:33.168733+00:00"
+}

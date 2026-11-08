@@ -5,7 +5,7 @@ width improvement is2.59%, below the registered10% target. Do not add more F
 recipes. The user's standing10-minute research prompt remains active.
 
 G1 protocol/config: X01_BLOCK_PILOT_G.md, configs/block-pilot-g-v1.json. Current
-stage: G1 completed and checked; G2 guidance comparison is next. Read
+stage: G1 and G2 completed and checked; research-demo extension H is next. Read
 actual outputs/experiments/block-g-20261108-v1/status.json and logs before
 continuing; never duplicate an active run. G1 numerical results are accepted.
 G1 uses frozen q, lengths1/2/5/10, weights1/.5, matched expected label budgets,
@@ -36,14 +36,35 @@ docs/research/block-g-*. Report: reports/course-project/block-g/results.md.
 .venv/Scripts/ruff.exe check src scripts tests
 ```
 
-G2 is now registered in X01_BLOCK_GUIDANCE_G2.md and
-configs/block-guidance-g2-v1.json; implementation/execution is next. No G2
-computation is active or outcome accepted yet. The10-minute continuation should
-implement the registered stage after reading actual process/log state, then
-execute/check/report it without routine permission requests.
+G2 protocol/config: X01_BLOCK_GUIDANCE_G2.md and configs/block-guidance-g2-v1.json.
+G2 completed48,000 test method evaluations plus3,600 validation candidate draws;
+all passed separate verification of public partitions/OOF scores, training SDs,
+alpha choice, query RNG, point/FPC variance, bounded endpoints, costs, summaries
+and112 bootstrap comparisons. All12 alpha selections are1. No model was refit.
 
-Next: implement G2 static-versus-temporal block guidance per G1's
-fixed recipe. Existing five-fold OOF score files are in the main development
-folder; do not refit or replace the main policies. G1 does not select G2's length
-or weight on test. After X01, proceed to the local-demo extension in the standing
-queue. No source-held-out generalization or human time-saving claim is justified.
+Primary L5/B1032 T/S ratio1.113855 [1.038896,1.203388]: temporal is worse, not a
+registered10% improvement. RMSE Q/S/T is0.474055/0.536961/0.598097 pp; uniform
+G1 is1.165998. Guidance helps relative to uniform blocks, but L5/Q remains2.1972
+times the G2 L1/Q RMSE. AtL10/B4126 normal coverage Q/S/T is0.713/0.446/0.391;
+bounded references are broad. Retain every loss and cost tail; do not propose
+another arbitrary learner/window/grid to rescue temporal guidance.
+
+G2 runtime63.3 seconds, CPU only.58 tests and Ruff pass. New figure visually
+reviewed. No numerical failure or version repair occurred. Raw root:
+outputs/experiments/block-guidance-g2-20261108-v1; tracked aggregates:
+docs/research/g2-*. Report: reports/course-project/block-guidance-g2/results.md.
+Review branch: codex/block-guidance-g2-v1. Main remains59fb784.
+
+```powershell
+.venv/Scripts/python.exe scripts/run_block_guidance.py *> outputs/g2-run-v1.log
+.venv/Scripts/python.exe scripts/validate_block_guidance.py *> outputs/g2-independent-v1.log
+.venv-mtgs/Scripts/python.exe scripts/report_block_guidance.py *> outputs/g2-report-v1.log
+.venv/Scripts/python.exe -m pytest -q --basetemp outputs/pytest-g2-v1
+.venv/Scripts/ruff.exe check src scripts tests
+```
+
+Next is H, specified in RESEARCH_DEMO_H.md. The10-minute continuation should
+implement that authorized project/demo improvement after reading actual process
+and log state. No G2 computation remains active. Keep the standing prompt active.
+
+No source-held-out generalization or human time-saving claim is justified.

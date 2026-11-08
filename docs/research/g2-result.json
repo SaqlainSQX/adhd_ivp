@@ -1,0 +1,2587 @@
+{
+  "complete": true,
+  "designation": "exploratory frozen-score block guidance after G1 results",
+  "results": {
+    "L1-Q-b516": {
+      "rmse_pp": 0.3574367284211696,
+      "bias_pp": -0.026840857714662138,
+      "mae_pp": 0.2856518609476393,
+      "mean_labels": 516.027,
+      "expected_labels": 516.0,
+      "label_quantiles": [
+        514.0,
+        515.0,
+        516.0,
+        517.0,
+        518.0
+      ],
+      "excess_budget_rate": 0.296,
+      "mean_blocks": 516.027,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.937,
+      "normal_width_pp": 1.3510290093601143,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 35.33273766276251,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.34677584804439937
+    },
+    "L1-S-b516": {
+      "rmse_pp": 0.3971787517934848,
+      "bias_pp": 0.005616642573164874,
+      "mae_pp": 0.31661858886692745,
+      "mean_labels": 515.973,
+      "expected_labels": 516.0,
+      "label_quantiles": [
+        515.0,
+        515.0,
+        516.0,
+        517.0,
+        518.0
+      ],
+      "excess_budget_rate": 0.227,
+      "mean_blocks": 515.973,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.931,
+      "normal_width_pp": 1.5130923237217064,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 37.55888378715838,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.3990495078280422
+    },
+    "L1-T-b516": {
+      "rmse_pp": 0.42446851498139304,
+      "bias_pp": -0.006199803009223258,
+      "mae_pp": 0.3433237743888423,
+      "mean_labels": 516.019,
+      "expected_labels": 515.9999999999999,
+      "label_quantiles": [
+        515.0,
+        515.0,
+        516.0,
+        517.0,
+        518.0
+      ],
+      "excess_budget_rate": 0.256,
+      "mean_blocks": 516.019,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.943,
+      "normal_width_pp": 1.6445121234662445,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 36.607344726684914,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.42705554867297146
+    },
+    "L2-Q-b516": {
+      "rmse_pp": 0.4592599855280588,
+      "bias_pp": -0.00499584313069926,
+      "mae_pp": 0.36635266006355227,
+      "mean_labels": 515.828,
+      "expected_labels": 516.0,
+      "label_quantiles": [
+        508.0,
+        512.0,
+        516.0,
+        520.0,
+        523.0
+      ],
+      "excess_budget_rate": 0.391,
+      "mean_blocks": 259.916,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.958,
+      "normal_width_pp": 1.8739454226280774,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 45.619183300252985,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.4816928812954725
+    },
+    "L2-S-b516": {
+      "rmse_pp": 0.5965019771186931,
+      "bias_pp": -0.04529523023388791,
+      "mae_pp": 0.461368626239372,
+      "mean_labels": 516.035,
+      "expected_labels": 516.0,
+      "label_quantiles": [
+        510.0,
+        513.0,
+        516.0,
+        520.0,
+        522.0
+      ],
+      "excess_budget_rate": 0.418,
+      "mean_blocks": 260.79,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.956,
+      "normal_width_pp": 2.254265579862294,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 48.55224553371401,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.5997274505579838
+    },
+    "L2-T-b516": {
+      "rmse_pp": 0.6593260077921141,
+      "bias_pp": -0.055943694742211836,
+      "mae_pp": 0.5211665588410708,
+      "mean_labels": 515.998,
+      "expected_labels": 515.9999999999999,
+      "label_quantiles": [
+        508.0,
+        512.0,
+        516.0,
+        520.0,
+        523.0
+      ],
+      "excess_budget_rate": 0.423,
+      "mean_blocks": 260.512,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.946,
+      "normal_width_pp": 2.32772013212607,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 46.07486381038643,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.6149230655215997
+    },
+    "L5-Q-b516": {
+      "rmse_pp": 0.7647239638783836,
+      "bias_pp": 0.0028444324844194625,
+      "mae_pp": 0.6053886803874285,
+      "mean_labels": 516.281,
+      "expected_labels": 516.0,
+      "label_quantiles": [
+        494.0,
+        505.0,
+        516.0,
+        527.0,
+        537.0
+      ],
+      "excess_budget_rate": 0.488,
+      "mean_blocks": 106.031,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.942,
+      "normal_width_pp": 2.94929075832021,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 65.9187484299437,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.7545549245216705
+    },
+    "L5-S-b516": {
+      "rmse_pp": 0.9133700095492319,
+      "bias_pp": -0.032339340446776936,
+      "mae_pp": 0.6795210763937365,
+      "mean_labels": 515.833,
+      "expected_labels": 516.0,
+      "label_quantiles": [
+        494.0,
+        504.0,
+        516.0,
+        526.0,
+        536.0
+      ],
+      "excess_budget_rate": 0.481,
+      "mean_blocks": 107.462,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.942,
+      "normal_width_pp": 3.166004786436431,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 68.53466037425699,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.8784826715232066
+    },
+    "L5-T-b516": {
+      "rmse_pp": 0.8778782874900887,
+      "bias_pp": -0.023600979683749062,
+      "mae_pp": 0.6555890347250408,
+      "mean_labels": 516.028,
+      "expected_labels": 516.0000000000001,
+      "label_quantiles": [
+        492.0,
+        505.0,
+        516.0,
+        527.0,
+        533.0
+      ],
+      "excess_budget_rate": 0.488,
+      "mean_blocks": 107.045,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.95,
+      "normal_width_pp": 3.1891695159927838,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 67.23581771541144,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.8987739472031374
+    },
+    "L10-Q-b516": {
+      "rmse_pp": 1.0585782025119117,
+      "bias_pp": 0.021372347418689715,
+      "mae_pp": 0.8596720823749642,
+      "mean_labels": 516.377,
+      "expected_labels": 515.9999999999999,
+      "label_quantiles": [
+        462.0,
+        492.0,
+        517.0,
+        538.0,
+        550.0
+      ],
+      "excess_budget_rate": 0.512,
+      "mean_blocks": 54.838,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.953,
+      "normal_width_pp": 4.1726278794327945,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 84.7851524103261,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 1.068064926631366
+    },
+    "L10-S-b516": {
+      "rmse_pp": 1.2481175337998867,
+      "bias_pp": -0.0024795695510168914,
+      "mae_pp": 0.9251352080424933,
+      "mean_labels": 515.348,
+      "expected_labels": 516.0,
+      "label_quantiles": [
+        471.0,
+        490.0,
+        516.0,
+        538.0,
+        555.0
+      ],
+      "excess_budget_rate": 0.489,
+      "mean_blocks": 55.986,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.954,
+      "normal_width_pp": 4.340628537449015,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 92.83268834336698,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 1.204885708939065
+    },
+    "L10-T-b516": {
+      "rmse_pp": 1.2536931663300201,
+      "bias_pp": -0.024340792255905984,
+      "mae_pp": 0.9322223303633383,
+      "mean_labels": 516.808,
+      "expected_labels": 516.0,
+      "label_quantiles": [
+        471.0,
+        492.0,
+        517.0,
+        539.0,
+        561.0
+      ],
+      "excess_budget_rate": 0.507,
+      "mean_blocks": 55.659,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.934,
+      "normal_width_pp": 4.339757555251376,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 89.77325446064923,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 1.2193549148765601
+    },
+    "L1-Q-b1032": {
+      "rmse_pp": 0.21575079339886108,
+      "bias_pp": -0.006899925402956183,
+      "mae_pp": 0.17141266077242567,
+      "mean_labels": 1032.016,
+      "expected_labels": 1032.0,
+      "label_quantiles": [
+        1031.0,
+        1031.0,
+        1032.0,
+        1033.0,
+        1034.0
+      ],
+      "excess_budget_rate": 0.231,
+      "mean_blocks": 1032.016,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.952,
+      "normal_width_pp": 0.838830198525984,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 26.017752778847154,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.21425958325092215
+    },
+    "L1-S-b1032": {
+      "rmse_pp": 0.25595147723917344,
+      "bias_pp": -0.002257266697388031,
+      "mae_pp": 0.20703514902894946,
+      "mean_labels": 1031.97,
+      "expected_labels": 1031.9999999999998,
+      "label_quantiles": [
+        1030.0,
+        1031.0,
+        1032.0,
+        1033.0,
+        1033.0
+      ],
+      "excess_budget_rate": 0.258,
+      "mean_blocks": 1031.97,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.938,
+      "normal_width_pp": 0.9839117867043908,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 27.62294078601882,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.256573569817937
+    },
+    "L1-T-b1032": {
+      "rmse_pp": 0.27515984039759495,
+      "bias_pp": -0.0030853243446535418,
+      "mae_pp": 0.21858761411520872,
+      "mean_labels": 1031.989,
+      "expected_labels": 1032.0,
+      "label_quantiles": [
+        1030.0,
+        1031.0,
+        1032.0,
+        1033.0,
+        1034.0
+      ],
+      "excess_budget_rate": 0.246,
+      "mean_blocks": 1031.989,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.946,
+      "normal_width_pp": 1.068233038446314,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 27.013791092764176,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.2786218006802735
+    },
+    "L2-Q-b1032": {
+      "rmse_pp": 0.294733837598743,
+      "bias_pp": -0.007154703847891997,
+      "mae_pp": 0.23531688382659727,
+      "mean_labels": 1031.928,
+      "expected_labels": 1032.0,
+      "label_quantiles": [
+        1023.0,
+        1028.0,
+        1032.0,
+        1036.0,
+        1039.0
+      ],
+      "excess_budget_rate": 0.422,
+      "mean_blocks": 519.958,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.951,
+      "normal_width_pp": 1.1604962963658598,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 33.16691960164843,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.29694601758688
+    },
+    "L2-S-b1032": {
+      "rmse_pp": 0.3993058160104234,
+      "bias_pp": -0.0017333194942505065,
+      "mae_pp": 0.315560348757021,
+      "mean_labels": 1031.962,
+      "expected_labels": 1032.0,
+      "label_quantiles": [
+        1024.0,
+        1028.0,
+        1032.0,
+        1037.0,
+        1041.0
+      ],
+      "excess_budget_rate": 0.42,
+      "mean_blocks": 521.356,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.929,
+      "normal_width_pp": 1.4723213687675019,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 35.426959685561265,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.3891825831493217
+    },
+    "L2-T-b1032": {
+      "rmse_pp": 0.4138751706212665,
+      "bias_pp": -0.018409877313687102,
+      "mae_pp": 0.3273331774754591,
+      "mean_labels": 1031.952,
+      "expected_labels": 1032.0,
+      "label_quantiles": [
+        1024.0,
+        1028.0,
+        1032.0,
+        1036.0,
+        1039.0
+      ],
+      "excess_budget_rate": 0.419,
+      "mean_blocks": 520.602,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.935,
+      "normal_width_pp": 1.5093786600250154,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 33.779517839402274,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.40073578859988856
+    },
+    "L5-Q-b1032": {
+      "rmse_pp": 0.4740551280055408,
+      "bias_pp": 0.001787174984315809,
+      "mae_pp": 0.38119564991301413,
+      "mean_labels": 1032.002,
+      "expected_labels": 1032.0,
+      "label_quantiles": [
+        1003.0,
+        1018.0,
+        1032.0,
+        1046.0,
+        1060.0
+      ],
+      "excess_budget_rate": 0.486,
+      "mean_blocks": 212.09,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.956,
+      "normal_width_pp": 1.8204929221971575,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 47.55334189305977,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.46722859071006795
+    },
+    "L5-S-b1032": {
+      "rmse_pp": 0.536961147755515,
+      "bias_pp": 0.020464600287775386,
+      "mae_pp": 0.4136928097189842,
+      "mean_labels": 1032.228,
+      "expected_labels": 1032.0,
+      "label_quantiles": [
+        1008.0,
+        1019.0,
+        1032.0,
+        1045.05,
+        1058.0
+      ],
+      "excess_budget_rate": 0.484,
+      "mean_blocks": 214.923,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.947,
+      "normal_width_pp": 1.996632270290983,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 49.51010025978034,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.5642699729005569
+    },
+    "L5-T-b1032": {
+      "rmse_pp": 0.5980970143967644,
+      "bias_pp": -0.0049259496144280586,
+      "mae_pp": 0.45703500594773117,
+      "mean_labels": 1032.413,
+      "expected_labels": 1032.0,
+      "label_quantiles": [
+        1006.0,
+        1019.0,
+        1032.0,
+        1046.0,
+        1058.0
+      ],
+      "excess_budget_rate": 0.489,
+      "mean_blocks": 213.832,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.946,
+      "normal_width_pp": 2.1089534811601798,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 48.69193542905299,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.5793845732066889
+    },
+    "L10-Q-b1032": {
+      "rmse_pp": 0.656810040714772,
+      "bias_pp": -0.001746912935104253,
+      "mae_pp": 0.5305062739436652,
+      "mean_labels": 1031.702,
+      "expected_labels": 1031.9999999999995,
+      "label_quantiles": [
+        977.0,
+        1004.0,
+        1033.0,
+        1059.0,
+        1086.0
+      ],
+      "excess_budget_rate": 0.502,
+      "mean_blocks": 109.637,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.953,
+      "normal_width_pp": 2.5652644608323754,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 64.09839224286273,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.66087664636229
+    },
+    "L10-S-b1032": {
+      "rmse_pp": 0.7692461918049665,
+      "bias_pp": -0.008685508233934632,
+      "mae_pp": 0.5758039728389186,
+      "mean_labels": 1032.818,
+      "expected_labels": 1032.0,
+      "label_quantiles": [
+        982.0,
+        1004.0,
+        1032.0,
+        1061.05,
+        1090.0
+      ],
+      "excess_budget_rate": 0.497,
+      "mean_blocks": 112.008,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.954,
+      "normal_width_pp": 2.7078121404373183,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 66.25183711881189,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.7725346282954795
+    },
+    "L10-T-b1032": {
+      "rmse_pp": 0.8249423155572548,
+      "bias_pp": -0.04828568655266229,
+      "mae_pp": 0.6225275366439923,
+      "mean_labels": 1031.281,
+      "expected_labels": 1032.0,
+      "label_quantiles": [
+        975.0,
+        1001.0,
+        1032.0,
+        1059.0,
+        1081.0
+      ],
+      "excess_budget_rate": 0.478,
+      "mean_blocks": 110.889,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.944,
+      "normal_width_pp": 2.870880269642943,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 64.75791138269757,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.7827673673329041
+    },
+    "L1-Q-b2063": {
+      "rmse_pp": 0.09458051507488477,
+      "bias_pp": 0.0017083790699216983,
+      "mae_pp": 0.07558538693190217,
+      "mean_labels": 2063.019,
+      "expected_labels": 2062.9999999999995,
+      "label_quantiles": [
+        2061.0,
+        2062.0,
+        2063.0,
+        2064.0,
+        2065.0
+      ],
+      "excess_budget_rate": 0.25,
+      "mean_blocks": 2063.019,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.947,
+      "normal_width_pp": 0.36248473057278086,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 19.43467234193599,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.09355399360130182
+    },
+    "L1-S-b2063": {
+      "rmse_pp": 0.13215758927137755,
+      "bias_pp": -0.0006327787146789589,
+      "mae_pp": 0.10380981031542871,
+      "mean_labels": 2063.004,
+      "expected_labels": 2063.0,
+      "label_quantiles": [
+        2062.0,
+        2062.0,
+        2063.0,
+        2064.0,
+        2065.0
+      ],
+      "excess_budget_rate": 0.207,
+      "mean_blocks": 2063.004,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.922,
+      "normal_width_pp": 0.5205521550702977,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 20.571087910422168,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.13654090167528826
+    },
+    "L1-T-b2063": {
+      "rmse_pp": 0.15320698309857045,
+      "bias_pp": 0.005625599958407268,
+      "mae_pp": 0.12299179913956312,
+      "mean_labels": 2063.003,
+      "expected_labels": 2063.0,
+      "label_quantiles": [
+        2062.0,
+        2062.0,
+        2063.0,
+        2064.0,
+        2065.0
+      ],
+      "excess_budget_rate": 0.19,
+      "mean_blocks": 2063.003,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.926,
+      "normal_width_pp": 0.5870686568574787,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 20.14025642923565,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.15563968791023905
+    },
+    "L2-Q-b2063": {
+      "rmse_pp": 0.13195027645394378,
+      "bias_pp": -0.0024022517547506077,
+      "mae_pp": 0.10322448138558374,
+      "mean_labels": 2062.93,
+      "expected_labels": 2063.0,
+      "label_quantiles": [
+        2055.0,
+        2058.0,
+        2063.0,
+        2068.0,
+        2072.0
+      ],
+      "excess_budget_rate": 0.44,
+      "mean_blocks": 1039.386,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.938,
+      "normal_width_pp": 0.49826606980373905,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 24.48348149011403,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.12762496359554704
+    },
+    "L2-S-b2063": {
+      "rmse_pp": 0.21904504809519854,
+      "bias_pp": -0.004461228237207578,
+      "mae_pp": 0.17723523533209606,
+      "mean_labels": 2063.116,
+      "expected_labels": 2062.9999999999995,
+      "label_quantiles": [
+        2054.0,
+        2059.0,
+        2063.0,
+        2067.0,
+        2070.0
+      ],
+      "excess_budget_rate": 0.437,
+      "mean_blocks": 1042.211,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.873,
+      "normal_width_pp": 0.8138332915803062,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 26.076212376492048,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.21779641099852637
+    },
+    "L2-T-b2063": {
+      "rmse_pp": 0.22476896406194025,
+      "bias_pp": 0.003967957099254628,
+      "mae_pp": 0.18137481625630236,
+      "mean_labels": 2062.989,
+      "expected_labels": 2062.9999999999995,
+      "label_quantiles": [
+        2054.0,
+        2058.95,
+        2063.0,
+        2068.0,
+        2072.0
+      ],
+      "excess_budget_rate": 0.431,
+      "mean_blocks": 1040.604,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.9,
+      "normal_width_pp": 0.8641001796600495,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 24.933978033791146,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.22782568502371167
+    },
+    "L5-Q-b2063": {
+      "rmse_pp": 0.21292659841542524,
+      "bias_pp": 0.0003256483416867961,
+      "mae_pp": 0.17102860225425345,
+      "mean_labels": 2062.477,
+      "expected_labels": 2063.0,
+      "label_quantiles": [
+        2035.0,
+        2048.0,
+        2062.0,
+        2075.0,
+        2093.0
+      ],
+      "excess_budget_rate": 0.442,
+      "mean_blocks": 423.965,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.956,
+      "normal_width_pp": 0.8023103656481708,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 34.65630071799743,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.20711617586449674
+    },
+    "L5-S-b2063": {
+      "rmse_pp": 0.30698187332235666,
+      "bias_pp": 0.010028644694837864,
+      "mae_pp": 0.24275997993289533,
+      "mean_labels": 2063.029,
+      "expected_labels": 2062.9999999999995,
+      "label_quantiles": [
+        2039.0,
+        2050.0,
+        2063.0,
+        2076.0,
+        2088.0
+      ],
+      "excess_budget_rate": 0.474,
+      "mean_blocks": 429.65,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.874,
+      "normal_width_pp": 1.0220237577893165,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 36.04065941555465,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.3033268074705096
+    },
+    "L5-T-b2063": {
+      "rmse_pp": 0.30763192365582076,
+      "bias_pp": -0.001404699229681355,
+      "mae_pp": 0.24174879667769655,
+      "mean_labels": 2063.341,
+      "expected_labels": 2063.0,
+      "label_quantiles": [
+        2040.0,
+        2050.0,
+        2063.0,
+        2077.0,
+        2093.0
+      ],
+      "excess_budget_rate": 0.493,
+      "mean_blocks": 427.454,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.914,
+      "normal_width_pp": 1.0661303672246252,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 35.46020100014634,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.31714752564256743
+    },
+    "L10-Q-b2063": {
+      "rmse_pp": 0.31153808541016614,
+      "bias_pp": 0.0016905419508554073,
+      "mae_pp": 0.24940422524471506,
+      "mean_labels": 2061.987,
+      "expected_labels": 2062.9999999999995,
+      "label_quantiles": [
+        2008.0,
+        2032.0,
+        2062.0,
+        2091.0,
+        2117.0
+      ],
+      "excess_budget_rate": 0.471,
+      "mean_blocks": 219.226,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.934,
+      "normal_width_pp": 1.1796995627772213,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 46.248340560440965,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.3046698433065821
+    },
+    "L10-S-b2063": {
+      "rmse_pp": 0.42357588602777424,
+      "bias_pp": -0.010219739622974042,
+      "mae_pp": 0.30432865864094105,
+      "mean_labels": 2062.89,
+      "expected_labels": 2063.0,
+      "label_quantiles": [
+        2015.0,
+        2035.0,
+        2063.0,
+        2090.0,
+        2115.0
+      ],
+      "excess_budget_rate": 0.492,
+      "mean_blocks": 223.845,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.94,
+      "normal_width_pp": 1.3776851577073304,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 47.88877827120008,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.4146942256185563
+    },
+    "L10-T-b2063": {
+      "rmse_pp": 0.40346168657447906,
+      "bias_pp": 0.02676158487133257,
+      "mae_pp": 0.3013365640396408,
+      "mean_labels": 2062.626,
+      "expected_labels": 2063.0,
+      "label_quantiles": [
+        2011.0,
+        2034.0,
+        2063.0,
+        2092.0,
+        2120.0
+      ],
+      "excess_budget_rate": 0.48,
+      "mean_blocks": 221.621,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.942,
+      "normal_width_pp": 1.3916022174902882,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 46.8699904624269,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.42425347544291614
+    },
+    "L1-Q-b4126": {
+      "rmse_pp": 0.012274300895282345,
+      "bias_pp": 0.0003121915389796004,
+      "mae_pp": 0.011627792760751448,
+      "mean_labels": 4126.017,
+      "expected_labels": 4125.999999999999,
+      "label_quantiles": [
+        4124.0,
+        4125.0,
+        4126.0,
+        4127.0,
+        4127.0
+      ],
+      "excess_budget_rate": 0.134,
+      "mean_blocks": 4126.017,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.448,
+      "normal_width_pp": 0.03730037631107919,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 9.706221846278932,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.012357118221753234
+    },
+    "L1-S-b4126": {
+      "rmse_pp": 0.0018722933218838864,
+      "bias_pp": -4.408432873981779e-05,
+      "mae_pp": 0.0014863137642565673,
+      "mean_labels": 4126.0,
+      "expected_labels": 4126.0,
+      "label_quantiles": [
+        4126.0,
+        4126.0,
+        4126.0,
+        4126.0,
+        4126.0
+      ],
+      "excess_budget_rate": 0.0,
+      "mean_blocks": 4126.0,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.94,
+      "normal_width_pp": 0.007311688510657051,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 6.62564749329768,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.001864861945756044
+    },
+    "L1-T-b4126": {
+      "rmse_pp": 0.021788353097330966,
+      "bias_pp": -0.0014990395968787873,
+      "mae_pp": 0.017472397841882235,
+      "mean_labels": 4125.992,
+      "expected_labels": 4125.999999999999,
+      "label_quantiles": [
+        4125.0,
+        4125.0,
+        4126.0,
+        4127.0,
+        4128.0
+      ],
+      "excess_budget_rate": 0.246,
+      "mean_blocks": 4125.992,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.951,
+      "normal_width_pp": 0.08768562521359767,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 9.024178965742687,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.02232828556211624
+    },
+    "L2-Q-b4126": {
+      "rmse_pp": 0.01429982096328124,
+      "bias_pp": -7.907637710828781e-05,
+      "mae_pp": 0.012878469800185708,
+      "mean_labels": 4125.996,
+      "expected_labels": 4125.999999999999,
+      "label_quantiles": [
+        4117.0,
+        4122.0,
+        4126.0,
+        4130.0,
+        4135.0
+      ],
+      "excess_budget_rate": 0.416,
+      "mean_blocks": 2076.024,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.639,
+      "normal_width_pp": 0.04332581420518745,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 11.605874839106773,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.014130217294041876
+    },
+    "L2-S-b4126": {
+      "rmse_pp": 0.023668314561114016,
+      "bias_pp": -0.0007560109217304475,
+      "mae_pp": 0.01878634034286397,
+      "mean_labels": 4126.1,
+      "expected_labels": 4125.999999999999,
+      "label_quantiles": [
+        4122.0,
+        4123.0,
+        4126.0,
+        4129.0,
+        4132.0
+      ],
+      "excess_budget_rate": 0.397,
+      "mean_blocks": 2090.155,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.96,
+      "normal_width_pp": 0.0980248292937393,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 9.994232506281714,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.02500698426778628
+    },
+    "L2-T-b4126": {
+      "rmse_pp": 0.04554282225276938,
+      "bias_pp": 0.00048813076299193957,
+      "mae_pp": 0.03625748893016595,
+      "mean_labels": 4126.064,
+      "expected_labels": 4125.999999999999,
+      "label_quantiles": [
+        4119.0,
+        4122.0,
+        4126.0,
+        4130.0,
+        4133.0
+      ],
+      "excess_budget_rate": 0.43,
+      "mean_blocks": 2086.681,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.934,
+      "normal_width_pp": 0.17713019202838348,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 10.988942756444136,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.04544924214298667
+    },
+    "L5-Q-b4126": {
+      "rmse_pp": 0.026974259142550302,
+      "bias_pp": -0.0005106760885032382,
+      "mae_pp": 0.02451217015439026,
+      "mean_labels": 4126.392,
+      "expected_labels": 4125.999999999999,
+      "label_quantiles": [
+        4094.0,
+        4110.0,
+        4126.0,
+        4143.0,
+        4162.0
+      ],
+      "excess_budget_rate": 0.494,
+      "mean_blocks": 846.547,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.494,
+      "normal_width_pp": 0.07669237338942539,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 15.391843229318452,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.026965030902496342
+    },
+    "L5-S-b4126": {
+      "rmse_pp": 0.06399633941906448,
+      "bias_pp": 0.00036428602192317835,
+      "mae_pp": 0.05027821189708828,
+      "mean_labels": 4125.554,
+      "expected_labels": 4125.999999999999,
+      "label_quantiles": [
+        4104.0,
+        4112.0,
+        4125.0,
+        4139.0,
+        4151.0
+      ],
+      "excess_budget_rate": 0.44,
+      "mean_blocks": 871.589,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.942,
+      "normal_width_pp": 0.2443688733505651,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 13.765011352223869,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.06505783029476259
+    },
+    "L5-T-b4126": {
+      "rmse_pp": 0.08002498711802591,
+      "bias_pp": -0.001010527470592952,
+      "mae_pp": 0.06862402981967755,
+      "mean_labels": 4126.29,
+      "expected_labels": 4126.0,
+      "label_quantiles": [
+        4101.0,
+        4112.0,
+        4127.0,
+        4140.0,
+        4161.0
+      ],
+      "excess_budget_rate": 0.508,
+      "mean_blocks": 864.284,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.885,
+      "normal_width_pp": 0.2953833849968413,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 15.066101928182688,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.08017740521750541
+    },
+    "L10-Q-b4126": {
+      "rmse_pp": 0.03112150999681511,
+      "bias_pp": 0.0013506934141882933,
+      "mae_pp": 0.026881259376319903,
+      "mean_labels": 4124.515,
+      "expected_labels": 4126.0,
+      "label_quantiles": [
+        4034.0,
+        4086.0,
+        4126.0,
+        4161.0,
+        4206.0
+      ],
+      "excess_budget_rate": 0.493,
+      "mean_blocks": 436.767,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.713,
+      "normal_width_pp": 0.09533197782938548,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 20.09896352964744,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.03123034857604993
+    },
+    "L10-S-b4126": {
+      "rmse_pp": 0.10448668172526328,
+      "bias_pp": 0.0028432861025200575,
+      "mae_pp": 0.10178716302950223,
+      "mean_labels": 4125.773,
+      "expected_labels": 4126.0,
+      "label_quantiles": [
+        4073.0,
+        4099.0,
+        4126.0,
+        4153.0,
+        4188.0
+      ],
+      "excess_budget_rate": 0.487,
+      "mean_blocks": 462.912,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.446,
+      "normal_width_pp": 0.3111559990375473,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 19.976494254412792,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.10575186831978878
+    },
+    "L10-T-b4126": {
+      "rmse_pp": 0.11501716270184388,
+      "bias_pp": 0.005045475405500361,
+      "mae_pp": 0.11073325414965185,
+      "mean_labels": 4126.618,
+      "expected_labels": 4125.999999999999,
+      "label_quantiles": [
+        4052.0,
+        4096.95,
+        4126.0,
+        4157.0,
+        4188.0
+      ],
+      "excess_budget_rate": 0.499,
+      "mean_blocks": 449.514,
+      "zero_variance_rate": 0.0,
+      "normal_coverage": 0.391,
+      "normal_width_pp": 0.3208258053473234,
+      "bounded_coverage": 1.0,
+      "bounded_width_pp": 20.70263885709366,
+      "bounded_empty_rate": 0.0,
+      "exact_design_rmse_pp": 0.11552309949831295
+    }
+  },
+  "comparisons": {
+    "L1-b516-T/S": {
+      "rmse_ratio": 1.0687090209752652,
+      "draw_bootstrap_95pct": [
+        1.0054204854566342,
+        1.1369619755897207
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-Q-b516/Q": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-Q-b516/L1": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-S-b516/Q": {
+      "rmse_ratio": 1.1111861770553333,
+      "draw_bootstrap_95pct": [
+        1.0418476133074985,
+        1.178763872784314
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-S-b516/L1": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-T-b516/Q": {
+      "rmse_ratio": 1.1875346914020528,
+      "draw_bootstrap_95pct": [
+        1.1170937711953581,
+        1.2624804768592688
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-T-b516/L1": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-b1032-T/S": {
+      "rmse_ratio": 1.075046893128389,
+      "draw_bootstrap_95pct": [
+        1.0084748229309202,
+        1.1461355579651573
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-Q-b1032/Q": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-Q-b1032/L1": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-S-b1032/Q": {
+      "rmse_ratio": 1.1863292514804007,
+      "draw_bootstrap_95pct": [
+        1.1132877083458343,
+        1.2636052829286974
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-S-b1032/L1": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-T-b1032/Q": {
+      "rmse_ratio": 1.2753595760313319,
+      "draw_bootstrap_95pct": [
+        1.1945237558133113,
+        1.3589694996839914
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-T-b1032/L1": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-b2063-T/S": {
+      "rmse_ratio": 1.1592749530560007,
+      "draw_bootstrap_95pct": [
+        1.0909603271965962,
+        1.2373903013679572
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-Q-b2063/Q": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-Q-b2063/L1": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-S-b2063/Q": {
+      "rmse_ratio": 1.397302490547243,
+      "draw_bootstrap_95pct": [
+        1.3060091028196263,
+        1.4809218238582116
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-S-b2063/L1": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-T-b2063/Q": {
+      "rmse_ratio": 1.6198577791341882,
+      "draw_bootstrap_95pct": [
+        1.5193012142068862,
+        1.7156465155437872
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-T-b2063/L1": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-b4126-T/S": {
+      "rmse_ratio": 11.63725407908185,
+      "draw_bootstrap_95pct": [
+        10.953546592731826,
+        12.39258520300612
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-Q-b4126/Q": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-Q-b4126/L1": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-S-b4126/Q": {
+      "rmse_ratio": 0.15253767508693764,
+      "draw_bootstrap_95pct": [
+        0.14516145253697654,
+        0.15988032452855225
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-S-b4126/L1": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-T-b4126/Q": {
+      "rmse_ratio": 1.7751196816191273,
+      "draw_bootstrap_95pct": [
+        1.6935739407542498,
+        1.8628240596566403
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L1-T-b4126/L1": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-b516-T/S": {
+      "rmse_ratio": 1.1053207417297801,
+      "draw_bootstrap_95pct": [
+        1.0269272998147743,
+        1.1891603388887153
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-Q-b516/Q": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-Q-b516/L1": {
+      "rmse_ratio": 1.284870716998367,
+      "draw_bootstrap_95pct": [
+        1.210563796777759,
+        1.3623626343346413
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-S-b516/Q": {
+      "rmse_ratio": 1.2988328962141846,
+      "draw_bootstrap_95pct": [
+        1.21028355019466,
+        1.3942087600517497
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-S-b516/L1": {
+      "rmse_ratio": 1.501847655306716,
+      "draw_bootstrap_95pct": [
+        1.4019969567046549,
+        1.6107162692775367
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-T-b516/Q": {
+      "rmse_ratio": 1.435626940226501,
+      "draw_bootstrap_95pct": [
+        1.345587509693234,
+        1.5305627216602462
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-T-b516/L1": {
+      "rmse_ratio": 1.5532977936444037,
+      "draw_bootstrap_95pct": [
+        1.456747484302873,
+        1.6547105897633219
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-b1032-T/S": {
+      "rmse_ratio": 1.0364867077479853,
+      "draw_bootstrap_95pct": [
+        0.9680302015667295,
+        1.1078219233981976
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-Q-b1032/Q": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-Q-b1032/L1": {
+      "rmse_ratio": 1.3660846060198029,
+      "draw_bootstrap_95pct": [
+        1.2835786131928835,
+        1.4585484726390192
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-S-b1032/Q": {
+      "rmse_ratio": 1.3548014006930789,
+      "draw_bootstrap_95pct": [
+        1.2696181110001643,
+        1.4484492573427117
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-S-b1032/L1": {
+      "rmse_ratio": 1.5600840452946196,
+      "draw_bootstrap_95pct": [
+        1.4620320826647712,
+        1.6577328778126728
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-T-b1032/Q": {
+      "rmse_ratio": 1.4042336434567282,
+      "draw_bootstrap_95pct": [
+        1.3137602990092945,
+        1.4909334356788675
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-T-b1032/L1": {
+      "rmse_ratio": 1.5041263653272712,
+      "draw_bootstrap_95pct": [
+        1.4116643926633703,
+        1.6033511007023769
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-b2063-T/S": {
+      "rmse_ratio": 1.0261312274188186,
+      "draw_bootstrap_95pct": [
+        0.9630388749665652,
+        1.088921914622239
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-Q-b2063/Q": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-Q-b2063/L1": {
+      "rmse_ratio": 1.3951105716591972,
+      "draw_bootstrap_95pct": [
+        1.3025097511259232,
+        1.4889614257512698
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-S-b2063/Q": {
+      "rmse_ratio": 1.6600575154660968,
+      "draw_bootstrap_95pct": [
+        1.5574433623174113,
+        1.7765852356457368
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-S-b2063/L1": {
+      "rmse_ratio": 1.6574534183232026,
+      "draw_bootstrap_95pct": [
+        1.564665643423288,
+        1.7684958900963332
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-T-b2063/Q": {
+      "rmse_ratio": 1.7034368559310604,
+      "draw_bootstrap_95pct": [
+        1.6007307324014328,
+        1.8223191826252954
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-T-b2063/L1": {
+      "rmse_ratio": 1.4670934673867195,
+      "draw_bootstrap_95pct": [
+        1.3831819662587916,
+        1.5622118699544736
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-b4126-T/S": {
+      "rmse_ratio": 1.9242106207086753,
+      "draw_bootstrap_95pct": [
+        1.811653515200482,
+        2.049734722648785
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-Q-b4126/Q": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-Q-b4126/L1": {
+      "rmse_ratio": 1.165021216709573,
+      "draw_bootstrap_95pct": [
+        1.128229515796623,
+        1.203789944206122
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-S-b4126/Q": {
+      "rmse_ratio": 1.6551476149169266,
+      "draw_bootstrap_95pct": [
+        1.5666655995994256,
+        1.738668378047367
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-S-b4126/L1": {
+      "rmse_ratio": 12.641349666995099,
+      "draw_bootstrap_95pct": [
+        11.877906300777267,
+        13.462408978376942
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-T-b4126/Q": {
+      "rmse_ratio": 3.184852619463783,
+      "draw_bootstrap_95pct": [
+        3.0224218755153673,
+        3.3630303260127
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L2-T-b4126/L1": {
+      "rmse_ratio": 2.090237020178835,
+      "draw_bootstrap_95pct": [
+        1.9692089502858932,
+        2.2211110852177565
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-b516-T/S": {
+      "rmse_ratio": 0.9611420106987537,
+      "draw_bootstrap_95pct": [
+        0.8889143984247779,
+        1.0435942247213177
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-Q-b516/Q": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-Q-b516/L1": {
+      "rmse_ratio": 2.1394666610122544,
+      "draw_bootstrap_95pct": [
+        2.0123768624065734,
+        2.2674874711951847
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-S-b516/Q": {
+      "rmse_ratio": 1.1943786943944756,
+      "draw_bootstrap_95pct": [
+        1.1084053263416498,
+        1.2820676595453842
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-S-b516/L1": {
+      "rmse_ratio": 2.299644695051924,
+      "draw_bootstrap_95pct": [
+        2.1313020167859884,
+        2.4686117835484276
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-T-b516/Q": {
+      "rmse_ratio": 1.1479675398660585,
+      "draw_bootstrap_95pct": [
+        1.0692888438531405,
+        1.2388885643049008
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-T-b516/L1": {
+      "rmse_ratio": 2.0681823421663474,
+      "draw_bootstrap_95pct": [
+        1.9176844617578466,
+        2.236586427356549
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-b1032-T/S": {
+      "rmse_ratio": 1.1138552889660565,
+      "draw_bootstrap_95pct": [
+        1.0388955580490669,
+        1.2033875959701925
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-Q-b1032/Q": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-Q-b1032/L1": {
+      "rmse_ratio": 2.1972346916432857,
+      "draw_bootstrap_95pct": [
+        2.0688551920005387,
+        2.3330641278435498
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-S-b1032/Q": {
+      "rmse_ratio": 1.1326976885887394,
+      "draw_bootstrap_95pct": [
+        1.0526575694270615,
+        1.2111976591224796
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-S-b1032/L1": {
+      "rmse_ratio": 2.0979021240567115,
+      "draw_bootstrap_95pct": [
+        1.9608116063876087,
+        2.2433747181387926
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-T-b1032/Q": {
+      "rmse_ratio": 1.2616613112341946,
+      "draw_bootstrap_95pct": [
+        1.1801566677709991,
+        1.3500923216239147
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-T-b1032/L1": {
+      "rmse_ratio": 2.173634835419799,
+      "draw_bootstrap_95pct": [
+        2.0187387234023126,
+        2.3333531213309118
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-b2063-T/S": {
+      "rmse_ratio": 1.0021175528262591,
+      "draw_bootstrap_95pct": [
+        0.932922147523605,
+        1.0779425382511576
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-Q-b2063/Q": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-Q-b2063/L1": {
+      "rmse_ratio": 2.2512734070737426,
+      "draw_bootstrap_95pct": [
+        2.1151477096222933,
+        2.4021185587477474
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-S-b2063/Q": {
+      "rmse_ratio": 1.4417262831740125,
+      "draw_bootstrap_95pct": [
+        1.3368177490289028,
+        1.5382014645598898
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-S-b2063/L1": {
+      "rmse_ratio": 2.3228471025753055,
+      "draw_bootstrap_95pct": [
+        2.167393430962614,
+        2.483421769227989
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-T-b2063/Q": {
+      "rmse_ratio": 1.4447792147396399,
+      "draw_bootstrap_95pct": [
+        1.3512219641983352,
+        1.5421617594913772
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-T-b2063/L1": {
+      "rmse_ratio": 2.0079497515977867,
+      "draw_bootstrap_95pct": [
+        1.8808101756687723,
+        2.148176981974405
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-b4126-T/S": {
+      "rmse_ratio": 1.250461945862274,
+      "draw_bootstrap_95pct": [
+        1.1869063879675266,
+        1.3182570376523948
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-Q-b4126/Q": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-Q-b4126/L1": {
+      "rmse_ratio": 2.197620815448472,
+      "draw_bootstrap_95pct": [
+        2.121505410738596,
+        2.2706597808897278
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-S-b4126/Q": {
+      "rmse_ratio": 2.3724966487815053,
+      "draw_bootstrap_95pct": [
+        2.260506680363218,
+        2.4836716085909236
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-S-b4126/L1": {
+      "rmse_ratio": 34.18072300480775,
+      "draw_bootstrap_95pct": [
+        32.310139305183355,
+        36.166296790199155
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-T-b4126/Q": {
+      "rmse_ratio": 2.9667167759870456,
+      "draw_bootstrap_95pct": [
+        2.838588904665377,
+        3.0943542426947923
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L5-T-b4126/L1": {
+      "rmse_ratio": 3.672833222435193,
+      "draw_bootstrap_95pct": [
+        3.476834317392632,
+        3.8865114668671983
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-b516-T/S": {
+      "rmse_ratio": 1.0044672335570501,
+      "draw_bootstrap_95pct": [
+        0.9098126935023676,
+        1.1121154614054143
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-Q-b516/Q": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-Q-b516/L1": {
+      "rmse_ratio": 2.9615820600970344,
+      "draw_bootstrap_95pct": [
+        2.792869681813928,
+        3.1322809073846987
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-S-b516/Q": {
+      "rmse_ratio": 1.179050854096764,
+      "draw_bootstrap_95pct": [
+        1.087041615783996,
+        1.280375135213558
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-S-b516/L1": {
+      "rmse_ratio": 3.142457969274379,
+      "draw_bootstrap_95pct": [
+        2.9018384950453693,
+        3.418020150618063
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-T-b516/Q": {
+      "rmse_ratio": 1.1843179496376537,
+      "draw_bootstrap_95pct": [
+        1.0921963874167664,
+        1.2823033045608845
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-T-b516/L1": {
+      "rmse_ratio": 2.953559856812883,
+      "draw_bootstrap_95pct": [
+        2.733080508028238,
+        3.196196300366741
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-b1032-T/S": {
+      "rmse_ratio": 1.0724035092349335,
+      "draw_bootstrap_95pct": [
+        0.9772248040312608,
+        1.1666992428631169
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-Q-b1032/Q": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-Q-b1032/L1": {
+      "rmse_ratio": 3.0442995382200957,
+      "draw_bootstrap_95pct": [
+        2.86995924719225,
+        3.2163444468698605
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-S-b1032/Q": {
+      "rmse_ratio": 1.1711851892030094,
+      "draw_bootstrap_95pct": [
+        1.0855718508877028,
+        1.2631627758354949
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-S-b1032/L1": {
+      "rmse_ratio": 3.00543759349412,
+      "draw_bootstrap_95pct": [
+        2.7784476135534817,
+        3.2374702370154673
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-T-b1032/Q": {
+      "rmse_ratio": 1.2559831068652867,
+      "draw_bootstrap_95pct": [
+        1.1650831910650494,
+        1.347005130549061
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-T-b1032/L1": {
+      "rmse_ratio": 2.9980476597356875,
+      "draw_bootstrap_95pct": [
+        2.7898707741135085,
+        3.223934590940663
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-b2063-T/S": {
+      "rmse_ratio": 0.9525133509324083,
+      "draw_bootstrap_95pct": [
+        0.8778512753724271,
+        1.0387949258064513
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-Q-b2063/Q": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-Q-b2063/L1": {
+      "rmse_ratio": 3.2938928823077753,
+      "draw_bootstrap_95pct": [
+        3.100600175414166,
+        3.5008213801077557
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-S-b2063/Q": {
+      "rmse_ratio": 1.3596279423432318,
+      "draw_bootstrap_95pct": [
+        1.261784951961816,
+        1.4598469028302778
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-S-b2063/L1": {
+      "rmse_ratio": 3.205081814544808,
+      "draw_bootstrap_95pct": [
+        2.9733704820821045,
+        3.450125586054186
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-T-b2063/Q": {
+      "rmse_ratio": 1.2950637673826868,
+      "draw_bootstrap_95pct": [
+        1.2076781693156706,
+        1.389141593192189
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-T-b2063/L1": {
+      "rmse_ratio": 2.6334418863590545,
+      "draw_bootstrap_95pct": [
+        2.4482960661183744,
+        2.830937949423967
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-b4126-T/S": {
+      "rmse_ratio": 1.1007829974376007,
+      "draw_bootstrap_95pct": [
+        1.0767717892666655,
+        1.1239843646550527
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-Q-b4126/Q": {
+      "rmse_ratio": 1.0,
+      "draw_bootstrap_95pct": [
+        1.0,
+        1.0
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-Q-b4126/L1": {
+      "rmse_ratio": 2.535501635679856,
+      "draw_bootstrap_95pct": [
+        2.4464082871289157,
+        2.6296455303773656
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-S-b4126/Q": {
+      "rmse_ratio": 3.357378280679702,
+      "draw_bootstrap_95pct": [
+        3.246591968890345,
+        3.47195104067514
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-S-b4126/L1": {
+      "rmse_ratio": 55.80679079714369,
+      "draw_bootstrap_95pct": [
+        53.36051374181452,
+        58.471015863504086
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-T-b4126/Q": {
+      "rmse_ratio": 3.6957449273385006,
+      "draw_bootstrap_95pct": [
+        3.565404917919702,
+        3.833891663753363
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    },
+    "L10-T-b4126/L1": {
+      "rmse_ratio": 5.278836917505861,
+      "draw_bootstrap_95pct": [
+        5.0474844678165045,
+        5.523890108736597
+      ],
+      "seed": 400008,
+      "resamples": 2000,
+      "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+    }
+  },
+  "primary": {
+    "rmse_ratio": 1.1138552889660565,
+    "draw_bootstrap_95pct": [
+      1.0388955580490669,
+      1.2033875959701925
+    ],
+    "seed": 400008,
+    "resamples": 2000,
+    "scope": "Monte Carlo uncertainty on fixed corpus; streams differ across controls"
+  },
+  "method_draws": 48000,
+  "validation_candidates": 36,
+  "checks": [
+    {
+      "setting": "L1-Q-b516",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 1.3552527156068805e-20
+    },
+    {
+      "setting": "L1-S-b516",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 2.0328790734103208e-20
+    },
+    {
+      "setting": "L1-T-b516",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 1.734723475976807e-17,
+      "max_variance_difference": 1.3552527156068805e-20
+    },
+    {
+      "setting": "L2-Q-b516",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 4.5102810375396984e-17,
+      "max_variance_difference": 2.710505431213761e-20
+    },
+    {
+      "setting": "L2-S-b516",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 5.421010862427522e-20
+    },
+    {
+      "setting": "L2-T-b516",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 5.421010862427522e-20
+    },
+    {
+      "setting": "L5-Q-b516",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 4.336808689942018e-17,
+      "max_variance_difference": 6.776263578034403e-20
+    },
+    {
+      "setting": "L5-S-b516",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 2.168404344971009e-19
+    },
+    {
+      "setting": "L5-T-b516",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 4.206704429243757e-17,
+      "max_variance_difference": 2.168404344971009e-19
+    },
+    {
+      "setting": "L10-Q-b516",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 1.0842021724855044e-19
+    },
+    {
+      "setting": "L10-S-b516",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.122502256758253e-17,
+      "max_variance_difference": 1.3010426069826053e-18
+    },
+    {
+      "setting": "L10-T-b516",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 8.673617379884035e-19
+    },
+    {
+      "setting": "L1-Q-b1032",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 3.3881317890172014e-21
+    },
+    {
+      "setting": "L1-S-b1032",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 6.776263578034403e-21
+    },
+    {
+      "setting": "L1-T-b1032",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 6.776263578034403e-21
+    },
+    {
+      "setting": "L2-Q-b1032",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 4.85722573273506e-17,
+      "max_variance_difference": 6.776263578034403e-21
+    },
+    {
+      "setting": "L2-S-b1032",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.122502256758253e-17,
+      "max_variance_difference": 2.0328790734103208e-20
+    },
+    {
+      "setting": "L2-T-b1032",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.122502256758253e-17,
+      "max_variance_difference": 2.710505431213761e-20
+    },
+    {
+      "setting": "L5-Q-b1032",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 2.0328790734103208e-20
+    },
+    {
+      "setting": "L5-S-b1032",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 5.421010862427522e-20
+    },
+    {
+      "setting": "L5-T-b1032",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 8.131516293641283e-20
+    },
+    {
+      "setting": "L10-Q-b1032",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 4.163336342344337e-17,
+      "max_variance_difference": 4.0657581468206416e-20
+    },
+    {
+      "setting": "L10-S-b1032",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 2.168404344971009e-19
+    },
+    {
+      "setting": "L10-T-b1032",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 2.168404344971009e-19
+    },
+    {
+      "setting": "L1-Q-b2063",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 8.470329472543003e-22
+    },
+    {
+      "setting": "L1-S-b2063",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 1.6940658945086007e-21
+    },
+    {
+      "setting": "L1-T-b2063",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 1.6940658945086007e-21
+    },
+    {
+      "setting": "L2-Q-b2063",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 5.551115123125783e-17,
+      "max_variance_difference": 1.6940658945086007e-21
+    },
+    {
+      "setting": "L2-S-b2063",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 5.082197683525802e-21
+    },
+    {
+      "setting": "L2-T-b2063",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 6.776263578034403e-21
+    },
+    {
+      "setting": "L5-Q-b2063",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 4.163336342344337e-17,
+      "max_variance_difference": 5.082197683525802e-21
+    },
+    {
+      "setting": "L5-S-b2063",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.8163916471489756e-17,
+      "max_variance_difference": 2.0328790734103208e-20
+    },
+    {
+      "setting": "L5-T-b2063",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 2.710505431213761e-20
+    },
+    {
+      "setting": "L10-Q-b2063",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 4.163336342344337e-17,
+      "max_variance_difference": 6.776263578034403e-21
+    },
+    {
+      "setting": "L10-S-b2063",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 6.776263578034403e-20
+    },
+    {
+      "setting": "L10-T-b2063",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 6.776263578034403e-20
+    },
+    {
+      "setting": "L1-Q-b4126",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 2.6469779601696886e-23
+    },
+    {
+      "setting": "L1-S-b4126",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 3.618915179919496e-25
+    },
+    {
+      "setting": "L1-T-b4126",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 3.469446951953614e-17,
+      "max_variance_difference": 3.3087224502121107e-23
+    },
+    {
+      "setting": "L2-Q-b4126",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 4.632211430296955e-23
+    },
+    {
+      "setting": "L2-S-b4126",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 3.970466940254533e-23
+    },
+    {
+      "setting": "L2-T-b4126",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 1.3234889800848443e-22
+    },
+    {
+      "setting": "L5-Q-b4126",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 1.3234889800848443e-22
+    },
+    {
+      "setting": "L5-S-b4126",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 1.3877787807814457e-17,
+      "max_variance_difference": 4.235164736271502e-22
+    },
+    {
+      "setting": "L5-T-b4126",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 6.352747104407253e-22
+    },
+    {
+      "setting": "L10-Q-b4126",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 1.5881867761018131e-22
+    },
+    {
+      "setting": "L10-S-b4126",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.7755575615628914e-17,
+      "max_variance_difference": 1.6940658945086007e-21
+    },
+    {
+      "setting": "L10-T-b4126",
+      "status": "passed",
+      "draws": 1000,
+      "max_point_difference": 2.0816681711721685e-17,
+      "max_variance_difference": 2.964615315390051e-21
+    }
+  ],
+  "reference_prevalence": 0.03518805738658395,
+  "policy_lock_sha256": "a0a2780bd3fd73ed39bcffeadb6a4d5e84af0df72f82af826f821aaac36f25d1",
+  "registration_sha256": "8193c724342073ffd6d90c442c06851858b3594f42c0d334d0092b47381c1103",
+  "elapsed_seconds": 63.27493230000073,
+  "no_new_models": true
+}
