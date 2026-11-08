@@ -1,0 +1,1662 @@
+{
+  "complete": true,
+  "rows": [
+    {
+      "group": "Main",
+      "id": "M1-b516",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M1-b516/intervals/normal/coverage",
+      "n": 1000,
+      "k": 951,
+      "coverage": 0.951,
+      "primary": false,
+      "individual_interval": [
+        0.9357339468598304,
+        0.9635329408279522
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9235078343613696,
+        0.9710681140464004
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M1-b1032",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M1-b1032/intervals/normal/coverage",
+      "n": 1000,
+      "k": 942,
+      "coverage": 0.942,
+      "primary": false,
+      "individual_interval": [
+        0.9256635046176483,
+        0.9556671397471793
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9126902452496104,
+        0.9640470685443258
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M1-b2063",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M1-b2063/intervals/normal/coverage",
+      "n": 1000,
+      "k": 934,
+      "coverage": 0.934,
+      "primary": false,
+      "individual_interval": [
+        0.9167939495385973,
+        0.9485914339810815
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9032151983836114,
+        0.9576629219644986
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M1-b4126",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M1-b4126/intervals/normal/coverage",
+      "n": 1000,
+      "k": 952,
+      "coverage": 0.952,
+      "primary": false,
+      "individual_interval": [
+        0.9368598845984908,
+        0.9643997346571167
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9247217865385038,
+        0.9718359860156244
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M2-b516",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M2-b516/intervals/normal/coverage",
+      "n": 1000,
+      "k": 959,
+      "coverage": 0.959,
+      "primary": false,
+      "individual_interval": [
+        0.9447875406847007,
+        0.9704198314659639
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9332983726161296,
+        0.9771303791750823
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M2-b1032",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M2-b1032/intervals/normal/coverage",
+      "n": 1000,
+      "k": 947,
+      "coverage": 0.947,
+      "primary": false,
+      "individual_interval": [
+        0.9312448167100368,
+        0.9600507476399807
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9186770798766648,
+        0.9679710439942215
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M2-b2063",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M2-b2063/intervals/normal/coverage",
+      "n": 1000,
+      "k": 954,
+      "coverage": 0.954,
+      "primary": false,
+      "individual_interval": [
+        0.9391164472862573,
+        0.9661285014523221
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.927157719476891,
+        0.9733635251810031
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M2-b4126",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M2-b4126/intervals/normal/coverage",
+      "n": 1000,
+      "k": 947,
+      "coverage": 0.947,
+      "primary": false,
+      "individual_interval": [
+        0.9312448167100368,
+        0.9600507476399807
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9186770798766648,
+        0.9679710439942215
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M3-b516",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M3-b516/intervals/normal/coverage",
+      "n": 1000,
+      "k": 936,
+      "coverage": 0.936,
+      "primary": false,
+      "individual_interval": [
+        0.919004925632949,
+        0.9503669107081509
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.905572951246346,
+        0.9592701573291361
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M3-b1032",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M3-b1032/intervals/normal/coverage",
+      "n": 1000,
+      "k": 930,
+      "coverage": 0.93,
+      "primary": true,
+      "individual_interval": [
+        0.9123837665107154,
+        0.9450284750808301
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.8985199063015098,
+        0.9544279085403464
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M3-b2063",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M3-b2063/intervals/normal/coverage",
+      "n": 1000,
+      "k": 913,
+      "coverage": 0.913,
+      "primary": false,
+      "individual_interval": [
+        0.8937921420429789,
+        0.9297315139286214
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.8788255585756473,
+        0.9404146006102613
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M3-b4126",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M3-b4126/intervals/normal/coverage",
+      "n": 1000,
+      "k": 948,
+      "coverage": 0.948,
+      "primary": false,
+      "individual_interval": [
+        0.9323649859494927,
+        0.9609234650560194
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9198811462982804,
+        0.9687490082840154
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M4-b516",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M4-b516/intervals/normal/coverage",
+      "n": 1000,
+      "k": 931,
+      "coverage": 0.931,
+      "primary": false,
+      "individual_interval": [
+        0.9134848906542884,
+        0.9459206642067437
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.8996912872622138,
+        0.9552391427923511
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M4-b1032",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M4-b1032/intervals/normal/coverage",
+      "n": 1000,
+      "k": 933,
+      "coverage": 0.933,
+      "primary": true,
+      "individual_interval": [
+        0.9156899628975586,
+        0.9477021635999548
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9020389003671566,
+        0.9568566833253305
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M4-b2063",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M4-b2063/intervals/normal/coverage",
+      "n": 1000,
+      "k": 905,
+      "coverage": 0.905,
+      "primary": false,
+      "individual_interval": [
+        0.885115155595548,
+        0.922459792918345
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.8696814898316405,
+        0.9336946122019367
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M4-b4126",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M4-b4126/intervals/normal/coverage",
+      "n": 1000,
+      "k": 941,
+      "coverage": 0.941,
+      "primary": false,
+      "individual_interval": [
+        0.9245509269157592,
+        0.9547866455972034
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9114991991227797,
+        0.9632558333202209
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M5-b516",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M5-b516/intervals/normal/coverage",
+      "n": 1000,
+      "k": 951,
+      "coverage": 0.951,
+      "primary": false,
+      "individual_interval": [
+        0.9357339468598304,
+        0.9635329408279522
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9235078343613696,
+        0.9710681140464004
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M5-b1032",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M5-b1032/intervals/normal/coverage",
+      "n": 1000,
+      "k": 944,
+      "coverage": 0.944,
+      "primary": false,
+      "individual_interval": [
+        0.9278922537167473,
+        0.9574244503133829
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9150785030700366,
+        0.9656232589253213
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M5-b2063",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M5-b2063/intervals/normal/coverage",
+      "n": 1000,
+      "k": 952,
+      "coverage": 0.952,
+      "primary": false,
+      "individual_interval": [
+        0.9368598845984908,
+        0.9643997346571167
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9247217865385038,
+        0.9718359860156244
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Main",
+      "id": "M5-b4126",
+      "source": "docs/research/main-course-results.json",
+      "pointer": "/results/M5-b4126/intervals/normal/coverage",
+      "n": 1000,
+      "k": 940,
+      "coverage": 0.94,
+      "primary": false,
+      "individual_interval": [
+        0.9234395095960652,
+        0.9539049645775157
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.910310144178345,
+        0.9624625706925426
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "UCO",
+      "id": "uniform-b260",
+      "source": "docs/research/l-transfer-result.json",
+      "pointer": "/results/uniform-b260/intervals/normal/coverage",
+      "n": 1000,
+      "k": 950,
+      "coverage": 0.95,
+      "primary": false,
+      "individual_interval": [
+        0.9346095120845064,
+        0.9626646023953382
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9222964572187216,
+        0.9702976118664085
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "UCO",
+      "id": "uniform-b521",
+      "source": "docs/research/l-transfer-result.json",
+      "pointer": "/results/uniform-b521/intervals/normal/coverage",
+      "n": 1000,
+      "k": 959,
+      "coverage": 0.959,
+      "primary": false,
+      "individual_interval": [
+        0.9447875406847007,
+        0.9704198314659639
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9332983726161296,
+        0.9771303791750823
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "UCO",
+      "id": "uniform-b1043",
+      "source": "docs/research/l-transfer-result.json",
+      "pointer": "/results/uniform-b1043/intervals/normal/coverage",
+      "n": 1000,
+      "k": 941,
+      "coverage": 0.941,
+      "primary": false,
+      "individual_interval": [
+        0.9245509269157592,
+        0.9547866455972034
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9114991991227797,
+        0.9632558333202209
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "UCO",
+      "id": "uniform-b2087",
+      "source": "docs/research/l-transfer-result.json",
+      "pointer": "/results/uniform-b2087/intervals/normal/coverage",
+      "n": 1000,
+      "k": 946,
+      "coverage": 0.946,
+      "primary": false,
+      "individual_interval": [
+        0.9301259944229326,
+        0.9591766488743693
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.917475322778218,
+        0.9671907241651114
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "UCO",
+      "id": "K4-b260",
+      "source": "docs/research/l-transfer-result.json",
+      "pointer": "/results/K4-b260/intervals/normal/coverage",
+      "n": 1000,
+      "k": 950,
+      "coverage": 0.95,
+      "primary": false,
+      "individual_interval": [
+        0.9346095120845064,
+        0.9626646023953382
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9222964572187216,
+        0.9702976118664085
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "UCO",
+      "id": "K4-b521",
+      "source": "docs/research/l-transfer-result.json",
+      "pointer": "/results/K4-b521/intervals/normal/coverage",
+      "n": 1000,
+      "k": 951,
+      "coverage": 0.951,
+      "primary": false,
+      "individual_interval": [
+        0.9357339468598304,
+        0.9635329408279522
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9235078343613696,
+        0.9710681140464004
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "UCO",
+      "id": "K4-b1043",
+      "source": "docs/research/l-transfer-result.json",
+      "pointer": "/results/K4-b1043/intervals/normal/coverage",
+      "n": 1000,
+      "k": 962,
+      "coverage": 0.962,
+      "primary": false,
+      "individual_interval": [
+        0.9482128963780359,
+        0.9729711840170161
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9370215939650746,
+        0.9793507056439429
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "UCO",
+      "id": "K4-b2087",
+      "source": "docs/research/l-transfer-result.json",
+      "pointer": "/results/K4-b2087/intervals/normal/coverage",
+      "n": 1000,
+      "k": 948,
+      "coverage": 0.948,
+      "primary": false,
+      "individual_interval": [
+        0.9323649859494927,
+        0.9609234650560194
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9198811462982804,
+        0.9687490082840154
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "UCO",
+      "id": "power-score-b260",
+      "source": "docs/research/l-transfer-result.json",
+      "pointer": "/results/power-score-b260/intervals/normal/coverage",
+      "n": 1000,
+      "k": 945,
+      "coverage": 0.945,
+      "primary": false,
+      "individual_interval": [
+        0.9290084844579425,
+        0.958301204920464
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9162758159834168,
+        0.9664081097326861
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "UCO",
+      "id": "power-score-b521",
+      "source": "docs/research/l-transfer-result.json",
+      "pointer": "/results/power-score-b521/intervals/normal/coverage",
+      "n": 1000,
+      "k": 959,
+      "coverage": 0.959,
+      "primary": false,
+      "individual_interval": [
+        0.9447875406847007,
+        0.9704198314659639
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9332983726161296,
+        0.9771303791750823
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "UCO",
+      "id": "power-score-b1043",
+      "source": "docs/research/l-transfer-result.json",
+      "pointer": "/results/power-score-b1043/intervals/normal/coverage",
+      "n": 1000,
+      "k": 950,
+      "coverage": 0.95,
+      "primary": false,
+      "individual_interval": [
+        0.9346095120845064,
+        0.9626646023953382
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9222964572187216,
+        0.9702976118664085
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "UCO",
+      "id": "power-score-b2087",
+      "source": "docs/research/l-transfer-result.json",
+      "pointer": "/results/power-score-b2087/intervals/normal/coverage",
+      "n": 1000,
+      "k": 945,
+      "coverage": 0.945,
+      "primary": false,
+      "individual_interval": [
+        0.9290084844579425,
+        0.958301204920464
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9162758159834168,
+        0.9664081097326861
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "ChildPlay/K4/eta=0",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/0/normal_coverage",
+      "n": 1000,
+      "k": 948,
+      "coverage": 0.948,
+      "primary": false,
+      "individual_interval": [
+        0.9323649859494927,
+        0.9609234650560194
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9198811462982804,
+        0.9687490082840154
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "ChildPlay/power-score/eta=0",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/1/normal_coverage",
+      "n": 1000,
+      "k": 947,
+      "coverage": 0.947,
+      "primary": false,
+      "individual_interval": [
+        0.9312448167100368,
+        0.9600507476399807
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9186770798766648,
+        0.9679710439942215
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "ChildPlay/uniform/eta=0",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/2/normal_coverage",
+      "n": 1000,
+      "k": 947,
+      "coverage": 0.947,
+      "primary": false,
+      "individual_interval": [
+        0.9312448167100368,
+        0.9600507476399807
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9186770798766648,
+        0.9679710439942215
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "ChildPlay/K4/eta=0.01",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/3/normal_coverage",
+      "n": 1000,
+      "k": 783,
+      "coverage": 0.783,
+      "primary": false,
+      "individual_interval": [
+        0.7561375247466816,
+        0.8081846551453901
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.7360005939785448,
+        0.8253966641327874
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "ChildPlay/power-score/eta=0.01",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/4/normal_coverage",
+      "n": 1000,
+      "k": 781,
+      "coverage": 0.781,
+      "primary": false,
+      "individual_interval": [
+        0.7540590951943786,
+        0.8062750780167759
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.7338711323896077,
+        0.8235588683179402
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "ChildPlay/uniform/eta=0.01",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/5/normal_coverage",
+      "n": 1000,
+      "k": 667,
+      "coverage": 0.667,
+      "primary": false,
+      "individual_interval": [
+        0.6368307821479917,
+        0.6961821975798423
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.6146368712385097,
+        0.7166518975352731
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "ChildPlay/K4/eta=0.02",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/6/normal_coverage",
+      "n": 1000,
+      "k": 339,
+      "coverage": 0.339,
+      "primary": false,
+      "individual_interval": [
+        0.3096712376745507,
+        0.36928022971508334
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.28907679698574046,
+        0.39153687925108493
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "ChildPlay/power-score/eta=0.02",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/7/normal_coverage",
+      "n": 1000,
+      "k": 326,
+      "coverage": 0.326,
+      "primary": false,
+      "individual_interval": [
+        0.29699552423956704,
+        0.3560329892828511
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.27667624974417987,
+        0.3781488193339025
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "ChildPlay/uniform/eta=0.02",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/8/normal_coverage",
+      "n": 1000,
+      "k": 211,
+      "coverage": 0.211,
+      "primary": false,
+      "individual_interval": [
+        0.18609195401077366,
+        0.2376218722355964
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.16909916343376197,
+        0.25760184705671135
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "ChildPlay/K4/eta=0.05",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/9/normal_coverage",
+      "n": 1000,
+      "k": 0,
+      "coverage": 0.0,
+      "primary": false,
+      "individual_interval": [
+        0.0,
+        0.003682083896865671
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.0,
+        0.007961085904013959
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "ChildPlay/power-score/eta=0.05",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/10/normal_coverage",
+      "n": 1000,
+      "k": 0,
+      "coverage": 0.0,
+      "primary": false,
+      "individual_interval": [
+        0.0,
+        0.003682083896865671
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.0,
+        0.007961085904013959
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "ChildPlay/uniform/eta=0.05",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/11/normal_coverage",
+      "n": 1000,
+      "k": 0,
+      "coverage": 0.0,
+      "primary": false,
+      "individual_interval": [
+        0.0,
+        0.003682083896865671
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.0,
+        0.007961085904013959
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "UCO/K4/eta=0",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/12/normal_coverage",
+      "n": 1000,
+      "k": 951,
+      "coverage": 0.951,
+      "primary": false,
+      "individual_interval": [
+        0.9357339468598304,
+        0.9635329408279522
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9235078343613696,
+        0.9710681140464004
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "UCO/power-score/eta=0",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/13/normal_coverage",
+      "n": 1000,
+      "k": 959,
+      "coverage": 0.959,
+      "primary": false,
+      "individual_interval": [
+        0.9447875406847007,
+        0.9704198314659639
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9332983726161296,
+        0.9771303791750823
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "UCO/uniform/eta=0",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/14/normal_coverage",
+      "n": 1000,
+      "k": 959,
+      "coverage": 0.959,
+      "primary": false,
+      "individual_interval": [
+        0.9447875406847007,
+        0.9704198314659639
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9332983726161296,
+        0.9771303791750823
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "UCO/K4/eta=0.01",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/15/normal_coverage",
+      "n": 1000,
+      "k": 958,
+      "coverage": 0.958,
+      "primary": false,
+      "individual_interval": [
+        0.9436497084242552,
+        0.96956529373686
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.932064058578113,
+        0.976383339929781
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "UCO/power-score/eta=0.01",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/16/normal_coverage",
+      "n": 1000,
+      "k": 960,
+      "coverage": 0.96,
+      "primary": false,
+      "individual_interval": [
+        0.9459273031806316,
+        0.9712723747141092
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9345359880306333,
+        0.9778740348499809
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "UCO/uniform/eta=0.01",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/17/normal_coverage",
+      "n": 1000,
+      "k": 924,
+      "coverage": 0.924,
+      "primary": false,
+      "individual_interval": [
+        0.9057956763550978,
+        0.9396563388200981
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.8915236758748541,
+        0.949527959864835
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "UCO/K4/eta=0.02",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/18/normal_coverage",
+      "n": 1000,
+      "k": 936,
+      "coverage": 0.936,
+      "primary": false,
+      "individual_interval": [
+        0.919004925632949,
+        0.9503669107081509
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.905572951246346,
+        0.9592701573291361
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "UCO/power-score/eta=0.02",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/19/normal_coverage",
+      "n": 1000,
+      "k": 935,
+      "coverage": 0.935,
+      "primary": false,
+      "individual_interval": [
+        0.917898930078629,
+        0.949479690310382
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9043932033186358,
+        0.9584674256567128
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "UCO/uniform/eta=0.02",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/20/normal_coverage",
+      "n": 1000,
+      "k": 867,
+      "coverage": 0.867,
+      "primary": false,
+      "individual_interval": [
+        0.8443706729528716,
+        0.8874420356131526
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.8270585238850561,
+        0.9009546773859777
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "UCO/K4/eta=0.05",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/21/normal_coverage",
+      "n": 1000,
+      "k": 768,
+      "coverage": 0.768,
+      "primary": false,
+      "individual_interval": [
+        0.74057016954633,
+        0.7938418621713377
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.7200656564576694,
+        0.8115770179676013
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "UCO/power-score/eta=0.05",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/22/normal_coverage",
+      "n": 1000,
+      "k": 786,
+      "coverage": 0.786,
+      "primary": false,
+      "individual_interval": [
+        0.7592568214400275,
+        0.811047360389367
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.7391976388757792,
+        0.8281504927356393
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "Q",
+      "id": "UCO/uniform/eta=0.05",
+      "source": "docs/research/q-result.json",
+      "pointer": "/rows/23/normal_coverage",
+      "n": 1000,
+      "k": 542,
+      "coverage": 0.542,
+      "primary": false,
+      "individual_interval": [
+        0.5105344535729366,
+        0.5732176059285063
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.48777326304227236,
+        0.5955453381038749
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "ChildPlay/K4/case=clean",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/0/normal_coverage",
+      "n": 1000,
+      "k": 948,
+      "coverage": 0.948,
+      "primary": false,
+      "individual_interval": [
+        0.9323649859494927,
+        0.9609234650560194
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9198811462982804,
+        0.9687490082840154
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "ChildPlay/power-score/case=clean",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/1/normal_coverage",
+      "n": 1000,
+      "k": 947,
+      "coverage": 0.947,
+      "primary": false,
+      "individual_interval": [
+        0.9312448167100368,
+        0.9600507476399807
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9186770798766648,
+        0.9679710439942215
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "ChildPlay/uniform/case=clean",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/2/normal_coverage",
+      "n": 1000,
+      "k": 947,
+      "coverage": 0.947,
+      "primary": false,
+      "individual_interval": [
+        0.9312448167100368,
+        0.9600507476399807
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9186770798766648,
+        0.9679710439942215
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "ChildPlay/K4/case=false-positive",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/3/normal_coverage",
+      "n": 1000,
+      "k": 264,
+      "coverage": 0.264,
+      "primary": false,
+      "individual_interval": [
+        0.2369073609473608,
+        0.2924895663404103
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.21816597380919886,
+        0.3136688044300956
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "ChildPlay/power-score/case=false-positive",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/4/normal_coverage",
+      "n": 1000,
+      "k": 245,
+      "coverage": 0.245,
+      "primary": false,
+      "individual_interval": [
+        0.21862615839386051,
+        0.2728841044622733
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.20046490081529886,
+        0.29367999066179185
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "ChildPlay/uniform/case=false-positive",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/5/normal_coverage",
+      "n": 1000,
+      "k": 187,
+      "coverage": 0.187,
+      "primary": false,
+      "individual_interval": [
+        0.16328321992460096,
+        0.21257507953142987
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.14722881897003245,
+        0.23186596301977516
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "ChildPlay/K4/case=false-negative",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/6/normal_coverage",
+      "n": 1000,
+      "k": 929,
+      "coverage": 0.929,
+      "primary": false,
+      "individual_interval": [
+        0.9112835591132127,
+        0.9441353517501024
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.8973501003959231,
+        0.9536150747492383
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "ChildPlay/power-score/case=false-negative",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/7/normal_coverage",
+      "n": 1000,
+      "k": 920,
+      "coverage": 0.92,
+      "primary": false,
+      "individual_interval": [
+        0.9014202209520978,
+        0.9360580171533267
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.8868880640401078,
+        0.9462323710809175
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "ChildPlay/uniform/case=false-negative",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/8/normal_coverage",
+      "n": 1000,
+      "k": 944,
+      "coverage": 0.944,
+      "primary": false,
+      "individual_interval": [
+        0.9278922537167473,
+        0.9574244503133829
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9150785030700366,
+        0.9656232589253213
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "UCO/K4/case=clean",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/9/normal_coverage",
+      "n": 1000,
+      "k": 951,
+      "coverage": 0.951,
+      "primary": false,
+      "individual_interval": [
+        0.9357339468598304,
+        0.9635329408279522
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9235078343613696,
+        0.9710681140464004
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "UCO/power-score/case=clean",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/10/normal_coverage",
+      "n": 1000,
+      "k": 959,
+      "coverage": 0.959,
+      "primary": false,
+      "individual_interval": [
+        0.9447875406847007,
+        0.9704198314659639
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9332983726161296,
+        0.9771303791750823
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "UCO/uniform/case=clean",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/11/normal_coverage",
+      "n": 1000,
+      "k": 959,
+      "coverage": 0.959,
+      "primary": false,
+      "individual_interval": [
+        0.9447875406847007,
+        0.9704198314659639
+      ],
+      "individual_undercoverage": false,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.9332983726161296,
+        0.9771303791750823
+      ],
+      "family_undercoverage": false,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "UCO/K4/case=false-positive",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/12/normal_coverage",
+      "n": 1000,
+      "k": 805,
+      "coverage": 0.805,
+      "primary": false,
+      "individual_interval": [
+        0.7790603746073284,
+        0.8291295709770186
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.7595284586198029,
+        0.8455081519029022
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "UCO/power-score/case=false-positive",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/13/normal_coverage",
+      "n": 1000,
+      "k": 841,
+      "coverage": 0.841,
+      "primary": false,
+      "individual_interval": [
+        0.8168376651825233,
+        0.8631343076614678
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.7984896675501636,
+        0.8779543364604869
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "UCO/uniform/case=false-positive",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/14/normal_coverage",
+      "n": 1000,
+      "k": 671,
+      "coverage": 0.671,
+      "primary": false,
+      "individual_interval": [
+        0.6409077348854191,
+        0.7000815364409622
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.6187577924722216,
+        0.7204659293263315
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "UCO/K4/case=false-negative",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/15/normal_coverage",
+      "n": 1000,
+      "k": 885,
+      "coverage": 0.885,
+      "primary": false,
+      "individual_interval": [
+        0.8635844321371672,
+        0.9041166200267362
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.8470997569028096,
+        0.9166130934694485
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "UCO/power-score/case=false-negative",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/16/normal_coverage",
+      "n": 1000,
+      "k": 898,
+      "coverage": 0.898,
+      "primary": false,
+      "individual_interval": [
+        0.877554848934442,
+        0.9160645399595132
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.8617356036212278,
+        0.9277588072582452
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    },
+    {
+      "group": "R",
+      "id": "UCO/uniform/case=false-negative",
+      "source": "docs/research/r-result.json",
+      "pointer": "/rows/17/normal_coverage",
+      "n": 1000,
+      "k": 920,
+      "coverage": 0.92,
+      "primary": false,
+      "individual_interval": [
+        0.9014202209520978,
+        0.9360580171533267
+      ],
+      "individual_undercoverage": true,
+      "individual_overcoverage": false,
+      "family_interval": [
+        0.8868880640401078,
+        0.9462323710809175
+      ],
+      "family_undercoverage": true,
+      "family_overcoverage": false
+    }
+  ],
+  "family_size": 74,
+  "new_queries_models_labels": false,
+  "scope": "coverage probability over audit draws on already studied populations",
+  "counts": {
+    "Main": {
+      "individual_undercoverage": 6,
+      "family_undercoverage": 2,
+      "individual_overcoverage": 0,
+      "family_overcoverage": 0
+    },
+    "UCO": {
+      "individual_undercoverage": 0,
+      "family_undercoverage": 0,
+      "individual_overcoverage": 0,
+      "family_overcoverage": 0
+    },
+    "Q": {
+      "individual_undercoverage": 15,
+      "family_undercoverage": 14,
+      "individual_overcoverage": 0,
+      "family_overcoverage": 0
+    },
+    "R": {
+      "individual_undercoverage": 11,
+      "family_undercoverage": 10,
+      "individual_overcoverage": 0,
+      "family_overcoverage": 0
+    }
+  }
+}

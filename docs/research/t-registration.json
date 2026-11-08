@@ -1,0 +1,762 @@
+{
+  "config": {
+    "protocol": "docs/COVERAGE_MC_T.md",
+    "protocol_sha256": "735ea8a0b646dc1c9f728fc1e033b05e87f4803f4be1d513328941a4b8e2deaa",
+    "sources": {
+      "docs/research/main-course-results.json": "ead4febc07010b3a32cf7fb62a227925cf223302f693420080a4f8f6ee9cf960",
+      "docs/research/l-transfer-result.json": "35d37f00bd2c60c7b8e98812c6363002e150bb95e0875896864091aed74306f0",
+      "docs/research/q-result.json": "8df5a7b4e807ab007c2642d87800089431c14320cdebf207af771501f2d4df3c",
+      "docs/research/r-result.json": "e54ab9ac1e48a2c32b5c9296db1df32e0d806e68dcc64bf0cfe5edb13052405e"
+    },
+    "hash_convention": "text CRLF to LF",
+    "alpha": 0.05,
+    "family_size": 74,
+    "nominal_target": 0.95,
+    "cells": [
+      {
+        "group": "Main",
+        "id": "M1-b516",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M1-b516/intervals/normal/coverage",
+        "n": 1000,
+        "k": 951,
+        "coverage": 0.951,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M1-b1032",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M1-b1032/intervals/normal/coverage",
+        "n": 1000,
+        "k": 942,
+        "coverage": 0.942,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M1-b2063",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M1-b2063/intervals/normal/coverage",
+        "n": 1000,
+        "k": 934,
+        "coverage": 0.934,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M1-b4126",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M1-b4126/intervals/normal/coverage",
+        "n": 1000,
+        "k": 952,
+        "coverage": 0.952,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M2-b516",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M2-b516/intervals/normal/coverage",
+        "n": 1000,
+        "k": 959,
+        "coverage": 0.959,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M2-b1032",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M2-b1032/intervals/normal/coverage",
+        "n": 1000,
+        "k": 947,
+        "coverage": 0.947,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M2-b2063",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M2-b2063/intervals/normal/coverage",
+        "n": 1000,
+        "k": 954,
+        "coverage": 0.954,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M2-b4126",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M2-b4126/intervals/normal/coverage",
+        "n": 1000,
+        "k": 947,
+        "coverage": 0.947,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M3-b516",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M3-b516/intervals/normal/coverage",
+        "n": 1000,
+        "k": 936,
+        "coverage": 0.936,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M3-b1032",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M3-b1032/intervals/normal/coverage",
+        "n": 1000,
+        "k": 930,
+        "coverage": 0.93,
+        "primary": true
+      },
+      {
+        "group": "Main",
+        "id": "M3-b2063",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M3-b2063/intervals/normal/coverage",
+        "n": 1000,
+        "k": 913,
+        "coverage": 0.913,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M3-b4126",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M3-b4126/intervals/normal/coverage",
+        "n": 1000,
+        "k": 948,
+        "coverage": 0.948,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M4-b516",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M4-b516/intervals/normal/coverage",
+        "n": 1000,
+        "k": 931,
+        "coverage": 0.931,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M4-b1032",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M4-b1032/intervals/normal/coverage",
+        "n": 1000,
+        "k": 933,
+        "coverage": 0.933,
+        "primary": true
+      },
+      {
+        "group": "Main",
+        "id": "M4-b2063",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M4-b2063/intervals/normal/coverage",
+        "n": 1000,
+        "k": 905,
+        "coverage": 0.905,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M4-b4126",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M4-b4126/intervals/normal/coverage",
+        "n": 1000,
+        "k": 941,
+        "coverage": 0.941,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M5-b516",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M5-b516/intervals/normal/coverage",
+        "n": 1000,
+        "k": 951,
+        "coverage": 0.951,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M5-b1032",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M5-b1032/intervals/normal/coverage",
+        "n": 1000,
+        "k": 944,
+        "coverage": 0.944,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M5-b2063",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M5-b2063/intervals/normal/coverage",
+        "n": 1000,
+        "k": 952,
+        "coverage": 0.952,
+        "primary": false
+      },
+      {
+        "group": "Main",
+        "id": "M5-b4126",
+        "source": "docs/research/main-course-results.json",
+        "pointer": "/results/M5-b4126/intervals/normal/coverage",
+        "n": 1000,
+        "k": 940,
+        "coverage": 0.94,
+        "primary": false
+      },
+      {
+        "group": "UCO",
+        "id": "uniform-b260",
+        "source": "docs/research/l-transfer-result.json",
+        "pointer": "/results/uniform-b260/intervals/normal/coverage",
+        "n": 1000,
+        "k": 950,
+        "coverage": 0.95,
+        "primary": false
+      },
+      {
+        "group": "UCO",
+        "id": "uniform-b521",
+        "source": "docs/research/l-transfer-result.json",
+        "pointer": "/results/uniform-b521/intervals/normal/coverage",
+        "n": 1000,
+        "k": 959,
+        "coverage": 0.959,
+        "primary": false
+      },
+      {
+        "group": "UCO",
+        "id": "uniform-b1043",
+        "source": "docs/research/l-transfer-result.json",
+        "pointer": "/results/uniform-b1043/intervals/normal/coverage",
+        "n": 1000,
+        "k": 941,
+        "coverage": 0.941,
+        "primary": false
+      },
+      {
+        "group": "UCO",
+        "id": "uniform-b2087",
+        "source": "docs/research/l-transfer-result.json",
+        "pointer": "/results/uniform-b2087/intervals/normal/coverage",
+        "n": 1000,
+        "k": 946,
+        "coverage": 0.946,
+        "primary": false
+      },
+      {
+        "group": "UCO",
+        "id": "K4-b260",
+        "source": "docs/research/l-transfer-result.json",
+        "pointer": "/results/K4-b260/intervals/normal/coverage",
+        "n": 1000,
+        "k": 950,
+        "coverage": 0.95,
+        "primary": false
+      },
+      {
+        "group": "UCO",
+        "id": "K4-b521",
+        "source": "docs/research/l-transfer-result.json",
+        "pointer": "/results/K4-b521/intervals/normal/coverage",
+        "n": 1000,
+        "k": 951,
+        "coverage": 0.951,
+        "primary": false
+      },
+      {
+        "group": "UCO",
+        "id": "K4-b1043",
+        "source": "docs/research/l-transfer-result.json",
+        "pointer": "/results/K4-b1043/intervals/normal/coverage",
+        "n": 1000,
+        "k": 962,
+        "coverage": 0.962,
+        "primary": false
+      },
+      {
+        "group": "UCO",
+        "id": "K4-b2087",
+        "source": "docs/research/l-transfer-result.json",
+        "pointer": "/results/K4-b2087/intervals/normal/coverage",
+        "n": 1000,
+        "k": 948,
+        "coverage": 0.948,
+        "primary": false
+      },
+      {
+        "group": "UCO",
+        "id": "power-score-b260",
+        "source": "docs/research/l-transfer-result.json",
+        "pointer": "/results/power-score-b260/intervals/normal/coverage",
+        "n": 1000,
+        "k": 945,
+        "coverage": 0.945,
+        "primary": false
+      },
+      {
+        "group": "UCO",
+        "id": "power-score-b521",
+        "source": "docs/research/l-transfer-result.json",
+        "pointer": "/results/power-score-b521/intervals/normal/coverage",
+        "n": 1000,
+        "k": 959,
+        "coverage": 0.959,
+        "primary": false
+      },
+      {
+        "group": "UCO",
+        "id": "power-score-b1043",
+        "source": "docs/research/l-transfer-result.json",
+        "pointer": "/results/power-score-b1043/intervals/normal/coverage",
+        "n": 1000,
+        "k": 950,
+        "coverage": 0.95,
+        "primary": false
+      },
+      {
+        "group": "UCO",
+        "id": "power-score-b2087",
+        "source": "docs/research/l-transfer-result.json",
+        "pointer": "/results/power-score-b2087/intervals/normal/coverage",
+        "n": 1000,
+        "k": 945,
+        "coverage": 0.945,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "ChildPlay/K4/eta=0",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/0/normal_coverage",
+        "n": 1000,
+        "k": 948,
+        "coverage": 0.948,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "ChildPlay/power-score/eta=0",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/1/normal_coverage",
+        "n": 1000,
+        "k": 947,
+        "coverage": 0.947,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "ChildPlay/uniform/eta=0",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/2/normal_coverage",
+        "n": 1000,
+        "k": 947,
+        "coverage": 0.947,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "ChildPlay/K4/eta=0.01",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/3/normal_coverage",
+        "n": 1000,
+        "k": 783,
+        "coverage": 0.783,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "ChildPlay/power-score/eta=0.01",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/4/normal_coverage",
+        "n": 1000,
+        "k": 781,
+        "coverage": 0.781,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "ChildPlay/uniform/eta=0.01",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/5/normal_coverage",
+        "n": 1000,
+        "k": 667,
+        "coverage": 0.667,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "ChildPlay/K4/eta=0.02",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/6/normal_coverage",
+        "n": 1000,
+        "k": 339,
+        "coverage": 0.339,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "ChildPlay/power-score/eta=0.02",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/7/normal_coverage",
+        "n": 1000,
+        "k": 326,
+        "coverage": 0.326,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "ChildPlay/uniform/eta=0.02",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/8/normal_coverage",
+        "n": 1000,
+        "k": 211,
+        "coverage": 0.211,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "ChildPlay/K4/eta=0.05",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/9/normal_coverage",
+        "n": 1000,
+        "k": 0,
+        "coverage": 0.0,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "ChildPlay/power-score/eta=0.05",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/10/normal_coverage",
+        "n": 1000,
+        "k": 0,
+        "coverage": 0.0,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "ChildPlay/uniform/eta=0.05",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/11/normal_coverage",
+        "n": 1000,
+        "k": 0,
+        "coverage": 0.0,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "UCO/K4/eta=0",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/12/normal_coverage",
+        "n": 1000,
+        "k": 951,
+        "coverage": 0.951,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "UCO/power-score/eta=0",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/13/normal_coverage",
+        "n": 1000,
+        "k": 959,
+        "coverage": 0.959,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "UCO/uniform/eta=0",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/14/normal_coverage",
+        "n": 1000,
+        "k": 959,
+        "coverage": 0.959,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "UCO/K4/eta=0.01",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/15/normal_coverage",
+        "n": 1000,
+        "k": 958,
+        "coverage": 0.958,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "UCO/power-score/eta=0.01",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/16/normal_coverage",
+        "n": 1000,
+        "k": 960,
+        "coverage": 0.96,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "UCO/uniform/eta=0.01",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/17/normal_coverage",
+        "n": 1000,
+        "k": 924,
+        "coverage": 0.924,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "UCO/K4/eta=0.02",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/18/normal_coverage",
+        "n": 1000,
+        "k": 936,
+        "coverage": 0.936,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "UCO/power-score/eta=0.02",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/19/normal_coverage",
+        "n": 1000,
+        "k": 935,
+        "coverage": 0.935,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "UCO/uniform/eta=0.02",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/20/normal_coverage",
+        "n": 1000,
+        "k": 867,
+        "coverage": 0.867,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "UCO/K4/eta=0.05",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/21/normal_coverage",
+        "n": 1000,
+        "k": 768,
+        "coverage": 0.768,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "UCO/power-score/eta=0.05",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/22/normal_coverage",
+        "n": 1000,
+        "k": 786,
+        "coverage": 0.786,
+        "primary": false
+      },
+      {
+        "group": "Q",
+        "id": "UCO/uniform/eta=0.05",
+        "source": "docs/research/q-result.json",
+        "pointer": "/rows/23/normal_coverage",
+        "n": 1000,
+        "k": 542,
+        "coverage": 0.542,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "ChildPlay/K4/case=clean",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/0/normal_coverage",
+        "n": 1000,
+        "k": 948,
+        "coverage": 0.948,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "ChildPlay/power-score/case=clean",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/1/normal_coverage",
+        "n": 1000,
+        "k": 947,
+        "coverage": 0.947,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "ChildPlay/uniform/case=clean",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/2/normal_coverage",
+        "n": 1000,
+        "k": 947,
+        "coverage": 0.947,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "ChildPlay/K4/case=false-positive",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/3/normal_coverage",
+        "n": 1000,
+        "k": 264,
+        "coverage": 0.264,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "ChildPlay/power-score/case=false-positive",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/4/normal_coverage",
+        "n": 1000,
+        "k": 245,
+        "coverage": 0.245,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "ChildPlay/uniform/case=false-positive",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/5/normal_coverage",
+        "n": 1000,
+        "k": 187,
+        "coverage": 0.187,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "ChildPlay/K4/case=false-negative",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/6/normal_coverage",
+        "n": 1000,
+        "k": 929,
+        "coverage": 0.929,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "ChildPlay/power-score/case=false-negative",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/7/normal_coverage",
+        "n": 1000,
+        "k": 920,
+        "coverage": 0.92,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "ChildPlay/uniform/case=false-negative",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/8/normal_coverage",
+        "n": 1000,
+        "k": 944,
+        "coverage": 0.944,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "UCO/K4/case=clean",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/9/normal_coverage",
+        "n": 1000,
+        "k": 951,
+        "coverage": 0.951,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "UCO/power-score/case=clean",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/10/normal_coverage",
+        "n": 1000,
+        "k": 959,
+        "coverage": 0.959,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "UCO/uniform/case=clean",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/11/normal_coverage",
+        "n": 1000,
+        "k": 959,
+        "coverage": 0.959,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "UCO/K4/case=false-positive",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/12/normal_coverage",
+        "n": 1000,
+        "k": 805,
+        "coverage": 0.805,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "UCO/power-score/case=false-positive",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/13/normal_coverage",
+        "n": 1000,
+        "k": 841,
+        "coverage": 0.841,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "UCO/uniform/case=false-positive",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/14/normal_coverage",
+        "n": 1000,
+        "k": 671,
+        "coverage": 0.671,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "UCO/K4/case=false-negative",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/15/normal_coverage",
+        "n": 1000,
+        "k": 885,
+        "coverage": 0.885,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "UCO/power-score/case=false-negative",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/16/normal_coverage",
+        "n": 1000,
+        "k": 898,
+        "coverage": 0.898,
+        "primary": false
+      },
+      {
+        "group": "R",
+        "id": "UCO/uniform/case=false-negative",
+        "source": "docs/research/r-result.json",
+        "pointer": "/rows/17/normal_coverage",
+        "n": 1000,
+        "k": 920,
+        "coverage": 0.92,
+        "primary": false
+      }
+    ],
+    "new_queries_models_labels": false,
+    "seeds": "none; deterministic analysis of existing counts"
+  },
+  "config_sha256": "f2e2264f525e78be936fc7aba3d27c5f86094495f5fb2cfbcc1e69969457860f",
+  "implementation_sha256": "42b239659239a79780cd862865e8964f4b59286af58bf14ba83243cae6a504b9"
+}

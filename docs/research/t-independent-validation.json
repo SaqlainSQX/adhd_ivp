@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "rows_checked": 74,
+  "intervals_checked": 148,
+  "binomial_tail_checks": 284,
+  "elementary_boundary_checks": 12,
+  "max_tail_or_boundary_absolute_error": 1.6542323066914832e-14,
+  "method": "standard-library lgamma log-binomial sums; no beta quantile import",
+  "sources_counts_family_flags_and_summaries_verified": true,
+  "nominal_containment_not_claimed_as_validation": true
+}

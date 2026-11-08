@@ -1,0 +1,27 @@
+{
+  "stage": "T exploratory coverage MC uncertainty",
+  "files": {
+    "docs/research/t-result.json": "ef0f71da3529c5221d73164c33c6806fd798a24bd157c76869ad6b5520858789",
+    "docs/research/t-registration.json": "132c35d4af2bb804df8f7ec37e9adc2436ffca50256d75f5f81c5cd29ceeb31c",
+    "docs/research/t-toy-validation.json": "d5ef314d2041ba2398c2a4a63b5aca734437322092d81dbbfa2ef734d0f6222e",
+    "docs/research/t-independent-validation.json": "3ae97493c1e953d5abe03af6062fcaad8f1fda93a94ac89846823e9438a7e457",
+    "docs/research/t-status.json": "f296a7881566413c9cb172276cebe99eab8a114b5ef9d9f1bd3b5bd45e2a6d28",
+    "docs/research/coverage-mc-t-v1.log": "a729c6aaa67b47af20731ec12cb917f79805e2025c619e31d94eda6b1dd7152d",
+    "docs/research/coverage-mc-t-v1-validation.log": "3ae97493c1e953d5abe03af6062fcaad8f1fda93a94ac89846823e9438a7e457",
+    "docs/COVERAGE_MC_T.md": "735ea8a0b646dc1c9f728fc1e033b05e87f4803f4be1d513328941a4b8e2deaa",
+    "docs/COVERAGE_MC_T_RESULTS.md": "99d0902832f152d8f998dc2944b3f9cd7f4cc8e60f765322f7abb85387c8c121",
+    "docs/STRATUM_WEIGHTS_U.md": "3931a49bafd2085d05e78385856bf7010f5b75ffdcde387ce7f18bf30e1f2208",
+    "configs/coverage-mc-t-v1.json": "9675dbb490061dafc86aeb65089f68e9bda2449a0a0f18c4ae2283b1d446c06e",
+    "scripts/register_coverage_mc.py": "1742da396ab9c77b8e4d5f17f370ca7041eddc6efb01d737db1ae840a08296f3",
+    "scripts/run_coverage_mc.py": "42b239659239a79780cd862865e8964f4b59286af58bf14ba83243cae6a504b9",
+    "scripts/validate_coverage_mc.py": "fc7d3b879501d19227f954210b25d986f37cf34bea731a012b214d4a2fd0c94b",
+    "scripts/report_coverage_mc.py": "17f186eb003757146e4319c785d5732467b47095303821fb4c08478b82cbb2b4",
+    "scripts/archive_coverage_mc.py": "999ee4296edc6d65133cda925d96cccde98e67e5366d8141ae4a5de68f1aec89",
+    "reports/course-project/coverage-mc-t.png": "b8fd631dcc0ba96420edcd8f259714897ca87d18829746ebc44b2b6c1efbd133",
+    "reports/course-project/coverage-mc-t.pdf": "48503b3fdfc39def49ce54b531e8ed0d2600667c29482a3d0032b1c2cadc0c7f"
+  },
+  "hash_convention": "Tracked text CRLF to LF; binaries raw",
+  "mutable_exclusions": [
+    "docs/CONTINUOUS_RESEARCH_STATUS.md"
+  ]
+}

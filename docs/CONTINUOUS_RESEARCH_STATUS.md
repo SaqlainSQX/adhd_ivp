@@ -31,7 +31,16 @@ commands and viva questions. All341 prior manifest entries/main hashes checked;
 six copied-bundle controls pass under normal and optimized Python. No scientific
 outcomes or new figure were created. Historical reports/demos remain unchanged.
 Review branch: `codex/course-synthesis-s-v1`. No experiment job is pending.
-T is registered but not started.
+T is complete; see [COVERAGE_MC_T_RESULTS.md](COVERAGE_MC_T_RESULTS.md).
+All74 cells/148 binomial intervals passed independent standard-library checks
+(284 tails plus12 boundary endpoints; max error1.66e-14). Main primary M3/M4
+coverage is93.0%/93.3%; individual95% MC upper bounds exclude95%, while wider
+family bounds include it. Neither conclusion proves nominal reliability. Main
+M3/M4 at2063 retain family undercoverage flags. The report keeps all cells and
+explains this exploratory family's limits. All358 prior manifest entries/main
+hashes remain intact; the figure was visually reviewed. No new queries/models/
+labels were used. Review branch: `codex/coverage-mc-t-v1`.
+U is registered but not started; no experiment job is pending.
 
 P is complete; see [AGGREGATE_INTEGRITY_P_RESULTS.md](AGGREGATE_INTEGRITY_P_RESULTS.md).
 The staged baseline showed an optimized-Python assertion bypass. The additive
@@ -51,14 +60,15 @@ actual processes and logs before any new job, never trust historical PIDs alone.
 
 ## Next concrete work
 
-Advance [COVERAGE_MC_T.md](COVERAGE_MC_T.md): bounded Monte Carlo uncertainty
-assessment of existing normal-interval coverage. Before endpoints, pin the four
-source hashes and all74 selectors/counts/alpha in a new config. Validate exact
-binomial endpoints on toy/boundary cases, then calculate individual/family
-intervals and independently check tails/flags/counts. Primary: main M3/M4 at1032;
-preserve all74 cells. This does not create new predictions, query draws or labels,
-or fix the original intervals. Check process/log state first; do not repeat Q/R/S.
-No GPU/Kaggle work is needed. Keep the10-minute continuation active.
+Advance [STRATUM_WEIGHTS_U.md](STRATUM_WEIGHTS_U.md): bounded exploratory
+training-only global/per-stratum control-variate coefficients. Pin all inputs,
+existing K4 query streams/settings before fitting; verify the exact eligible
+training contract and toy estimator first. No test/UCO labels fit or select
+weights. Reproduce full/half controls, evaluate all32 registered cells on saved
+queries, independently check32000 draws/coefficients/variances/bootstraps. Keep
+all losses/ties, training-label costs and inspected-test limitations. Do not
+replace the locked main comparison. Check live jobs first; no GPU/Kaggle work
+or new inference is needed. Keep the10-minute continuation active.
 
 ## Completed recent stages
 

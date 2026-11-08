@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "rows": 74,
+  "independent_intervals": 148,
+  "prior_manifest_entries_verified": 358,
+  "main_evidence_unchanged": true,
+  "figure_visually_reviewed": true,
+  "new_queries_models_labels": false,
+  "next": "docs/STRATUM_WEIGHTS_U.md"
+}
