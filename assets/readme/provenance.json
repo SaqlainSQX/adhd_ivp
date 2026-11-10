@@ -1,0 +1,35 @@
+{
+  "research_snapshot": "9b35728ccfef3390c6f9fa7111a780367dbc5b39",
+  "images": {
+    "main-rmse.png": {
+      "source": "reports/course-project/rmse-budget.png",
+      "sha256": "c224d09046639ed9d65c46fc965a4623939238dd8282def10e1c33eff52a81e1"
+    },
+    "weight-transfer.png": {
+      "source": "reports/course-project/paper/weight_transfer.png",
+      "sha256": "cae1542afc72dd9907bd7e02c78574ffb8c8098169593d728000452ba8828b54"
+    },
+    "training-coefficients.png": {
+      "source": "reports/course-project/paper/training_coefficients.png",
+      "sha256": "ea0f23dad2daedeaef35f9290ee13c357e9ce9561f56ae53f48ddc75df670fa9"
+    },
+    "label-error-sensitivity.png": {
+      "source": "reports/course-project/query-noise-q.png",
+      "sha256": "82be52dfccd9199a17b9fca898aaad561256848630619ee5f9a659d67fb9f323"
+    },
+    "coverage-uncertainty.png": {
+      "source": "reports/course-project/coverage-mc-t.png",
+      "sha256": "b8fd631dcc0ba96420edcd8f259714897ca87d18829746ebc44b2b6c1efbd133"
+    }
+  },
+  "previous_readme_sha256_normalized": "d6dc236fefd24ef98db47e75afe045ad53c6bf708d16286b17f5e0547dcad4c8",
+  "historical_manifest_note": "README.md was deliberately revised at user request; its previous contents are preserved here. Scientific results and historical manifests were not edited.",
+  "aggregate_source_hashes": {
+    "docs/research/main-course-results.json": "ead4febc07010b3a32cf7fb62a227925cf223302f693420080a4f8f6ee9cf960",
+    "docs/research/timed-d-result.json": "6e158f701d7568f972756afe33e5fbd47664642786de0dd3e7312b815290739a",
+    "docs/research/l-transfer-result.json": "35d37f00bd2c60c7b8e98812c6363002e150bb95e0875896864091aed74306f0",
+    "docs/research/u-result.json": "3eb4c60e8977242c89d6acfde738e66ec901a299c3df6a21a8372dd910c9323d",
+    "docs/research/q-result.json": "8df5a7b4e807ab007c2642d87800089431c14320cdebf207af771501f2d4df3c",
+    "docs/research/t-result.json": "ef0f71da3529c5221d73164c33c6806fd798a24bd157c76869ad6b5520858789"
+  }
+}
